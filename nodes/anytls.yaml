@@ -1,11 +1,11 @@
 proxies:
-  - name: 568 DE
+  - name: 564 DE
     password: e70ec0f2ab60e8c22b316156bf9ac43fec98b45be6681401
     port: 443
     server: 178.105.126.242
     skip-cert-verify: true
     type: anytls
-  - name: 745 JP
+  - name: 664 JP
     password: 7212418a-c4e9-4378-8722-b34bda5f0467
     port: 56304
     server: a4.entrance.app.xdns.win
@@ -13,7 +13,7 @@ proxies:
     sni: www.microsoft.com
     type: anytls
     udp: true
-  - name: 746 JP
+  - name: 665 JP
     password: 7212418a-c4e9-4378-8722-b34bda5f0467
     port: 56306
     server: a6.entrance.app.xdns.win
@@ -21,47 +21,7 @@ proxies:
     sni: www.microsoft.com
     type: anytls
     udp: true
-  - name: 747 JP
-    password: 7212418a-c4e9-4378-8722-b34bda5f0467
-    port: 56301
-    server: a1.entrance.app.xdns.win
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: anytls
-    udp: true
-  - name: 748 JP
-    password: 7212418a-c4e9-4378-8722-b34bda5f0467
-    port: 56302
-    server: a2.entrance.app.xdns.win
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: anytls
-    udp: true
-  - name: 749 JP
-    password: 7212418a-c4e9-4378-8722-b34bda5f0467
-    port: 56303
-    server: a3.entrance.app.xdns.men
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: anytls
-    udp: true
-  - name: 750 JP
-    password: 7212418a-c4e9-4378-8722-b34bda5f0467
-    port: 56305
-    server: a5.entrance.app.xdns.win
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: anytls
-    udp: true
-  - name: 751 JP
-    password: 7212418a-c4e9-4378-8722-b34bda5f0467
-    port: 56308
-    server: a8.entrance.app.xdns.men
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: anytls
-    udp: true
-  - name: 752 JP
+  - name: 666 JP
     password: 7212418a-c4e9-4378-8722-b34bda5f0467
     port: 56301
     server: a1.entrance.app.xdns.men
@@ -69,7 +29,39 @@ proxies:
     sni: www.microsoft.com
     type: anytls
     udp: true
-  - name: 753 JP
+  - name: 667 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56303
+    server: a3.entrance.app.xdns.men
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 668 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56305
+    server: a5.entrance.app.xdns.win
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 669 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56301
+    server: a1.entrance.app.xdns.win
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 670 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56302
+    server: a2.entrance.app.xdns.win
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 671 JP
     password: 7212418a-c4e9-4378-8722-b34bda5f0467
     port: 56307
     server: a7.entrance.app.xdns.win
@@ -77,10 +69,26 @@ proxies:
     sni: www.microsoft.com
     type: anytls
     udp: true
-  - name: 759 US
+  - name: 672 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56308
+    server: a8.entrance.app.xdns.men
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 679 US
     password: github.com/Alvin9999-newpac/fanqiang
     port: 19000
     server: anytls2.864106.xyz
     skip-cert-verify: true
     sni: anytls2.864106.xyz
     type: anytls
+  - name: 724 US
+    server: uscdn2.781220.xyz
+    port: 443
+    type: anytls
+    password: 363d3f39-bed2-3b6a-b692-c7c3236c2b1c
+    udp: true
+    sni: uscdn2.781220.xyz
+    skip-cert-verify: true
