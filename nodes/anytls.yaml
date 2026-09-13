@@ -1,11 +1,11 @@
 proxies:
-  - name: 564 DE
+  - name: 566 DE
     password: e70ec0f2ab60e8c22b316156bf9ac43fec98b45be6681401
     port: 443
     server: 178.105.126.242
     skip-cert-verify: true
     type: anytls
-  - name: 664 JP
+  - name: 684 JP
     password: 7212418a-c4e9-4378-8722-b34bda5f0467
     port: 56304
     server: a4.entrance.app.xdns.win
@@ -13,15 +13,7 @@ proxies:
     sni: www.microsoft.com
     type: anytls
     udp: true
-  - name: 665 JP
-    password: 7212418a-c4e9-4378-8722-b34bda5f0467
-    port: 56306
-    server: a6.entrance.app.xdns.win
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: anytls
-    udp: true
-  - name: 666 JP
+  - name: 685 JP
     password: 7212418a-c4e9-4378-8722-b34bda5f0467
     port: 56301
     server: a1.entrance.app.xdns.men
@@ -29,39 +21,7 @@ proxies:
     sni: www.microsoft.com
     type: anytls
     udp: true
-  - name: 667 JP
-    password: 7212418a-c4e9-4378-8722-b34bda5f0467
-    port: 56303
-    server: a3.entrance.app.xdns.men
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: anytls
-    udp: true
-  - name: 668 JP
-    password: 7212418a-c4e9-4378-8722-b34bda5f0467
-    port: 56305
-    server: a5.entrance.app.xdns.win
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: anytls
-    udp: true
-  - name: 669 JP
-    password: 7212418a-c4e9-4378-8722-b34bda5f0467
-    port: 56301
-    server: a1.entrance.app.xdns.win
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: anytls
-    udp: true
-  - name: 670 JP
-    password: 7212418a-c4e9-4378-8722-b34bda5f0467
-    port: 56302
-    server: a2.entrance.app.xdns.win
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: anytls
-    udp: true
-  - name: 671 JP
+  - name: 686 JP
     password: 7212418a-c4e9-4378-8722-b34bda5f0467
     port: 56307
     server: a7.entrance.app.xdns.win
@@ -69,7 +29,7 @@ proxies:
     sni: www.microsoft.com
     type: anytls
     udp: true
-  - name: 672 JP
+  - name: 687 JP
     password: 7212418a-c4e9-4378-8722-b34bda5f0467
     port: 56308
     server: a8.entrance.app.xdns.men
@@ -77,18 +37,71 @@ proxies:
     sni: www.microsoft.com
     type: anytls
     udp: true
-  - name: 679 US
+  - name: 688 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56306
+    server: a6.entrance.app.xdns.win
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 689 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56301
+    server: a1.entrance.app.xdns.win
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 690 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56302
+    server: a2.entrance.app.xdns.win
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 691 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56303
+    server: a3.entrance.app.xdns.men
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 692 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56305
+    server: a5.entrance.app.xdns.win
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 699 US
     password: github.com/Alvin9999-newpac/fanqiang
     port: 19000
     server: anytls2.864106.xyz
     skip-cert-verify: true
     sni: anytls2.864106.xyz
     type: anytls
-  - name: 724 US
-    server: uscdn2.781220.xyz
-    port: 443
+  - name: 751 TW
+    password: 48f682fd-fedd-4091-a337-230040e7a43e
+    port: 40071
+    server: tw1.catzl.top
     type: anytls
-    password: 363d3f39-bed2-3b6a-b692-c7c3236c2b1c
     udp: true
-    sni: uscdn2.781220.xyz
-    skip-cert-verify: true
+    sni: tw1.catzl.top
+  - name: 752 JP
+    password: 48f682fd-fedd-4091-a337-230040e7a43e
+    port: 40055
+    server: jp5.catzl.top
+    type: anytls
+    udp: true
+    sni: jp5.catzl.top
+  - name: 753 TW
+    password: 48f682fd-fedd-4091-a337-230040e7a43e
+    port: 40073
+    server: tw3.catzl.top
+    type: anytls
+    udp: true
+    sni: tw3.catzl.top
