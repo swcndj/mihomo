@@ -1,20 +1,5 @@
 proxies:
-  - name: 616 US
-    server: 198.46.215.223
-    port: 4444
-    type: tuic
-    password: 0b628b17
-    uuid: 6346ee2b-aefa-4a58-963a-bb851ed08f41
-    sni: proxy.bingtao.xyz
-    skip-cert-verify: true
-    alpn:
-      - h3
-    disable-sni: false
-    reduce-rtt: false
-    request-timeout: 0
-    udp-relay-mode: native
-    congestion-controller: bbr
-  - name: 631 SG
+  - name: 703 SG
     type: tuic
     server: sg2-8sb.6121999.dpdns.org
     port: 33738
