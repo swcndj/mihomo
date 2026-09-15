@@ -1,5 +1,5 @@
 proxies:
-  - name: 643 US
+  - name: 609 US
     server: 198.46.215.223
     port: 4444
     type: tuic
@@ -14,7 +14,7 @@ proxies:
     request-timeout: 0
     udp-relay-mode: native
     congestion-controller: bbr
-  - name: 725 SG
+  - name: 720 SG
     type: tuic
     server: sg2-8sb.6121999.dpdns.org
     port: 33738

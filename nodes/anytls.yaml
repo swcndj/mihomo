@@ -1,11 +1,11 @@
 proxies:
-  - name: 591 DE
+  - name: 592 DE
     password: e70ec0f2ab60e8c22b316156bf9ac43fec98b45be6681401
     port: 443
     server: 178.105.126.242
     skip-cert-verify: true
     type: anytls
-  - name: 761 JP
+  - name: 756 JP
     password: 7212418a-c4e9-4378-8722-b34bda5f0467
     port: 56304
     server: a4.entrance.app.xdns.win
@@ -13,47 +13,7 @@ proxies:
     sni: www.microsoft.com
     type: anytls
     udp: true
-  - name: 762 JP
-    password: 7212418a-c4e9-4378-8722-b34bda5f0467
-    port: 56301
-    server: a1.entrance.app.xdns.men
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: anytls
-    udp: true
-  - name: 763 JP
-    password: 7212418a-c4e9-4378-8722-b34bda5f0467
-    port: 56302
-    server: a2.entrance.app.xdns.win
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: anytls
-    udp: true
-  - name: 764 JP
-    password: 7212418a-c4e9-4378-8722-b34bda5f0467
-    port: 56307
-    server: a7.entrance.app.xdns.win
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: anytls
-    udp: true
-  - name: 765 JP
-    password: 7212418a-c4e9-4378-8722-b34bda5f0467
-    port: 56305
-    server: a5.entrance.app.xdns.win
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: anytls
-    udp: true
-  - name: 766 JP
-    password: 7212418a-c4e9-4378-8722-b34bda5f0467
-    port: 56308
-    server: a8.entrance.app.xdns.men
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: anytls
-    udp: true
-  - name: 767 JP
+  - name: 757 JP
     password: 7212418a-c4e9-4378-8722-b34bda5f0467
     port: 56306
     server: a6.entrance.app.xdns.win
@@ -61,7 +21,7 @@ proxies:
     sni: www.microsoft.com
     type: anytls
     udp: true
-  - name: 768 JP
+  - name: 758 JP
     password: 7212418a-c4e9-4378-8722-b34bda5f0467
     port: 56301
     server: a1.entrance.app.xdns.win
@@ -69,7 +29,31 @@ proxies:
     sni: www.microsoft.com
     type: anytls
     udp: true
-  - name: 769 JP
+  - name: 759 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56302
+    server: a2.entrance.app.xdns.win
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 760 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56308
+    server: a8.entrance.app.xdns.men
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 761 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56301
+    server: a1.entrance.app.xdns.men
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 762 JP
     password: 7212418a-c4e9-4378-8722-b34bda5f0467
     port: 56303
     server: a3.entrance.app.xdns.men
@@ -77,14 +61,30 @@ proxies:
     sni: www.microsoft.com
     type: anytls
     udp: true
-  - name: 776 US
+  - name: 763 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56307
+    server: a7.entrance.app.xdns.win
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 764 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56305
+    server: a5.entrance.app.xdns.win
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 771 US
     password: github.com/Alvin9999-newpac/fanqiang
     port: 19000
     server: anytls2.864106.xyz
     skip-cert-verify: true
     sni: anytls2.864106.xyz
     type: anytls
-  - name: 814 JP
+  - name: 812 JP
     server: 111.2025windows.vip
     port: 5539
     type: anytls
@@ -95,7 +95,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: 815 JP
+  - name: 813 JP
     server: 111.2025windows.vip
     port: 5534
     type: anytls
@@ -106,7 +106,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: 816 JP
+  - name: 814 JP
     server: 111.2025windows.vip
     port: 5544
     type: anytls
@@ -117,7 +117,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: 817 JP
+  - name: 815 JP
     server: 111.2025windows.vip
     port: 5537
     type: anytls
@@ -128,7 +128,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: 818 JP
+  - name: 816 JP
     server: 111.2025windows.vip
     port: 5579
     type: anytls
@@ -139,7 +139,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: 819 JP
+  - name: 817 JP
     server: 111.2025windows.vip
     port: 5501
     type: anytls
@@ -150,7 +150,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: 820 JP
+  - name: 818 JP
     server: 111.2025windows.vip
     port: 5529
     type: anytls
@@ -161,7 +161,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: 821 JP
+  - name: 819 JP
     server: 111.2025windows.vip
     port: 5505
     type: anytls
@@ -172,7 +172,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: 822 JP
+  - name: 820 JP
     server: 111.2025windows.vip
     port: 5519
     type: anytls
@@ -183,7 +183,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: 823 JP
+  - name: 821 JP
     server: 111.2025windows.vip
     port: 5547
     type: anytls
@@ -194,7 +194,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: 824 JP
+  - name: 822 JP
     server: 111.2025windows.vip
     port: 5532
     type: anytls
@@ -205,7 +205,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: 825 JP
+  - name: 823 JP
     server: 111.2025windows.vip
     port: 5515
     type: anytls
@@ -216,7 +216,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: 826 JP
+  - name: 824 JP
     server: 111.2025windows.vip
     port: 5524
     type: anytls
