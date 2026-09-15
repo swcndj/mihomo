@@ -1579,7 +1579,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
       path: /assignment
-  - name: 317 US
+  - name: 316 US
     network: ws
     password: humanity
     port: 443
@@ -1590,7 +1590,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 318 US
+  - name: 317 US
     type: trojan
     server: blog.webex.com
     port: 443
@@ -1732,7 +1732,7 @@ proxies:
       headers:
         Host: gstatic.com
   - client-fingerprint: android
-    name: 793 US
+    name: 796 US
     network: ws
     password: humanity
     port: 443
@@ -1745,7 +1745,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
       path: /assignment
-  - name: 898 US
+  - name: 900 US
     server: notdirect.howhealthyistoomajreally.homes
     port: 443
     type: trojan
@@ -1757,7 +1757,7 @@ proxies:
       path: /ilb9fuWfuqWDjlQrGCkIH66kMFPa
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
-  - name: 899 US
+  - name: 901 US
     server: cnamemc1.cdncisco4.co
     port: 443
     type: trojan
@@ -1769,7 +1769,7 @@ proxies:
       path: /422Kdfwzf49IxeZJa
       headers:
         Host: c1mc.cdncisco4.co
-  - name: 900 AU
+  - name: 902 AU
     server: cnamemt.ciscocdn1.live
     port: 443
     type: trojan
@@ -1781,7 +1781,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mt.ciscocdn1.live
-  - name: 901 AU
+  - name: 903 AU
     server: cnamemk.ciscocdn1.live
     port: 443
     type: trojan
@@ -1793,7 +1793,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mk.ciscocdn1.live
-  - name: 902 AU
+  - name: 904 AU
     server: cnamemc.ciscocdn1.live
     port: 443
     type: trojan
