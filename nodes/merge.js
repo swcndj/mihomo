@@ -276,7 +276,9 @@ async function batchQueryIpCountry(ipList) {
   // 全局序号重命名
   passList.forEach((item,idx)=>{
     item.node.name = `${idx+1} ${item.cc}`;
+    delete item.node.sub_tag; // 移除sub_tag字段
   });
+  
   const finalProxies = passList.map(i=>i.node);
   console.log(`🌐 地区筛选后节点数量：${finalProxies.length}\n`);
 
