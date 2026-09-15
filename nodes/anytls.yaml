@@ -1,11 +1,11 @@
 proxies:
-  - name: 592 DE
+  - name: 736 DE
     password: e70ec0f2ab60e8c22b316156bf9ac43fec98b45be6681401
     port: 443
     server: 178.105.126.242
     skip-cert-verify: true
     type: anytls
-  - name: 756 JP
+  - name: 914 JP
     password: 7212418a-c4e9-4378-8722-b34bda5f0467
     port: 56304
     server: a4.entrance.app.xdns.win
@@ -13,39 +13,7 @@ proxies:
     sni: www.microsoft.com
     type: anytls
     udp: true
-  - name: 757 JP
-    password: 7212418a-c4e9-4378-8722-b34bda5f0467
-    port: 56306
-    server: a6.entrance.app.xdns.win
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: anytls
-    udp: true
-  - name: 758 JP
-    password: 7212418a-c4e9-4378-8722-b34bda5f0467
-    port: 56301
-    server: a1.entrance.app.xdns.win
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: anytls
-    udp: true
-  - name: 759 JP
-    password: 7212418a-c4e9-4378-8722-b34bda5f0467
-    port: 56302
-    server: a2.entrance.app.xdns.win
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: anytls
-    udp: true
-  - name: 760 JP
-    password: 7212418a-c4e9-4378-8722-b34bda5f0467
-    port: 56308
-    server: a8.entrance.app.xdns.men
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: anytls
-    udp: true
-  - name: 761 JP
+  - name: 915 JP
     password: 7212418a-c4e9-4378-8722-b34bda5f0467
     port: 56301
     server: a1.entrance.app.xdns.men
@@ -53,7 +21,39 @@ proxies:
     sni: www.microsoft.com
     type: anytls
     udp: true
-  - name: 762 JP
+  - name: 916 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56302
+    server: a2.entrance.app.xdns.win
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 917 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56308
+    server: a8.entrance.app.xdns.men
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 918 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56306
+    server: a6.entrance.app.xdns.win
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 919 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56301
+    server: a1.entrance.app.xdns.win
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 920 JP
     password: 7212418a-c4e9-4378-8722-b34bda5f0467
     port: 56303
     server: a3.entrance.app.xdns.men
@@ -61,7 +61,7 @@ proxies:
     sni: www.microsoft.com
     type: anytls
     udp: true
-  - name: 763 JP
+  - name: 921 JP
     password: 7212418a-c4e9-4378-8722-b34bda5f0467
     port: 56307
     server: a7.entrance.app.xdns.win
@@ -69,7 +69,7 @@ proxies:
     sni: www.microsoft.com
     type: anytls
     udp: true
-  - name: 764 JP
+  - name: 922 JP
     password: 7212418a-c4e9-4378-8722-b34bda5f0467
     port: 56305
     server: a5.entrance.app.xdns.win
@@ -77,153 +77,10 @@ proxies:
     sni: www.microsoft.com
     type: anytls
     udp: true
-  - name: 771 US
+  - name: 929 US
     password: github.com/Alvin9999-newpac/fanqiang
     port: 19000
     server: anytls2.864106.xyz
     skip-cert-verify: true
     sni: anytls2.864106.xyz
     type: anytls
-  - name: 812 JP
-    server: 111.2025windows.vip
-    port: 5539
-    type: anytls
-    password: cf1f63ed-1e9a-42c7-9230-280c1bce392e
-    udp: true
-    sni: admin.blob.core.windows.net
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 813 JP
-    server: 111.2025windows.vip
-    port: 5534
-    type: anytls
-    password: baf3f51e-80dd-482b-8617-cea6de59631d
-    udp: true
-    sni: admin.blob.core.windows.net
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 814 JP
-    server: 111.2025windows.vip
-    port: 5544
-    type: anytls
-    password: cf1f63ed-1e9a-42c7-9230-280c1bce392e
-    udp: true
-    sni: admin.blob.core.windows.net
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 815 JP
-    server: 111.2025windows.vip
-    port: 5537
-    type: anytls
-    password: cf1f63ed-1e9a-42c7-9230-280c1bce392e
-    udp: true
-    sni: admin.blob.core.windows.net
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 816 JP
-    server: 111.2025windows.vip
-    port: 5579
-    type: anytls
-    password: cf1f63ed-1e9a-42c7-9230-280c1bce392e
-    udp: true
-    sni: admin.blob.core.windows.net
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 817 JP
-    server: 111.2025windows.vip
-    port: 5501
-    type: anytls
-    password: cf1f63ed-1e9a-42c7-9230-280c1bce392e
-    udp: true
-    sni: admin.blob.core.windows.net
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 818 JP
-    server: 111.2025windows.vip
-    port: 5529
-    type: anytls
-    password: baf3f51e-80dd-482b-8617-cea6de59631d
-    udp: true
-    sni: admin.blob.core.windows.net
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 819 JP
-    server: 111.2025windows.vip
-    port: 5505
-    type: anytls
-    password: cf1f63ed-1e9a-42c7-9230-280c1bce392e
-    udp: true
-    sni: admin.blob.core.windows.net
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 820 JP
-    server: 111.2025windows.vip
-    port: 5519
-    type: anytls
-    password: baf3f51e-80dd-482b-8617-cea6de59631d
-    udp: true
-    sni: admin.blob.core.windows.net
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 821 JP
-    server: 111.2025windows.vip
-    port: 5547
-    type: anytls
-    password: baf3f51e-80dd-482b-8617-cea6de59631d
-    udp: true
-    sni: admin.blob.core.windows.net
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 822 JP
-    server: 111.2025windows.vip
-    port: 5532
-    type: anytls
-    password: cf1f63ed-1e9a-42c7-9230-280c1bce392e
-    udp: true
-    sni: admin.blob.core.windows.net
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 823 JP
-    server: 111.2025windows.vip
-    port: 5515
-    type: anytls
-    password: cf1f63ed-1e9a-42c7-9230-280c1bce392e
-    udp: true
-    sni: admin.blob.core.windows.net
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 824 JP
-    server: 111.2025windows.vip
-    port: 5524
-    type: anytls
-    password: baf3f51e-80dd-482b-8617-cea6de59631d
-    udp: true
-    sni: admin.blob.core.windows.net
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
