@@ -1,12 +1,12 @@
 proxies:
-  - name: 767 US
+  - name: 762 US
     password: github.com/Alvin9999-newpac/fanqiang
     port: 19000
     server: anytls2.864106.xyz
     skip-cert-verify: true
     sni: anytls2.864106.xyz
     type: anytls
-  - name: 811 HK
+  - name: 802 HK
     server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
     port: 443
     type: anytls
@@ -14,7 +14,7 @@ proxies:
     udp: true
     sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
     skip-cert-verify: true
-  - name: 812 TW
+  - name: 803 TW
     server: 6ivh.pnuqcnp.cn
     port: 443
     type: anytls
@@ -22,3 +22,71 @@ proxies:
     udp: true
     sni: images.ctfassets.net
     skip-cert-verify: true
+  - name: 804 JP
+    password: 4a4a34d3-8934-4404-ac35-5317b3ff7169
+    port: 443
+    server: rb.yunshu.life
+    type: anytls
+    udp: true
+    sni: rb.yunshu.life
+  - name: 805 US
+    password: dc32fa69-c317-41f0-878f-20a1a311584f
+    port: 40022
+    server: us2.catzl.top
+    type: anytls
+    udp: true
+    sni: us2.catzl.top
+  - name: 806 US
+    password: 4a4a34d3-8934-4404-ac35-5317b3ff7169
+    port: 443
+    server: mg4.yunshu.life
+    type: anytls
+    udp: true
+    sni: mg4.yunshu.life
+  - name: 807 JP
+    password: dc32fa69-c317-41f0-878f-20a1a311584f
+    port: 40055
+    server: jp5.catzl.top
+    type: anytls
+    udp: true
+    sni: jp5.catzl.top
+  - name: 808 DE
+    password: 4a4a34d3-8934-4404-ac35-5317b3ff7169
+    port: 443
+    server: dg.yunshu.life
+    type: anytls
+    udp: true
+    sni: dg.yunshu.life
+  - name: 809 US
+    password: 4a4a34d3-8934-4404-ac35-5317b3ff7169
+    port: 443
+    server: mg.l3v1.my
+    skip-cert-verify: true
+    type: anytls
+    udp: true
+    sni: mg.l3v1.my
+  - name: 810 TW
+    password: dc32fa69-c317-41f0-878f-20a1a311584f
+    port: 40071
+    server: tw1.catzl.top
+    type: anytls
+    udp: true
+    sni: tw1.catzl.top
+  - name: 811 JP
+    password: 6a561fea-d717-4fd1-93f3-097f3f83ef1c
+    port: 17968
+    server: jjz.jjznodenode.top
+    type: anytls
+    udp: true
+    sni: jjz.jjznodenode.top
+  - name: 814 TW
+    type: anytls
+    server: awefd2313fefarg23fr24.pnuqcnp.cn
+    port: 443
+    password: 9sK2mP8xQ7vL3nZ6
+    udp: true
+    sni: images.ctfassets.net
+    alpn:
+      - http/1.1
+    skip-cert-verify: true
+    client-fingerprint: chrome
