@@ -1,8 +1,24 @@
 proxies:
-  - name: 759 US
+  - name: 767 US
     password: github.com/Alvin9999-newpac/fanqiang
     port: 19000
     server: anytls2.864106.xyz
     skip-cert-verify: true
     sni: anytls2.864106.xyz
     type: anytls
+  - name: 811 HK
+    server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
+    port: 443
+    type: anytls
+    password: 9sK2mP8xQ7vL3nZ6
+    udp: true
+    sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
+    skip-cert-verify: true
+  - name: 812 TW
+    server: 6ivh.pnuqcnp.cn
+    port: 443
+    type: anytls
+    password: 9sK2mP8xQ7vL3nZ6
+    udp: true
+    sni: images.ctfassets.net
+    skip-cert-verify: true
