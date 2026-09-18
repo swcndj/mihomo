@@ -1,6 +1,6 @@
 proxies:
   - fingerprint: ""
-    name: 749 TW
+    name: 610 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: 6ivh.pnuqcnp.cn
@@ -10,7 +10,7 @@ proxies:
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
   - fingerprint: ""
-    name: 750 TW
+    name: 611 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: awefd2313fefarg23fr24.pnuqcnp.cn
@@ -19,7 +19,7 @@ proxies:
     type: anytls
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
-  - name: 752 US
+  - name: 613 US
     password: github.com/Alvin9999-newpac/fanqiang
     port: 19000
     server: anytls2.864106.xyz
@@ -27,7 +27,7 @@ proxies:
     sni: anytls2.864106.xyz
     type: anytls
   - fingerprint: ""
-    name: 753 HK
+    name: 614 HK
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
@@ -36,11 +36,35 @@ proxies:
     type: anytls
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
-  - name: 789 HK
-    password: e78c9b0e-2e52-3ca8-bae2-ed04d8894f61
-    port: 443
-    server: aic-1.serbia-maki.stream
-    skip-cert-verify: true
-    sni: aic-1.serbia-maki.stream
+  - name: 650 SG
+    server: xxxxxx3332.luoyun2.com
+    port: 41450
     type: anytls
+    password: ac956a1d-3892-4a46-a2ef-45005d3c8e60
     udp: true
+    sni: de915.luoyun2.com
+    skip-cert-verify: true
+  - name: 652 TW
+    server: wsfpymp8ab2-tw2.luoyun2.com
+    port: 16492
+    type: anytls
+    password: ac956a1d-3892-4a46-a2ef-45005d3c8e60
+    udp: true
+    sni: ajldb0907.luoyun2.com
+    skip-cert-verify: true
+  - name: 653 TW
+    server: wsfpymp8ab2-tw2.luoyun2.com
+    port: 27625
+    type: anytls
+    password: ac956a1d-3892-4a46-a2ef-45005d3c8e60
+    udp: true
+    sni: xjp06201.tizi001.com
+    skip-cert-verify: true
+  - name: 654 TW
+    server: ucj87nbxk0-tw2.luoyun2.com
+    port: 14999
+    type: anytls
+    password: ac956a1d-3892-4a46-a2ef-45005d3c8e60
+    udp: true
+    sni: yd5156.luoyun2.com
+    skip-cert-verify: true
