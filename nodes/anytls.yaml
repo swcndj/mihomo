@@ -1,12 +1,6 @@
 proxies:
-  - name: 761 US
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 19000
-    server: anytls2.864106.xyz
-    skip-cert-verify: true
-    sni: anytls2.864106.xyz
-    type: anytls
-  - name: 793 TW
+  - fingerprint: ""
+    name: 749 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: 6ivh.pnuqcnp.cn
@@ -14,11 +8,39 @@ proxies:
     sni: images.ctfassets.net
     type: anytls
     udp: true
-  - name: 797 HK
-    server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
-    port: 443
-    type: anytls
+    username: 9sK2mP8xQ7vL3nZ6
+  - fingerprint: ""
+    name: 750 TW
     password: 9sK2mP8xQ7vL3nZ6
-    udp: true
-    sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
+    port: 443
+    server: awefd2313fefarg23fr24.pnuqcnp.cn
     skip-cert-verify: true
+    sni: images.ctfassets.net
+    type: anytls
+    udp: true
+    username: 9sK2mP8xQ7vL3nZ6
+  - name: 752 US
+    password: github.com/Alvin9999-newpac/fanqiang
+    port: 19000
+    server: anytls2.864106.xyz
+    skip-cert-verify: true
+    sni: anytls2.864106.xyz
+    type: anytls
+  - fingerprint: ""
+    name: 753 HK
+    password: 9sK2mP8xQ7vL3nZ6
+    port: 443
+    server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
+    skip-cert-verify: true
+    sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
+    type: anytls
+    udp: true
+    username: 9sK2mP8xQ7vL3nZ6
+  - name: 789 HK
+    password: e78c9b0e-2e52-3ca8-bae2-ed04d8894f61
+    port: 443
+    server: aic-1.serbia-maki.stream
+    skip-cert-verify: true
+    sni: aic-1.serbia-maki.stream
+    type: anytls
+    udp: true
