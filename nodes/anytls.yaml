@@ -1,6 +1,6 @@
 proxies:
   - fingerprint: ""
-    name: 600 TW
+    name: 612 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: 6ivh.pnuqcnp.cn
@@ -10,7 +10,7 @@ proxies:
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
   - fingerprint: ""
-    name: 601 HK
+    name: 614 HK
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
@@ -20,7 +20,7 @@ proxies:
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
   - fingerprint: ""
-    name: 602 TW
+    name: 615 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: awefd2313fefarg23fr24.pnuqcnp.cn
@@ -29,10 +29,15 @@ proxies:
     type: anytls
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
-  - name: 603 US
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 19000
+  - type: anytls
+    name: 639 US
     server: anytls2.864106.xyz
-    skip-cert-verify: true
+    port: 19000
+    udp: true
     sni: anytls2.864106.xyz
-    type: anytls
+    skip-cert-verify: true
+    packet-encoding: ""
+    password: github.com/Alvin9999-newpac/fanqiang
+    packetEncoding: none
+    allowInsecure: "1"
+    sub-tag: R002-260618

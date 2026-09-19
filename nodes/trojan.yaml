@@ -1536,7 +1536,7 @@ proxies:
       headers:
         host: www.gossipglove.com
       path: /assignment
-  - name: 376 SG
+  - name: 377 SG
     network: ws
     password: "521314"
     port: 443
@@ -1549,7 +1549,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 377 US
+  - name: 378 US
     network: ws
     password: humanity
     port: 443
@@ -1562,7 +1562,7 @@ proxies:
       headers:
         host: www.gossipglove.com
       path: /assignment
-  - name: 417 US
+  - name: 418 US
     network: ws
     password: humanity
     port: 443
@@ -1573,7 +1573,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 418 US
+  - name: 419 US
     type: trojan
     server: blog.webex.com
     port: 443
@@ -1585,7 +1585,7 @@ proxies:
       headers:
         Host: unnes.ac.id.yxls.eu.cc
       path: /br-orcl
-  - name: 420 US
+  - name: 421 US
     network: ws
     password: humanity
     port: 443
@@ -1598,7 +1598,7 @@ proxies:
       headers:
         host: www.creationlong.org
       path: /assignment
-  - name: 422 US
+  - name: 423 US
     network: ws
     password: humanity
     port: 443
@@ -1611,7 +1611,7 @@ proxies:
       headers:
         host: www.creationlong.org
       path: /assignment
-  - name: 472 SG
+  - name: 473 SG
     network: ws
     password: "521314"
     port: 443
@@ -1624,7 +1624,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 473 SG
+  - name: 474 SG
     network: ws
     password: "521314"
     port: 443
@@ -1637,7 +1637,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 474 US
+  - name: 475 US
     network: ws
     password: humanity
     port: 443
@@ -1648,7 +1648,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 484 US
+  - name: 485 US
     password: mitivpn
     port: 443
     server: 167.82.76.7
@@ -1660,18 +1660,6 @@ proxies:
       headers:
         Host: mitivpn---ss--s---mitivpn-33e.global.ssl.fastly.net
       path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-  - name: 486 US
-    server: 162.159.254.191
-    port: 443
-    type: trojan
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.ignitelimit.com
   - name: 487 US
     server: 95.164.33.62
     port: 443
@@ -1744,7 +1732,36 @@ proxies:
       headers:
         Host: www.calmlunch.com
     udp: true
-  - name: 593 US
+  - name: 561 US
+    server: 162.159.254.191
+    port: 443
+    type: trojan
+    password: humanity
+    sni: www.ignitelimit.com
+    alpn:
+      - h3
+      - h2
+      - http/1.1
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.ignitelimit.com
+    udp: true
+  - name: 562 US
+    server: 151.101.56.56
+    port: 443
+    type: trojan
+    password: mitivpn
+    sni: ssl.fastly.com
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/NLSs---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1
+      headers:
+        Host: ssl.fastly.com
+  - name: 606 US
     server: notdirect.howhealthyistoomajreally.homes
     port: 443
     type: trojan
@@ -1756,7 +1773,7 @@ proxies:
       path: /ilb9fuWfuqWDjlQrGCkIH66kMFPa
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
-  - name: 594 US
+  - name: 607 US
     server: cnamemc1.cdncisco4.co
     port: 443
     type: trojan
@@ -1768,7 +1785,7 @@ proxies:
       path: /422Kdfwzf49IxeZJa
       headers:
         Host: c1mc.cdncisco4.co
-  - name: 595 AU
+  - name: 608 AU
     server: cnamemt.ciscocdn1.live
     port: 443
     type: trojan
@@ -1780,7 +1797,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mt.ciscocdn1.live
-  - name: 596 AU
+  - name: 609 AU
     server: cnamemk.ciscocdn1.live
     port: 443
     type: trojan
@@ -1792,7 +1809,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mk.ciscocdn1.live
-  - name: 597 AU
+  - name: 610 AU
     server: cnamemc.ciscocdn1.live
     port: 443
     type: trojan
