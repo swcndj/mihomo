@@ -1514,19 +1514,17 @@ proxies:
       headers:
         host: www.gossipglove.com
       path: /assignment
-  - name: 313 US
+  - name: 314 US
+    type: trojan
     server: 8.47.69.0
     port: 443
-    type: trojan
     password: humanity
     sni: www.pleadcourt.org
-    skip-cert-verify: false
-    network: ws
+    skip-cert-verify: true
     ws-opts:
       path: /assignment
-      headers:
-        Host: www.pleadcourt.org
-  - name: 327 SG
+    udp: true
+  - name: 328 SG
     network: ws
     password: "521314"
     port: 443
@@ -1539,7 +1537,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 328 US
+  - name: 329 US
     network: ws
     password: humanity
     port: 443
@@ -1552,7 +1550,7 @@ proxies:
       headers:
         host: www.gossipglove.com
       path: /assignment
-  - name: 368 US
+  - name: 369 US
     network: ws
     password: humanity
     port: 443
@@ -1563,19 +1561,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 369 US
-    type: trojan
-    server: blog.webex.com
-    port: 443
-    network: ws
-    password: afbcd89a-5a90-4a44-a42a-be08f444aa3f
-    skip-cert-verify: false
-    sni: unnes.ac.id.yxls.eu.cc
-    ws-opts:
-      headers:
-        Host: unnes.ac.id.yxls.eu.cc
-      path: /br-orcl
-  - name: 370 US
+  - name: 371 US
     network: ws
     password: humanity
     port: 443
@@ -1588,7 +1574,7 @@ proxies:
       headers:
         host: www.creationlong.org
       path: /assignment
-  - name: 371 US
+  - name: 373 US
     network: ws
     password: humanity
     port: 443
@@ -1601,7 +1587,7 @@ proxies:
       headers:
         host: www.creationlong.org
       path: /assignment
-  - name: 421 SG
+  - name: 423 SG
     network: ws
     password: "521314"
     port: 443
@@ -1614,7 +1600,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 422 SG
+  - name: 424 SG
     network: ws
     password: "521314"
     port: 443
@@ -1627,7 +1613,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 423 US
+  - name: 425 US
     network: ws
     password: humanity
     port: 443
@@ -1638,7 +1624,19 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 429 US
+  - name: 431 US
+    server: 162.159.254.191
+    port: 443
+    type: trojan
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.ignitelimit.com
+  - name: 432 US
     server: 95.164.33.62
     port: 443
     type: trojan
@@ -1650,7 +1648,7 @@ proxies:
       path: /websocket
       headers:
         Host: sourceforge.net
-  - name: 430 US
+  - name: 433 US
     server: 66.228.55.178
     port: 2083
     type: trojan
@@ -1662,19 +1660,79 @@ proxies:
       path: /
       headers:
         Host: gstatic.com
-  - name: 432 US
+  - name: 434 US
     type: trojan
     server: 167.82.76.7
     port: 443
-    password: MiTiVPN
+    password: mitivpn
+    sni: ssl.fastly.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      headers:
+        Host: mitivpn---ss--s---mitivpn-33e.global.ssl.fastly.net
+    udp: true
+  - name: 435 US
+    type: trojan
+    server: 199.232.78.101
+    port: 443
+    password: mitivpn
     sni: ssl.fastly.com
     skip-cert-verify: true
     ws-opts:
       path: /
       headers:
-        Host: mitivpn---ss--s---mitivpn-33e.global.ssl.fastly.net
+        Host: mitivpn---ss--s---mitivpn-11e.global.ssl.fastly.net
     udp: true
-  - name: 607 US
+  - name: 436 US
+    type: trojan
+    server: 199.232.78.160
+    port: 443
+    password: mitivpn
+    sni: ssl.fastly.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        Host: mitivpn---ss--s---mitivpn-55e.global.ssl.fastly.net
+    udp: true
+  - name: 438 US
+    type: trojan
+    server: 151.101.56.7
+    port: 443
+    password: mitivpn
+    sni: ssl.fastly.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        Host: mitivpn---ss--s---mitivpn-22e.global.ssl.fastly.net
+    udp: true
+  - name: 451 US
+    type: trojan
+    server: 162.159.244.91
+    port: 443
+    password: humanity
+    sni: www.calmlunch.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.calmlunch.com
+    udp: true
+  - name: 589 US
+    type: trojan
+    server: blog.webex.com
+    port: 443
+    network: ws
+    password: afbcd89a-5a90-4a44-a42a-be08f444aa3f
+    skip-cert-verify: false
+    sni: unnes.ac.id.yxls.eu.cc
+    ws-opts:
+      headers:
+        Host: unnes.ac.id.yxls.eu.cc
+      path: /br-orcl
+  - name: 620 US
     server: notdirect.howhealthyistoomajreally.homes
     port: 443
     type: trojan
@@ -1686,7 +1744,7 @@ proxies:
       path: /ilb9fuWfuqWDjlQrGCkIH66kMFPa
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
-  - name: 608 US
+  - name: 621 US
     server: cnamemc1.cdncisco4.co
     port: 443
     type: trojan
@@ -1698,7 +1756,7 @@ proxies:
       path: /422Kdfwzf49IxeZJa
       headers:
         Host: c1mc.cdncisco4.co
-  - name: 609 AU
+  - name: 622 AU
     server: cnamemt.ciscocdn1.live
     port: 443
     type: trojan
@@ -1710,7 +1768,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mt.ciscocdn1.live
-  - name: 610 AU
+  - name: 623 AU
     server: cnamemk.ciscocdn1.live
     port: 443
     type: trojan
@@ -1722,7 +1780,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mk.ciscocdn1.live
-  - name: 611 AU
+  - name: 624 AU
     server: cnamemc.ciscocdn1.live
     port: 443
     type: trojan

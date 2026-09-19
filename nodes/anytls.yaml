@@ -1,6 +1,6 @@
 proxies:
   - fingerprint: ""
-    name: 613 TW
+    name: 629 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: 6ivh.pnuqcnp.cn
@@ -10,24 +10,7 @@ proxies:
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
   - fingerprint: ""
-    name: 616 TW
-    password: 9sK2mP8xQ7vL3nZ6
-    port: 443
-    server: awefd2313fefarg23fr24.pnuqcnp.cn
-    skip-cert-verify: true
-    sni: images.ctfassets.net
-    type: anytls
-    udp: true
-    username: 9sK2mP8xQ7vL3nZ6
-  - name: 617 US
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 19000
-    server: anytls2.864106.xyz
-    skip-cert-verify: true
-    sni: anytls2.864106.xyz
-    type: anytls
-  - fingerprint: ""
-    name: 618 HK
+    name: 630 HK
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
@@ -36,3 +19,20 @@ proxies:
     type: anytls
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
+  - fingerprint: ""
+    name: 631 TW
+    password: 9sK2mP8xQ7vL3nZ6
+    port: 443
+    server: awefd2313fefarg23fr24.pnuqcnp.cn
+    skip-cert-verify: true
+    sni: images.ctfassets.net
+    type: anytls
+    udp: true
+    username: 9sK2mP8xQ7vL3nZ6
+  - name: 632 US
+    password: github.com/Alvin9999-newpac/fanqiang
+    port: 19000
+    server: anytls2.864106.xyz
+    skip-cert-verify: true
+    sni: anytls2.864106.xyz
+    type: anytls
