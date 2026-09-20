@@ -1,24 +1,6 @@
 proxies:
-  - name: 660 HK
-    password: dCwrni
-    port: 7008
-    server: api.meituan88.com
-    skip-cert-verify: true
-    sni: globalnetworktraffic.com
-    type: anytls
-    udp: true
   - fingerprint: ""
-    name: 662 HK
-    password: 9sK2mP8xQ7vL3nZ6
-    port: 443
-    server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
-    skip-cert-verify: true
-    sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
-    type: anytls
-    udp: true
-    username: 9sK2mP8xQ7vL3nZ6
-  - fingerprint: ""
-    name: 663 TW
+    name: 676 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: 6ivh.pnuqcnp.cn
@@ -27,60 +9,41 @@ proxies:
     type: anytls
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
+  - name: 677 US
+    password: github.com/Alvin9999-newpac/fanqiang
+    port: 19000
+    server: anytls2.864106.xyz
+    skip-cert-verify: true
+    sni: anytls2.864106.xyz
+    type: anytls
+  - name: 678 HK
+    password: dCwrni
+    port: 7008
+    server: api.meituan88.com
+    skip-cert-verify: true
+    sni: globalnetworktraffic.com
+    type: anytls
+    udp: true
   - fingerprint: ""
-    name: 666 TW
+    name: 679 HK
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
-    server: awefd2313fefarg23fr24.pnuqcnp.cn
+    server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
     skip-cert-verify: true
-    sni: images.ctfassets.net
+    sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
     type: anytls
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
-  - name: 686 JP
-    password: ad932b72-bb05-489f-b378-9c2f516709c7
-    port: 40055
-    server: jp5.catzl.top
-    type: anytls
-    udp: true
-    sni: jp5.catzl.top
-  - name: 687 KR
-    password: ad932b72-bb05-489f-b378-9c2f516709c7
-    port: 40042
-    server: kr2.catzl.top
-    type: anytls
-    udp: true
-    sni: kr2.catzl.top
-  - name: 688 US
-    password: ad932b72-bb05-489f-b378-9c2f516709c7
-    port: 40021
-    server: us1.catzl.top
-    type: anytls
-    udp: true
-    sni: us1.catzl.top
-  - name: 689 US
-    password: ad932b72-bb05-489f-b378-9c2f516709c7
-    port: 40022
-    server: us2.catzl.top
-    type: anytls
-    udp: true
-    sni: us2.catzl.top
-  - name: 690 KR
-    password: ad932b72-bb05-489f-b378-9c2f516709c7
-    port: 40041
-    server: kr1.catzl.top
-    type: anytls
-    udp: true
-    sni: kr1.catzl.top
   - type: anytls
-    name: 692 US
-    server: anytls2.864106.xyz
-    port: 19000
+    name: 703 TW
+    server: awefd2313fefarg23fr24.pnuqcnp.cn
+    port: 443
     udp: true
-    sni: anytls2.864106.xyz
+    sni: images.ctfassets.net
     skip-cert-verify: true
     packet-encoding: ""
-    password: github.com/Alvin9999-newpac/fanqiang
+    password: 9sK2mP8xQ7vL3nZ6
     packetEncoding: none
     allowInsecure: "1"
     sub-tag: R002-260618
+    username: 9sK2mP8xQ7vL3nZ6
