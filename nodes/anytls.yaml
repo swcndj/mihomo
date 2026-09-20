@@ -1,5 +1,5 @@
 proxies:
-  - name: 596 HK
+  - name: 660 HK
     password: dCwrni
     port: 7008
     server: api.meituan88.com
@@ -8,7 +8,7 @@ proxies:
     type: anytls
     udp: true
   - fingerprint: ""
-    name: 598 HK
+    name: 662 HK
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
@@ -18,7 +18,7 @@ proxies:
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
   - fingerprint: ""
-    name: 599 TW
+    name: 663 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: 6ivh.pnuqcnp.cn
@@ -28,7 +28,7 @@ proxies:
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
   - fingerprint: ""
-    name: 602 TW
+    name: 666 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: awefd2313fefarg23fr24.pnuqcnp.cn
@@ -37,50 +37,43 @@ proxies:
     type: anytls
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
-  - name: 622 JP
-    password: 35936816-394d-4942-b872-fe6047e7b0dd
+  - name: 686 JP
+    password: ad932b72-bb05-489f-b378-9c2f516709c7
     port: 40055
     server: jp5.catzl.top
     type: anytls
     udp: true
     sni: jp5.catzl.top
-  - name: 623 TW
-    password: 35936816-394d-4942-b872-fe6047e7b0dd
-    port: 40071
-    server: tw1.catzl.top
-    type: anytls
-    udp: true
-    sni: tw1.catzl.top
-  - name: 624 KR
-    password: 35936816-394d-4942-b872-fe6047e7b0dd
-    port: 40041
-    server: kr1.catzl.top
-    type: anytls
-    udp: true
-    sni: kr1.catzl.top
-  - name: 625 TW
-    password: 35936816-394d-4942-b872-fe6047e7b0dd
-    port: 40072
-    server: tw2.catzl.top
-    type: anytls
-    udp: true
-    sni: tw2.catzl.top
-  - name: 626 US
-    password: 35936816-394d-4942-b872-fe6047e7b0dd
-    port: 40022
-    server: us2.catzl.top
-    type: anytls
-    udp: true
-    sni: us2.catzl.top
-  - name: 627 KR
-    password: 35936816-394d-4942-b872-fe6047e7b0dd
+  - name: 687 KR
+    password: ad932b72-bb05-489f-b378-9c2f516709c7
     port: 40042
     server: kr2.catzl.top
     type: anytls
     udp: true
     sni: kr2.catzl.top
+  - name: 688 US
+    password: ad932b72-bb05-489f-b378-9c2f516709c7
+    port: 40021
+    server: us1.catzl.top
+    type: anytls
+    udp: true
+    sni: us1.catzl.top
+  - name: 689 US
+    password: ad932b72-bb05-489f-b378-9c2f516709c7
+    port: 40022
+    server: us2.catzl.top
+    type: anytls
+    udp: true
+    sni: us2.catzl.top
+  - name: 690 KR
+    password: ad932b72-bb05-489f-b378-9c2f516709c7
+    port: 40041
+    server: kr1.catzl.top
+    type: anytls
+    udp: true
+    sni: kr1.catzl.top
   - type: anytls
-    name: 629 US
+    name: 692 US
     server: anytls2.864106.xyz
     port: 19000
     udp: true
