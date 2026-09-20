@@ -1471,7 +1471,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 283 US
+  - name: 285 US
     password: humanity
     port: 443
     server: 8.6.112.6
@@ -1482,7 +1482,7 @@ proxies:
     ws-opts:
       path: /assignment
   - client-fingerprint: chrome
-    name: 286 US
+    name: 288 US
     network: ws
     password: humanity
     port: 443
@@ -1498,7 +1498,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 321 US
+    name: 323 US
     network: ws
     password: humanity
     port: 443
@@ -1511,7 +1511,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
       path: /assignment
-  - name: 341 US
+  - name: 343 US
     password: humanity
     port: 443
     server: 130.250.137.171
@@ -1523,7 +1523,7 @@ proxies:
       headers:
         Host: www.ignitelimit.com
       path: /assignment
-  - name: 348 US
+  - name: 350 US
     network: ws
     password: humanity
     port: 443
@@ -1536,7 +1536,7 @@ proxies:
       headers:
         host: www.gossipglove.com
       path: /assignment
-  - name: 377 SG
+  - name: 379 SG
     network: ws
     password: "521314"
     port: 443
@@ -1549,7 +1549,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 378 US
+  - name: 380 US
     network: ws
     password: humanity
     port: 443
@@ -1562,7 +1562,7 @@ proxies:
       headers:
         host: www.gossipglove.com
       path: /assignment
-  - name: 418 US
+  - name: 420 US
     network: ws
     password: humanity
     port: 443
@@ -1573,7 +1573,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 420 US
+  - name: 421 US
     network: ws
     password: humanity
     port: 443
@@ -1649,6 +1649,18 @@ proxies:
         Host: mitivpn---ss--s---mitivpn-33e.global.ssl.fastly.net
       path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
   - name: 486 US
+    server: 162.159.254.191
+    port: 443
+    type: trojan
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.ignitelimit.com
+  - name: 487 US
     server: 95.164.33.62
     port: 443
     type: trojan
@@ -1660,7 +1672,7 @@ proxies:
       path: /websocket
       headers:
         Host: sourceforge.net
-  - name: 487 US
+  - name: 488 US
     server: 66.228.55.178
     port: 2083
     type: trojan
@@ -1672,84 +1684,7 @@ proxies:
       path: /
       headers:
         Host: gstatic.com
-  - name: 488 US
-    type: trojan
-    server: 199.232.78.101
-    port: 443
-    password: mitivpn
-    sni: ssl.fastly.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        Host: mitivpn---ss--s---mitivpn-11e.global.ssl.fastly.net
-    udp: true
-  - name: 489 US
-    type: trojan
-    server: 199.232.78.160
-    port: 443
-    password: mitivpn
-    sni: ssl.fastly.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        Host: mitivpn---ss--s---mitivpn-55e.global.ssl.fastly.net
-    udp: true
-  - name: 490 US
-    type: trojan
-    server: 151.101.56.7
-    port: 443
-    password: mitivpn
-    sni: ssl.fastly.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        Host: mitivpn---ss--s---mitivpn-22e.global.ssl.fastly.net
-    udp: true
-  - name: 499 US
-    type: trojan
-    server: 162.159.244.91
-    port: 443
-    password: humanity
-    sni: www.calmlunch.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.calmlunch.com
-    udp: true
-  - name: 556 US
-    server: 162.159.254.191
-    port: 443
-    type: trojan
-    password: humanity
-    sni: www.ignitelimit.com
-    alpn:
-      - h3
-      - h2
-      - http/1.1
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.ignitelimit.com
-    udp: true
-  - name: 557 US
-    server: 151.101.56.56
-    port: 443
-    type: trojan
-    password: mitivpn
-    sni: ssl.fastly.com
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/NLSs---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1
-      headers:
-        Host: ssl.fastly.com
-  - name: 578 US
+  - name: 565 US
     type: trojan
     server: blog.webex.com
     port: 443
@@ -1761,7 +1696,7 @@ proxies:
       headers:
         Host: unnes.ac.id.yxls.eu.cc
       path: /br-orcl
-  - name: 603 US
+  - name: 591 US
     server: notdirect.howhealthyistoomajreally.homes
     port: 443
     type: trojan
@@ -1773,7 +1708,7 @@ proxies:
       path: /ilb9fuWfuqWDjlQrGCkIH66kMFPa
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
-  - name: 604 US
+  - name: 592 US
     server: cnamemc1.cdncisco4.co
     port: 443
     type: trojan
@@ -1785,7 +1720,7 @@ proxies:
       path: /422Kdfwzf49IxeZJa
       headers:
         Host: c1mc.cdncisco4.co
-  - name: 605 AU
+  - name: 593 AU
     server: cnamemt.ciscocdn1.live
     port: 443
     type: trojan
@@ -1797,7 +1732,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mt.ciscocdn1.live
-  - name: 606 AU
+  - name: 594 AU
     server: cnamemk.ciscocdn1.live
     port: 443
     type: trojan
@@ -1809,7 +1744,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mk.ciscocdn1.live
-  - name: 607 AU
+  - name: 595 AU
     server: cnamemc.ciscocdn1.live
     port: 443
     type: trojan

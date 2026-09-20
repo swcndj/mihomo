@@ -1,16 +1,14 @@
 proxies:
-  - fingerprint: ""
-    name: 609 TW
-    password: 9sK2mP8xQ7vL3nZ6
-    port: 443
-    server: 6ivh.pnuqcnp.cn
+  - name: 596 HK
+    password: dCwrni
+    port: 7008
+    server: api.meituan88.com
     skip-cert-verify: true
-    sni: images.ctfassets.net
+    sni: globalnetworktraffic.com
     type: anytls
     udp: true
-    username: 9sK2mP8xQ7vL3nZ6
   - fingerprint: ""
-    name: 611 HK
+    name: 598 HK
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
@@ -20,7 +18,17 @@ proxies:
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
   - fingerprint: ""
-    name: 612 TW
+    name: 599 TW
+    password: 9sK2mP8xQ7vL3nZ6
+    port: 443
+    server: 6ivh.pnuqcnp.cn
+    skip-cert-verify: true
+    sni: images.ctfassets.net
+    type: anytls
+    udp: true
+    username: 9sK2mP8xQ7vL3nZ6
+  - fingerprint: ""
+    name: 602 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: awefd2313fefarg23fr24.pnuqcnp.cn
@@ -29,8 +37,50 @@ proxies:
     type: anytls
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
+  - name: 622 JP
+    password: 35936816-394d-4942-b872-fe6047e7b0dd
+    port: 40055
+    server: jp5.catzl.top
+    type: anytls
+    udp: true
+    sni: jp5.catzl.top
+  - name: 623 TW
+    password: 35936816-394d-4942-b872-fe6047e7b0dd
+    port: 40071
+    server: tw1.catzl.top
+    type: anytls
+    udp: true
+    sni: tw1.catzl.top
+  - name: 624 KR
+    password: 35936816-394d-4942-b872-fe6047e7b0dd
+    port: 40041
+    server: kr1.catzl.top
+    type: anytls
+    udp: true
+    sni: kr1.catzl.top
+  - name: 625 TW
+    password: 35936816-394d-4942-b872-fe6047e7b0dd
+    port: 40072
+    server: tw2.catzl.top
+    type: anytls
+    udp: true
+    sni: tw2.catzl.top
+  - name: 626 US
+    password: 35936816-394d-4942-b872-fe6047e7b0dd
+    port: 40022
+    server: us2.catzl.top
+    type: anytls
+    udp: true
+    sni: us2.catzl.top
+  - name: 627 KR
+    password: 35936816-394d-4942-b872-fe6047e7b0dd
+    port: 40042
+    server: kr2.catzl.top
+    type: anytls
+    udp: true
+    sni: kr2.catzl.top
   - type: anytls
-    name: 635 US
+    name: 629 US
     server: anytls2.864106.xyz
     port: 19000
     udp: true
