@@ -1,6 +1,6 @@
 proxies:
   - fingerprint: ""
-    name: 701 TW
+    name: 688 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: 6ivh.pnuqcnp.cn
@@ -9,23 +9,8 @@ proxies:
     type: anytls
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
-  - name: 702 US
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 19000
-    server: anytls2.864106.xyz
-    skip-cert-verify: true
-    sni: anytls2.864106.xyz
-    type: anytls
-  - name: 703 HK
-    password: dCwrni
-    port: 7008
-    server: api.meituan88.com
-    skip-cert-verify: true
-    sni: globalnetworktraffic.com
-    type: anytls
-    udp: true
   - fingerprint: ""
-    name: 704 HK
+    name: 689 HK
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
@@ -34,8 +19,73 @@ proxies:
     type: anytls
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
+  - name: 690 US
+    password: github.com/Alvin9999-newpac/fanqiang
+    port: 19000
+    server: anytls2.864106.xyz
+    skip-cert-verify: true
+    sni: anytls2.864106.xyz
+    type: anytls
+  - fingerprint: ""
+    name: 691 TW
+    password: 9sK2mP8xQ7vL3nZ6
+    port: 443
+    server: awefd2313fefarg23fr24.pnuqcnp.cn
+    skip-cert-verify: true
+    sni: images.ctfassets.net
+    type: anytls
+    udp: true
+    username: 9sK2mP8xQ7vL3nZ6
+  - name: 692 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56307
+    server: a7.entrance.app.xdns.men
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 693 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56301
+    server: a1.entrance.app.xdns.men
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 694 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56308
+    server: a8.entrance.app.xdns.win
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 695 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56309
+    server: a9.entrance.app.xdns.win
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 696 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56306
+    server: a6.entrance.app.xdns.men
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 697 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56304
+    server: a4.entrance.app.xdns.win
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
   - type: anytls
-    name: 733 KR
+    name: 721 KR
     server: svip.skycon808.com
     port: 60005
     udp: true
@@ -46,11 +96,3 @@ proxies:
     packetEncoding: none
     allowInsecure: "1"
     sub-tag: R002-260618
-  - name: 734 TW
-    type: anytls
-    server: awefd2313fefarg23fr24.pnuqcnp.cn
-    port: 443
-    password: 9sK2mP8xQ7vL3nZ6
-    udp: true
-    sni: images.ctfassets.net
-    skip-cert-verify: true

@@ -1389,7 +1389,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 196 JP
+  - name: 195 JP
     type: trojan
     server: 185.220.238.77
     port: 11543
@@ -1398,7 +1398,7 @@ proxies:
     skip-cert-verify: true
     ws-opts:
       path: /api
-  - name: 197 JP
+  - name: 196 JP
     type: trojan
     server: 168.138.212.80
     port: 443
@@ -1411,7 +1411,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 198 KR
+  - name: 197 KR
     type: trojan
     server: 132.226.23.185
     port: 443
@@ -1423,7 +1423,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 199 KR
+  - name: 198 KR
     type: trojan
     server: 211.49.57.178
     port: 443
@@ -1435,7 +1435,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 200 KR
+  - name: 199 KR
     type: trojan
     server: 211.49.57.175
     port: 443
@@ -1447,7 +1447,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 201 US
+  - name: 200 US
     type: trojan
     server: 45.38.60.139
     port: 443
@@ -1459,7 +1459,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 267 US
+  - name: 269 US
     password: mitivpn
     port: 443
     server: 167.82.76.7
@@ -1471,7 +1471,7 @@ proxies:
       headers:
         Host: mitivpn---ss--s---mitivpn-33e.global.ssl.fastly.net
       path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-  - name: 268 US
+  - name: 270 US
     password: humanity
     port: 443
     server: 216.24.57.7
@@ -1483,7 +1483,7 @@ proxies:
       headers:
         Host: www.ignitelimit.com
       path: /assignment
-  - name: 270 US
+  - name: 272 US
     password: humanity
     port: 443
     server: 130.250.137.171
@@ -1493,18 +1493,20 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 286 US
+  - name: 276 US
     password: humanity
     port: 443
-    server: 8.6.112.6
-    skip-cert-verify: false
+    server: 162.159.254.191
+    skip-cert-verify: true
     sni: www.ignitelimit.com
     type: trojan
     udp: true
     ws-opts:
+      headers:
+        Host: www.ignitelimit.com
       path: /assignment
   - client-fingerprint: chrome
-    name: 289 US
+    name: 283 US
     network: ws
     password: humanity
     port: 443
@@ -1517,10 +1519,66 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
       path: /assignment
+  - client-fingerprint: chrome
+    name: 285 US
+    network: ws
+    password: humanity
+    port: 443
+    server: 8.6.112.6
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
+      path: /assignment
+  - client-fingerprint: chrome
+    name: 287 US
+    network: ws
+    password: humanity
+    port: 8443
+    server: 5.78.92.27
+    skip-cert-verify: false
+    sni: www.calmlunch.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
+      path: /assignment
+  - client-fingerprint: chrome
+    name: 289 US
+    network: ws
+    password: humanity
+    port: 443
+    server: 216.24.57.1
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+      path: /assignment
+  - client-fingerprint: chrome
+    name: 290 US
+    network: ws
+    password: humanity
+    port: 443
+    server: render.com
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      path: /assignment
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 324 US
+    name: 291 US
     network: ws
     password: humanity
     port: 443
@@ -1533,7 +1591,18 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
       path: /assignment
-  - name: 346 US
+  - name: 299 US
+    network: ws
+    password: humanity
+    port: 443
+    server: 141.193.213.21
+    skip-cert-verify: false
+    sni: www.multiplydose.com
+    type: trojan
+    udp: true
+    ws-opts:
+      path: /assignment
+  - name: 370 US
     network: ws
     password: humanity
     port: 443
@@ -1546,7 +1615,7 @@ proxies:
       headers:
         host: www.gossipglove.com
       path: /assignment
-  - name: 375 SG
+  - name: 398 SG
     network: ws
     password: "521314"
     port: 443
@@ -1559,7 +1628,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 376 US
+  - name: 399 US
     network: ws
     password: humanity
     port: 443
@@ -1572,30 +1641,7 @@ proxies:
       headers:
         host: www.gossipglove.com
       path: /assignment
-  - name: 416 US
-    network: ws
-    password: humanity
-    port: 443
-    server: 141.193.213.21
-    skip-cert-verify: false
-    sni: www.multiplydose.com
-    type: trojan
-    udp: true
-    ws-opts:
-      path: /assignment
-  - name: 417 US
-    type: trojan
-    server: blog.webex.com
-    port: 443
-    network: ws
-    password: afbcd89a-5a90-4a44-a42a-be08f444aa3f
-    skip-cert-verify: false
-    sni: unnes.ac.id.yxls.eu.cc
-    ws-opts:
-      headers:
-        Host: unnes.ac.id.yxls.eu.cc
-      path: /br-orcl
-  - name: 419 US
+  - name: 439 US
     network: ws
     password: humanity
     port: 443
@@ -1608,7 +1654,7 @@ proxies:
       headers:
         host: www.creationlong.org
       path: /assignment
-  - name: 420 US
+  - name: 440 US
     network: ws
     password: humanity
     port: 443
@@ -1621,7 +1667,7 @@ proxies:
       headers:
         host: www.creationlong.org
       path: /assignment
-  - name: 470 SG
+  - name: 490 SG
     network: ws
     password: "521314"
     port: 443
@@ -1634,7 +1680,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 471 SG
+  - name: 491 SG
     network: ws
     password: "521314"
     port: 443
@@ -1647,30 +1693,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 472 US
-    network: ws
-    password: humanity
-    port: 443
-    server: 216.24.57.1
-    skip-cert-verify: false
-    sni: www.creationlong.org
-    type: trojan
-    udp: true
-    ws-opts:
-      path: /assignment
-  - name: 481 US
-    password: humanity
-    port: 443
-    server: 162.159.254.191
-    skip-cert-verify: true
-    sni: www.ignitelimit.com
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: www.ignitelimit.com
-      path: /assignment
-  - name: 482 US
+  - name: 518 US
     server: 95.164.33.62
     port: 443
     type: trojan
@@ -1682,7 +1705,7 @@ proxies:
       path: /websocket
       headers:
         Host: sourceforge.net
-  - name: 483 US
+  - name: 519 US
     server: 66.228.55.178
     port: 2083
     type: trojan
@@ -1694,7 +1717,19 @@ proxies:
       path: /
       headers:
         Host: gstatic.com
-  - name: 696 US
+  - name: 646 US
+    type: trojan
+    server: blog.webex.com
+    port: 443
+    network: ws
+    password: afbcd89a-5a90-4a44-a42a-be08f444aa3f
+    skip-cert-verify: false
+    sni: unnes.ac.id.yxls.eu.cc
+    ws-opts:
+      headers:
+        Host: unnes.ac.id.yxls.eu.cc
+      path: /br-orcl
+  - name: 683 US
     server: notdirect.howhealthyistoomajreally.homes
     port: 443
     type: trojan
@@ -1706,7 +1741,7 @@ proxies:
       path: /ilb9fuWfuqWDjlQrGCkIH66kMFPa
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
-  - name: 697 US
+  - name: 684 US
     server: cnamemc1.cdncisco4.co
     port: 443
     type: trojan
@@ -1718,7 +1753,7 @@ proxies:
       path: /422Kdfwzf49IxeZJa
       headers:
         Host: c1mc.cdncisco4.co
-  - name: 698 AU
+  - name: 685 AU
     server: cnamemt.ciscocdn1.live
     port: 443
     type: trojan
@@ -1730,7 +1765,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mt.ciscocdn1.live
-  - name: 699 AU
+  - name: 686 AU
     server: cnamemk.ciscocdn1.live
     port: 443
     type: trojan
@@ -1742,7 +1777,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mk.ciscocdn1.live
-  - name: 700 AU
+  - name: 687 AU
     server: cnamemc.ciscocdn1.live
     port: 443
     type: trojan
