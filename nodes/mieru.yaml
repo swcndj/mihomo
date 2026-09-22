@@ -7,3 +7,11 @@ proxies:
     password: dongtaiwang.com
     transport: TCP
     username: dongtaiwang.com
+  - multiplexing: MULTIPLEXING_LOW
+    name: 642 TW
+    password: dongtaiwang.com
+    port: 28866
+    server: 45.221.98.11
+    transport: TCP
+    type: mieru
+    username: dongtaiwang.com
