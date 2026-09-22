@@ -77,7 +77,7 @@ tun:
 proxy-providers:
   nodes_hysteria2:
     type: http
-    url: "https://raw.githubusercontent.com/swcndj/mihomoconfig/main/nodes/hysteria2.yaml"
+    url: "https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/hysteria2.yaml"
     interval: 7200
     path: ./providers/nodes_hysteria2.yaml
     health-check:
@@ -86,7 +86,7 @@ proxy-providers:
       interval: 300
   nodes_anytls:
     type: http
-    url: "https://raw.githubusercontent.com/swcndj/mihomoconfig/main/nodes/anytls.yaml"
+    url: "https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/anytls.yaml"
     interval: 7200
     path: ./providers/nodes_anytls.yaml
     health-check:
@@ -95,7 +95,7 @@ proxy-providers:
       interval: 300
   nodes_tuic:
     type: http
-    url: "https://raw.githubusercontent.com/swcndj/mihomoconfig/main/nodes/tuic.yaml"
+    url: "https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/tuic.yaml"
     interval: 7200
     path: ./providers/nodes_tuic.yaml
     health-check:
@@ -104,7 +104,7 @@ proxy-providers:
       interval: 300
   nodes_mieru:
     type: http
-    url: "https://raw.githubusercontent.com/swcndj/mihomoconfig/main/nodes/mieru.yaml"
+    url: "https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/mieru.yaml"
     interval: 7200
     path: ./providers/nodes_mieru.yaml
     health-check:
@@ -195,7 +195,7 @@ rule-providers:
     format: mrs
   direct:
     type: http
-    url: "https://raw.githubusercontent.com/swcndj/mihomoconfig/main/rules/direct.yaml"
+    url: "https://raw.githubusercontent.com/swcndj/mihomo/main/rules/direct.yaml"
     path: ./rules/direct.yaml
     interval: 86400
     behavior: domain
@@ -278,13 +278,13 @@ rule-providers:
     format: mrs
   proxy:
     type: http
-    url: "https://raw.githubusercontent.com/swcndj/mihomoconfig/main/rules/proxy.yaml"
+    url: "https://raw.githubusercontent.com/swcndj/mihomo/main/rules/proxy.yaml"
     path: ./rules/proxy.yaml
     interval: 86400
     behavior: domain
   reject:
     type: http
-    url: "https://raw.githubusercontent.com/swcndj/mihomoconfig/main/rules/reject.yaml"
+    url: "https://raw.githubusercontent.com/swcndj/mihomo/main/rules/reject.yaml"
     path: ./rules/reject.yaml
     interval: 86400
     behavior: domain
