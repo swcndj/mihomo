@@ -1602,7 +1602,19 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 370 US
+  - name: 300 US
+    type: trojan
+    server: blog.webex.com
+    port: 443
+    network: ws
+    password: afbcd89a-5a90-4a44-a42a-be08f444aa3f
+    skip-cert-verify: false
+    sni: unnes.ac.id.yxls.eu.cc
+    ws-opts:
+      headers:
+        Host: unnes.ac.id.yxls.eu.cc
+      path: /br-orcl
+  - name: 374 US
     network: ws
     password: humanity
     port: 443
@@ -1615,7 +1627,7 @@ proxies:
       headers:
         host: www.gossipglove.com
       path: /assignment
-  - name: 398 SG
+  - name: 402 SG
     network: ws
     password: "521314"
     port: 443
@@ -1628,7 +1640,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 399 US
+  - name: 403 US
     network: ws
     password: humanity
     port: 443
@@ -1641,7 +1653,7 @@ proxies:
       headers:
         host: www.gossipglove.com
       path: /assignment
-  - name: 439 US
+  - name: 443 US
     network: ws
     password: humanity
     port: 443
@@ -1654,7 +1666,7 @@ proxies:
       headers:
         host: www.creationlong.org
       path: /assignment
-  - name: 440 US
+  - name: 444 US
     network: ws
     password: humanity
     port: 443
@@ -1667,7 +1679,7 @@ proxies:
       headers:
         host: www.creationlong.org
       path: /assignment
-  - name: 490 SG
+  - name: 494 SG
     network: ws
     password: "521314"
     port: 443
@@ -1680,7 +1692,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 491 SG
+  - name: 495 SG
     network: ws
     password: "521314"
     port: 443
@@ -1693,7 +1705,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 518 US
+  - name: 522 US
     server: 95.164.33.62
     port: 443
     type: trojan
@@ -1705,7 +1717,7 @@ proxies:
       path: /websocket
       headers:
         Host: sourceforge.net
-  - name: 519 US
+  - name: 523 US
     server: 66.228.55.178
     port: 2083
     type: trojan
@@ -1717,19 +1729,7 @@ proxies:
       path: /
       headers:
         Host: gstatic.com
-  - name: 646 US
-    type: trojan
-    server: blog.webex.com
-    port: 443
-    network: ws
-    password: afbcd89a-5a90-4a44-a42a-be08f444aa3f
-    skip-cert-verify: false
-    sni: unnes.ac.id.yxls.eu.cc
-    ws-opts:
-      headers:
-        Host: unnes.ac.id.yxls.eu.cc
-      path: /br-orcl
-  - name: 683 US
+  - name: 620 US
     server: notdirect.howhealthyistoomajreally.homes
     port: 443
     type: trojan
@@ -1741,7 +1741,7 @@ proxies:
       path: /ilb9fuWfuqWDjlQrGCkIH66kMFPa
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
-  - name: 684 US
+  - name: 621 US
     server: cnamemc1.cdncisco4.co
     port: 443
     type: trojan
@@ -1753,7 +1753,7 @@ proxies:
       path: /422Kdfwzf49IxeZJa
       headers:
         Host: c1mc.cdncisco4.co
-  - name: 685 AU
+  - name: 622 AU
     server: cnamemt.ciscocdn1.live
     port: 443
     type: trojan
@@ -1765,7 +1765,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mt.ciscocdn1.live
-  - name: 686 AU
+  - name: 623 AU
     server: cnamemk.ciscocdn1.live
     port: 443
     type: trojan
@@ -1777,7 +1777,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mk.ciscocdn1.live
-  - name: 687 AU
+  - name: 624 AU
     server: cnamemc.ciscocdn1.live
     port: 443
     type: trojan
