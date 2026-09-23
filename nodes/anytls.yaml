@@ -1,6 +1,6 @@
 proxies:
   - fingerprint: ""
-    name: 645 TW
+    name: 783 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: 6ivh.pnuqcnp.cn
@@ -9,30 +9,15 @@ proxies:
     type: anytls
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
-  - fingerprint: ""
-    name: 646 HK
-    password: 9sK2mP8xQ7vL3nZ6
-    port: 443
-    server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
-    skip-cert-verify: true
-    sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
-    type: anytls
-    udp: true
-    username: 9sK2mP8xQ7vL3nZ6
-  - name: 647 US
+  - name: 784 US
     password: github.com/Alvin9999-newpac/fanqiang
     port: 19000
     server: anytls2.864106.xyz
     skip-cert-verify: true
     sni: anytls2.864106.xyz
     type: anytls
-  - name: 648 SG
-    password: 6a561fea-d717-4fd1-93f3-097f3f83ef1c
-    port: 17961
-    server: jjz.jjznodenode.top
-    type: anytls
   - fingerprint: ""
-    name: 649 TW
+    name: 786 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: awefd2313fefarg23fr24.pnuqcnp.cn
@@ -41,3 +26,21 @@ proxies:
     type: anytls
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
+  - fingerprint: ""
+    name: 789 HK
+    password: 9sK2mP8xQ7vL3nZ6
+    port: 443
+    server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
+    skip-cert-verify: true
+    sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
+    type: anytls
+    udp: true
+    username: 9sK2mP8xQ7vL3nZ6
+  - name: 805 TW
+    server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
+    port: 443
+    type: anytls
+    password: 9sK2mP8xQ7vL3nZ6
+    udp: true
+    sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
+    skip-cert-verify: true
