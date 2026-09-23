@@ -1,6 +1,6 @@
 proxies:
   - fingerprint: ""
-    name: 783 TW
+    name: 784 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: 6ivh.pnuqcnp.cn
@@ -9,7 +9,7 @@ proxies:
     type: anytls
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
-  - name: 784 US
+  - name: 785 US
     password: github.com/Alvin9999-newpac/fanqiang
     port: 19000
     server: anytls2.864106.xyz
@@ -17,7 +17,7 @@ proxies:
     sni: anytls2.864106.xyz
     type: anytls
   - fingerprint: ""
-    name: 786 TW
+    name: 787 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: awefd2313fefarg23fr24.pnuqcnp.cn
@@ -27,7 +27,7 @@ proxies:
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
   - fingerprint: ""
-    name: 789 HK
+    name: 790 HK
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
@@ -36,7 +36,7 @@ proxies:
     type: anytls
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
-  - name: 805 TW
+  - name: 808 TW
     server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
     port: 443
     type: anytls
@@ -44,3 +44,38 @@ proxies:
     udp: true
     sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
     skip-cert-verify: true
+  - name: 810 US
+    password: d9d8d032-4dda-451b-93e3-00a57278eb51
+    port: 40022
+    server: us2.catzl.top
+    type: anytls
+    udp: true
+    sni: us2.catzl.top
+  - name: 811 KR
+    password: d9d8d032-4dda-451b-93e3-00a57278eb51
+    port: 40041
+    server: kr1.catzl.top
+    type: anytls
+    udp: true
+    sni: kr1.catzl.top
+  - name: 812 TW
+    password: d9d8d032-4dda-451b-93e3-00a57278eb51
+    port: 40071
+    server: tw1.catzl.top
+    type: anytls
+    udp: true
+    sni: tw1.catzl.top
+  - name: 813 TW
+    password: d9d8d032-4dda-451b-93e3-00a57278eb51
+    port: 40073
+    server: tw3.catzl.top
+    type: anytls
+    udp: true
+    sni: tw3.catzl.top
+  - name: 814 JP
+    password: d9d8d032-4dda-451b-93e3-00a57278eb51
+    port: 40055
+    server: jp5.catzl.top
+    type: anytls
+    udp: true
+    sni: jp5.catzl.top
