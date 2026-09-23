@@ -1,6 +1,6 @@
 proxies:
   - fingerprint: ""
-    name: 668 TW
+    name: 645 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: 6ivh.pnuqcnp.cn
@@ -9,25 +9,8 @@ proxies:
     type: anytls
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
-  - name: 669 US
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 19000
-    server: anytls2.864106.xyz
-    skip-cert-verify: true
-    sni: anytls2.864106.xyz
-    type: anytls
   - fingerprint: ""
-    name: 670 TW
-    password: 9sK2mP8xQ7vL3nZ6
-    port: 443
-    server: awefd2313fefarg23fr24.pnuqcnp.cn
-    skip-cert-verify: true
-    sni: images.ctfassets.net
-    type: anytls
-    udp: true
-    username: 9sK2mP8xQ7vL3nZ6
-  - fingerprint: ""
-    name: 671 HK
+    name: 646 HK
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
@@ -36,15 +19,25 @@ proxies:
     type: anytls
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
-  - type: anytls
-    name: 697 KR
-    server: svip.skycon808.com
-    port: 60005
-    udp: true
-    sni: xjp18.2uuzhe.com
+  - name: 647 US
+    password: github.com/Alvin9999-newpac/fanqiang
+    port: 19000
+    server: anytls2.864106.xyz
     skip-cert-verify: true
-    packet-encoding: ""
-    password: 13f0acfa-38c1-4e82-a758-583aa31740df
-    packetEncoding: none
-    allowInsecure: "1"
-    sub-tag: R002-260618
+    sni: anytls2.864106.xyz
+    type: anytls
+  - name: 648 SG
+    password: 6a561fea-d717-4fd1-93f3-097f3f83ef1c
+    port: 17961
+    server: jjz.jjznodenode.top
+    type: anytls
+  - fingerprint: ""
+    name: 649 TW
+    password: 9sK2mP8xQ7vL3nZ6
+    port: 443
+    server: awefd2313fefarg23fr24.pnuqcnp.cn
+    skip-cert-verify: true
+    sni: images.ctfassets.net
+    type: anytls
+    udp: true
+    username: 9sK2mP8xQ7vL3nZ6
