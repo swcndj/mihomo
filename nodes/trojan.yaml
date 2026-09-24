@@ -1578,12 +1578,24 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
+  - name: 306 US
+    type: trojan
+    server: blog.webex.com
+    port: 443
+    network: ws
+    password: afbcd89a-5a90-4a44-a42a-be08f444aa3f
+    skip-cert-verify: false
+    sni: unnes.ac.id.yxls.eu.cc
+    ws-opts:
+      headers:
+        Host: unnes.ac.id.yxls.eu.cc
+      path: /br-orcl
   - alpn:
       - h3
       - h2
       - http/1.1
     client-fingerprint: chrome
-    name: 308 US
+    name: 307 US
     network: ws
     password: humanity
     port: 443
@@ -1596,7 +1608,19 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
       path: /assignment
-  - name: 358 US
+  - name: 350 US
+    type: trojan
+    server: 151.101.56.6
+    port: 443
+    password: MiTiVPN
+    sni: ssl.fastly.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      headers:
+        Host: mitivpn---ss--s---mitivpn-1.global.ssl.fastly.net
+    udp: true
+  - name: 359 US
     password: MiTIVPN
     port: 443
     server: 167.82.76.7
@@ -1608,7 +1632,7 @@ proxies:
       headers:
         Host: mitivpn---ss--s---mitivpn-33e.global.ssl.fastly.net
       path: /
-  - name: 360 US
+  - name: 361 US
     password: MiTIVPN
     port: 443
     server: 199.232.78.160
@@ -1620,7 +1644,7 @@ proxies:
       headers:
         Host: mitivpn---ss--s---mitivpn-44e.global.ssl.fastly.net
       path: /
-  - name: 433 US
+  - name: 434 US
     network: ws
     password: humanity
     port: 443
@@ -1634,7 +1658,7 @@ proxies:
         host: www.gossipglove.com
       path: /assignment
   - client-fingerprint: chrome
-    name: 436 US
+    name: 437 US
     network: ws
     password: humanity
     port: 8443
@@ -1647,7 +1671,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
       path: /assignment
-  - name: 466 SG
+  - name: 467 SG
     network: ws
     password: "521314"
     port: 443
@@ -1660,6 +1684,18 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
+  - name: 518 US
+    type: trojan
+    server: 151.101.56.7
+    port: 443
+    password: MiTiVPN
+    sni: ssl.fastly.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      headers:
+        Host: mitivpn-mitivpn-mitivpn-bb-mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
+    udp: true
   - name: 563 US
     network: ws
     password: humanity
@@ -1749,19 +1785,19 @@ proxies:
       path: /
       headers:
         Host: gstatic.com
-  - name: 754 US
+  - name: 691 US
     type: trojan
-    server: blog.webex.com
+    server: 167.82.76.27
     port: 443
-    network: ws
-    password: afbcd89a-5a90-4a44-a42a-be08f444aa3f
-    skip-cert-verify: false
-    sni: unnes.ac.id.yxls.eu.cc
+    password: MiTiVPN
+    sni: ssl.fastly.com
+    skip-cert-verify: true
     ws-opts:
+      path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
       headers:
-        Host: unnes.ac.id.yxls.eu.cc
-      path: /br-orcl
-  - name: 763 US
+        Host: mitivpn---ss--s---mitivpn-3.global.ssl.fastly.net
+    udp: true
+  - name: 751 US
     network: ws
     password: e20fd145-65f1-4aa3-96be-da0524bbb16e
     port: 20230
@@ -1772,7 +1808,7 @@ proxies:
     udp: true
     ws-opts:
       path: /
-  - name: 780 US
+  - name: 769 US
     server: notdirect.howhealthyistoomajreally.homes
     port: 443
     type: trojan
@@ -1784,7 +1820,7 @@ proxies:
       path: /ilb9fuWfuqWDjlQrGCkIH66kMFPa
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
-  - name: 781 US
+  - name: 770 US
     server: cnamemc1.cdncisco4.co
     port: 443
     type: trojan
@@ -1796,7 +1832,7 @@ proxies:
       path: /422Kdfwzf49IxeZJa
       headers:
         Host: c1mc.cdncisco4.co
-  - name: 782 AU
+  - name: 771 AU
     server: cnamemt.ciscocdn1.live
     port: 443
     type: trojan
@@ -1808,7 +1844,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mt.ciscocdn1.live
-  - name: 783 AU
+  - name: 772 AU
     server: cnamemk.ciscocdn1.live
     port: 443
     type: trojan
@@ -1820,7 +1856,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mk.ciscocdn1.live
-  - name: 784 AU
+  - name: 773 AU
     server: cnamemc.ciscocdn1.live
     port: 443
     type: trojan
