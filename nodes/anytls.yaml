@@ -1,13 +1,6 @@
 proxies:
-  - name: 734 TW
-    password: 9sK2mP8xQ7vL3nZ6
-    port: 443
-    server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
-    skip-cert-verify: true
-    sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
-    type: anytls
   - fingerprint: ""
-    name: 735 TW
+    name: 732 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: 6ivh.pnuqcnp.cn
@@ -16,15 +9,8 @@ proxies:
     type: anytls
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
-  - name: 736 US
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 19000
-    server: anytls2.864106.xyz
-    skip-cert-verify: true
-    sni: anytls2.864106.xyz
-    type: anytls
   - fingerprint: ""
-    name: 738 HK
+    name: 733 HK
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
@@ -33,11 +19,48 @@ proxies:
     type: anytls
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
-  - name: 757 TW
-    type: anytls
-    server: awefd2313fefarg23fr24.pnuqcnp.cn
-    port: 443
+  - name: 735 TW
     password: 9sK2mP8xQ7vL3nZ6
-    udp: true
-    sni: images.ctfassets.net
+    port: 443
+    server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
     skip-cert-verify: true
+    sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
+    type: anytls
+  - name: 736 US
+    password: github.com/Alvin9999-newpac/fanqiang
+    port: 19000
+    server: anytls2.864106.xyz
+    skip-cert-verify: true
+    sni: anytls2.864106.xyz
+    type: anytls
+  - fingerprint: ""
+    name: 738 TW
+    password: 9sK2mP8xQ7vL3nZ6
+    port: 443
+    server: awefd2313fefarg23fr24.pnuqcnp.cn
+    skip-cert-verify: true
+    sni: images.ctfassets.net
+    type: anytls
+    udp: true
+    username: 9sK2mP8xQ7vL3nZ6
+  - name: 758 TW
+    password: 7f7cf243-a63e-43ec-a46f-ec2ea11259cd
+    port: 40073
+    server: tw3.catzl.top
+    type: anytls
+    udp: true
+    sni: tw3.catzl.top
+  - name: 759 JP
+    password: 7f7cf243-a63e-43ec-a46f-ec2ea11259cd
+    port: 40055
+    server: jp5.catzl.top
+    type: anytls
+    udp: true
+    sni: jp5.catzl.top
+  - name: 760 TW
+    password: 7f7cf243-a63e-43ec-a46f-ec2ea11259cd
+    port: 40071
+    server: tw1.catzl.top
+    type: anytls
+    udp: true
+    sni: tw1.catzl.top
