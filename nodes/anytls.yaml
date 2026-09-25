@@ -1,40 +1,44 @@
 proxies:
-  - fingerprint: ""
-    name: 732 TW
+  - name: 664 US
+    password: af24a0e4-f5a2-4b97-a678-992d45346147
+    port: 18634
+    server: 108.186.180.148
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: anytls
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: 722 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: 6ivh.pnuqcnp.cn
     skip-cert-verify: true
     sni: images.ctfassets.net
+    tls: true
     type: anytls
     udp: true
-    username: 9sK2mP8xQ7vL3nZ6
-  - fingerprint: ""
-    name: 733 HK
-    password: 9sK2mP8xQ7vL3nZ6
-    port: 443
-    server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
-    skip-cert-verify: true
-    sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
-    type: anytls
-    udp: true
-    username: 9sK2mP8xQ7vL3nZ6
-  - name: 735 TW
+  - name: 747 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
     skip-cert-verify: true
     sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
     type: anytls
-  - name: 736 US
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 19000
-    server: anytls2.864106.xyz
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: 748 JP
+    password: 9e98496a-0036-4cc6-8302-3929c29ba772
+    port: 35791
+    server: iijjp.mggl.wang
     skip-cert-verify: true
-    sni: anytls2.864106.xyz
+    sni: www.apple.com
     type: anytls
+    udp: true
   - fingerprint: ""
-    name: 738 TW
+    name: 749 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: awefd2313fefarg23fr24.pnuqcnp.cn
@@ -43,24 +47,20 @@ proxies:
     type: anytls
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
-  - name: 758 TW
-    password: 7f7cf243-a63e-43ec-a46f-ec2ea11259cd
-    port: 40073
-    server: tw3.catzl.top
+  - name: 751 US
+    password: github.com/Alvin9999-newpac/fanqiang
+    port: 19000
+    server: anytls2.864106.xyz
+    skip-cert-verify: true
+    sni: anytls2.864106.xyz
+    type: anytls
+  - fingerprint: ""
+    name: 755 HK
+    password: 9sK2mP8xQ7vL3nZ6
+    port: 443
+    server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
+    skip-cert-verify: true
+    sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
     type: anytls
     udp: true
-    sni: tw3.catzl.top
-  - name: 759 JP
-    password: 7f7cf243-a63e-43ec-a46f-ec2ea11259cd
-    port: 40055
-    server: jp5.catzl.top
-    type: anytls
-    udp: true
-    sni: jp5.catzl.top
-  - name: 760 TW
-    password: 7f7cf243-a63e-43ec-a46f-ec2ea11259cd
-    port: 40071
-    server: tw1.catzl.top
-    type: anytls
-    udp: true
-    sni: tw1.catzl.top
+    username: 9sK2mP8xQ7vL3nZ6
