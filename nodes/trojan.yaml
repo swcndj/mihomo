@@ -1560,7 +1560,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 396 US
+    name: 397 US
     network: ws
     password: humanity
     port: 443
@@ -1574,7 +1574,7 @@ proxies:
         User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
       path: /assignment
   - client-fingerprint: chrome
-    name: 401 US
+    name: 402 US
     network: ws
     password: humanity
     port: 8443
@@ -1587,7 +1587,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
       path: /assignment
-  - name: 422 US
+  - name: 423 US
     network: ws
     password: humanity
     port: 443
@@ -1600,7 +1600,7 @@ proxies:
       headers:
         host: www.gossipglove.com
       path: /assignment
-  - name: 449 SG
+  - name: 450 SG
     network: ws
     password: "521314"
     port: 443
@@ -1613,7 +1613,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 489 US
+  - name: 490 US
     network: ws
     password: humanity
     port: 443
@@ -1624,7 +1624,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 490 US
+  - name: 491 US
     type: trojan
     server: blog.webex.com
     port: 443
@@ -1699,7 +1699,7 @@ proxies:
       path: /
       headers:
         Host: gstatic.com
-  - name: 636 US
+  - name: 626 US
     server: notdirect.howhealthyistoomajreally.homes
     port: 443
     type: trojan
@@ -1711,7 +1711,7 @@ proxies:
       path: /ilb9fuWfuqWDjlQrGCkIH66kMFPa
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
-  - name: 637 US
+  - name: 627 US
     server: cnamemc1.cdncisco4.co
     port: 443
     type: trojan
@@ -1723,7 +1723,7 @@ proxies:
       path: /422Kdfwzf49IxeZJa
       headers:
         Host: c1mc.cdncisco4.co
-  - name: 638 AU
+  - name: 628 AU
     server: cnamemt.ciscocdn1.live
     port: 443
     type: trojan
@@ -1735,7 +1735,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mt.ciscocdn1.live
-  - name: 639 AU
+  - name: 629 AU
     server: cnamemk.ciscocdn1.live
     port: 443
     type: trojan
@@ -1747,7 +1747,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mk.ciscocdn1.live
-  - name: 640 AU
+  - name: 630 AU
     server: cnamemc.ciscocdn1.live
     port: 443
     type: trojan
@@ -1759,3 +1759,13 @@ proxies:
       path: /ywQ9KSLI4ZBm9wOAXUaN
       headers:
         Host: c3mc.ciscocdn1.live
+  - name: 635 US
+    network: ws
+    password: e20fd145-65f1-4aa3-96be-da0524bbb16e
+    port: 20230
+    server: us003.421421.xyz
+    skip-cert-verify: true
+    sni: www.alibaba.com
+    type: trojan
+    ws-opts:
+      path: /

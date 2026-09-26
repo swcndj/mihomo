@@ -1,12 +1,5 @@
 proxies:
-  - name: 551 DE
-    password: 1095c731-affa-4f85-a9c8-61e495e56aca
-    port: 51061
-    server: 64.118.158.150
-    sni: dl.hu-yunpan.top
-    type: anytls
-    udp: true
-  - name: 611 HK
+  - name: 602 HK
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
@@ -18,7 +11,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 615 TW
+    name: 605 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: 6ivh.pnuqcnp.cn
@@ -27,44 +20,30 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 642 TW
-    password: 9sK2mP8xQ7vL3nZ6
-    port: 443
-    server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
+  - name: 631 KR
+    password: 13f0acfa-38c1-4e82-a758-583aa31740df
+    port: 60005
+    server: svip.skycon808.com
     skip-cert-verify: true
-    sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
-    type: anytls
-  - name: 643 KR
-    password: 1095c731-affa-4f85-a9c8-61e495e56aca
-    port: 51023
-    server: 7b-1m1.6c9bbdd6-6a9b-447f-a87b-10707457c3a2.abccba.top
-    skip-cert-verify: true
-    sni: gs-drcn.game.dbankcloud.cn
+    sni: xjp18.2uuzhe.com
     type: anytls
     udp: true
-  - name: 644 KR
-    password: 1095c731-affa-4f85-a9c8-61e495e56aca
-    port: 51003
-    server: 7b-1m1.6c9bbdd6-6a9b-447f-a87b-10707457c3a2.abccba.top
-    sni: dl.hu-yunpan.top
-    type: anytls
-    udp: true
-  - name: 645 KR
-    password: 1095c731-affa-4f85-a9c8-61e495e56aca
-    port: 51051
-    server: 7b-1m1.6c9bbdd6-6a9b-447f-a87b-10707457c3a2.abccba.top
-    sni: dl.hu-yunpan.top
-    type: anytls
-    udp: true
-  - name: 646 US
+  - name: 632 US
     password: github.com/Alvin9999-newpac/fanqiang
     port: 19000
     server: anytls2.864106.xyz
     skip-cert-verify: true
     sni: anytls2.864106.xyz
     type: anytls
+  - name: 633 TW
+    password: 9sK2mP8xQ7vL3nZ6
+    port: 443
+    server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
+    skip-cert-verify: true
+    sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
+    type: anytls
   - fingerprint: ""
-    name: 647 TW
+    name: 634 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: awefd2313fefarg23fr24.pnuqcnp.cn
@@ -73,10 +52,3 @@ proxies:
     type: anytls
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
-  - name: 648 US
-    password: 1095c731-affa-4f85-a9c8-61e495e56aca
-    port: 51043
-    server: 03-e0.37662006-19e6-4858-ace1-df9d1a149332.abccba.top
-    sni: dl.hu-yunpan.top
-    type: anytls
-    udp: true
