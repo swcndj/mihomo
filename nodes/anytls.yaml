@@ -1,15 +1,24 @@
 proxies:
-  - name: 654 DE
+  - name: 551 DE
     password: 1095c731-affa-4f85-a9c8-61e495e56aca
     port: 51061
     server: 64.118.158.150
     sni: dl.hu-yunpan.top
     type: anytls
     udp: true
+  - name: 611 HK
+    password: 9sK2mP8xQ7vL3nZ6
+    port: 443
+    server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
+    skip-cert-verify: true
+    sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
+    tls: false
+    type: anytls
+    udp: true
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 718 TW
+    name: 615 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: 6ivh.pnuqcnp.cn
@@ -18,24 +27,14 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - fingerprint: ""
-    name: 743 HK
-    password: 9sK2mP8xQ7vL3nZ6
-    port: 443
-    server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
-    skip-cert-verify: true
-    sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
-    type: anytls
-    udp: true
-    username: 9sK2mP8xQ7vL3nZ6
-  - name: 744 TW
+  - name: 642 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
     skip-cert-verify: true
     sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
     type: anytls
-  - name: 745 US
+  - name: 643 KR
     password: 1095c731-affa-4f85-a9c8-61e495e56aca
     port: 51023
     server: 7b-1m1.6c9bbdd6-6a9b-447f-a87b-10707457c3a2.abccba.top
@@ -43,21 +42,21 @@ proxies:
     sni: gs-drcn.game.dbankcloud.cn
     type: anytls
     udp: true
-  - name: 746 US
+  - name: 644 KR
     password: 1095c731-affa-4f85-a9c8-61e495e56aca
     port: 51003
     server: 7b-1m1.6c9bbdd6-6a9b-447f-a87b-10707457c3a2.abccba.top
     sni: dl.hu-yunpan.top
     type: anytls
     udp: true
-  - name: 747 US
+  - name: 645 KR
     password: 1095c731-affa-4f85-a9c8-61e495e56aca
     port: 51051
     server: 7b-1m1.6c9bbdd6-6a9b-447f-a87b-10707457c3a2.abccba.top
     sni: dl.hu-yunpan.top
     type: anytls
     udp: true
-  - name: 748 US
+  - name: 646 US
     password: github.com/Alvin9999-newpac/fanqiang
     port: 19000
     server: anytls2.864106.xyz
@@ -65,7 +64,7 @@ proxies:
     sni: anytls2.864106.xyz
     type: anytls
   - fingerprint: ""
-    name: 749 TW
+    name: 647 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: awefd2313fefarg23fr24.pnuqcnp.cn
@@ -74,39 +73,10 @@ proxies:
     type: anytls
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
-  - name: 750 US
+  - name: 648 US
     password: 1095c731-affa-4f85-a9c8-61e495e56aca
     port: 51043
     server: 03-e0.37662006-19e6-4858-ace1-df9d1a149332.abccba.top
     sni: dl.hu-yunpan.top
     type: anytls
     udp: true
-  - name: 751 US
-    server: b33-49p.2b5eb606-dd09-4177-ab33-490fc6e184fb.abccba.top
-    port: 51023
-    type: anytls
-    password: 1095c731-affa-4f85-a9c8-61e495e56aca
-    udp: true
-    sni: aplus.alibaba.com
-    skip-cert-verify: true
-  - name: 773 TW
-    password: bd92ae36-1bd9-43f2-94ae-1e1bfaae1711
-    port: 40073
-    server: tw3.catzl.top
-    type: anytls
-    udp: true
-    sni: tw3.catzl.top
-  - name: 774 JP
-    password: bd92ae36-1bd9-43f2-94ae-1e1bfaae1711
-    port: 40055
-    server: jp5.catzl.top
-    type: anytls
-    udp: true
-    sni: jp5.catzl.top
-  - name: 775 US
-    password: bd92ae36-1bd9-43f2-94ae-1e1bfaae1711
-    port: 40022
-    server: us2.catzl.top
-    type: anytls
-    udp: true
-    sni: us2.catzl.top
