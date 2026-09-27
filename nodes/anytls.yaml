@@ -1,5 +1,5 @@
 proxies:
-  - name: 602 HK
+  - name: 603 HK
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
@@ -11,7 +11,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 605 TW
+    name: 606 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: 6ivh.pnuqcnp.cn
@@ -20,7 +20,7 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 631 KR
+  - name: 632 KR
     password: 13f0acfa-38c1-4e82-a758-583aa31740df
     port: 60005
     server: svip.skycon808.com
@@ -28,14 +28,14 @@ proxies:
     sni: xjp18.2uuzhe.com
     type: anytls
     udp: true
-  - name: 632 US
+  - name: 633 US
     password: github.com/Alvin9999-newpac/fanqiang
     port: 19000
     server: anytls2.864106.xyz
     skip-cert-verify: true
     sni: anytls2.864106.xyz
     type: anytls
-  - name: 633 TW
+  - name: 634 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
@@ -43,7 +43,7 @@ proxies:
     sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
     type: anytls
   - fingerprint: ""
-    name: 634 TW
+    name: 635 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: awefd2313fefarg23fr24.pnuqcnp.cn

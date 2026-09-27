@@ -1557,6 +1557,18 @@ proxies:
       headers:
         host: www.gossipglove.com
       path: /assignment
+  - name: 377 US
+    type: trojan
+    server: blog.webex.com
+    port: 443
+    network: ws
+    password: afbcd89a-5a90-4a44-a42a-be08f444aa3f
+    skip-cert-verify: false
+    sni: unnes.ac.id.yxls.eu.cc
+    ws-opts:
+      headers:
+        Host: unnes.ac.id.yxls.eu.cc
+      path: /br-orcl
   - alpn:
       - http/1.1
     client-fingerprint: chrome
@@ -1624,18 +1636,6 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 491 US
-    type: trojan
-    server: blog.webex.com
-    port: 443
-    network: ws
-    password: afbcd89a-5a90-4a44-a42a-be08f444aa3f
-    skip-cert-verify: false
-    sni: unnes.ac.id.yxls.eu.cc
-    ws-opts:
-      headers:
-        Host: unnes.ac.id.yxls.eu.cc
-      path: /br-orcl
   - name: 492 US
     network: ws
     password: humanity
@@ -1699,7 +1699,7 @@ proxies:
       path: /
       headers:
         Host: gstatic.com
-  - name: 626 US
+  - name: 627 US
     server: notdirect.howhealthyistoomajreally.homes
     port: 443
     type: trojan
@@ -1711,7 +1711,7 @@ proxies:
       path: /ilb9fuWfuqWDjlQrGCkIH66kMFPa
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
-  - name: 627 US
+  - name: 628 US
     server: cnamemc1.cdncisco4.co
     port: 443
     type: trojan
@@ -1723,7 +1723,7 @@ proxies:
       path: /422Kdfwzf49IxeZJa
       headers:
         Host: c1mc.cdncisco4.co
-  - name: 628 AU
+  - name: 629 AU
     server: cnamemt.ciscocdn1.live
     port: 443
     type: trojan
@@ -1735,7 +1735,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mt.ciscocdn1.live
-  - name: 629 AU
+  - name: 630 AU
     server: cnamemk.ciscocdn1.live
     port: 443
     type: trojan
@@ -1747,7 +1747,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mk.ciscocdn1.live
-  - name: 630 AU
+  - name: 631 AU
     server: cnamemc.ciscocdn1.live
     port: 443
     type: trojan
@@ -1759,7 +1759,7 @@ proxies:
       path: /ywQ9KSLI4ZBm9wOAXUaN
       headers:
         Host: c3mc.ciscocdn1.live
-  - name: 635 US
+  - name: 636 US
     network: ws
     password: e20fd145-65f1-4aa3-96be-da0524bbb16e
     port: 20230
