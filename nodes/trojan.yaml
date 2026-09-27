@@ -1557,7 +1557,7 @@ proxies:
       headers:
         host: www.gossipglove.com
       path: /assignment
-  - name: 377 US
+  - name: 378 US
     type: trojan
     server: blog.webex.com
     port: 443
@@ -1572,7 +1572,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 397 US
+    name: 398 US
     network: ws
     password: humanity
     port: 443
@@ -1586,7 +1586,7 @@ proxies:
         User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
       path: /assignment
   - client-fingerprint: chrome
-    name: 402 US
+    name: 403 US
     network: ws
     password: humanity
     port: 8443
@@ -1599,7 +1599,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
       path: /assignment
-  - name: 423 US
+  - name: 424 US
     network: ws
     password: humanity
     port: 443
@@ -1612,7 +1612,7 @@ proxies:
       headers:
         host: www.gossipglove.com
       path: /assignment
-  - name: 450 SG
+  - name: 451 SG
     network: ws
     password: "521314"
     port: 443
@@ -1625,7 +1625,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 490 US
+  - name: 491 US
     network: ws
     password: humanity
     port: 443
@@ -1636,7 +1636,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 492 US
+  - name: 493 US
     network: ws
     password: humanity
     port: 443
@@ -1649,7 +1649,7 @@ proxies:
       headers:
         host: www.creationlong.org
       path: /assignment
-  - name: 493 US
+  - name: 495 US
     network: ws
     password: humanity
     port: 443
@@ -1662,7 +1662,7 @@ proxies:
       headers:
         host: www.creationlong.org
       path: /assignment
-  - name: 542 SG
+  - name: 544 SG
     network: ws
     password: "521314"
     port: 443
@@ -1675,7 +1675,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 549 US
+  - name: 551 US
     server: 95.164.33.62
     port: 443
     type: trojan
@@ -1687,7 +1687,7 @@ proxies:
       path: /websocket
       headers:
         Host: sourceforge.net
-  - name: 550 US
+  - name: 552 US
     server: 66.228.55.178
     port: 2083
     type: trojan
@@ -1699,7 +1699,17 @@ proxies:
       path: /
       headers:
         Host: gstatic.com
-  - name: 627 US
+  - name: 556 US
+    type: trojan
+    server: 45.205.0.6
+    port: 443
+    password: humanity
+    sni: www.calmlunch.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+    udp: true
+  - name: 631 US
     server: notdirect.howhealthyistoomajreally.homes
     port: 443
     type: trojan
@@ -1711,7 +1721,7 @@ proxies:
       path: /ilb9fuWfuqWDjlQrGCkIH66kMFPa
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
-  - name: 628 US
+  - name: 632 US
     server: cnamemc1.cdncisco4.co
     port: 443
     type: trojan
@@ -1723,7 +1733,7 @@ proxies:
       path: /422Kdfwzf49IxeZJa
       headers:
         Host: c1mc.cdncisco4.co
-  - name: 629 AU
+  - name: 633 AU
     server: cnamemt.ciscocdn1.live
     port: 443
     type: trojan
@@ -1735,7 +1745,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mt.ciscocdn1.live
-  - name: 630 AU
+  - name: 634 AU
     server: cnamemk.ciscocdn1.live
     port: 443
     type: trojan
@@ -1747,7 +1757,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mk.ciscocdn1.live
-  - name: 631 AU
+  - name: 635 AU
     server: cnamemc.ciscocdn1.live
     port: 443
     type: trojan
@@ -1759,13 +1769,16 @@ proxies:
       path: /ywQ9KSLI4ZBm9wOAXUaN
       headers:
         Host: c3mc.ciscocdn1.live
-  - name: 636 US
-    network: ws
-    password: e20fd145-65f1-4aa3-96be-da0524bbb16e
-    port: 20230
-    server: us003.421421.xyz
-    skip-cert-verify: true
-    sni: www.alibaba.com
+  - name: 657 TW
+    server: ttww11.bpca2026.top
+    port: 443
     type: trojan
+    password: f15900b5-f86b-432d-a67c-45325dc66a2d
+    sni: ttww11.bpca2026.top
+    skip-cert-verify: true
+    network: ws
     ws-opts:
-      path: /
+      path: /images
+      headers:
+        Host: ttww11.bpca2026.top
+    udp: true
