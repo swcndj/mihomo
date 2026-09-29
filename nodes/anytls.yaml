@@ -1,5 +1,5 @@
 proxies:
-  - name: 338 DE
+  - name: 388 DE
     password: 1095c731-affa-4f85-a9c8-61e495e56aca
     port: 51061
     server: 64.118.158.150
@@ -8,24 +8,10 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 586 US
-    password: d7340868-b74c-455a-8ce0-17a52afa43b7
-    port: 21333
-    server: 134.195.101.162
-    skip-cert-verify: true
-    sni: apple.com
-    type: anytls
-    udp: true
-  - name: 641 HK
-    password: 9sK2mP8xQ7vL3nZ6
-    port: 443
-    server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
-    skip-cert-verify: true
-    sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
-    tls: false
-    type: anytls
-    udp: true
-  - name: 645 TW
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: 662 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: 6ivh.pnuqcnp.cn
@@ -34,34 +20,50 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 688 TW
+  - name: 692 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
     skip-cert-verify: true
     sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
     type: anytls
-  - fingerprint: ""
-    name: 692 TW
-    password: 9sK2mP8xQ7vL3nZ6
-    port: 443
-    server: awefd2313fefarg23fr24.pnuqcnp.cn
-    skip-cert-verify: true
-    sni: images.ctfassets.net
-    type: anytls
-    udp: true
-    username: 9sK2mP8xQ7vL3nZ6
-  - name: 694 FR
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 30099
-    server: ip5.934618.xyz
-    sni: ip5.934618.xyz
-    type: anytls
-    udp: true
-  - name: 704 US
+  - name: 695 US
     password: github.com/Alvin9999-newpac/fanqiang
     port: 19000
     server: anytls2.864106.xyz
     skip-cert-verify: true
     sni: anytls2.864106.xyz
     type: anytls
+  - fingerprint: ""
+    name: 701 HK
+    password: 9sK2mP8xQ7vL3nZ6
+    port: 443
+    server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
+    skip-cert-verify: true
+    sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
+    type: anytls
+    udp: true
+    username: 9sK2mP8xQ7vL3nZ6
+  - name: 703 FR
+    password: github.com/Alvin9999-newpac/fanqiang
+    port: 30099
+    server: ip5.934618.xyz
+    sni: ip5.934618.xyz
+    type: anytls
+    udp: true
+  - name: 716 JP
+    password: 76c43223-7fc5-4819-93cf-49ba562aed00
+    port: 1662
+    server: a.mjanyt.com
+    skip-cert-verify: true
+    sni: any.mjanyt.com
+    type: anytls
+    udp: true
+  - name: 717 JP
+    server: a.mjanyt.com
+    port: 1671
+    type: anytls
+    password: 76c43223-7fc5-4819-93cf-49ba562aed00
+    udp: true
+    sni: eu.mjanyt.com
+    skip-cert-verify: true
