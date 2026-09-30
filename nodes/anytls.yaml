@@ -1,5 +1,5 @@
 proxies:
-  - name: 388 DE
+  - name: 390 DE
     password: 1095c731-affa-4f85-a9c8-61e495e56aca
     port: 51061
     server: 64.118.158.150
@@ -8,18 +8,18 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 630 US
-    server: 216.195.213.138
-    port: 1892
-    type: anytls
-    password: 81c4547b-e5d8-4af8-baf0-91c5c0c05a9b
-    udp: true
-    sni: images.apple.com
+  - name: 580 US
+    password: d7340868-b74c-455a-8ce0-17a52afa43b7
+    port: 21333
+    server: 134.195.101.162
     skip-cert-verify: true
+    sni: apple.com
+    type: anytls
+    udp: true
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 669 TW
+    name: 668 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: 6ivh.pnuqcnp.cn
@@ -28,13 +28,13 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 699 TW
-    password: 9sK2mP8xQ7vL3nZ6
-    port: 443
-    server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
-    skip-cert-verify: true
-    sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
+  - name: 701 FR
+    password: github.com/Alvin9999-newpac/fanqiang
+    port: 30099
+    server: ip5.934618.xyz
+    sni: ip5.934618.xyz
     type: anytls
+    udp: true
   - name: 702 US
     password: github.com/Alvin9999-newpac/fanqiang
     port: 19000
@@ -43,7 +43,7 @@ proxies:
     sni: anytls2.864106.xyz
     type: anytls
   - fingerprint: ""
-    name: 708 HK
+    name: 707 HK
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
@@ -52,69 +52,31 @@ proxies:
     type: anytls
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
-  - name: 710 FR
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 30099
-    server: ip5.934618.xyz
-    sni: ip5.934618.xyz
+  - name: 719 KR
+    server: yazhouany02.downapptwo.cc
+    port: 51178
     type: anytls
+    password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
     udp: true
+    sni: hk09.alytest.cc
+    skip-cert-verify: true
+  - name: 720 KR
+    server: icn-a-01.auuas.com
+    port: 1892
+    type: anytls
+    password: 81c4547b-e5d8-4af8-baf0-91c5c0c05a9b
+    udp: true
+    sni: images.apple.com
+    skip-cert-verify: true
   - name: 721 SG
     server: test01.y1static-content-distribution.shop
-    port: 56726
+    port: 47096
     type: anytls
     password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
     udp: true
-    sni: hk11.pulsarcore.site
+    sni: xjp33.pulsarcore.site
     skip-cert-verify: true
-  - name: 722 SG
-    server: test01.y1static-content-distribution.shop
-    port: 47901
-    type: anytls
-    password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
-    udp: true
-    sni: kr06.swiftrelay.cc
-    skip-cert-verify: true
-  - name: 724 JP
-    server: jpglobal-identity-federation-auth.younai-ytl.shop
-    port: 65308
-    type: anytls
-    password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
-    udp: true
-    sni: jp11.pulsarcore.site
-    skip-cert-verify: true
-  - name: 725 SG
-    server: n5s3w3ue.zf-mix.9999231.xyz
-    port: 1029
-    type: anytls
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    udp: true
-    sni: in-wy.9999231.xyz
-    skip-cert-verify: true
-  - name: 727 JP
-    server: jpglobal-identity-federation-auth.younai-ytl.shop
-    port: 27011
-    type: anytls
-    password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
-    udp: true
-    sni: flb01.pulsarcore.site
-    skip-cert-verify: true
-  - name: 728 JP
-    server: jpglobal-identity-federation-auth.younai-ytl.shop
-    port: 28219
-    type: anytls
-    password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
-    udp: true
-    sni: us05.pulsarcore.site
-    skip-cert-verify: true
-  - name: 729 KR
-    server: svip.skycon808.com
-    port: 60005
-    type: anytls
-    password: 13f0acfa-38c1-4e82-a758-583aa31740df
-    sni: xjp18.2uuzhe.com
-    skip-cert-verify: true
-  - name: 730 SG
+  - name: 722 KR
     server: test01.y1static-content-distribution.shop
     port: 16406
     type: anytls
@@ -122,7 +84,7 @@ proxies:
     udp: true
     sni: yz203.y1static-content-distribution.shop
     skip-cert-verify: true
-  - name: 731 SG
+  - name: 723 SG
     server: test01.y1static-content-distribution.shop
     port: 14855
     type: anytls
@@ -130,27 +92,27 @@ proxies:
     udp: true
     sni: yz238.y1static-content-distribution.shop
     skip-cert-verify: true
-  - name: 732 SG
-    server: sin-a-01.auuas.com
-    port: 1892
-    type: anytls
-    password: 81c4547b-e5d8-4af8-baf0-91c5c0c05a9b
-    udp: true
-    sni: images.apple.com
-    skip-cert-verify: true
-  - name: 733 KR
-    server: yazhouany02.downapptwo.cc
-    port: 16955
-    type: anytls
-    password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
-    udp: true
-    sni: taiguo02.swiftrelay.cc
-    skip-cert-verify: true
-  - name: 735 US
-    server: us29.cybergalaxy.me
+  - name: 724 TW
+    server: tw04.cybergalaxy.me
     port: 443
     type: anytls
     password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
     udp: true
-    sni: us29.cybergalaxy.me
+    sni: tw04.cybergalaxy.me
+    skip-cert-verify: true
+  - name: 725 JP
+    server: jpglobal-identity-federation-auth.younai-ytl.shop
+    port: 38302
+    type: anytls
+    password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
+    udp: true
+    sni: us71.pulsarcore.site
+    skip-cert-verify: true
+  - name: 727 VN
+    server: yuenan02.cybergalaxy.me
+    port: 443
+    type: anytls
+    password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
+    udp: true
+    sni: yuenan02.cybergalaxy.me
     skip-cert-verify: true
