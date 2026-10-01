@@ -1,5 +1,21 @@
 proxies:
-  - name: 687 SG
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    name: 684 US
+    password: dd176c44-fad2-467d-a44c-7837afe5c7b0
+    port: 34568
+    reduce-rtt: false
+    request-timeout: 0
+    server: 45.205.27.78
+    skip-cert-verify: true
+    sni: localhost
+    type: tuic
+    udp-relay-mode: native
+    uuid: dd176c44-fad2-467d-a44c-7837afe5c7b0
+    version: 5
+  - name: 702 SG
     type: tuic
     server: sg2-8sb.6121999.dpdns.org
     port: 33738
@@ -10,4 +26,18 @@ proxies:
     sni: sg2-8sb.6121999.dpdns.org
     udp-relay-mode: quic
     uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+    version: 5
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    name: 757 TW
+    password: D7286728-678E-443B-B76B-B699654C66DD
+    port: 8080
+    server: tw6.dexlos.com
+    sni: tw6.dexlos.com
+    tls: true
+    type: tuic
+    udp: true
+    udp-relay-mode: native
+    uuid: D7286728-678E-443B-B76B-B699654C66DD
     version: 5
