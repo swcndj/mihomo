@@ -1,5 +1,5 @@
 proxies:
-  - name: 706 SG
+  - name: 667 SG
     type: tuic
     server: sg2-8sb.6121999.dpdns.org
     port: 33738
@@ -14,8 +14,22 @@ proxies:
   - alpn:
       - h3
     congestion-controller: bbr
-    name: 773 TW
-    password: D7286728-678E-443B-B76B-B699654C66DD
+    name: 714 TW
+    password: 8A9905B7-801B-41AF-BFC9-2034212770F6
+    port: 8080
+    server: tw4.dexlos.com
+    sni: tw4.dexlos.com
+    tls: true
+    type: tuic
+    udp: true
+    udp-relay-mode: native
+    uuid: 8A9905B7-801B-41AF-BFC9-2034212770F6
+    version: 5
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    name: 726 TW
+    password: 8A9905B7-801B-41AF-BFC9-2034212770F6
     port: 8080
     server: tw6.dexlos.com
     sni: tw6.dexlos.com
@@ -23,13 +37,13 @@ proxies:
     type: tuic
     udp: true
     udp-relay-mode: native
-    uuid: D7286728-678E-443B-B76B-B699654C66DD
+    uuid: 8A9905B7-801B-41AF-BFC9-2034212770F6
     version: 5
   - alpn:
       - h3
     congestion-controller: bbr
-    name: 799 TW
-    password: D7286728-678E-443B-B76B-B699654C66DD
+    name: 736 TW
+    password: 8A9905B7-801B-41AF-BFC9-2034212770F6
     port: 8080
     server: tw3.dexlos.com
     sni: tw3.dexlos.com
@@ -37,5 +51,20 @@ proxies:
     type: tuic
     udp: true
     udp-relay-mode: native
-    uuid: D7286728-678E-443B-B76B-B699654C66DD
+    uuid: 8A9905B7-801B-41AF-BFC9-2034212770F6
     version: 5
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    name: 760 US
+    password: 56d8a8fd-68b8-47f8-8c7f-98cc675902db
+    port: 8443
+    reduce-rtt: false
+    request-timeout: 0
+    server: us02.uzifan.monster
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: tuic
+    udp-relay-mode: native
+    uuid: 56d8a8fd-68b8-47f8-8c7f-98cc675902db
