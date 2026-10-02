@@ -1,5 +1,5 @@
 proxies:
-  - name: 706 SG
+  - name: 702 SG
     type: tuic
     server: sg2-8sb.6121999.dpdns.org
     port: 33738
@@ -28,7 +28,7 @@ proxies:
   - alpn:
       - h3
     congestion-controller: bbr
-    name: 773 TW
+    name: 770 TW
     password: D7286728-678E-443B-B76B-B699654C66DD
     port: 8080
     server: tw1.dexlos.com
@@ -39,3 +39,17 @@ proxies:
     udp-relay-mode: native
     uuid: D7286728-678E-443B-B76B-B699654C66DD
     version: 5
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    name: 810 JP
+    password: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
+    port: 443
+    reduce-rtt: false
+    request-timeout: 0
+    server: de0bc027-teisg0-thtg7i-1lkt0.jp5.hyhuawei.com
+    skip-cert-verify: true
+    sni: de0bc027-teisg0-thtg7i-1lkt0.jp5.hyhuawei.com
+    type: tuic
+    uuid: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
