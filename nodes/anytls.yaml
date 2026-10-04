@@ -1,5 +1,5 @@
 proxies:
-  - name: 298 DE
+  - name: 297 DE
     password: 1095c731-affa-4f85-a9c8-61e495e56aca
     port: 51061
     server: 64.118.158.150
@@ -8,7 +8,7 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 586 US
+  - name: 584 US
     password: d7340868-b74c-455a-8ce0-17a52afa43b7
     port: 21333
     server: 134.195.101.162
@@ -16,7 +16,7 @@ proxies:
     sni: apple.com
     type: anytls
     udp: true
-  - name: 655 TW
+  - name: 648 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: 6ivh.pnuqcnp.cn
@@ -25,7 +25,7 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 682 KR
+  - name: 677 KR
     password: 13f0acfa-38c1-4e82-a758-583aa31740df
     port: 60005
     server: svip.skycon808.com
@@ -34,7 +34,7 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 684 US
+  - name: 679 US
     password: github.com/Alvin9999-newpac/fanqiang
     port: 19000
     server: anytls2.864106.xyz
@@ -43,14 +43,14 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 694 TW
+  - name: 689 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
     skip-cert-verify: true
     sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
     type: anytls
-  - name: 695 FR
+  - name: 690 FR
     password: github.com/Alvin9999-newpac/fanqiang
     port: 30099
     server: ip5.934618.xyz
@@ -58,28 +58,30 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 696 US
+    name: 691 JP
     password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
     port: 1008
     server: 3eqhzekn.zf-mix.9999231.xyz
     sni: co-af01e9.9999231.xyz
     type: anytls
     udp: true
-  - name: 697 US
+  - client-fingerprint: chrome
+    name: 692 JP
     password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 1043
-    server: nv50244o.zf-mix.9999231.xyz
-    sni: pe-wy.9999231.xyz
-    type: anytls
-  - name: 698 US
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 1029
-    server: adpsec8q.zf-mix.9999231.xyz
-    skip-cert-verify: true
-    sni: in-wy.9999231.xyz
+    port: 1026
+    server: 8vvewsmo.zf-mix.9999231.xyz
+    sni: nl-wy.9999231.xyz
     type: anytls
     udp: true
-  - name: 699 SG
+  - name: 693 JP
+    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+    port: 1010
+    server: tfk1yyx4.zf-mix.9999231.xyz
+    skip-cert-verify: true
+    sni: tr-house.9999231.xyz
+    type: anytls
+    udp: true
+  - name: 694 JP
     password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
     port: 1023
     server: s0gmq6hn.zf-mix.9999231.xyz
@@ -88,7 +90,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 700 JP
+    name: 695 US
     password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
     port: 1002
     server: qm5tw9xz.zf-mix.9999231.xyz
@@ -96,37 +98,35 @@ proxies:
     sni: iosapps.itunes.apple.com
     type: anytls
     udp: true
-  - client-fingerprint: chrome
-    name: 703 SG
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 1026
-    server: 8vvewsmo.zf-mix.9999231.xyz
-    sni: nl-wy.9999231.xyz
-    type: anytls
-    udp: true
-  - name: 704 SG
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 1010
-    server: tfk1yyx4.zf-mix.9999231.xyz
-    skip-cert-verify: true
-    sni: tr-house.9999231.xyz
-    type: anytls
-    udp: true
-  - name: 709 JP
+  - name: 703 JP
     password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
     port: 1019
     server: fux02f0q.zf-mix.9999231.xyz
     sni: pl-house.9999231.xyz
     type: anytls
+  - name: 704 JP
+    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+    port: 1043
+    server: nv50244o.zf-mix.9999231.xyz
+    sni: pe-wy.9999231.xyz
+    type: anytls
   - client-fingerprint: chrome
-    name: 710 JP
+    name: 705 JP
     password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
     port: 1009
     server: iwnp28tz.zf-mix.9999231.xyz
     sni: co-8ce91c.9999231.xyz
     type: anytls
     udp: true
-  - name: 724 SG
+  - name: 706 JP
+    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+    port: 1029
+    server: adpsec8q.zf-mix.9999231.xyz
+    skip-cert-verify: true
+    sni: in-wy.9999231.xyz
+    type: anytls
+    udp: true
+  - name: 721 SG
     password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
     port: 56726
     server: test01.y1static-content-distribution.shop
@@ -134,7 +134,7 @@ proxies:
     sni: hk11.pulsarcore.site
     type: anytls
     udp: true
-  - name: 725 US
+  - name: 722 US
     password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
     port: 443
     server: as-us73.y1static-content-distribution.shop
@@ -143,7 +143,7 @@ proxies:
     type: anytls
     udp: true
   - type: anytls
-    name: 731 SG
+    name: 729 SG
     server: yazhouany02.downapptwo.cc
     port: 10778
     udp: true
@@ -155,7 +155,7 @@ proxies:
     allowInsecure: "1"
     sub-tag: R002-260618
   - type: anytls
-    name: 732 HK
+    name: 730 HK
     server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
     port: 443
     udp: true
@@ -168,7 +168,7 @@ proxies:
     sub-tag: R002-260618
     username: 9sK2mP8xQ7vL3nZ6
   - type: anytls
-    name: 734 KR
+    name: 732 KR
     server: svip.skycon808.com
     port: 22216
     udp: true
@@ -179,7 +179,7 @@ proxies:
     packetEncoding: none
     allowInsecure: "1"
     sub-tag: P002-260618
-  - name: 736 KR
+  - name: 734 SG
     server: yazhouany02.downapptwo.cc
     port: 53991
     type: anytls
@@ -187,8 +187,16 @@ proxies:
     udp: true
     sni: jp03.pulsarcore.site
     skip-cert-verify: true
+  - name: 735 SG
+    password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
+    port: 51178
+    server: yazhouany02.downapptwo.cc
+    skip-cert-verify: true
+    sni: hk09.alytest.cc
+    type: anytls
+    udp: true
   - type: anytls
-    name: 737 JP
+    name: 736 JP
     server: jp-02-hdja-kido.younai-ytl.shop
     port: 53274
     udp: true
@@ -199,11 +207,3 @@ proxies:
     packetEncoding: none
     allowInsecure: "1"
     sub-tag: P002-260618
-  - name: 738 KR
-    password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
-    port: 51178
-    server: yazhouany02.downapptwo.cc
-    skip-cert-verify: true
-    sni: hk09.alytest.cc
-    type: anytls
-    udp: true
