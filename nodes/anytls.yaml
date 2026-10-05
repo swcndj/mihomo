@@ -1,5 +1,5 @@
 proxies:
-  - name: 298 DE
+  - name: 297 DE
     password: 1095c731-affa-4f85-a9c8-61e495e56aca
     port: 51061
     server: 64.118.158.150
@@ -8,7 +8,7 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 585 US
+  - name: 584 US
     password: d7340868-b74c-455a-8ce0-17a52afa43b7
     port: 21333
     server: 134.195.101.162
@@ -16,7 +16,7 @@ proxies:
     sni: apple.com
     type: anytls
     udp: true
-  - name: 650 TW
+  - name: 648 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: 6ivh.pnuqcnp.cn
@@ -34,14 +34,14 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 710 TW
+  - name: 714 TW
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
     skip-cert-verify: true
     sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
     type: anytls
-  - name: 711 FR
+  - name: 715 FR
     password: github.com/Alvin9999-newpac/fanqiang
     port: 30099
     server: ip5.934618.xyz
@@ -49,30 +49,14 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 712 US
+    name: 716 SG
     password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
     port: 1008
     server: 3eqhzekn.zf-mix.9999231.xyz
     sni: co-af01e9.9999231.xyz
     type: anytls
     udp: true
-  - name: 713 US
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 1029
-    server: adpsec8q.zf-mix.9999231.xyz
-    skip-cert-verify: true
-    sni: in-wy.9999231.xyz
-    type: anytls
-    udp: true
-  - name: 714 US
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 1001
-    server: l3hl4mwo.zf-mix.9999231.xyz
-    skip-cert-verify: true
-    sni: tw01.9999231.xyz
-    type: anytls
-    udp: true
-  - name: 715 SG
+  - name: 717 SG
     password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
     port: 1023
     server: s0gmq6hn.zf-mix.9999231.xyz
@@ -80,8 +64,16 @@ proxies:
     sni: sg-sjy.9999231.xyz
     type: anytls
     udp: true
+  - name: 718 SG
+    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+    port: 1001
+    server: l3hl4mwo.zf-mix.9999231.xyz
+    skip-cert-verify: true
+    sni: tw01.9999231.xyz
+    type: anytls
+    udp: true
   - client-fingerprint: chrome
-    name: 716 JP
+    name: 719 JP
     password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
     port: 1002
     server: qm5tw9xz.zf-mix.9999231.xyz
@@ -89,57 +81,71 @@ proxies:
     sni: iosapps.itunes.apple.com
     type: anytls
     udp: true
-  - client-fingerprint: chrome
-    name: 717 JP
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 1026
-    server: 8vvewsmo.zf-mix.9999231.xyz
-    sni: nl-wy.9999231.xyz
-    type: anytls
-    udp: true
-  - name: 753 JP
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 1019
-    server: fux02f0q.zf-mix.9999231.xyz
-    sni: pl-house.9999231.xyz
-    type: anytls
-  - name: 754 JP
+  - name: 720 JP
     password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
     port: 1043
     server: nv50244o.zf-mix.9999231.xyz
     sni: pe-wy.9999231.xyz
     type: anytls
-  - name: 755 JP
-    type: anytls
-    server: 3rpiiiqh.zf-mix.9999231.xyz
-    port: 1043
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    udp: true
-    sni: pe-wy.9999231.xyz
-    client-fingerprint: chrome
   - client-fingerprint: chrome
-    name: 756 SG
+    name: 721 JP
     password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
     port: 1009
     server: iwnp28tz.zf-mix.9999231.xyz
     sni: co-8ce91c.9999231.xyz
     type: anytls
     udp: true
-  - name: 757 SG
+  - client-fingerprint: chrome
+    name: 734 JP
+    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+    port: 1026
+    server: 8vvewsmo.zf-mix.9999231.xyz
+    sni: nl-wy.9999231.xyz
     type: anytls
-    server: ln29c4xw.zf-mix.9999231.xyz
-    port: 1007
+    udp: true
+  - name: 735 JP
+    server: jxwvps2b.zf-mix.9999231.xyz
+    port: 1028
+    type: anytls
     password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
     udp: true
-    sni: vn-my.9999231.xyz
-    client-fingerprint: chrome
-  - fingerprint: ""
-    name: 790 HK
-    password: 9sK2mP8xQ7vL3nZ6
-    port: 443
-    server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
+    sni: no-wy.9999231.xyz
     skip-cert-verify: true
-    sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
+  - name: 760 JP
+    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+    port: 1019
+    server: fux02f0q.zf-mix.9999231.xyz
+    sni: pl-house.9999231.xyz
+    type: anytls
+  - name: 761 JP
+    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+    port: 1029
+    server: adpsec8q.zf-mix.9999231.xyz
+    skip-cert-verify: true
+    sni: in-wy.9999231.xyz
     type: anytls
     udp: true
-    username: 9sK2mP8xQ7vL3nZ6
+  - name: 777 HK
+    server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
+    port: 443
+    type: anytls
+    password: 9sK2mP8xQ7vL3nZ6
+    udp: true
+    sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
+    skip-cert-verify: true
+  - name: 784 TW
+    server: awefd2313fefarg23fr24.pnuqcnp.cn
+    port: 443
+    type: anytls
+    password: 9sK2mP8xQ7vL3nZ6
+    udp: true
+    sni: images.ctfassets.net
+    skip-cert-verify: true
+  - name: 800 JP
+    type: anytls
+    server: tyo-a-02.auuas.com
+    port: 1892
+    password: 81c4547b-e5d8-4af8-baf0-91c5c0c05a9b
+    udp: true
+    sni: images.apple.com
+    skip-cert-verify: true
