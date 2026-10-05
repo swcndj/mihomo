@@ -1,5 +1,5 @@
 proxies:
-  - name: 643 SG
+  - name: 666 SG
     type: tuic
     server: sg2-8sb.6121999.dpdns.org
     port: 33738
@@ -15,39 +15,39 @@ proxies:
       - h3
     congestion-controller: bbr
     disable-sni: false
-    name: 776 TW
-    password: D7286728-678E-443B-B76B-B699654C66DD
-    port: 8080
-    reduce-rtt: false
-    request-timeout: 0
-    server: tw1.dexlos.com
-    skip-cert-verify: true
-    sni: tw1.dexlos.com
-    type: tuic
-    udp-relay-mode: native
-    uuid: D7286728-678E-443B-B76B-B699654C66DD
-  - name: 782 TW
-    server: tw3.dexlos.com
-    port: 8080
-    type: tuic
+    name: 798 TW
     password: 8A9905B7-801B-41AF-BFC9-2034212770F6
-    uuid: 8A9905B7-801B-41AF-BFC9-2034212770F6
-    sni: tw3.dexlos.com
-    skip-cert-verify: true
-    alpn:
-      - h3
-    disable-sni: false
+    port: 8080
     reduce-rtt: false
     request-timeout: 0
+    server: tw3.dexlos.com
+    skip-cert-verify: true
+    sni: tw3.dexlos.com
+    type: tuic
     udp-relay-mode: native
+    uuid: 8A9905B7-801B-41AF-BFC9-2034212770F6
+  - alpn:
+      - h3
     congestion-controller: bbr
-  - name: 783 TW
+    disable-sni: false
+    name: 799 TW
+    password: D7286728-678E-443B-B76B-B699654C66DD
+    port: 8080
+    reduce-rtt: false
+    request-timeout: 0
     server: tw6.dexlos.com
+    skip-cert-verify: true
+    sni: tw6.dexlos.com
+    type: tuic
+    udp-relay-mode: native
+    uuid: D7286728-678E-443B-B76B-B699654C66DD
+  - name: 804 TW
+    server: tw1.dexlos.com
     port: 8080
     type: tuic
     password: D7286728-678E-443B-B76B-B699654C66DD
     uuid: D7286728-678E-443B-B76B-B699654C66DD
-    sni: tw6.dexlos.com
+    sni: tw1.dexlos.com
     skip-cert-verify: true
     alpn:
       - h3

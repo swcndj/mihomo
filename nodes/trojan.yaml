@@ -1665,7 +1665,7 @@ proxies:
       headers:
         host: www.creationlong.org
       path: /assignment
-  - name: 514 US
+  - name: 513 US
     network: ws
     password: humanity
     port: 443
@@ -1678,7 +1678,7 @@ proxies:
       headers:
         host: www.creationlong.org
       path: /assignment
-  - name: 563 SG
+  - name: 562 SG
     network: ws
     password: "521314"
     port: 443
@@ -1691,7 +1691,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 572 US
+  - name: 571 US
     server: 95.164.33.62
     port: 443
     type: trojan
@@ -1703,7 +1703,7 @@ proxies:
       path: /websocket
       headers:
         Host: sourceforge.net
-  - name: 573 US
+  - name: 572 US
     server: 66.228.55.178
     port: 2083
     type: trojan
@@ -1747,11 +1747,11 @@ proxies:
     sni: ssl.fastly.com
     skip-cert-verify: true
     ws-opts:
-      path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      path: /---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/des---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP
       headers:
         Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
     udp: true
-  - name: 578 US
+  - name: 580 US
     type: trojan
     server: 167.82.76.27
     port: 443
@@ -1759,33 +1759,11 @@ proxies:
     sni: ssl.fastly.com
     skip-cert-verify: true
     ws-opts:
-      path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      path: /
       headers:
         Host: mitivpn---deb--s---mitivpn-3.global.ssl.fastly.net
     udp: true
-  - name: 580 US
-    type: trojan
-    server: 162.159.244.91
-    port: 443
-    password: humanity
-    sni: www.calmlunch.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.calmlunch.com
-    udp: true
-  - name: 581 US
-    type: trojan
-    server: 45.205.0.6
-    port: 443
-    password: humanity
-    sni: www.calmlunch.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-    udp: true
-  - name: 654 US
+  - name: 676 US
     network: ws
     password: e20fd145-65f1-4aa3-96be-da0524bbb16e
     port: 20230
@@ -1796,7 +1774,7 @@ proxies:
     udp: true
     ws-opts:
       path: /
-  - name: 657 TW
+  - name: 679 TW
     network: ws
     password: 9efd3f19-c7cb-4fa9-8d66-0598043597dc
     port: 443
@@ -1810,7 +1788,7 @@ proxies:
         Host: zhilegelian1.bpca2026.top
       path: /images
   - client-fingerprint: chrome
-    name: 659 TW
+    name: 681 TW
     network: ws
     password: 9efd3f19-c7cb-4fa9-8d66-0598043597dc
     port: 443
@@ -1823,7 +1801,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
       path: /images
-  - name: 681 TW
+  - name: 703 TW
     server: ttww11.bpca2026.top
     port: 443
     type: trojan
@@ -1835,7 +1813,7 @@ proxies:
       path: /images
       headers:
         Host: ttww11.bpca2026.top
-  - name: 682 US
+  - name: 704 US
     server: notdirect.howhealthyistoomajreally.homes
     port: 443
     type: trojan
@@ -1847,7 +1825,7 @@ proxies:
       path: /ilb9fuWfuqWDjlQrGCkIH66kMFPa
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
-  - name: 683 US
+  - name: 705 US
     server: cnamemc1.cdncisco4.co
     port: 443
     type: trojan
@@ -1859,7 +1837,7 @@ proxies:
       path: /422Kdfwzf49IxeZJa
       headers:
         Host: c1mc.cdncisco4.co
-  - name: 684 AU
+  - name: 706 AU
     server: cnamemt.ciscocdn1.live
     port: 443
     type: trojan
@@ -1871,7 +1849,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mt.ciscocdn1.live
-  - name: 685 AU
+  - name: 707 AU
     server: cnamemk.ciscocdn1.live
     port: 443
     type: trojan
@@ -1883,7 +1861,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mk.ciscocdn1.live
-  - name: 686 AU
+  - name: 708 AU
     server: cnamemc.ciscocdn1.live
     port: 443
     type: trojan
