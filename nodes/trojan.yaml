@@ -1411,7 +1411,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 197 KR
+  - name: 198 KR
     type: trojan
     server: 132.226.23.185
     port: 443
@@ -1423,7 +1423,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 198 KR
+  - name: 199 KR
     type: trojan
     server: 211.49.57.178
     port: 443
@@ -1435,7 +1435,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 199 KR
+  - name: 200 KR
     type: trojan
     server: 211.49.57.175
     port: 443
@@ -1447,7 +1447,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 200 US
+  - name: 201 US
     type: trojan
     server: 45.38.60.139
     port: 443
@@ -1461,7 +1461,7 @@ proxies:
       path: /
   - alpn:
       - http/1.1
-    name: 265 US
+    name: 266 US
     password: humanity
     port: 443
     server: 216.24.57.7
@@ -1471,7 +1471,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 281 US
+  - name: 282 US
     password: humanity
     port: 443
     server: 8.6.112.6
@@ -1481,7 +1481,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 287 US
+  - name: 288 US
     password: humanity
     port: 443
     server: 162.159.254.191
@@ -1491,7 +1491,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 288 US
+  - name: 289 US
     password: humanity
     port: 443
     server: 8.6.112.0
@@ -1501,7 +1501,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 294 US
+  - name: 295 US
     password: humanity
     port: 443
     server: 130.250.137.171
@@ -1511,7 +1511,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 295 US
+  - name: 296 US
     password: humanity
     port: 443
     server: 216.24.57.1
@@ -1521,7 +1521,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 296 US
+  - name: 297 US
     password: humanity
     port: 443
     server: render.com
@@ -1531,7 +1531,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 315 SG
+  - name: 316 SG
     network: ws
     password: "521314"
     port: 443
@@ -1544,7 +1544,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 322 US
+  - name: 323 US
     network: ws
     password: humanity
     port: 443
@@ -1558,7 +1558,7 @@ proxies:
         host: www.gossipglove.com
       path: /assignment
   - client-fingerprint: chrome
-    name: 384 US
+    name: 383 US
     network: ws
     password: humanity
     port: 8443
@@ -1574,7 +1574,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 396 US
+    name: 395 US
     network: ws
     password: humanity
     port: 443
@@ -1610,7 +1610,7 @@ proxies:
       headers:
         Host: unnes.ac.id.yxls.eu.cc
       path: /br-orcl
-  - name: 456 US
+  - name: 457 US
     network: ws
     password: humanity
     port: 443
@@ -1623,7 +1623,7 @@ proxies:
       headers:
         host: www.gossipglove.com
       path: /assignment
-  - name: 483 SG
+  - name: 484 SG
     network: ws
     password: "521314"
     port: 443
@@ -1636,7 +1636,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 523 US
+  - name: 524 US
     network: ws
     password: humanity
     port: 443
@@ -1649,7 +1649,7 @@ proxies:
       headers:
         host: www.creationlong.org
       path: /assignment
-  - name: 524 US
+  - name: 525 US
     network: ws
     password: humanity
     port: 443
@@ -1662,7 +1662,7 @@ proxies:
       headers:
         host: www.creationlong.org
       path: /assignment
-  - name: 573 SG
+  - name: 574 SG
     network: ws
     password: "521314"
     port: 443
@@ -1675,7 +1675,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 577 US
+  - name: 578 US
     password: mitivpn
     port: 443
     server: 167.82.76.7
@@ -1687,7 +1687,7 @@ proxies:
       headers:
         Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
       path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-  - name: 578 US
+  - name: 579 US
     password: mitivpn
     port: 443
     server: 167.82.76.27
@@ -1699,7 +1699,7 @@ proxies:
       headers:
         Host: mitivpn---deb--s---mitivpn-3.global.ssl.fastly.net
       path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-  - name: 579 US
+  - name: 580 US
     server: 95.164.33.62
     port: 443
     type: trojan
@@ -1711,7 +1711,7 @@ proxies:
       path: /websocket
       headers:
         Host: sourceforge.net
-  - name: 580 US
+  - name: 581 US
     server: 66.228.55.178
     port: 2083
     type: trojan
@@ -1723,19 +1723,7 @@ proxies:
       path: /
       headers:
         Host: gstatic.com
-  - name: 582 US
-    type: trojan
-    server: 199.232.78.160
-    port: 443
-    password: mitivpn
-    sni: ssl.fastly.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e1i@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-      headers:
-        Host: mitivpn---deb--s---mitivpn-2.global.ssl.fastly.net
-    udp: true
-  - name: 584 US
+  - name: 583 US
     type: trojan
     server: 199.232.78.101
     port: 443
@@ -1747,7 +1735,19 @@ proxies:
       headers:
         Host: mitivpn---deb--s---mitivpn-1.global.ssl.fastly.net
     udp: true
-  - name: 681 US
+  - name: 584 US
+    type: trojan
+    server: 199.232.78.160
+    port: 443
+    password: mitivpn
+    sni: ssl.fastly.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e1i@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      headers:
+        Host: mitivpn---deb--s---mitivpn-2.global.ssl.fastly.net
+    udp: true
+  - name: 664 US
     network: ws
     password: e20fd145-65f1-4aa3-96be-da0524bbb16e
     port: 20230
@@ -1758,7 +1758,7 @@ proxies:
     udp: true
     ws-opts:
       path: /
-  - name: 708 TW
+  - name: 690 TW
     server: ttww11.bpca2026.top
     port: 443
     type: trojan
@@ -1770,7 +1770,7 @@ proxies:
       path: /images
       headers:
         Host: ttww11.bpca2026.top
-  - name: 709 US
+  - name: 691 US
     server: notdirect.howhealthyistoomajreally.homes
     port: 443
     type: trojan
@@ -1782,7 +1782,7 @@ proxies:
       path: /ilb9fuWfuqWDjlQrGCkIH66kMFPa
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
-  - name: 710 US
+  - name: 692 US
     server: cnamemc1.cdncisco4.co
     port: 443
     type: trojan
@@ -1794,7 +1794,7 @@ proxies:
       path: /422Kdfwzf49IxeZJa
       headers:
         Host: c1mc.cdncisco4.co
-  - name: 711 AU
+  - name: 693 AU
     server: cnamemt.ciscocdn1.live
     port: 443
     type: trojan
@@ -1806,7 +1806,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mt.ciscocdn1.live
-  - name: 712 AU
+  - name: 694 AU
     server: cnamemk.ciscocdn1.live
     port: 443
     type: trojan
@@ -1818,7 +1818,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mk.ciscocdn1.live
-  - name: 713 AU
+  - name: 695 AU
     server: cnamemc.ciscocdn1.live
     port: 443
     type: trojan
