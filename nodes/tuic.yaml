@@ -1,5 +1,5 @@
 proxies:
-  - name: 655 SG
+  - name: 658 SG
     type: tuic
     server: sg2-8sb.6121999.dpdns.org
     port: 33738
@@ -14,13 +14,15 @@ proxies:
   - alpn:
       - h3
     congestion-controller: bbr
+    disable-sni: false
     name: 730 TW
-    password: D7286728-678E-443B-B76B-B699654C66DD
+    password: 8A9905B7-801B-41AF-BFC9-2034212770F6
     port: 8080
+    reduce-rtt: false
+    request-timeout: 0
     server: tw3.dexlos.com
+    skip-cert-verify: true
     sni: tw3.dexlos.com
     type: tuic
-    udp: true
     udp-relay-mode: native
-    uuid: D7286728-678E-443B-B76B-B699654C66DD
-    version: 5
+    uuid: 8A9905B7-801B-41AF-BFC9-2034212770F6
