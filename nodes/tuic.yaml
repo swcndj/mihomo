@@ -1,5 +1,5 @@
 proxies:
-  - name: 663 SG
+  - name: 679 SG
     type: tuic
     server: sg2-8sb.6121999.dpdns.org
     port: 33738
@@ -14,13 +14,28 @@ proxies:
   - alpn:
       - h3
     congestion-controller: bbr
-    name: 767 TW
-    password: D7286728-678E-443B-B76B-B699654C66DD
+    name: 743 TW
+    password: 8A9905B7-801B-41AF-BFC9-2034212770F6
     port: 8080
-    server: tw3.dexlos.com
-    sni: tw3.dexlos.com
+    server: tw4.dexlos.com
+    sni: tw4.dexlos.com
+    tls: true
     type: tuic
     udp: true
     udp-relay-mode: native
-    uuid: D7286728-678E-443B-B76B-B699654C66DD
+    uuid: 8A9905B7-801B-41AF-BFC9-2034212770F6
+    version: 5
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    name: 744 TW
+    password: 8A9905B7-801B-41AF-BFC9-2034212770F6
+    port: 8080
+    server: tw3.dexlos.com
+    sni: tw3.dexlos.com
+    tls: true
+    type: tuic
+    udp: true
+    udp-relay-mode: native
+    uuid: 8A9905B7-801B-41AF-BFC9-2034212770F6
     version: 5
