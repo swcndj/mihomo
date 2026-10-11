@@ -1557,7 +1557,19 @@ proxies:
       headers:
         host: www.gossipglove.com
       path: /assignment
-  - name: 381 US
+  - name: 373 US
+    type: trojan
+    server: 151.101.56.6
+    port: 443
+    password: MiTiVPN
+    sni: ssl.fastly.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      headers:
+        Host: mitivpn---ss--s---mitivpn-1.global.ssl.fastly.net
+    udp: true
+  - name: 383 US
     type: trojan
     server: blog.webex.com
     port: 443
@@ -1570,7 +1582,7 @@ proxies:
         Host: unnes.ac.id.yxls.eu.cc
       path: /br-orcl
   - client-fingerprint: chrome
-    name: 386 US
+    name: 387 US
     network: ws
     password: humanity
     port: 8443
@@ -1586,7 +1598,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 398 US
+    name: 399 US
     network: ws
     password: humanity
     port: 443
@@ -1599,7 +1611,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
       path: /assignment
-  - name: 431 US
+  - name: 432 US
     network: ws
     password: humanity
     port: 443
@@ -1612,7 +1624,7 @@ proxies:
       headers:
         host: www.gossipglove.com
       path: /assignment
-  - name: 458 SG
+  - name: 459 SG
     network: ws
     password: "521314"
     port: 443
@@ -1625,7 +1637,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 498 US
+  - name: 499 US
     network: ws
     password: humanity
     port: 443
@@ -1636,7 +1648,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 499 US
+  - name: 501 US
     network: ws
     password: humanity
     port: 443
@@ -1649,7 +1661,7 @@ proxies:
       headers:
         host: www.creationlong.org
       path: /assignment
-  - name: 500 US
+  - name: 502 US
     network: ws
     password: humanity
     port: 443
@@ -1662,7 +1674,7 @@ proxies:
       headers:
         host: www.creationlong.org
       path: /assignment
-  - name: 549 SG
+  - name: 551 SG
     network: ws
     password: "521314"
     port: 443
@@ -1675,7 +1687,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 568 US
+  - name: 570 US
     server: 95.164.33.62
     port: 443
     type: trojan
@@ -1687,7 +1699,7 @@ proxies:
       path: /websocket
       headers:
         Host: sourceforge.net
-  - name: 569 US
+  - name: 571 US
     server: 66.228.55.178
     port: 2083
     type: trojan
@@ -1699,7 +1711,43 @@ proxies:
       path: /
       headers:
         Host: gstatic.com
-  - name: 633 US
+  - name: 572 US
+    type: trojan
+    server: 199.232.78.160
+    port: 443
+    password: MiTiVPN
+    sni: ssl.fastly.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      headers:
+        Host: mitivpn-ss-mitivpn---mitivpn--mitivpn.global.ssl.fastly.net
+    udp: true
+  - name: 573 US
+    type: trojan
+    server: 151.101.56.7
+    port: 443
+    password: MiTiVPN
+    sni: ssl.fastly.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      headers:
+        Host: mitivpn-mitivpn-mitivpn-bb-mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
+    udp: true
+  - name: 575 US
+    type: trojan
+    server: 167.82.76.27
+    port: 443
+    password: MiTiVPN
+    sni: ssl.fastly.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      headers:
+        Host: mitivpn---ss--s---mitivpn-3.global.ssl.fastly.net
+    udp: true
+  - name: 649 US
     network: ws
     password: e20fd145-65f1-4aa3-96be-da0524bbb16e
     port: 20230
@@ -1710,7 +1758,7 @@ proxies:
     udp: true
     ws-opts:
       path: /
-  - name: 671 US
+  - name: 682 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10003
     server: my1.australiacaregroup.site
@@ -1722,7 +1770,7 @@ proxies:
       headers:
         Host: my1.australiacaregroup.site
       path: /trojan
-  - name: 676 SG
+  - name: 687 SG
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 23823
     server: gz2.vatilon.cc
@@ -1734,7 +1782,19 @@ proxies:
       headers:
         Host: us4.australiacaregroup.site
       path: /trojan
-  - name: 682 US
+  - name: 694 US
+    server: us4.australiacaregroup.site
+    port: 2603
+    type: trojan
+    password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+    sni: us4.australiacaregroup.site
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: us4.australiacaregroup.site
+  - name: 695 US
     server: notdirect.howhealthyistoomajreally.homes
     port: 443
     type: trojan
@@ -1746,7 +1806,7 @@ proxies:
       path: /ilb9fuWfuqWDjlQrGCkIH66kMFPa
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
-  - name: 683 US
+  - name: 696 US
     server: cnamemc1.cdncisco4.co
     port: 443
     type: trojan
@@ -1758,7 +1818,7 @@ proxies:
       path: /422Kdfwzf49IxeZJa
       headers:
         Host: c1mc.cdncisco4.co
-  - name: 684 AU
+  - name: 697 AU
     server: cnamemt.ciscocdn1.live
     port: 443
     type: trojan
@@ -1770,7 +1830,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mt.ciscocdn1.live
-  - name: 685 AU
+  - name: 698 AU
     server: cnamemk.ciscocdn1.live
     port: 443
     type: trojan
@@ -1782,7 +1842,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mk.ciscocdn1.live
-  - name: 686 AU
+  - name: 699 AU
     server: cnamemc.ciscocdn1.live
     port: 443
     type: trojan
@@ -1794,16 +1854,3 @@ proxies:
       path: /ywQ9KSLI4ZBm9wOAXUaN
       headers:
         Host: c3mc.ciscocdn1.live
-  - name: 714 US
-    server: us4.australiacaregroup.site
-    port: 2603
-    type: trojan
-    password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-    sni: us4.australiacaregroup.site
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: us4.australiacaregroup.site
-    udp: true

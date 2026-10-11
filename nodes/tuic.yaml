@@ -1,5 +1,5 @@
 proxies:
-  - name: 619 SG
+  - name: 635 SG
     type: tuic
     server: sg2-8sb.6121999.dpdns.org
     port: 33738
@@ -11,3 +11,18 @@ proxies:
     udp-relay-mode: quic
     uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
     version: 5
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    name: 731 TW
+    password: 8A9905B7-801B-41AF-BFC9-2034212770F6
+    port: 8080
+    reduce-rtt: false
+    request-timeout: 0
+    server: tw5.dexlos.com
+    skip-cert-verify: true
+    sni: tw5.dexlos.com
+    type: tuic
+    udp-relay-mode: native
+    uuid: 8A9905B7-801B-41AF-BFC9-2034212770F6
