@@ -1,5 +1,5 @@
 proxies:
-  - name: 657 SG
+  - name: 674 SG
     type: tuic
     server: sg2-8sb.6121999.dpdns.org
     port: 33738
@@ -14,7 +14,7 @@ proxies:
   - alpn:
       - h3
     congestion-controller: bbr
-    name: 738 TW
+    name: 750 TW
     password: 8A9905B7-801B-41AF-BFC9-2034212770F6
     port: 8080
     server: tw5.dexlos.com
@@ -26,7 +26,7 @@ proxies:
   - alpn:
       - h3
     congestion-controller: bbr
-    name: 741 TW
+    name: 755 TW
     password: 8A9905B7-801B-41AF-BFC9-2034212770F6
     port: 8080
     server: tw4.dexlos.com
