@@ -1,5 +1,5 @@
 proxies:
-  - name: 399 DE
+  - name: 398 DE
     password: 1095c731-affa-4f85-a9c8-61e495e56aca
     port: 51061
     server: 64.118.158.150
@@ -9,18 +9,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    idle-session-check-interval: 30
-    idle-session-timeout: 30
-    name: 616 US
-    password: 776b4834-caaf-4006-ab21-409e958867af
-    port: 33091
-    server: 45.202.240.4
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: anytls
-    udp: true
-  - client-fingerprint: chrome
-    name: 679 US
+    name: 667 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: us.australiacaregroup.site
@@ -29,7 +18,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 680 US
+    name: 668 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: rb1211-5.vatilon.cc
@@ -38,7 +27,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 681 US
+    name: 669 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: jp-x2.vatilon.cc
@@ -47,7 +36,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 684 CN
+    name: 672 CN
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: cn42.vatilon.cc
@@ -56,7 +45,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 685 US
+    name: 673 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: sg4.vatilon.cc
@@ -65,7 +54,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 686 US
+    name: 674 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: jp2.australiacaregroup.site
@@ -73,7 +62,7 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 687 US
+  - name: 675 US
     password: github.com/Alvin9999-newpac/fanqiang
     port: 19000
     server: anytls2.864106.xyz
@@ -82,60 +71,8 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 688 JP
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 1043
-    server: nv50244o.zf-mix.9999231.xyz
-    skip-cert-verify: true
-    sni: pe-wy.9999231.xyz
-    tls: true
-    type: anytls
-    udp: true
-  - name: 689 JP
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 1014
-    server: 37n2zex9.zf-mix.9999231.xyz
-    skip-cert-verify: true
-    sni: mk-house.9999231.xyz
-    type: anytls
-    udp: true
-  - name: 690 JP
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 1019
-    server: q7mtpgxo.zf-mix.9999231.xyz
-    skip-cert-verify: true
-    sni: pl-house.9999231.xyz
-    tls: true
-    type: anytls
-    udp: true
   - client-fingerprint: chrome
-    name: 691 JP
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 1020
-    server: 06nn6kxv.zf-mix.9999231.xyz
-    skip-cert-verify: true
-    sni: se-house.9999231.xyz
-    tls: true
-    type: anytls
-    udp: true
-  - name: 692 JP
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 1015
-    server: 7a9a2v1f.zf-mix.9999231.xyz
-    skip-cert-verify: true
-    sni: id-house.9999231.xyz
-    type: anytls
-    udp: true
-  - client-fingerprint: chrome
-    name: 693 JP
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 1012
-    server: va9pr21p.zf-mix.9999231.xyz
-    sni: fr-house.9999231.xyz
-    type: anytls
-    udp: true
-  - client-fingerprint: chrome
-    name: 694 JP
+    name: 676 JP
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: za.australiacaregroup.site
@@ -146,7 +83,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 695 HK
+    name: 677 HK
     password: 6725d134ee80
     port: 443
     server: 654968169.df6h451rh.xin
@@ -158,7 +95,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 696 HK
+    name: 678 HK
     password: 6725d134ee80
     port: 443
     server: 56481.df6h451rh.xin
@@ -170,44 +107,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 731 TW
-    password: 9sK2mP8xQ7vL3nZ6
-    port: 443
-    server: 684616s4.df6h451rh.xin
-    skip-cert-verify: true
-    sni: px.ads.linkedin.com
-    tls: true
-    type: anytls
-    udp: true
-  - name: 732 US
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 1001
-    server: l3hl4mwo.zf-mix.9999231.xyz
-    skip-cert-verify: true
-    sni: tw01.9999231.xyz
-    tls: true
-    type: anytls
-    udp: true
-  - name: 733 US
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 1040
-    server: 6ixwozox.zf-mix.9999231.xyz
-    skip-cert-verify: true
-    sni: si-wy.9999231.xyz
-    type: anytls
-    udp: true
-  - client-fingerprint: chrome
-    name: 734 US
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 1024
-    server: sj8aycl6.zf-mix.9999231.xyz
-    sni: ch-wy.9999231.xyz
-    type: anytls
-    udp: true
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: 735 TW
+    name: 696 TW
     password: 6725d134ee80
     port: 443
     server: 98416548.df6h451rh.xin
@@ -216,100 +116,23 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - client-fingerprint: chrome
-    name: 742 JP
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 1027
-    server: 3uilvi9w.zf-mix.9999231.xyz
-    sni: dk-wy.9999231.xyz
+  - name: 722 SG
+    password: 81c4547b-e5d8-4af8-baf0-91c5c0c05a9b
+    port: 1892
+    server: sin-a-02.auuas.com
+    skip-cert-verify: true
+    sni: images.apple.com
     type: anytls
     udp: true
-  - client-fingerprint: chrome
-    name: 743 JP
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 1010
-    server: skulm4yu.zf-mix.9999231.xyz
-    sni: tr-house.9999231.xyz
-    type: anytls
-    udp: true
-  - name: 744 FR
+  - name: 735 FR
     password: github.com/Alvin9999-newpac/fanqiang
     port: 30099
     server: ip5.934618.xyz
+    skip-cert-verify: true
     sni: ip5.934618.xyz
     type: anytls
     udp: true
-  - name: 745 US
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 1001
-    server: fwj0bkq7.zf-mix.9999231.xyz
-    skip-cert-verify: true
-    sni: tw01.9999231.xyz
-    type: anytls
-    udp: true
-  - name: 746 SG
-    password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
-    port: 1023
-    server: e7fis6ij.zf-mix.9999231.xyz
-    skip-cert-verify: true
-    sni: sg-sjy.9999231.xyz
-    type: anytls
-    udp: true
-  - name: 747 SG
-    password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
-    port: 1023
-    server: q8yej931.zf-mix.9999231.xyz
-    skip-cert-verify: true
-    sni: sg-sjy.9999231.xyz
-    type: anytls
-    udp: true
-  - name: 748 SG
-    type: anytls
-    server: 0yb5v73f.zf-mix.9999231.xyz
-    port: 1025
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    udp: true
-    sni: de-wy.9999231.xyz
-    client-fingerprint: chrome
-  - name: 749 KR
-    password: 13f0acfa-38c1-4e82-a758-583aa31740df
-    port: 60005
-    server: svip.skycon808.com
-    skip-cert-verify: true
-    sni: xjp18.2uuzhe.com
-    type: anytls
-    udp: true
-  - name: 753 JP
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 1007
-    server: 4zfp01mn.zf-mix.9999231.xyz
-    skip-cert-verify: true
-    sni: vn-my.9999231.xyz
-    type: anytls
-    udp: true
-  - name: 754 JP
-    type: anytls
-    server: 8krv6euv.zf-mix.9999231.xyz
-    port: 1018
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    udp: true
-    sni: th-house.9999231.xyz
-    client-fingerprint: chrome
-  - name: 756 SG
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 1028
-    server: jxwvps2b.zf-mix.9999231.xyz
-    sni: no-wy.9999231.xyz
-    type: anytls
-  - name: 757 SG
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 1040
-    server: attcj2fo.zf-mix.9999231.xyz
-    skip-cert-verify: true
-    sni: si-wy.9999231.xyz
-    type: anytls
-    udp: true
-  - name: 772 TW
+  - name: 736 TW
     password: 13f0acfa-38c1-4e82-a758-583aa31740df
     port: 10688
     server: yazhou09.twzq59.cc

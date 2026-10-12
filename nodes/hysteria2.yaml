@@ -301,7 +301,7 @@ proxies:
     sni: api.kermanshahi.org
     tls: false
     type: hysteria2
-  - name: 397 KR
+  - name: 396 KR
     obfs: salamander
     obfs-password: C0DD7bgChaltqnh/T2az6ijM
     password: C0DD7bgChaltqnh/T2az6ijM
@@ -313,7 +313,7 @@ proxies:
     type: hysteria2
     udp: true
   - fingerprint: 4d5c3200cd9a371684203fd8bfa29bba7e46777d4599cbc2130e78d9a7f197d2
-    name: 502 FR
+    name: 499 FR
     obfs-password: t-me-V2RayyNGvpn
     password: 76TeSy4hi8
     port: 55809
@@ -321,21 +321,21 @@ proxies:
     skip-cert-verify: true
     sni: www.amd.com
     type: hysteria2
-  - name: 503 ES
+  - name: 500 ES
     password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
     port: 8443
     server: 45.154.206.72
     skip-cert-verify: true
     sni: russiapower.accesscam.org
     type: hysteria2
-  - name: 593 GB
+  - name: 594 GB
     password: 7_Bz834J98n238cNbx7cjLAw_Nux28c_kIO1Hq86Vr
     port: 8443
     server: 151.247.219.191
     skip-cert-verify: true
     sni: hopp-queen.roxa.org
     type: hysteria2
-  - name: 594 DE
+  - name: 595 DE
     obfs-password: t-me-V2RayyNGvpn
     password: 73x493S1pE
     port: 31999
@@ -343,47 +343,14 @@ proxies:
     skip-cert-verify: true
     sni: www.amd.com
     type: hysteria2
-  - name: 595 PL
+  - name: 596 PL
     password: Apt1923_N9x234gn_Nal5Nx3j_s
     port: 8443
     server: 81.27.102.215
     skip-cert-verify: true
     sni: grape-power-pl.ddnsguru.com
     type: hysteria2
-  - name: 615 JP
-    password: usqmqUKJFIlCmvkCNSY64L3k
-    port: 443
-    server: 8.209.247.109
-    skip-cert-verify: true
-    type: hysteria2
-  - auth: github.com/Alvin9999-newpac/fanqiang
-    name: 617 FR
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 43115
-    server: 62.210.147.2
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: hysteria2
-    udp: true
-  - auth: a2c74ce7-5daa-4bee-a1eb-52863873b3c3
-    name: 618 DE
-    password: a2c74ce7-5daa-4bee-a1eb-52863873b3c3
-    port: 443
-    server: 194.48.250.233
-    skip-cert-verify: true
-    sni: mol.ultimagamest.com
-    type: hysteria2
-    udp: true
-  - auth: f25f19f29ce3fb53a35bf1b35b452a43
-    name: 619 IL
-    password: f25f19f29ce3fb53a35bf1b35b452a43
-    port: 50160
-    server: 129.159.156.109
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    udp: true
-  - name: 620 DE
+  - name: 610 DE
     password: H7mP2xY9kJ4nQ8wR5tF6vB3z
     port: 443
     server: 35.158.96.132
@@ -391,7 +358,7 @@ proxies:
     sni: vpn-de-002.fastervpn.world
     tls: false
     type: hysteria2
-  - name: 621 US
+  - name: 611 US
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     port: 443
     server: 54.213.89.22
@@ -399,7 +366,7 @@ proxies:
     sni: vk.com
     tls: false
     type: hysteria2
-  - name: 622 RU
+  - name: 612 RU
     obfs: salamander
     obfs-password: eba1b4766d2a26d6c167e2d2e9efabf4
     password: 033dc6b532
@@ -409,7 +376,17 @@ proxies:
     sni: srv-8718e6.frd21.ru
     tls: false
     type: hysteria2
-  - name: 623 NL
+  - name: 613 NL
+    obfs: salamander
+    obfs-password: WM0CSORkdxWByZqumlLav9pU7irma8IV
+    password: 0637f970-5223-4d8e-86b4-07c62509c6e8
+    port: 13188
+    server: 153.76.204.223
+    skip-cert-verify: false
+    sni: audio-forwarder.nord-central.duckdns.org
+    tls: false
+    type: hysteria2
+  - name: 614 NL
     obfs: salamander
     obfs-password: 87d72c2949c0ca85bbda09459244e374
     password: 35d26d53bc
@@ -419,7 +396,7 @@ proxies:
     sni: srv-0e5387.frd21.ru
     tls: false
     type: hysteria2
-  - name: 624 RU
+  - name: 615 RU
     obfs: salamander
     obfs-password: dzcb7hv6i2kx2zze
     password: 5bcodmhjtyfyyrqh
@@ -429,7 +406,7 @@ proxies:
     sni: cdn77.dmtr.ru
     tls: false
     type: hysteria2
-  - name: 625 FI
+  - name: 616 FI
     obfs: salamander
     obfs-password: uw9b2qq5rx
     password: 6aab8efdf13945829ae3699c342be406
@@ -439,17 +416,7 @@ proxies:
     sni: fiproxy1.lockdwn.com
     tls: false
     type: hysteria2
-  - name: 626 DE
-    obfs: salamander
-    obfs-password: 9VK3Nqd0bcXGPxcay9hRLY28HBtKo5
-    password: 77f73bd5-51bf-4143-8ebd-02f56ba376f4
-    port: 24000
-    server: 177.1.195.242
-    skip-cert-verify: false
-    sni: hy.kirian.su
-    tls: false
-    type: hysteria2
-  - name: 627 FI
+  - name: 617 FI
     obfs: salamander
     obfs-password: 9VK3Nqd0bcXGPxcay9hRLY28HBtKo5
     password: 77f73bd5-51bf-4143-8ebd-02f56ba376f4
@@ -459,16 +426,24 @@ proxies:
     sni: hy.kirian.su
     tls: false
     type: hysteria2
-  - auth: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-    name: 628 RU
+  - name: 618 RU
     password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
     port: 2053
     server: 194.87.118.184
-    skip-cert-verify: true
     sni: match-stream.lovkisport.blog
     tls: false
     type: hysteria2
-  - name: 629 NL
+  - name: 619 DE
+    obfs: salamander
+    obfs-password: 9VK3Nqd0bcXGPxcay9hRLY28HBtKo5
+    password: 81d953a0-f0cf-4452-a669-747d32efd6c1
+    port: 24000
+    server: 177.1.195.242
+    skip-cert-verify: false
+    sni: hy.kirian.su
+    tls: false
+    type: hysteria2
+  - name: 620 NL
     obfs: salamander
     obfs-password: 9VK3Nqd0bcXGPxcay9hRLY28HBtKo5
     password: 81d953a0-f0cf-4452-a669-747d32efd6c1
@@ -478,7 +453,7 @@ proxies:
     sni: hy.kirian.su
     tls: false
     type: hysteria2
-  - name: 630 PL
+  - name: 621 PL
     obfs: salamander
     obfs-password: 9VK3Nqd0bcXGPxcay9hRLY28HBtKo5
     password: 81d953a0-f0cf-4452-a669-747d32efd6c1
@@ -488,14 +463,14 @@ proxies:
     sni: hy.kirian.su
     tls: false
     type: hysteria2
-  - name: 631 US
+  - name: 622 US
     password: 8bd04756-3beb-4348-82c9-d35453df50ce
     port: 20326
     server: 177.3.218.191
     sni: finkawwwbroy5.qcloud.surf
     tls: false
     type: hysteria2
-  - name: 632 DE
+  - name: 623 DE
     password: H7mP2xY9kJ4nQ8wR5tF6vB3z
     port: 443
     server: 3.123.42.12
@@ -503,7 +478,15 @@ proxies:
     sni: vpn-de-002.fastervpn.world
     tls: false
     type: hysteria2
-  - name: 633 DE
+  - name: 624 AT
+    password: Hc9_NX924RE_Mn948rgrwiub_m93V84nll
+    port: 9443
+    server: 5.254.51.108
+    skip-cert-verify: false
+    sni: keyhop-voxility-at.dynuddns.com
+    tls: false
+    type: hysteria2
+  - name: 625 DE
     obfs: salamander
     obfs-password: KevinZakarian
     password: KevinZakarian
@@ -513,7 +496,7 @@ proxies:
     sni: 179.61.132.96
     tls: false
     type: hysteria2
-  - name: 634 DE
+  - name: 626 DE
     obfs: salamander
     obfs-password: c1b4086fea89914496c7e10967a419216566
     password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
@@ -523,7 +506,7 @@ proxies:
     sni: hy2-new.aspidnet.xyz
     tls: false
     type: hysteria2
-  - name: 635 DE
+  - name: 627 DE
     type: hysteria2
     server: hy2-new.aspidnet.xyz
     port: 443
@@ -533,7 +516,7 @@ proxies:
     skip-cert-verify: true
     sni: hy2-new.aspidnet.xyz
     tfo: false
-  - name: 636 NL
+  - name: 628 NL
     obfs: salamander
     obfs-password: Yet-Another-Public-Config-1
     password: Yet-Another-Public-Config-1
@@ -543,15 +526,7 @@ proxies:
     sni: YAPC-1.afshin.ir
     tls: false
     type: hysteria2
-  - name: 637 SG
-    password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-    port: 20004
-    server: 43.160.245.154
-    skip-cert-verify: false
-    sni: tw.australiacaregroup.site
-    tls: false
-    type: hysteria2
-  - name: 638 DE
+  - name: 629 DE
     obfs: salamander
     obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
     password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -561,7 +536,7 @@ proxies:
     sni: api.kermanshahi.org
     tls: false
     type: hysteria2
-  - name: 639 FR
+  - name: 630 FR
     obfs: salamander
     obfs-password: ec66908dbc46e6920143d9b684adf277
     password: ca78f919e6
@@ -571,7 +546,7 @@ proxies:
     sni: srv-3fc7c9.21freedom.net
     tls: false
     type: hysteria2
-  - name: 640 CH
+  - name: 631 CH
     obfs: salamander
     obfs-password: mbQXP2ASuHbF6ZPq
     password: capadm96216165
@@ -581,7 +556,7 @@ proxies:
     sni: vpn.local
     tls: false
     type: hysteria2
-  - name: 641 RU
+  - name: 632 RU
     password: f317b5d6-d399-4d3d-a051-89d674ae953c
     port: 443
     server: 94.198.54.132
@@ -589,7 +564,7 @@ proxies:
     sni: msk.frkn.org
     tls: false
     type: hysteria2
-  - name: 642 NL
+  - name: 633 NL
     obfs: salamander
     obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
     password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
@@ -599,7 +574,7 @@ proxies:
     sni: hy2.aspidnet.xyz
     tls: false
     type: hysteria2
-  - name: 643 CH
+  - name: 634 CH
     password: we9_I1893UFj3149xbr1_k8qvJ8734ic_Mx82gH
     port: 8443
     server: 82.38.64.237
@@ -607,19 +582,8 @@ proxies:
     sni: hopp-swizland-new.mysynology.net
     tls: false
     type: hysteria2
-  - auth: b42d90fa667942aebc734d60
-    name: 654 AU
-    obfs: salamander
-    obfs-password: b42d90fa667942aebc734d60
-    password: b42d90fa667942aebc734d60
-    port: 20000
-    ports: 20000-30000
-    server: 137.23.2.56
-    skip-cert-verify: true
-    sni: rmgyvpn.rest
-    type: hysteria2
   - auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
-    name: 655 KR
+    name: 646 KR
     password: 7e68e32f-8015-4f37-9082-70e8b0b58043
     port: 443
     server: 3.35.135.174
@@ -627,15 +591,15 @@ proxies:
     sni: www.bing.com
     tls: false
     type: hysteria2
-  - name: 662 JP
-    password: u63SxILNwtrQZ7Y1ZrFaZfsA
-    port: 8443
-    server: 8.211.175.236
-    skip-cert-verify: true
+  - type: hysteria2
+    name: 650 JP
+    server: 8.209.247.109
+    port: 443
+    password: usqmqUKJFIlCmvkCNSY64L3k
     sni: bing.com
-    tls: false
-    type: hysteria2
-  - name: 663 JP
+    skip-cert-verify: true
+    tfo: false
+  - name: 651 JP
     password: my_super_password_123
     port: 5443
     server: 138.2.21.246
@@ -643,15 +607,16 @@ proxies:
     sni: open.2ml.cc.cd
     tls: false
     type: hysteria2
-  - auth: maintell
-    name: 664 KR
-    password: maintell
-    port: 2053
-    server: 152.70.237.123
+  - auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    name: 652 HK
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: 443
+    server: 202.146.222.29
     skip-cert-verify: true
-    sni: bing.com
+    sni: 202.146.222.29
+    tls: false
     type: hysteria2
-  - name: 665 SG
+  - name: 653 SG
     obfs: salamander
     obfs-password: 309502c4a8df10b46fb976d4a8c43f42
     password: d042d150716709bb778cc73889cddb02
@@ -661,7 +626,7 @@ proxies:
     sni: www.bing.com
     tls: false
     type: hysteria2
-  - name: 666 US
+  - name: 654 US
     password: 099830134df5ac3a04a4b21d39b8c395
     port: 50160
     server: 163.192.14.135
@@ -669,16 +634,8 @@ proxies:
     sni: vk.com
     tls: false
     type: hysteria2
-  - name: 667 SG
-    password: f87376e17da040ed04c9665ce8972930
-    port: 50160
-    server: 138.2.73.238
-    skip-cert-verify: true
-    sni: 138.2.73.238
-    tls: false
-    type: hysteria2
   - auth: 633bc3be486b646190661ac2387c150a
-    name: 668 AU
+    name: 655 AU
     obfs: salamander
     obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
     password: 633bc3be486b646190661ac2387c150a
@@ -687,18 +644,23 @@ proxies:
     skip-cert-verify: true
     sni: www.bing.com
     type: hysteria2
-  - auth: a34f3990b69f44bfa0d32385
-    name: 669 AU
-    obfs: salamander
-    obfs-password: a34f3990b69f44bfa0d32385
-    password: a34f3990b69f44bfa0d32385
-    port: 20000
-    ports: 20000-30000
-    server: 140.238.198.229
+  - auth: gf1:gfhysteria2024
+    name: 656 US
+    password: gf1:gfhysteria2024
+    port: 443
+    server: 66.94.121.46
     skip-cert-verify: true
-    sni: rmgyvpn.rest
+    sni: www.broadcom.com
     type: hysteria2
-  - name: 670 US
+  - name: 657 SG
+    password: f87376e17da040ed04c9665ce8972930
+    port: 50160
+    server: 138.2.73.238
+    skip-cert-verify: true
+    sni: 138.2.73.238
+    tls: false
+    type: hysteria2
+  - name: 658 US
     password: 4291c983-c520-46ac-82cc-48f14bef573f
     port: 35013
     server: 129.213.91.185
@@ -706,22 +668,23 @@ proxies:
     sni: www.bing.com
     tls: false
     type: hysteria2
-  - auth: e9dc02d400b67c727aca1620
-    name: 671 FI
-    password: e9dc02d400b67c727aca1620
-    port: 8446
-    server: 185.174.137.172
+  - name: 659 CH
+    password: 84a506ca5aca505696a454d828420b3f
+    port: 50160
+    server: 140.238.213.114
     skip-cert-verify: true
+    sni: www.bing.com
+    tls: false
     type: hysteria2
-  - auth: gf1:gfhysteria2024
-    name: 672 NL
-    password: gf1:gfhysteria2024
-    port: 443
-    server: 5.129.235.85
+  - name: 660 JP
+    password: u63SxILNwtrQZ7Y1ZrFaZfsA
+    port: 8443
+    server: 8.211.175.236
     skip-cert-verify: true
-    sni: www.linux.com
+    sni: bing.com
+    tls: false
     type: hysteria2
-  - name: 721 NL
+  - name: 703 NL
     obfs-password: lhfl2z9mjngb7csh
     password: o3774es6cfv74kaf
     port: 1935
@@ -729,7 +692,7 @@ proxies:
     skip-cert-verify: true
     sni: nrealistic.nn-foto.ru
     type: hysteria2
-  - name: 729 FI
+  - name: 711 FI
     obfs-password: mtg2vchyir6la3et
     password: elknam6l7izf3z71
     port: 52021
@@ -737,7 +700,7 @@ proxies:
     skip-cert-verify: true
     sni: assets.gateway-stream.com
     type: hysteria2
-  - name: 730 FI
+  - name: 712 FI
     obfs-password: ielzukpwth087afx
     password: elknam6l7izf3z71
     port: 52002
@@ -745,24 +708,23 @@ proxies:
     skip-cert-verify: true
     sni: assets.gateway-stream.com
     type: hysteria2
-  - name: 751 US
-    password: https://xship.2fa.cat
-    port: 443
-    server: starlink-ft.251313.xyz
-    skip-cert-verify: true
-    sni: www.cloudflare.com
+  - auth: 745A6079-6A61-423D-BDD9-B344C1D26E62
+    name: 720 SG
+    password: 745A6079-6A61-423D-BDD9-B344C1D26E62
+    port: 20133
+    server: sg1.dexlos.com
+    sni: sg1.dexlos.com
     type: hysteria2
     udp: true
-  - auth: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
-    name: 752 HK
-    password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
-    port: 18642
-    server: s3.huhiuh.space
-    skip-cert-verify: true
-    sni: www.bing.com
+  - auth: 745A6079-6A61-423D-BDD9-B344C1D26E62
+    name: 721 SG
+    password: 745A6079-6A61-423D-BDD9-B344C1D26E62
+    port: 20177
+    server: sg1.dexlos.com
+    sni: sg1.dexlos.com
     type: hysteria2
     udp: true
-  - name: 758 DE
+  - name: 723 DE
     obfs: salamander
     obfs-password: 7y0p9k93w7ryw8tz
     password: 17537e14543a478b9c7a558870d814f3
@@ -772,7 +734,7 @@ proxies:
     sni: mhzedir.qzz.io
     tls: false
     type: hysteria2
-  - name: 759 RU
+  - name: 724 RU
     obfs: salamander
     obfs-password: 09p333uviv2qal0y
     password: 617z9r1mbzbm1t5z
@@ -782,7 +744,17 @@ proxies:
     sni: giftcard.gisora.ir
     tls: false
     type: hysteria2
-  - name: 760 FI
+  - alpn:
+      - h3
+    name: 725 AL
+    password: 8bd04756-3beb-4348-82c9-d35453df50ce
+    port: 28152
+    server: alb1337.zaebalsanoproxyklinus.lol
+    skip-cert-verify: false
+    sni: alb1337.zaebalsanoproxyklinus.lol
+    tls: false
+    type: hysteria2
+  - name: 726 FI
     obfs: salamander
     obfs-password: fuw2k1ddrouwxr3u
     password: 8f0gvz5eul6omhq4
@@ -792,7 +764,7 @@ proxies:
     sni: giftcard.gateway-stream.com
     tls: false
     type: hysteria2
-  - name: 761 FI
+  - name: 727 FI
     obfs: salamander
     obfs-password: fuw2k1ddrouwxr3u
     password: fmaznn1lrzys7ddy
@@ -802,7 +774,7 @@ proxies:
     sni: giftcard.gateway-stream.com
     tls: false
     type: hysteria2
-  - name: 762 FI
+  - name: 728 FI
     obfs: salamander
     obfs-password: fuw2k1ddrouwxr3u
     password: s6gt5e4mof43sfg8
@@ -812,7 +784,7 @@ proxies:
     sni: giftcard.gateway-stream.com
     tls: false
     type: hysteria2
-  - name: 763 FI
+  - name: 729 FI
     obfs: salamander
     obfs-password: fuw2k1ddrouwxr3u
     password: vz86jgszv4zszchv
@@ -822,7 +794,7 @@ proxies:
     sni: giftcard.gateway-stream.com
     tls: false
     type: hysteria2
-  - name: 764 FI
+  - name: 730 FI
     obfs: salamander
     obfs-password: fuw2k1ddrouwxr3u
     password: xf2ak19a4uajprxg
@@ -832,7 +804,7 @@ proxies:
     sni: giftcard.gateway-stream.com
     tls: false
     type: hysteria2
-  - name: 765 DE
+  - name: 731 DE
     obfs: salamander
     obfs-password: 6cmj1dymhm79hopl
     password: 8z2e26xkqsa598s3
@@ -842,17 +814,7 @@ proxies:
     sni: gift-catalog.aroonia.ir
     tls: false
     type: hysteria2
-  - name: 766 HK
-    obfs: salamander
-    obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-    password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-    port: 5010
-    server: nas.aizhzo.com
-    skip-cert-verify: false
-    sni: nas.aizhzo.com
-    tls: false
-    type: hysteria2
-  - name: 767 DE
+  - name: 732 DE
     obfs: salamander
     obfs-password: b6d1f3888ab1d90dd11aac1dce427b81
     password: tnnls
@@ -862,60 +824,50 @@ proxies:
     sni: bwdf2fnt.xn--e1aatfr8bwa.online
     tls: false
     type: hysteria2
-  - auth: 28a5ce18-e7a1-11ec-91b2-f23c91cfbbc9
-    name: 769 HK
-    password: 28a5ce18-e7a1-11ec-91b2-f23c91cfbbc9
+  - auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    name: 734 DE
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
     port: 443
-    server: 916164fa-tn2tc0-trgaw0-1h240.hk3.hyhuawei.com
+    server: vpn-de-002.fastervpn.world
     skip-cert-verify: true
-    sni: 916164fa-tn2tc0-trgaw0-1h240.hk3.hyhuawei.com
+    sni: vpn-de-002.fastervpn.world
     tls: false
     type: hysteria2
-  - auth: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
-    name: 770 TR
-    obfs: salamander
-    obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
-    password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
-    port: 7443
-    server: me17.msjia8844.site
+  - type: hysteria2
+    name: 737 US
+    server: starlink-ft.251313.xyz
+    port: 443
+    password: https://xship.2fa.cat
+    sni: www.cloudflare.com
     skip-cert-verify: true
-    sni: me17.msjia8844.site
-    type: hysteria2
-  - alpn:
-      - h3
-    down: ""
-    fingerprint: ""
-    name: 771 DE
-    obfs: ""
-    obfs-password: ""
-    password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
-    port: 20270
-    server: qcloudge1.exitvpn.shop
-    skip-cert-verify: false
-    sni: qcloudge1.exitvpn.shop
-    type: hysteria2
-    up: ""
-  - auth: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-    name: 773 JP
-    password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-    port: 2060
-    server: rb.mangshe.xyz
-    skip-cert-verify: true
-    sni: 127.0.0.1
-    tls: false
-    type: hysteria2
-  - name: 774 JP
+    tfo: false
+  - name: 738 JP
     password: 96ab5cd282733fd4c312a61f972f330a
     port: 443
     server: vp3.yysyy.online
     skip-cert-verify: false
     tls: false
     type: hysteria2
-  - name: 775 US
+  - auth: my_super_password_123
+    name: 739 JP
+    password: my_super_password_123
+    port: 443
+    server: open.2ml.bid
+    skip-cert-verify: true
+    sni: open.2ml.bid
+    type: hysteria2
+  - name: 740 US
     password: dongtaiwang.com
     port: 44356
     server: hy2.561891.xyz
     skip-cert-verify: false
     sni: hy2.561891.xyz
+    tls: false
+    type: hysteria2
+  - name: 741 NL
+    password: 529f1911-04d5-4427-94b9-c851fd459a27
+    port: 443
+    server: nl-hy-test.tcp-reset-club.net
+    sni: tcp-reset-club.net
     tls: false
     type: hysteria2
