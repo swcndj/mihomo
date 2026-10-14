@@ -1587,18 +1587,6 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 443 US
-    type: trojan
-    server: blog.webex.com
-    port: 443
-    network: ws
-    password: afbcd89a-5a90-4a44-a42a-be08f444aa3f
-    skip-cert-verify: false
-    sni: unnes.ac.id.yxls.eu.cc
-    ws-opts:
-      headers:
-        Host: unnes.ac.id.yxls.eu.cc
-      path: /br-orcl
   - name: 470 US
     network: ws
     password: humanity
@@ -1636,6 +1624,18 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
+  - name: 537 US
+    type: trojan
+    server: blog.webex.com
+    port: 443
+    network: ws
+    password: afbcd89a-5a90-4a44-a42a-be08f444aa3f
+    skip-cert-verify: false
+    sni: unnes.ac.id.yxls.eu.cc
+    ws-opts:
+      headers:
+        Host: unnes.ac.id.yxls.eu.cc
+      path: /br-orcl
   - name: 538 US
     network: ws
     password: humanity
@@ -1727,14 +1727,7 @@ proxies:
     type: trojan
     ws-opts:
       path: "%2Fassignment"
-  - name: 639 US
-    password: mitivpn
-    port: 443
-    server: 199.232.78.160
-    type: trojan
-    ws-opts:
-      path: "%2F---%40MetiVIP---%40MetiVIP%2F---%40MetiVIP---%40MetiVIP%2F---%40MetiVIP---%40MetiVIP%2Fdes---%40MetiVIP---%40MetiVIP%2F---%40MetiVIP---%40MetiVIP%2F---%40MetiVIP---%40MetiVIP"
-  - name: 660 US
+  - name: 661 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10003
     server: my1.australiacaregroup.site
@@ -1746,7 +1739,7 @@ proxies:
       headers:
         Host: my1.australiacaregroup.site
       path: /trojan
-  - name: 680 US
+  - name: 681 US
     network: ws
     password: e20fd145-65f1-4aa3-96be-da0524bbb16e
     port: 20230
@@ -1757,7 +1750,7 @@ proxies:
     udp: true
     ws-opts:
       path: /
-  - name: 702 JP
+  - name: 703 JP
     server: jp005.421421.xyz
     port: 20230
     type: trojan
@@ -1769,7 +1762,7 @@ proxies:
       path: /
       headers:
         Host: www.alibaba.com
-  - name: 703 US
+  - name: 704 US
     server: notdirect.howhealthyistoomajreally.homes
     port: 443
     type: trojan
@@ -1781,7 +1774,7 @@ proxies:
       path: /ilb9fuWfuqWDjlQrGCkIH66kMFPa
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
-  - name: 704 US
+  - name: 705 US
     server: cnamemc1.cdncisco4.co
     port: 443
     type: trojan
@@ -1793,7 +1786,7 @@ proxies:
       path: /422Kdfwzf49IxeZJa
       headers:
         Host: c1mc.cdncisco4.co
-  - name: 705 AU
+  - name: 706 AU
     server: cnamemt.ciscocdn1.live
     port: 443
     type: trojan
@@ -1805,7 +1798,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mt.ciscocdn1.live
-  - name: 706 AU
+  - name: 707 AU
     server: cnamemk.ciscocdn1.live
     port: 443
     type: trojan
@@ -1817,7 +1810,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mk.ciscocdn1.live
-  - name: 707 AU
+  - name: 708 AU
     server: cnamemc.ciscocdn1.live
     port: 443
     type: trojan
