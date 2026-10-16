@@ -1,5 +1,5 @@
 proxies:
-  - name: 402 DE
+  - name: 400 DE
     password: 1095c731-affa-4f85-a9c8-61e495e56aca
     port: 51061
     server: 64.118.158.150
@@ -11,7 +11,7 @@ proxies:
   - client-fingerprint: chrome
     idle-session-check-interval: 30
     idle-session-timeout: 30
-    name: 658 US
+    name: 666 US
     password: 776b4834-caaf-4006-ab21-409e958867af
     port: 33091
     server: 45.202.240.4
@@ -20,7 +20,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 705 US
+    name: 711 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: us.australiacaregroup.site
@@ -29,7 +29,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 706 US
+    name: 712 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: rb1211-5.vatilon.cc
@@ -38,7 +38,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 707 US
+    name: 713 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: jp-x2.vatilon.cc
@@ -47,7 +47,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 710 CN
+    name: 716 CN
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: cn42.vatilon.cc
@@ -56,7 +56,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 711 US
+    name: 717 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: sg4.vatilon.cc
@@ -65,7 +65,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 712 US
+    name: 718 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: jp2.australiacaregroup.site
@@ -73,7 +73,7 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 713 US
+  - name: 719 US
     password: github.com/Alvin9999-newpac/fanqiang
     port: 19000
     server: anytls2.864106.xyz
@@ -83,7 +83,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 714 JP
+    name: 720 JP
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: za.australiacaregroup.site
@@ -94,7 +94,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 715 HK
+    name: 721 HK
     password: 6725d134ee80
     port: 443
     server: 654968169.df6h451rh.xin
@@ -106,7 +106,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 716 HK
+    name: 722 HK
     password: 6725d134ee80
     port: 443
     server: 56481.df6h451rh.xin
@@ -118,7 +118,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 731 TW
+    name: 732 TW
     password: 6725d134ee80
     port: 443
     server: 98416548.df6h451rh.xin
@@ -128,7 +128,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 733 TW
+    name: 734 TW
     password: ec74bb6a86c2
     port: 443
     server: 684616s4.df6h451rh.xin
@@ -137,7 +137,7 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 754 TW
+  - name: 755 TW
     password: ec74bb6a86c2
     port: 443
     server: er8u54dh.df6h451rh.xin
@@ -146,7 +146,7 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 755 KR
+  - name: 756 KR
     password: 13f0acfa-38c1-4e82-a758-583aa31740df
     port: 60005
     server: svip.skycon808.com
@@ -155,16 +155,11 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - type: anytls
-    name: 776 FR
-    server: ip5.934618.xyz
-    port: 30099
-    udp: true
-    sni: ""
+  - name: 757 KR
+    password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
+    port: 47531
+    server: svip.skycon808.com
     skip-cert-verify: true
-    packet-encoding: ""
-    password: github.com/Alvin9999-newpac/fanqiang
-    packetEncoding: none
-    sub-tag: P002-260618
-    username: github.com/Alvin9999-newpac/fanqiang
-    disable-sni: "true"
+    sni: tw15.swiftrelay.cc
+    type: anytls
+    udp: true
