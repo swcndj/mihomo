@@ -1,5 +1,5 @@
 proxies:
-  - name: 401 DE
+  - name: 402 DE
     password: 1095c731-affa-4f85-a9c8-61e495e56aca
     port: 51061
     server: 64.118.158.150
@@ -11,7 +11,7 @@ proxies:
   - client-fingerprint: chrome
     idle-session-check-interval: 30
     idle-session-timeout: 30
-    name: 692 US
+    name: 693 US
     password: 776b4834-caaf-4006-ab21-409e958867af
     port: 33091
     server: 45.202.240.4
@@ -115,7 +115,7 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 734 TW
+  - name: 735 TW
     password: ec74bb6a86c2
     port: 443
     server: er8u54dh.df6h451rh.xin
@@ -125,7 +125,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 735 TW
+    name: 736 TW
     password: ec74bb6a86c2
     port: 443
     server: 684616s4.df6h451rh.xin
@@ -155,25 +155,25 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 765 GB
-    password: 5b4f91fa-e64f-4af0-a5c2-b27ac8b52939
-    port: 4430
-    server: gb2.xiaoliyu.cyou
-    skip-cert-verify: true
-    type: anytls
-  - name: 766 KR
-    password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
-    port: 47531
-    server: svip.skycon808.com
-    skip-cert-verify: true
-    sni: tw15.swiftrelay.cc
-    type: anytls
-    udp: true
-  - name: 779 KR
+  - name: 759 KR
     password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
     port: 24318
     server: svip.skycon808.com
     skip-cert-verify: true
     sni: hk08.jdddyy01.cc
+    type: anytls
+    udp: true
+  - name: 766 GB
+    password: 5b4f91fa-e64f-4af0-a5c2-b27ac8b52939
+    port: 4430
+    server: gb2.xiaoliyu.cyou
+    skip-cert-verify: true
+    type: anytls
+  - name: 767 KR
+    password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
+    port: 47531
+    server: svip.skycon808.com
+    skip-cert-verify: true
+    sni: tw15.swiftrelay.cc
     type: anytls
     udp: true
