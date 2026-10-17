@@ -1,5 +1,5 @@
 proxies:
-  - name: 403 DE
+  - name: 402 DE
     password: 1095c731-affa-4f85-a9c8-61e495e56aca
     port: 51061
     server: 64.118.158.150
@@ -9,7 +9,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 710 US
+    name: 713 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: us.australiacaregroup.site
@@ -18,7 +18,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 711 US
+    name: 714 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: rb1211-5.vatilon.cc
@@ -27,7 +27,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 712 US
+    name: 715 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: jp-x2.vatilon.cc
@@ -36,7 +36,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 715 CN
+    name: 718 CN
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: cn42.vatilon.cc
@@ -45,7 +45,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 716 US
+    name: 719 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: sg4.vatilon.cc
@@ -54,7 +54,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 717 US
+    name: 720 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: jp2.australiacaregroup.site
@@ -62,7 +62,7 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 718 US
+  - name: 721 US
     password: github.com/Alvin9999-newpac/fanqiang
     port: 19000
     server: anytls2.864106.xyz
@@ -72,7 +72,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 719 JP
+    name: 722 JP
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: za.australiacaregroup.site
@@ -83,7 +83,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 720 HK
+    name: 723 HK
     password: 6725d134ee80
     port: 443
     server: 654968169.df6h451rh.xin
@@ -95,7 +95,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 721 HK
+    name: 724 HK
     password: 6725d134ee80
     port: 443
     server: 56481.df6h451rh.xin
@@ -104,7 +104,8 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 742 TW
+  - client-fingerprint: chrome
+    name: 743 TW
     password: ec74bb6a86c2
     port: 443
     server: er8u54dh.df6h451rh.xin
@@ -114,7 +115,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 743 TW
+    name: 744 TW
     password: ec74bb6a86c2
     port: 443
     server: 684616s4.df6h451rh.xin
@@ -126,7 +127,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 765 TW
+    name: 769 TW
     password: 6725d134ee80
     port: 443
     server: 98416548.df6h451rh.xin
@@ -135,7 +136,7 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 766 KR
+  - name: 770 KR
     password: 13f0acfa-38c1-4e82-a758-583aa31740df
     port: 60005
     server: svip.skycon808.com
@@ -144,25 +145,25 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 774 GB
-    password: 5b4f91fa-e64f-4af0-a5c2-b27ac8b52939
-    port: 4430
-    server: gb2.xiaoliyu.cyou
-    skip-cert-verify: true
-    type: anytls
-  - name: 775 KR
-    password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
-    port: 47531
-    server: svip.skycon808.com
-    skip-cert-verify: true
-    sni: tw15.swiftrelay.cc
-    type: anytls
-    udp: true
-  - name: 776 KR
+  - name: 771 KR
     password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
     port: 24318
     server: svip.skycon808.com
     skip-cert-verify: true
     sni: hk08.jdddyy01.cc
+    type: anytls
+    udp: true
+  - name: 779 GB
+    password: 5b4f91fa-e64f-4af0-a5c2-b27ac8b52939
+    port: 4430
+    server: gb2.xiaoliyu.cyou
+    skip-cert-verify: true
+    type: anytls
+  - name: 780 KR
+    password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
+    port: 47531
+    server: svip.skycon808.com
+    skip-cert-verify: true
+    sni: tw15.swiftrelay.cc
     type: anytls
     udp: true
