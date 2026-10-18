@@ -1461,7 +1461,7 @@ proxies:
       path: /
   - alpn:
       - http/1.1
-    name: 282 US
+    name: 281 US
     password: humanity
     port: 443
     server: 216.24.57.7
@@ -1471,7 +1471,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 283 US
+  - name: 282 US
     password: humanity
     port: 443
     server: 8.6.112.6
@@ -1481,7 +1481,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 304 US
+  - name: 303 US
     password: humanity
     port: 443
     server: 216.24.57.1
@@ -1491,7 +1491,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 305 US
+  - name: 304 US
     password: humanity
     port: 443
     server: render.com
@@ -1502,7 +1502,7 @@ proxies:
     ws-opts:
       path: /assignment
   - client-fingerprint: chrome
-    name: 319 US
+    name: 318 US
     network: ws
     password: humanity
     port: 8443
@@ -1515,7 +1515,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
       path: /assignment
-  - name: 329 US
+  - name: 328 US
     network: ws
     password: humanity
     port: 443
@@ -1531,7 +1531,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 339 US
+    name: 338 US
     network: ws
     password: humanity
     port: 443
@@ -1587,39 +1587,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - alpn:
-      - http/1.1
-    client-fingerprint: unsafe
-    name: 485 HK
-    network: ws
-    password: humanity
-    port: 443
-    server: 219.76.13.177
-    skip-cert-verify: false
-    sni: wWw.Volumeroot.cOm.
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36
-      path: /assignment
-  - alpn:
-      - http/1.1
-    client-fingerprint: unsafe
-    name: 487 US
-    network: ws
-    password: humanity
-    port: 443
-    server: 45.38.3.25
-    skip-cert-verify: false
-    sni: www.volumeroot.com
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /assignment
-  - name: 507 US
+  - name: 479 US
     network: ws
     password: humanity
     port: 443
@@ -1632,7 +1600,7 @@ proxies:
       headers:
         host: www.gossipglove.com
       path: /assignment
-  - name: 533 SG
+  - name: 505 SG
     network: ws
     password: "521314"
     port: 443
@@ -1645,7 +1613,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 573 US
+  - name: 546 US
     network: ws
     password: humanity
     port: 443
@@ -1656,7 +1624,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 574 US
+  - name: 547 US
     type: trojan
     server: blog.webex.com
     port: 443
@@ -1668,7 +1636,7 @@ proxies:
       headers:
         Host: unnes.ac.id.yxls.eu.cc
       path: /br-orcl
-  - name: 575 US
+  - name: 549 US
     network: ws
     password: humanity
     port: 443
@@ -1681,7 +1649,7 @@ proxies:
       headers:
         host: www.creationlong.org
       path: /assignment
-  - name: 576 US
+  - name: 550 US
     network: ws
     password: humanity
     port: 443
@@ -1694,7 +1662,23 @@ proxies:
       headers:
         host: www.creationlong.org
       path: /assignment
-  - name: 624 SG
+  - alpn:
+      - http/1.1
+    client-fingerprint: unsafe
+    name: 580 HK
+    network: ws
+    password: humanity
+    port: 443
+    server: 219.76.13.177
+    skip-cert-verify: false
+    sni: wWw.Volumeroot.cOm.
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36
+      path: /assignment
+  - name: 600 SG
     network: ws
     password: "521314"
     port: 443
@@ -1707,7 +1691,23 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 642 US
+  - alpn:
+      - http/1.1
+    client-fingerprint: unsafe
+    name: 624 US
+    network: ws
+    password: humanity
+    port: 443
+    server: 45.38.3.25
+    skip-cert-verify: false
+    sni: wWw.Volumeroot.cOm.
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+      path: /assignment
+  - name: 677 US
     server: 95.164.33.62
     port: 443
     type: trojan
@@ -1719,7 +1719,7 @@ proxies:
       path: /websocket
       headers:
         Host: sourceforge.net
-  - name: 643 US
+  - name: 678 US
     server: 66.228.55.178
     port: 2083
     type: trojan
@@ -1731,7 +1731,7 @@ proxies:
       path: /
       headers:
         Host: gstatic.com
-  - name: 760 US
+  - name: 744 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10003
     server: my1.australiacaregroup.site
@@ -1743,7 +1743,7 @@ proxies:
       headers:
         Host: my1.australiacaregroup.site
       path: /trojan
-  - name: 783 US
+  - name: 765 US
     network: ws
     password: e20fd145-65f1-4aa3-96be-da0524bbb16e
     port: 20230
@@ -1754,7 +1754,7 @@ proxies:
     udp: true
     ws-opts:
       path: /
-  - name: 816 US
+  - name: 796 US
     server: notdirect.howhealthyistoomajreally.homes
     port: 443
     type: trojan
@@ -1766,7 +1766,7 @@ proxies:
       path: /ilb9fuWfuqWDjlQrGCkIH66kMFPa
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
-  - name: 817 US
+  - name: 797 US
     server: cnamemc1.cdncisco4.co
     port: 443
     type: trojan
@@ -1778,7 +1778,7 @@ proxies:
       path: /422Kdfwzf49IxeZJa
       headers:
         Host: c1mc.cdncisco4.co
-  - name: 818 AU
+  - name: 798 AU
     server: cnamemt.ciscocdn1.live
     port: 443
     type: trojan
@@ -1790,7 +1790,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mt.ciscocdn1.live
-  - name: 819 AU
+  - name: 799 AU
     server: cnamemk.ciscocdn1.live
     port: 443
     type: trojan
@@ -1802,7 +1802,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mk.ciscocdn1.live
-  - name: 820 AU
+  - name: 800 AU
     server: cnamemc.ciscocdn1.live
     port: 443
     type: trojan
@@ -1814,3 +1814,12 @@ proxies:
       path: /ywQ9KSLI4ZBm9wOAXUaN
       headers:
         Host: c3mc.ciscocdn1.live
+  - name: 815 JP
+    network: ws
+    password: 0400697c-b581-4575-9d2f-0bbd4659312d
+    port: 20230
+    server: jp005.421421.xyz
+    sni: www.alibaba.com
+    type: trojan
+    ws-opts:
+      path: /
