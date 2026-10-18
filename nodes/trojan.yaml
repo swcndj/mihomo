@@ -1544,7 +1544,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
       path: /assignment
-  - name: 396 US
+  - name: 398 US
     password: humanity
     port: 443
     server: 162.159.254.191
@@ -1554,7 +1554,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 397 US
+  - name: 399 US
     password: humanity
     port: 443
     server: 8.6.112.0
@@ -1564,7 +1564,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 399 US
+  - name: 401 US
     password: humanity
     port: 443
     server: 130.250.137.171
@@ -1574,7 +1574,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 409 SG
+  - name: 411 SG
     network: ws
     password: "521314"
     port: 443
@@ -1587,18 +1587,6 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 445 US
-    type: trojan
-    server: blog.webex.com
-    port: 443
-    network: ws
-    password: afbcd89a-5a90-4a44-a42a-be08f444aa3f
-    skip-cert-verify: false
-    sni: unnes.ac.id.yxls.eu.cc
-    ws-opts:
-      headers:
-        Host: unnes.ac.id.yxls.eu.cc
-      path: /br-orcl
   - name: 480 US
     network: ws
     password: humanity
@@ -1625,7 +1613,7 @@ proxies:
       headers:
         host: tjplay.lxdxo.kdns.fr
       path: /
-  - name: 546 US
+  - name: 547 US
     network: ws
     password: humanity
     port: 443
@@ -1636,7 +1624,19 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 547 US
+  - name: 548 US
+    type: trojan
+    server: blog.webex.com
+    port: 443
+    network: ws
+    password: afbcd89a-5a90-4a44-a42a-be08f444aa3f
+    skip-cert-verify: false
+    sni: unnes.ac.id.yxls.eu.cc
+    ws-opts:
+      headers:
+        Host: unnes.ac.id.yxls.eu.cc
+      path: /br-orcl
+  - name: 550 US
     network: ws
     password: humanity
     port: 443
@@ -1649,7 +1649,7 @@ proxies:
       headers:
         host: www.creationlong.org
       path: /assignment
-  - name: 548 US
+  - name: 551 US
     network: ws
     password: humanity
     port: 443
@@ -1665,7 +1665,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: unsafe
-    name: 578 HK
+    name: 581 HK
     network: ws
     password: humanity
     port: 443
@@ -1678,7 +1678,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36
       path: /assignment
-  - name: 598 SG
+  - name: 601 SG
     network: ws
     password: "521314"
     port: 443
@@ -1694,7 +1694,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: unsafe
-    name: 622 US
+    name: 625 US
     network: ws
     password: humanity
     port: 443
@@ -1707,7 +1707,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
       path: /assignment
-  - name: 675 US
+  - name: 678 US
     server: 95.164.33.62
     port: 443
     type: trojan
@@ -1719,7 +1719,7 @@ proxies:
       path: /websocket
       headers:
         Host: sourceforge.net
-  - name: 676 US
+  - name: 679 US
     server: 66.228.55.178
     port: 2083
     type: trojan
@@ -1731,7 +1731,7 @@ proxies:
       path: /
       headers:
         Host: gstatic.com
-  - name: 739 US
+  - name: 745 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10003
     server: my1.australiacaregroup.site
@@ -1743,7 +1743,7 @@ proxies:
       headers:
         Host: my1.australiacaregroup.site
       path: /trojan
-  - name: 760 US
+  - name: 765 US
     network: ws
     password: e20fd145-65f1-4aa3-96be-da0524bbb16e
     port: 20230
@@ -1754,7 +1754,7 @@ proxies:
     udp: true
     ws-opts:
       path: /
-  - name: 793 JP
+  - name: 796 JP
     server: jp005.421421.xyz
     port: 20230
     type: trojan
@@ -1766,7 +1766,7 @@ proxies:
       path: /
       headers:
         Host: www.alibaba.com
-  - name: 794 US
+  - name: 797 US
     server: notdirect.howhealthyistoomajreally.homes
     port: 443
     type: trojan
@@ -1778,7 +1778,7 @@ proxies:
       path: /ilb9fuWfuqWDjlQrGCkIH66kMFPa
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
-  - name: 795 US
+  - name: 798 US
     server: cnamemc1.cdncisco4.co
     port: 443
     type: trojan
@@ -1790,7 +1790,7 @@ proxies:
       path: /422Kdfwzf49IxeZJa
       headers:
         Host: c1mc.cdncisco4.co
-  - name: 796 AU
+  - name: 799 AU
     server: cnamemt.ciscocdn1.live
     port: 443
     type: trojan
@@ -1802,7 +1802,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mt.ciscocdn1.live
-  - name: 797 AU
+  - name: 800 AU
     server: cnamemk.ciscocdn1.live
     port: 443
     type: trojan
@@ -1814,7 +1814,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mk.ciscocdn1.live
-  - name: 798 AU
+  - name: 801 AU
     server: cnamemc.ciscocdn1.live
     port: 443
     type: trojan
