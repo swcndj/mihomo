@@ -10,7 +10,7 @@ const REQUEST_TIMEOUT = 15000;
 // 协议筛选白名单
 const PROTO_WHITELIST = new Set(["vless", "trojan", "hysteria2", "anytls", "tuic", "mieru"]);
 // 地区筛选豁免协议
-const REGIONFILTER_SKIP_PROTOLIST = new Set(["hysteria2", "anytls", "tuic", "mieru"]);
+const REGIONFILTER_SKIP_PROTOLIST = new Set(["vless", "hysteria2", "anytls", "tuic", "mieru"]);
 // 非豁免协议目标地区
 const TARGET_COUNTRY_CODES = new Set(['HK', 'MO', 'TW', 'JP', 'KR', 'SG', 'MY', 'TH', 'VN', 'PH', 'ID', 'AU', 'US']);
 
