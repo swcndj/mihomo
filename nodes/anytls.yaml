@@ -1,5 +1,5 @@
 proxies:
-  - name: 928 DE
+  - name: 918 DE
     password: 1095c731-affa-4f85-a9c8-61e495e56aca
     port: 51061
     server: 64.118.158.150
@@ -10,7 +10,7 @@ proxies:
     udp: true
   - alpn:
       - h2
-    name: 1963 TW
+    name: 1962 TW
     password: dongtaiwang.com
     port: 59901
     server: 45.221.98.14
@@ -18,7 +18,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2427 US
+    name: 2453 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: us.australiacaregroup.site
@@ -27,7 +27,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2428 US
+    name: 2454 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: rb1211-5.vatilon.cc
@@ -36,7 +36,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2429 US
+    name: 2455 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: jp-x2.vatilon.cc
@@ -45,7 +45,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2433 CN
+    name: 2459 CN
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: cn42.vatilon.cc
@@ -54,7 +54,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2434 US
+    name: 2460 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: sg4.vatilon.cc
@@ -63,7 +63,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2435 US
+    name: 2461 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: jp2.australiacaregroup.site
@@ -71,7 +71,7 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 2436 US
+  - name: 2462 US
     password: github.com/Alvin9999-newpac/fanqiang
     port: 19000
     server: anytls2.864106.xyz
@@ -81,7 +81,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2439 JP
+    name: 2464 JP
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: za.australiacaregroup.site
@@ -92,7 +92,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 2440 HK
+    name: 2465 HK
     password: 6725d134ee80
     port: 443
     server: 654968169.df6h451rh.xin
@@ -104,7 +104,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 2441 HK
+    name: 2466 HK
     password: 6725d134ee80
     port: 443
     server: 56481.df6h451rh.xin
@@ -113,7 +113,7 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 2569 TW
+  - name: 2590 TW
     password: ec74bb6a86c2
     port: 443
     server: er8u54dh.df6h451rh.xin
@@ -123,7 +123,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2570 TW
+    name: 2591 TW
     password: ec74bb6a86c2
     port: 443
     server: 684616s4.df6h451rh.xin
@@ -133,7 +133,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2571 KR
+    name: 2592 KR
     password: 13f0acfa-38c1-4e82-a758-583aa31740df
     port: 60005
     server: svip.skycon808.com
@@ -141,191 +141,7 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 2653 SG
-    password: 21b60363-271b-49f0-975b-dbe315215164
-    port: 32189
-    server: vv66.wjwhi90.com
-    skip-cert-verify: true
-    sni: hdzsg.wjwhi90.com
-    type: anytls
-    udp: true
-  - name: 2654 SG
-    password: 21b60363-271b-49f0-975b-dbe315215164
-    port: 13026
-    server: vv66.wjwhi90.com
-    skip-cert-verify: true
-    sni: hkt.9dai.xyz
-    type: anytls
-    udp: true
-  - name: 2655 SG
-    password: 21b60363-271b-49f0-975b-dbe315215164
-    port: 38205
-    server: vv66.wjwhi90.com
-    skip-cert-verify: true
-    sni: jsjp.wjwhi90.com
-    type: anytls
-    udp: true
-  - name: 2656 SG
-    password: 21b60363-271b-49f0-975b-dbe315215164
-    port: 18082
-    server: 1sw-olo.wjwhi90.com
-    skip-cert-verify: true
-    sni: hdzsg.wjwhi90.com
-    type: anytls
-    udp: true
-  - name: 2657 SG
-    password: 21b60363-271b-49f0-975b-dbe315215164
-    port: 32183
-    server: 1sw-olo.wjwhi90.com
-    skip-cert-verify: true
-    sni: jsuk.9dai.xyz
-    type: anytls
-    udp: true
-  - name: 2658 SG
-    password: 21b60363-271b-49f0-975b-dbe315215164
-    port: 18001
-    server: 1sw-olo.wjwhi90.com
-    skip-cert-verify: true
-    sni: hkt.9dai.xyz
-    type: anytls
-    udp: true
-  - name: 2659 SG
-    password: 21b60363-271b-49f0-975b-dbe315215164
-    port: 18083
-    server: 1sw-olo.wjwhi90.com
-    skip-cert-verify: true
-    sni: jsjp.wjwhi90.com
-    type: anytls
-    udp: true
-  - name: 2660 SG
-    password: 21b60363-271b-49f0-975b-dbe315215164
-    port: 38304
-    server: 1sw-olo.wjwhi90.com
-    skip-cert-verify: true
-    sni: akjp.9dai.xyz
-    type: anytls
-    udp: true
-  - name: 2661 SG
-    password: 21b60363-271b-49f0-975b-dbe315215164
-    port: 18013
-    server: 1sw-olo.wjwhi90.com
-    skip-cert-verify: true
-    sni: hdzsg-m.wjwhi90.com
-    type: anytls
-    udp: true
-  - name: 2662 SG
-    password: 21b60363-271b-49f0-975b-dbe315215164
-    port: 18113
-    server: 1sw-olo.wjwhi90.com
-    skip-cert-verify: true
-    sni: hdzsg.wjwhi90.com
-    type: anytls
-    udp: true
-  - name: 2663 SG
-    password: 21b60363-271b-49f0-975b-dbe315215164
-    port: 18029
-    server: 1sw-olo.wjwhi90.com
-    skip-cert-verify: true
-    sni: plotww.9dai.xyz
-    type: anytls
-    udp: true
-  - name: 2664 SG
-    password: 21b60363-271b-49f0-975b-dbe315215164
-    port: 32077
-    server: 1sw-olo.wjwhi90.com
-    skip-cert-verify: true
-    sni: byvmlas1.wjwhi90.com
-    type: anytls
-    udp: true
-  - name: 2665 SG
-    server: 1sw-olo.wjwhi90.com
-    port: 32186
-    type: anytls
-    password: 21b60363-271b-49f0-975b-dbe315215164
-    udp: true
-    sni: jsde.fe-9.top
-    skip-cert-verify: true
-  - name: 2666 SG
-    server: 1sw-olo.wjwhi90.com
-    port: 38202
-    type: anytls
-    password: 21b60363-271b-49f0-975b-dbe315215164
-    udp: true
-    sni: jsjp.wjwhi90.com
-    skip-cert-verify: true
-  - name: 2667 SG
-    server: 1sw-olo.wjwhi90.com
-    port: 32076
-    type: anytls
-    password: 21b60363-271b-49f0-975b-dbe315215164
-    udp: true
-    sni: dvkr.wjwhi90.com
-    skip-cert-verify: true
-  - name: 2670 SG
-    password: 21b60363-271b-49f0-975b-dbe315215164
-    port: 32184
-    server: aw-22t.wjwhi90.com
-    skip-cert-verify: true
-    sni: jsfr.fe-9.top
-    type: anytls
-    udp: true
-  - name: 2671 SG
-    password: 21b60363-271b-49f0-975b-dbe315215164
-    port: 18081
-    server: aw-22t.wjwhi90.com
-    skip-cert-verify: true
-    sni: jsuk.9dai.xyz
-    type: anytls
-    udp: true
-  - name: 2672 SG
-    password: 21b60363-271b-49f0-975b-dbe315215164
-    port: 21019
-    server: aw-22t.wjwhi90.com
-    skip-cert-verify: true
-    sni: hkt65u.9dai.xyz
-    type: anytls
-    udp: true
-  - name: 2673 SG
-    password: 21b60363-271b-49f0-975b-dbe315215164
-    port: 12018
-    server: aw-22t.wjwhi90.com
-    skip-cert-verify: true
-    sni: akjp.9dai.xyz
-    type: anytls
-    udp: true
-  - name: 2674 SG
-    password: 21b60363-271b-49f0-975b-dbe315215164
-    port: 38204
-    server: aw-22t.wjwhi90.com
-    skip-cert-verify: true
-    sni: jsjp.wjwhi90.com
-    type: anytls
-    udp: true
-  - name: 2675 SG
-    password: 21b60363-271b-49f0-975b-dbe315215164
-    port: 32085
-    server: aw-22t.wjwhi90.com
-    skip-cert-verify: true
-    sni: byrz.9dai.xyz
-    type: anytls
-    udp: true
-  - name: 2676 SG
-    password: 21b60363-271b-49f0-975b-dbe315215164
-    port: 18023
-    server: aw-22t.wjwhi90.com
-    skip-cert-verify: true
-    sni: plotww.9dai.xyz
-    type: anytls
-    udp: true
-  - name: 2677 SG
-    password: 21b60363-271b-49f0-975b-dbe315215164
-    port: 18017
-    server: aw-22t.wjwhi90.com
-    skip-cert-verify: true
-    sni: byvmlas1.wjwhi90.com
-    type: anytls
-    udp: true
-  - name: 2680 KR
+  - name: 2681 KR
     password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
     port: 47531
     server: svip.skycon808.com
@@ -333,32 +149,71 @@ proxies:
     sni: tw15.swiftrelay.cc
     type: anytls
     udp: true
-  - type: anytls
-    name: 2712 GB
-    server: gb2.xiaoliyu.cyou
-    port: 4430
-    udp: true
-    sni: gb2.xiaoliyu.cyou
+  - name: 2713 SG
+    password: 21b60363-271b-49f0-975b-dbe315215164
+    port: 32186
+    server: 1sw-olo.wjwhi90.com
     skip-cert-verify: true
-    packet-encoding: ""
-    password: 5b4f91fa-e64f-4af0-a5c2-b27ac8b52939
-    packetEncoding: none
-    allowInsecure: "1"
-    sub-tag: C002-260622
-    username: 5b4f91fa-e64f-4af0-a5c2-b27ac8b52939
-  - type: anytls
-    name: 2713 TW
-    server: 98416548.df6h451rh.xin
-    port: 443
+    sni: jsde.fe-9.top
+    type: anytls
     udp: true
-    sni: images.ctfassets.net
+  - name: 2714 SG
+    password: 21b60363-271b-49f0-975b-dbe315215164
+    port: 32183
+    server: 1sw-olo.wjwhi90.com
     skip-cert-verify: true
-    packet-encoding: ""
+    sni: jsuk.9dai.xyz
+    type: anytls
+    udp: true
+  - name: 2715 SG
+    password: 21b60363-271b-49f0-975b-dbe315215164
+    port: 38202
+    server: 1sw-olo.wjwhi90.com
+    skip-cert-verify: true
+    sni: jsjp.wjwhi90.com
+    type: anytls
+    udp: true
+  - name: 2716 SG
+    password: 21b60363-271b-49f0-975b-dbe315215164
+    port: 32076
+    server: 1sw-olo.wjwhi90.com
+    skip-cert-verify: true
+    sni: dvkr.wjwhi90.com
+    type: anytls
+    udp: true
+  - name: 2717 SG
+    password: 21b60363-271b-49f0-975b-dbe315215164
+    port: 18082
+    server: 1sw-olo.wjwhi90.com
+    skip-cert-verify: true
+    sni: hdzsg.wjwhi90.com
+    type: anytls
+    udp: true
+  - name: 2718 SG
+    password: 21b60363-271b-49f0-975b-dbe315215164
+    port: 18113
+    server: 1sw-olo.wjwhi90.com
+    skip-cert-verify: true
+    sni: hdzsg.wjwhi90.com
+    type: anytls
+    udp: true
+  - name: 2719 SG
+    password: 21b60363-271b-49f0-975b-dbe315215164
+    port: 32077
+    server: 1sw-olo.wjwhi90.com
+    skip-cert-verify: true
+    sni: byvmlas1.wjwhi90.com
+    type: anytls
+    udp: true
+  - name: 2721 TW
     password: 0324fbc29561
-    packetEncoding: none
-    allowInsecure: "1"
-    sub-tag: P002-260618
-  - name: 2714 KR
+    port: 443
+    server: 98416548.df6h451rh.xin
+    skip-cert-verify: true
+    sni: images.ctfassets.net
+    type: anytls
+    udp: true
+  - name: 2723 KR
     password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
     port: 24318
     server: svip.skycon808.com
@@ -366,3 +221,9 @@ proxies:
     sni: hk08.jdddyy01.cc
     type: anytls
     udp: true
+  - name: 2724 GB
+    password: 5b4f91fa-e64f-4af0-a5c2-b27ac8b52939
+    port: 4430
+    server: gb2.xiaoliyu.cyou
+    skip-cert-verify: true
+    type: anytls
