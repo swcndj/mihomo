@@ -1,5 +1,5 @@
 proxies:
-  - name: 921 DE
+  - name: 915 DE
     password: 1095c731-affa-4f85-a9c8-61e495e56aca
     port: 51061
     server: 64.118.158.150
@@ -10,7 +10,7 @@ proxies:
     udp: true
   - alpn:
       - h2
-    name: 1967 TW
+    name: 1419 TW
     password: dongtaiwang.com
     port: 59901
     server: 45.221.98.14
@@ -18,7 +18,18 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2632 US
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    name: 2714 US
+    password: 776b4834-caaf-4006-ab21-409e958867af
+    port: 33091
+    server: 45.202.240.4
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: anytls
+    udp: true
+  - client-fingerprint: chrome
+    name: 2734 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: us.australiacaregroup.site
@@ -27,7 +38,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2633 US
+    name: 2735 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: rb1211-5.vatilon.cc
@@ -36,7 +47,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2634 US
+    name: 2736 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: jp-x2.vatilon.cc
@@ -45,7 +56,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2638 CN
+    name: 2740 CN
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: cn42.vatilon.cc
@@ -54,7 +65,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2639 US
+    name: 2741 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: sg4.vatilon.cc
@@ -63,7 +74,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2640 US
+    name: 2742 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: jp2.australiacaregroup.site
@@ -71,7 +82,7 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 2641 US
+  - name: 2743 US
     password: github.com/Alvin9999-newpac/fanqiang
     port: 19000
     server: anytls2.864106.xyz
@@ -81,7 +92,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2643 JP
+    name: 2745 JP
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: za.australiacaregroup.site
@@ -92,7 +103,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 2644 HK
+    name: 2746 HK
     password: 6725d134ee80
     port: 443
     server: 654968169.df6h451rh.xin
@@ -104,7 +115,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 2645 HK
+    name: 2747 HK
     password: 6725d134ee80
     port: 443
     server: 56481.df6h451rh.xin
@@ -113,7 +124,7 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 2771 TW
+  - name: 2876 TW
     password: ec74bb6a86c2
     port: 443
     server: er8u54dh.df6h451rh.xin
@@ -123,7 +134,26 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2772 TW
+    name: 2878 KR
+    password: 13f0acfa-38c1-4e82-a758-583aa31740df
+    port: 60005
+    server: svip.skycon808.com
+    skip-cert-verify: true
+    tls: true
+    type: anytls
+    udp: true
+  - client-fingerprint: chrome
+    name: 2879 KR
+    password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
+    port: 47531
+    server: svip.skycon808.com
+    skip-cert-verify: true
+    sni: tw15.swiftrelay.cc
+    tls: true
+    type: anytls
+    udp: true
+  - client-fingerprint: chrome
+    name: 2881 TW
     password: ec74bb6a86c2
     port: 443
     server: 684616s4.df6h451rh.xin
@@ -132,36 +162,114 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - client-fingerprint: chrome
-    name: 2773 KR
-    password: 13f0acfa-38c1-4e82-a758-583aa31740df
-    port: 60005
-    server: svip.skycon808.com
+  - alpn:
+      - h2
+      - http/1.1
+    name: 3005 JP
+    password: 74d67342-2e3d-4eba-ab0a-01c5bcec4392
+    port: 14188
+    server: jp.zcvip1.com
     skip-cert-verify: true
-    tls: true
+    sni: www.esteelauder.jp
     type: anytls
     udp: true
-  - name: 2860 TW
-    password: 0324fbc29561
-    port: 443
-    server: 98416548.df6h451rh.xin
+  - alpn:
+      - h2
+      - http/1.1
+    name: 3006 JP
+    password: 74d67342-2e3d-4eba-ab0a-01c5bcec4392
+    port: 22010
+    server: jp.zcvip1.com
     skip-cert-verify: true
-    sni: images.ctfassets.net
+    sni: www.lamer.com
     type: anytls
     udp: true
-  - type: anytls
-    name: 2906 KR
-    server: svip.skycon808.com
-    port: 47531
-    udp: true
-    sni: tw15.swiftrelay.cc
-    client-fingerprint: chrome
+  - alpn:
+      - h2
+      - http/1.1
+    name: 3007 SG
+    password: 74d67342-2e3d-4eba-ab0a-01c5bcec4392
+    port: 14210
+    server: hk.zcvip1.com
     skip-cert-verify: true
-    packet-encoding: xudp
-    password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
-    fp: chrome
-    headerType: none
-  - name: 2907 KR
+    sni: www.esteelauder.jp
+    type: anytls
+    udp: true
+  - alpn:
+      - h2
+      - http/1.1
+    name: 3008 SG
+    password: 74d67342-2e3d-4eba-ab0a-01c5bcec4392
+    port: 14345
+    server: as.zcvip1.com
+    skip-cert-verify: true
+    sni: www.lamer.com
+    type: anytls
+    udp: true
+  - alpn:
+      - h2
+      - http/1.1
+    name: 3009 SG
+    password: 74d67342-2e3d-4eba-ab0a-01c5bcec4392
+    port: 14220
+    server: sg.zcvip1.com
+    skip-cert-verify: true
+    sni: www.lamer.com.sg
+    type: anytls
+    udp: true
+  - alpn:
+      - h2
+      - http/1.1
+    name: 3010 SG
+    password: 74d67342-2e3d-4eba-ab0a-01c5bcec4392
+    port: 14300
+    server: as.zcvip1.com
+    skip-cert-verify: true
+    sni: www.lamer.com
+    type: anytls
+    udp: true
+  - alpn:
+      - h2
+      - http/1.1
+    name: 3012 SG
+    password: 74d67342-2e3d-4eba-ab0a-01c5bcec4392
+    port: 14240
+    server: sg.zcvip1.com
+    skip-cert-verify: true
+    sni: www.lamer.com.sg
+    type: anytls
+    udp: true
+  - alpn:
+      - h2
+      - http/1.1
+    name: 3013 SG
+    password: 74d67342-2e3d-4eba-ab0a-01c5bcec4392
+    port: 14250
+    server: sg.zcvip1.com
+    skip-cert-verify: true
+    sni: www.lamer.com.sg
+    type: anytls
+    udp: true
+  - alpn:
+      - h2
+      - http/1.1
+    name: 3014 TW
+    password: 74d67342-2e3d-4eba-ab0a-01c5bcec4392
+    port: 14151
+    server: twf.zcvip1.com
+    skip-cert-verify: true
+    sni: www.lamer.com.tw
+    type: anytls
+    udp: true
+  - name: 3017 JP
+    password: 7212418a-c4e9-4378-8722-b34bda5f0467
+    port: 56304
+    server: a4.entrance.app.xdns.win
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: anytls
+    udp: true
+  - name: 3018 KR
     password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
     port: 24318
     server: svip.skycon808.com
@@ -169,9 +277,11 @@ proxies:
     sni: hk08.jdddyy01.cc
     type: anytls
     udp: true
-  - name: 2911 GB
-    password: 5b4f91fa-e64f-4af0-a5c2-b27ac8b52939
-    port: 4430
-    server: gb2.xiaoliyu.cyou
+  - name: 3020 TW
+    password: 0324fbc29561
+    port: 443
+    server: 98416548.df6h451rh.xin
     skip-cert-verify: true
+    sni: images.ctfassets.net
     type: anytls
+    udp: true
