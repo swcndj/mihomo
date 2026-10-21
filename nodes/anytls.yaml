@@ -1,5 +1,5 @@
 proxies:
-  - name: 925 DE
+  - name: 923 DE
     password: 1095c731-affa-4f85-a9c8-61e495e56aca
     port: 51061
     server: 64.118.158.150
@@ -10,7 +10,7 @@ proxies:
     udp: true
   - alpn:
       - h2
-    name: 1428 TW
+    name: 1423 TW
     password: dongtaiwang.com
     port: 59901
     server: 45.221.98.14
@@ -20,7 +20,7 @@ proxies:
   - client-fingerprint: chrome
     idle-session-check-interval: 30
     idle-session-timeout: 30
-    name: 2704 US
+    name: 2701 US
     password: 776b4834-caaf-4006-ab21-409e958867af
     port: 33091
     server: 45.202.240.4
@@ -124,7 +124,7 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 2857 TW
+  - name: 2865 TW
     password: ec74bb6a86c2
     port: 443
     server: er8u54dh.df6h451rh.xin
@@ -134,7 +134,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2859 KR
+    name: 2867 KR
     password: 13f0acfa-38c1-4e82-a758-583aa31740df
     port: 60005
     server: svip.skycon808.com
@@ -143,17 +143,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2860 KR
-    password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
-    port: 47531
-    server: svip.skycon808.com
-    skip-cert-verify: true
-    sni: tw15.swiftrelay.cc
-    tls: true
-    type: anytls
-    udp: true
-  - client-fingerprint: chrome
-    name: 2862 TW
+    name: 2869 TW
     password: ec74bb6a86c2
     port: 443
     server: 684616s4.df6h451rh.xin
@@ -162,7 +152,17 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 2981 JP
+  - client-fingerprint: chrome
+    name: 2930 KR
+    password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
+    port: 47531
+    server: svip.skycon808.com
+    skip-cert-verify: true
+    sni: tw15.swiftrelay.cc
+    tls: true
+    type: anytls
+    udp: true
+  - name: 2986 JP
     password: 7212418a-c4e9-4378-8722-b34bda5f0467
     port: 56304
     server: a4.entrance.app.xdns.win
@@ -170,7 +170,7 @@ proxies:
     sni: www.microsoft.com
     type: anytls
     udp: true
-  - name: 2982 KR
+  - name: 2987 KR
     password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
     port: 24318
     server: svip.skycon808.com
@@ -178,7 +178,7 @@ proxies:
     sni: hk08.jdddyy01.cc
     type: anytls
     udp: true
-  - name: 2984 TW
+  - name: 2989 TW
     password: 0324fbc29561
     port: 443
     server: 98416548.df6h451rh.xin
@@ -186,3 +186,10 @@ proxies:
     sni: images.ctfassets.net
     type: anytls
     udp: true
+  - name: 2990 HK
+    type: anytls
+    server: user02.godvpn.lol
+    port: 47263
+    password: 0f18b03a-1333-4a85-bd83-676839225c8c
+    udp: true
+    skip-cert-verify: true
