@@ -1,5 +1,107 @@
 proxies:
-  - name: 2928 SG
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
+    name: 2601 MY
+    password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
+    port: 52892
+    reduce-rtt: false
+    server: 85.211.240.160
+    skip-cert-verify: false
+    sni: www.bing.com
+    type: tuic
+    udp-relay-mode: native
+    uuid: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
+    name: 2602 ID
+    password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
+    port: 52892
+    reduce-rtt: false
+    server: 70.153.151.33
+    skip-cert-verify: false
+    sni: www.bing.com
+    type: tuic
+    udp-relay-mode: native
+    uuid: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
+    name: 2603 ID
+    password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
+    port: 52892
+    reduce-rtt: false
+    server: 70.153.151.11
+    skip-cert-verify: false
+    sni: www.bing.com
+    type: tuic
+    udp-relay-mode: native
+    uuid: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
+    name: 2604 JP
+    password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
+    port: 52892
+    reduce-rtt: false
+    server: 18.178.155.206
+    skip-cert-verify: false
+    sni: www.bing.com
+    type: tuic
+    udp-relay-mode: native
+    uuid: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
+    name: 2606 GB
+    password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
+    port: 52892
+    reduce-rtt: false
+    server: 85.159.93.148
+    skip-cert-verify: false
+    sni: www.bing.com
+    type: tuic
+    udp-relay-mode: native
+    uuid: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
+    name: 2609 US
+    password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
+    port: 52892
+    reduce-rtt: false
+    server: 162.251.161.155
+    skip-cert-verify: false
+    sni: www.bing.com
+    type: tuic
+    udp-relay-mode: native
+    uuid: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    name: 2614 US
+    password: e511bd2b-d8ef-4439-bd3b-c78f739dcbbb
+    port: 10443
+    server: 51.81.223.166
+    skip-cert-verify: true
+    type: tuic
+    udp: true
+    udp-relay-mode: native
+    uuid: e511bd2b-d8ef-4439-bd3b-c78f739dcbbb
+  - name: 2884 SG
     type: tuic
     server: sg2-8sb.6121999.dpdns.org
     port: 33738
@@ -11,3 +113,78 @@ proxies:
     udp-relay-mode: quic
     uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
     version: 5
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
+    name: 2912 JP
+    password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
+    port: 52892
+    reduce-rtt: false
+    server: jp.539bb8de-73bb-4398-8c9b-d145a8901e8f.5201a354.demo-chat-airport.com
+    skip-cert-verify: false
+    sni: www.bing.com
+    type: tuic
+    udp-relay-mode: native
+    uuid: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
+    name: 2913 SG
+    password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
+    port: 52892
+    reduce-rtt: false
+    server: sg.173a00e1-f7e7-4018-9d07-3850d2ca48ad.ba93f54e.demo-chat-airport.com
+    skip-cert-verify: false
+    sni: www.bing.com
+    type: tuic
+    udp-relay-mode: native
+    uuid: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
+    name: 2914 MY
+    password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
+    port: 52892
+    reduce-rtt: false
+    server: hkv6c.de180997-0810-4174-8f14-eb8d79d47a0c.cbdd6b7e.demo-chat-airport.com
+    skip-cert-verify: false
+    sni: www.bing.com
+    type: tuic
+    udp-relay-mode: native
+    uuid: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
+    name: 2915 KR
+    password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
+    port: 52892
+    reduce-rtt: false
+    server: kr.91b30040-0142-4050-a005-142dc68a5ba8.e0fb388f.demo-chat-airport.com
+    skip-cert-verify: false
+    sni: www.bing.com
+    type: tuic
+    udp-relay-mode: native
+    uuid: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
+    name: 2916 JP
+    password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
+    port: 52892
+    reduce-rtt: false
+    server: jpa.539bb8de-73bb-4398-8c9b-d145a8901e8f.b01401d1.demo-chat-airport.com
+    skip-cert-verify: false
+    sni: www.bing.com
+    type: tuic
+    udp-relay-mode: native
+    uuid: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
