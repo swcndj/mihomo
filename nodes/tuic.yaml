@@ -4,7 +4,7 @@ proxies:
     congestion-controller: bbr
     disable-sni: false
     fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
-    name: 2601 MY
+    name: 2615 MY
     password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
     port: 52892
     reduce-rtt: false
@@ -19,7 +19,7 @@ proxies:
     congestion-controller: bbr
     disable-sni: false
     fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
-    name: 2602 ID
+    name: 2616 ID
     password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
     port: 52892
     reduce-rtt: false
@@ -34,7 +34,7 @@ proxies:
     congestion-controller: bbr
     disable-sni: false
     fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
-    name: 2603 ID
+    name: 2617 ID
     password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
     port: 52892
     reduce-rtt: false
@@ -49,7 +49,7 @@ proxies:
     congestion-controller: bbr
     disable-sni: false
     fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
-    name: 2604 JP
+    name: 2618 JP
     password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
     port: 52892
     reduce-rtt: false
@@ -64,7 +64,7 @@ proxies:
     congestion-controller: bbr
     disable-sni: false
     fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
-    name: 2606 GB
+    name: 2620 GB
     password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
     port: 52892
     reduce-rtt: false
@@ -79,7 +79,7 @@ proxies:
     congestion-controller: bbr
     disable-sni: false
     fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
-    name: 2609 US
+    name: 2622 US
     password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
     port: 52892
     reduce-rtt: false
@@ -92,7 +92,7 @@ proxies:
   - alpn:
       - h3
     congestion-controller: bbr
-    name: 2614 US
+    name: 2628 US
     password: e511bd2b-d8ef-4439-bd3b-c78f739dcbbb
     port: 10443
     server: 51.81.223.166
@@ -101,7 +101,7 @@ proxies:
     udp: true
     udp-relay-mode: native
     uuid: e511bd2b-d8ef-4439-bd3b-c78f739dcbbb
-  - name: 2884 SG
+  - name: 2880 SG
     type: tuic
     server: sg2-8sb.6121999.dpdns.org
     port: 33738
@@ -118,7 +118,7 @@ proxies:
     congestion-controller: bbr
     disable-sni: false
     fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
-    name: 2912 JP
+    name: 2908 JP
     password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
     port: 52892
     reduce-rtt: false
@@ -133,7 +133,7 @@ proxies:
     congestion-controller: bbr
     disable-sni: false
     fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
-    name: 2913 SG
+    name: 2909 SG
     password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
     port: 52892
     reduce-rtt: false
@@ -148,7 +148,7 @@ proxies:
     congestion-controller: bbr
     disable-sni: false
     fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
-    name: 2914 MY
+    name: 2910 SG
     password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
     port: 52892
     reduce-rtt: false
@@ -163,7 +163,7 @@ proxies:
     congestion-controller: bbr
     disable-sni: false
     fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
-    name: 2915 KR
+    name: 2911 KR
     password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
     port: 52892
     reduce-rtt: false
@@ -178,7 +178,7 @@ proxies:
     congestion-controller: bbr
     disable-sni: false
     fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
-    name: 2916 JP
+    name: 2912 JP
     password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
     port: 52892
     reduce-rtt: false
