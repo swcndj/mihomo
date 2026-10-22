@@ -1,5 +1,5 @@
 proxies:
-  - name: 927 DE
+  - name: 918 DE
     password: 1095c731-affa-4f85-a9c8-61e495e56aca
     port: 51061
     server: 64.118.158.150
@@ -10,7 +10,7 @@ proxies:
     udp: true
   - alpn:
       - h2
-    name: 1425 TW
+    name: 2048 TW
     password: dongtaiwang.com
     port: 59901
     server: 45.221.98.14
@@ -18,7 +18,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2706 US
+    name: 2707 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: us.australiacaregroup.site
@@ -27,7 +27,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2707 US
+    name: 2708 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: rb1211-5.vatilon.cc
@@ -36,7 +36,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2708 US
+    name: 2709 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: jp-x2.vatilon.cc
@@ -45,7 +45,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2712 CN
+    name: 2713 CN
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: cn42.vatilon.cc
@@ -54,7 +54,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2713 US
+    name: 2714 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: sg4.vatilon.cc
@@ -63,7 +63,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2714 US
+    name: 2715 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: jp2.australiacaregroup.site
@@ -71,7 +71,7 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 2715 US
+  - name: 2716 US
     password: github.com/Alvin9999-newpac/fanqiang
     port: 19000
     server: anytls2.864106.xyz
@@ -81,7 +81,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2718 JP
+    name: 2719 JP
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: za.australiacaregroup.site
@@ -92,7 +92,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 2719 HK
+    name: 2720 HK
     password: 6725d134ee80
     port: 443
     server: 654968169.df6h451rh.xin
@@ -104,7 +104,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 2720 HK
+    name: 2721 HK
     password: 6725d134ee80
     port: 443
     server: 56481.df6h451rh.xin
@@ -113,27 +113,7 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 2849 KR
-    password: 13f0acfa-38c1-4e82-a758-583aa31740df
-    port: 60005
-    server: svip.skycon808.com
-    skip-cert-verify: true
-    sni: 127.0.0.1
-    tls: true
-    type: anytls
-    udp: true
-  - client-fingerprint: chrome
-    name: 2851 TW
-    password: ec74bb6a86c2
-    port: 443
-    server: 684616s4.df6h451rh.xin
-    skip-cert-verify: true
-    sni: px.ads.linkedin.com
-    tls: true
-    type: anytls
-    udp: true
-  - client-fingerprint: chrome
-    name: 2852 TW
+  - name: 2851 TW
     password: ec74bb6a86c2
     port: 443
     server: er8u54dh.df6h451rh.xin
@@ -143,7 +123,34 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2917 KR
+    name: 2854 KR
+    password: 13f0acfa-38c1-4e82-a758-583aa31740df
+    port: 60005
+    server: svip.skycon808.com
+    skip-cert-verify: true
+    tls: true
+    type: anytls
+    udp: true
+  - name: 2855 KR
+    password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
+    port: 24318
+    server: svip.skycon808.com
+    skip-cert-verify: true
+    sni: hk08.jdddyy01.cc
+    type: anytls
+    udp: true
+  - client-fingerprint: chrome
+    name: 2857 TW
+    password: ec74bb6a86c2
+    port: 443
+    server: 684616s4.df6h451rh.xin
+    skip-cert-verify: true
+    sni: px.ads.linkedin.com
+    tls: true
+    type: anytls
+    udp: true
+  - client-fingerprint: chrome
+    name: 2924 KR
     password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
     port: 47531
     server: svip.skycon808.com
@@ -152,15 +159,7 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 2964 KR
-    password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
-    port: 24318
-    server: svip.skycon808.com
-    skip-cert-verify: true
-    sni: hk08.jdddyy01.cc
-    type: anytls
-    udp: true
-  - name: 2973 TW
+  - name: 2972 TW
     password: 0324fbc29561
     port: 443
     server: 98416548.df6h451rh.xin
