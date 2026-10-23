@@ -1,5 +1,14 @@
 proxies:
-  - name: 928 DE
+  - alpn:
+      - h2
+    name: 450 TW
+    password: dongtaiwang.com
+    port: 59901
+    server: 45.221.98.14
+    skip-cert-verify: true
+    type: anytls
+    udp: true
+  - name: 891 DE
     password: 1095c731-affa-4f85-a9c8-61e495e56aca
     port: 51061
     server: 64.118.158.150
@@ -8,19 +17,10 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - alpn:
-      - h2
-    name: 2062 TW
-    password: dongtaiwang.com
-    port: 59901
-    server: 45.221.98.14
-    skip-cert-verify: true
-    type: anytls
-    udp: true
   - client-fingerprint: chrome
     idle-session-check-interval: 30
     idle-session-timeout: 30
-    name: 2700 US
+    name: 2652 US
     password: 776b4834-caaf-4006-ab21-409e958867af
     port: 33091
     server: 45.202.240.4
@@ -29,82 +29,17 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2762 US
-    password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-    port: 10005
-    server: us.australiacaregroup.site
+    name: 2697 KR
+    password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
+    port: 47531
+    server: svip.skycon808.com
     skip-cert-verify: true
+    sni: tw15.swiftrelay.cc
     tls: true
     type: anytls
     udp: true
-  - client-fingerprint: chrome
-    name: 2763 US
-    password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-    port: 10005
-    server: rb1211-5.vatilon.cc
-    skip-cert-verify: true
-    tls: true
-    type: anytls
-    udp: true
-  - client-fingerprint: chrome
-    name: 2764 US
-    password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-    port: 10005
-    server: jp-x2.vatilon.cc
-    skip-cert-verify: true
-    tls: true
-    type: anytls
-    udp: true
-  - client-fingerprint: chrome
-    name: 2768 CN
-    password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-    port: 10005
-    server: cn42.vatilon.cc
-    skip-cert-verify: true
-    tls: true
-    type: anytls
-    udp: true
-  - client-fingerprint: chrome
-    name: 2769 US
-    password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-    port: 10005
-    server: sg4.vatilon.cc
-    skip-cert-verify: true
-    tls: true
-    type: anytls
-    udp: true
-  - client-fingerprint: chrome
-    name: 2770 US
-    password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-    port: 10005
-    server: jp2.australiacaregroup.site
-    skip-cert-verify: true
-    tls: true
-    type: anytls
-    udp: true
-  - name: 2771 US
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 19000
-    server: anytls2.864106.xyz
-    skip-cert-verify: true
-    sni: anytls2.864106.xyz
-    tls: true
-    type: anytls
-    udp: true
-  - client-fingerprint: chrome
-    name: 2774 JP
-    password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-    port: 10005
-    server: za.australiacaregroup.site
-    skip-cert-verify: true
-    tls: true
-    type: anytls
-    udp: true
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: 2775 HK
-    password: 6725d134ee80
+  - name: 2698 HK
+    password: 0324fbc29561
     port: 443
     server: 654968169.df6h451rh.xin
     skip-cert-verify: true
@@ -115,8 +50,8 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 2776 HK
-    password: 6725d134ee80
+    name: 2699 HK
+    password: 0324fbc29561
     port: 443
     server: 56481.df6h451rh.xin
     skip-cert-verify: true
@@ -124,27 +59,11 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 2898 TW
-    password: ec74bb6a86c2
-    port: 443
-    server: er8u54dh.df6h451rh.xin
-    skip-cert-verify: true
-    sni: px.ads.linkedin.com
-    tls: true
-    type: anytls
-    udp: true
-  - client-fingerprint: chrome
-    name: 2901 KR
-    password: 13f0acfa-38c1-4e82-a758-583aa31740df
-    port: 60005
-    server: svip.skycon808.com
-    skip-cert-verify: true
-    tls: true
-    type: anytls
-    udp: true
-  - client-fingerprint: chrome
-    name: 2903 TW
-    password: ec74bb6a86c2
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: 2700 TW
+    password: 0324fbc29561
     port: 443
     server: 684616s4.df6h451rh.xin
     skip-cert-verify: true
@@ -152,17 +71,28 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - client-fingerprint: chrome
-    name: 2970 KR
-    password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
-    port: 47531
-    server: svip.skycon808.com
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: 2827 TW
+    password: 0324fbc29561
+    port: 443
+    server: er8u54dh.df6h451rh.xin
     skip-cert-verify: true
-    sni: tw15.swiftrelay.cc
+    sni: px.ads.linkedin.com
     tls: true
     type: anytls
     udp: true
-  - name: 3020 KR
+  - name: 2864 KR
+    password: 13f0acfa-38c1-4e82-a758-583aa31740df
+    port: 60005
+    server: svip.skycon808.com
+    skip-cert-verify: true
+    sni: 127.0.0.1
+    tls: true
+    type: anytls
+    udp: true
+  - name: 2927 KR
     password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
     port: 24318
     server: svip.skycon808.com
@@ -170,7 +100,7 @@ proxies:
     sni: hk08.jdddyy01.cc
     type: anytls
     udp: true
-  - name: 3022 TW
+  - name: 2931 TW
     password: 0324fbc29561
     port: 443
     server: 98416548.df6h451rh.xin
@@ -178,3 +108,9 @@ proxies:
     sni: images.ctfassets.net
     type: anytls
     udp: true
+  - name: 2933 ES
+    password: 672445a0-a669-4978-8eb1-cfa5e6cdead4
+    port: 18333
+    server: es1.xiaoliyu.cyou
+    skip-cert-verify: true
+    type: anytls
