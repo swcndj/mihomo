@@ -1,5 +1,5 @@
 proxies:
-  - name: 924 DE
+  - name: 928 DE
     password: 1095c731-affa-4f85-a9c8-61e495e56aca
     port: 51061
     server: 64.118.158.150
@@ -10,7 +10,7 @@ proxies:
     udp: true
   - alpn:
       - h2
-    name: 2055 TW
+    name: 2062 TW
     password: dongtaiwang.com
     port: 59901
     server: 45.221.98.14
@@ -18,7 +18,18 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2716 US
+    idle-session-check-interval: 30
+    idle-session-timeout: 30
+    name: 2700 US
+    password: 776b4834-caaf-4006-ab21-409e958867af
+    port: 33091
+    server: 45.202.240.4
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: anytls
+    udp: true
+  - client-fingerprint: chrome
+    name: 2762 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: us.australiacaregroup.site
@@ -27,7 +38,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2717 US
+    name: 2763 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: rb1211-5.vatilon.cc
@@ -36,7 +47,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2718 US
+    name: 2764 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: jp-x2.vatilon.cc
@@ -45,7 +56,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2722 CN
+    name: 2768 CN
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: cn42.vatilon.cc
@@ -54,7 +65,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2723 US
+    name: 2769 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: sg4.vatilon.cc
@@ -63,7 +74,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2724 US
+    name: 2770 US
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: jp2.australiacaregroup.site
@@ -71,7 +82,7 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 2725 US
+  - name: 2771 US
     password: github.com/Alvin9999-newpac/fanqiang
     port: 19000
     server: anytls2.864106.xyz
@@ -81,7 +92,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2727 JP
+    name: 2774 JP
     password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
     port: 10005
     server: za.australiacaregroup.site
@@ -92,7 +103,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 2728 HK
+    name: 2775 HK
     password: 6725d134ee80
     port: 443
     server: 654968169.df6h451rh.xin
@@ -104,7 +115,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 2729 HK
+    name: 2776 HK
     password: 6725d134ee80
     port: 443
     server: 56481.df6h451rh.xin
@@ -113,7 +124,7 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 2856 TW
+  - name: 2898 TW
     password: ec74bb6a86c2
     port: 443
     server: er8u54dh.df6h451rh.xin
@@ -123,7 +134,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2859 KR
+    name: 2901 KR
     password: 13f0acfa-38c1-4e82-a758-583aa31740df
     port: 60005
     server: svip.skycon808.com
@@ -132,7 +143,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2861 TW
+    name: 2903 TW
     password: ec74bb6a86c2
     port: 443
     server: 684616s4.df6h451rh.xin
@@ -142,7 +153,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 2928 KR
+    name: 2970 KR
     password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
     port: 47531
     server: svip.skycon808.com
@@ -151,7 +162,7 @@ proxies:
     tls: true
     type: anytls
     udp: true
-  - name: 2975 KR
+  - name: 3020 KR
     password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
     port: 24318
     server: svip.skycon808.com
@@ -159,7 +170,7 @@ proxies:
     sni: hk08.jdddyy01.cc
     type: anytls
     udp: true
-  - name: 2977 TW
+  - name: 3022 TW
     password: 0324fbc29561
     port: 443
     server: 98416548.df6h451rh.xin
