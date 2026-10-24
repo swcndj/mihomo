@@ -1,16 +1,5 @@
 proxies:
-  - client-fingerprint: chrome
-    idle-session-check-interval: 30
-    idle-session-timeout: 30
-    name: 736 US
-    password: 776b4834-caaf-4006-ab21-409e958867af
-    port: 33091
-    server: 45.202.240.4
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: anytls
-    udp: true
-  - name: 900 HK
+  - name: 894 HK
     password: 0324fbc29561
     port: 443
     server: 654968169.df6h451rh.xin
@@ -18,14 +7,14 @@ proxies:
     sni: images.ctfassets.net
     type: anytls
     udp: true
-  - name: 901 KR
+  - name: 895 KR
     password: 13f0acfa-38c1-4e82-a758-583aa31740df
     port: 60005
     server: svip.skycon808.com
     skip-cert-verify: true
     type: anytls
     udp: true
-  - name: 902 KR
+  - name: 896 KR
     password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
     port: 47531
     server: svip.skycon808.com
@@ -33,33 +22,7 @@ proxies:
     sni: tw15.swiftrelay.cc
     type: anytls
     udp: true
-  - name: 946 KR
-    password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
-    port: 24318
-    server: svip.skycon808.com
-    skip-cert-verify: true
-    sni: hk08.jdddyy01.cc
-    type: anytls
-    udp: true
-  - name: 964 TW
-    password: 0324fbc29561
-    port: 443
-    server: er8u54dh.df6h451rh.xin
-    skip-cert-verify: true
-    sni: px.ads.linkedin.com
-    type: anytls
-    udp: true
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: 965 TW
-    password: 0324fbc29561
-    port: 443
-    server: 684616s4.df6h451rh.xin
-    skip-cert-verify: true
-    sni: px.ads.linkedin.com
-    type: anytls
-  - name: 966 TW
+  - name: 937 TW
     password: 0324fbc29561
     port: 443
     server: 98416548.df6h451rh.xin
@@ -67,7 +30,35 @@ proxies:
     sni: images.ctfassets.net
     type: anytls
     udp: true
-  - name: 968 ES
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: 938 HK
+    password: 0324fbc29561
+    port: 443
+    server: 56481.df6h451rh.xin
+    skip-cert-verify: true
+    sni: images.ctfassets.net
+    type: anytls
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: 940 TW
+    password: 0324fbc29561
+    port: 443
+    server: 684616s4.df6h451rh.xin
+    skip-cert-verify: true
+    sni: px.ads.linkedin.com
+    type: anytls
+  - name: 958 TW
+    password: 0324fbc29561
+    port: 443
+    server: er8u54dh.df6h451rh.xin
+    skip-cert-verify: true
+    sni: px.ads.linkedin.com
+    type: anytls
+    udp: true
+  - name: 960 ES
     password: 672445a0-a669-4978-8eb1-cfa5e6cdead4
     port: 18333
     server: es1.xiaoliyu.cyou
