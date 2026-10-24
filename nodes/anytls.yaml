@@ -1,5 +1,13 @@
 proxies:
-  - name: 949 KR
+  - name: 949 TW
+    password: 0324fbc29561
+    port: 443
+    server: 98416548.df6h451rh.xin
+    skip-cert-verify: true
+    sni: images.ctfassets.net
+    type: anytls
+    udp: true
+  - name: 952 KR
     password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
     port: 47531
     server: svip.skycon808.com
@@ -8,7 +16,7 @@ proxies:
     type: anytls
     udp: true
   - type: anytls
-    name: 986 HK
+    name: 990 HK
     server: 654968169.df6h451rh.xin
     port: 443
     udp: true
@@ -23,18 +31,10 @@ proxies:
     allowInsecure: "1"
     fp: chrome
     sub-tag: R002-260618
-  - name: 987 TW
-    password: 0324fbc29561
-    port: 443
-    server: 98416548.df6h451rh.xin
-    skip-cert-verify: true
-    sni: images.ctfassets.net
-    type: anytls
-    udp: true
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 988 HK
+    name: 991 HK
     password: 0324fbc29561
     port: 443
     server: 56481.df6h451rh.xin
@@ -44,14 +44,14 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 989 TW
+    name: 992 TW
     password: 0324fbc29561
     port: 443
     server: 684616s4.df6h451rh.xin
     skip-cert-verify: true
     sni: px.ads.linkedin.com
     type: anytls
-  - name: 1008 KR
+  - name: 1011 KR
     password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
     port: 24318
     server: svip.skycon808.com
