@@ -1,13 +1,13 @@
 proxies:
-  - name: 949 TW
+  - name: 769 HK
     password: 0324fbc29561
     port: 443
-    server: 98416548.df6h451rh.xin
+    server: 56481.df6h451rh.xin
     skip-cert-verify: true
     sni: images.ctfassets.net
     type: anytls
     udp: true
-  - name: 952 KR
+  - name: 771 KR
     password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
     port: 47531
     server: svip.skycon808.com
@@ -15,8 +15,24 @@ proxies:
     sni: tw15.swiftrelay.cc
     type: anytls
     udp: true
+  - name: 772 TW
+    password: 0324fbc29561
+    port: 443
+    server: er8u54dh.df6h451rh.xin
+    skip-cert-verify: true
+    sni: px.ads.linkedin.com
+    type: anytls
+    udp: true
+  - name: 773 TW
+    password: 0324fbc29561
+    port: 443
+    server: 684616s4.df6h451rh.xin
+    skip-cert-verify: true
+    sni: px.ads.linkedin.com
+    type: anytls
+    udp: true
   - type: anytls
-    name: 990 HK
+    name: 832 HK
     server: 654968169.df6h451rh.xin
     port: 443
     udp: true
@@ -31,27 +47,22 @@ proxies:
     allowInsecure: "1"
     fp: chrome
     sub-tag: R002-260618
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: 991 HK
+  - name: 835 HK
+    password: db62309c-486a-4fd5-abc4-4e91ac495d38
+    port: 12686
+    server: user01.godvpn.lol
+    skip-cert-verify: true
+    type: anytls
+    udp: true
+  - name: 850 TW
     password: 0324fbc29561
     port: 443
-    server: 56481.df6h451rh.xin
+    server: 98416548.df6h451rh.xin
     skip-cert-verify: true
     sni: images.ctfassets.net
     type: anytls
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: 992 TW
-    password: 0324fbc29561
-    port: 443
-    server: 684616s4.df6h451rh.xin
-    skip-cert-verify: true
-    sni: px.ads.linkedin.com
-    type: anytls
-  - name: 1011 KR
+    udp: true
+  - name: 851 KR
     password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
     port: 24318
     server: svip.skycon808.com
