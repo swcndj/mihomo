@@ -1,12 +1,12 @@
 proxies:
-  - name: 729 KR
+  - name: 725 KR
     password: 13f0acfa-38c1-4e82-a758-583aa31740df
     port: 60005
     server: svip.skycon808.com
     skip-cert-verify: true
     type: anytls
     udp: true
-  - name: 731 HK
+  - name: 727 HK
     password: db62309c-486a-4fd5-abc4-4e91ac495d38
     port: 12686
     server: user01.godvpn.lol
@@ -14,7 +14,7 @@ proxies:
     type: anytls
     udp: true
   - type: anytls
-    name: 790 TW
+    name: 785 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     udp: true
@@ -26,7 +26,7 @@ proxies:
     allowInsecure: "1"
     sub-tag: P002-260618
   - type: anytls
-    name: 792 HK
+    name: 787 HK
     server: 654968169.df6h451rh.xin
     port: 443
     udp: true
@@ -42,7 +42,7 @@ proxies:
     fp: chrome
     sub-tag: R002-260618
   - type: anytls
-    name: 793 HK
+    name: 788 HK
     server: 56481.df6h451rh.xin
     port: 443
     udp: true
@@ -56,14 +56,14 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 809 TW
+    name: 804 TW
     password: 0324fbc29561
     port: 443
     server: 684616s4.df6h451rh.xin
     skip-cert-verify: true
     sni: px.ads.linkedin.com
     type: anytls
-  - name: 811 TW
+  - name: 806 TW
     password: 0324fbc29561
     port: 443
     server: 98416548.df6h451rh.xin
