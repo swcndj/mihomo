@@ -1,12 +1,24 @@
 proxies:
-  - name: 87 US
+  - name: 57 US
+    type: trojan
+    server: 199.232.78.160
+    port: 443
+    password: mitivpn
+    sni: community.fastly.steamstatic.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      headers:
+        Host: mitivpn-mitivpn.ac.ir
+    udp: true
+  - name: 86 US
     password: humanity
     port: 443
     server: 165.215.250.14
     type: trojan
     ws-opts:
       path: "%2Fassignment"
-  - name: 88 HK
+  - name: 87 HK
     password: humanity
     port: 443
     server: 219.76.13.177
@@ -741,7 +753,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 231 JP
+  - name: 232 JP
     type: trojan
     server: 149.28.21.106
     port: 443
@@ -753,7 +765,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 233 JP
+  - name: 234 JP
     type: trojan
     server: 153.121.32.71
     port: 443
@@ -765,7 +777,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 234 US
+  - name: 235 US
     type: trojan
     server: 199.181.197.169
     port: 443
@@ -779,7 +791,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 236 US
+  - name: 237 US
     type: trojan
     server: 159.112.235.52
     port: 443
@@ -790,7 +802,7 @@ proxies:
     sni: www.multiplydose.com
     ws-opts:
       path: /assignment
-  - name: 238 US
+  - name: 239 US
     type: trojan
     server: 141.193.213.11
     port: 443
@@ -804,7 +816,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 239 JP
+  - name: 240 JP
     type: trojan
     server: 209.33.173.167
     port: 443
@@ -816,7 +828,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 240 JP
+  - name: 241 JP
     type: trojan
     server: 151.241.129.141
     port: 443
@@ -1412,7 +1424,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 299 KR
+  - name: 298 KR
     type: trojan
     server: 132.226.23.185
     port: 443
@@ -1424,7 +1436,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 300 KR
+  - name: 299 KR
     type: trojan
     server: 211.49.57.178
     port: 443
@@ -1436,7 +1448,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 301 KR
+  - name: 300 KR
     type: trojan
     server: 211.49.57.175
     port: 443
@@ -1448,7 +1460,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 302 US
+  - name: 301 US
     type: trojan
     server: 45.38.60.139
     port: 443
@@ -1460,73 +1472,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 532 US
-    type: trojan
-    server: 172.64.190.13
-    port: 443
-    password: humanity
-    sni: www.pleadcourt.org
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.pleadcourt.org
-    udp: true
-  - name: 571 US
-    type: trojan
-    server: 141.193.213.172
-    port: 443
-    password: humanity
-    sni: www.calmlunch.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.calmlunch.com
-    udp: true
-  - name: 572 US
-    type: trojan
-    server: 8.47.69.0
-    port: 443
-    password: humanity
-    sni: www.pleadcourt.org
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-    udp: true
-  - name: 573 US
-    type: trojan
-    server: 141.101.115.104
-    port: 443
-    password: humanity
-    sni: www.calmlunch.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-    udp: true
-  - name: 574 SG
-    type: trojan
-    server: 154.81.141.42
-    port: 443
-    password: humanity
-    sni: www.pleadcourt.org
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.pleadcourt.org
-    udp: true
-  - name: 576 US
-    type: trojan
-    server: 8.6.112.206
-    port: 443
-    password: humanity
-    sni: www.trusteeforward.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-    udp: true
-  - name: 580 US
+  - name: 530 US
     type: trojan
     server: 216.24.57.225
     port: 2083
@@ -1536,7 +1482,19 @@ proxies:
     ws-opts:
       path: /YaujaGsyr
     udp: true
-  - name: 590 US
+  - name: 568 US
+    type: trojan
+    server: 167.82.64.46
+    port: 443
+    password: mitivpn
+    sni: firefox.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      headers:
+        Host: mitivpn-mitivpn.ac.ir
+    udp: true
+  - name: 589 US
     server: 95.164.33.62
     port: 443
     type: trojan
@@ -1548,7 +1506,7 @@ proxies:
       path: /websocket
       headers:
         Host: sourceforge.net
-  - name: 591 US
+  - name: 590 US
     server: 66.228.55.178
     port: 2083
     type: trojan
@@ -1562,7 +1520,7 @@ proxies:
         Host: gstatic.com
   - alpn:
       - http/1.1
-    name: 660 US
+    name: 664 US
     password: humanity
     port: 443
     server: 216.24.57.7
@@ -1572,7 +1530,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 671 US
+  - name: 675 US
     password: humanity
     port: 443
     server: 8.6.112.6
@@ -1582,7 +1540,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 730 US
+  - name: 749 US
     type: trojan
     server: blog.webex.com
     port: 443
@@ -1594,7 +1552,7 @@ proxies:
       headers:
         Host: unnes.ac.id.yxls.eu.cc
       path: /br-orcl
-  - name: 780 US
+  - name: 790 US
     server: notdirect.howhealthyistoomajreally.homes
     port: 443
     type: trojan
@@ -1606,7 +1564,7 @@ proxies:
       path: /ilb9fuWfuqWDjlQrGCkIH66kMFPa
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
-  - name: 781 US
+  - name: 791 US
     server: cnamemc1.cdncisco4.co
     port: 443
     type: trojan
@@ -1618,7 +1576,7 @@ proxies:
       path: /422Kdfwzf49IxeZJa
       headers:
         Host: c1mc.cdncisco4.co
-  - name: 782 AU
+  - name: 792 AU
     server: cnamemt.ciscocdn1.live
     port: 443
     type: trojan
@@ -1630,7 +1588,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mt.ciscocdn1.live
-  - name: 783 AU
+  - name: 793 AU
     server: cnamemk.ciscocdn1.live
     port: 443
     type: trojan
@@ -1642,7 +1600,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mk.ciscocdn1.live
-  - name: 784 AU
+  - name: 794 AU
     server: cnamemc.ciscocdn1.live
     port: 443
     type: trojan
@@ -1654,7 +1612,7 @@ proxies:
       path: /ywQ9KSLI4ZBm9wOAXUaN
       headers:
         Host: c3mc.ciscocdn1.live
-  - name: 786 US
+  - name: 796 US
     network: ws
     password: e20fd145-65f1-4aa3-96be-da0524bbb16e
     port: 20230
