@@ -37,6 +37,17 @@ proxies:
       path: /vless
   - name: 35 AE
     network: ws
+    port: 22573
+    server: 84.235.244.108
+    tls: false
+    type: vless
+    uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+    ws-opts:
+      headers:
+        Host: uae.unixzone.us
+      path: /
+  - name: 36 AE
+    network: ws
     port: 2053
     server: 147.78.0.186
     servername: free.cndyw.ggff.net
@@ -47,9 +58,19 @@ proxies:
       headers:
         Host: free.cndyw.ggff.net
       path: pyip=bpb.yousef.isegaro.comfp=chrome
+  - encryption: none
+    name: 37 AM
+    network: ws
+    port: 10004
+    server: 194.36.37.59
+    tls: false
+    type: vless
+    uuid: f7376394-cd54-11f1-bb6a-bff6d0326f6a
+    ws-opts:
+      path: /vpnjantit
   - client-fingerprint: android
     encryption: none
-    name: 36 UA
+    name: 38 UA
     network: ws
     port: 443
     server: 213.111.148.137
@@ -61,19 +82,9 @@ proxies:
       headers:
         Host: proxy-1cu.pages.dev
       path: /
-  - name: 37 TR
-    network: ws
-    port: 443
-    server: 155.103.71.142
-    servername: ccc.010304.xyz
-    tls: true
-    type: vless
-    uuid: d342d11e-d224-4463-b982-532309285094
-    ws-opts:
-      headers:
-        Host: ccc.010304.xyz
-      path: /fp=chromefp=chrome
-  - name: 38 TR
+  - client-fingerprint: chrome
+    encryption: none
+    name: 39 TR
     network: ws
     port: 443
     server: 203.202.232.110
@@ -84,8 +95,32 @@ proxies:
     ws-opts:
       headers:
         Host: vlso5.1d.mom
-      path: /socks5=888:888@hkip.1d.mom:1080fp=chrome
-  - name: 39 BY
+      path: /socks5=888:888@hkip.1d.mom:1080
+  - client-fingerprint: chrome
+    name: 40 TR
+    network: ws
+    port: 443
+    server: 155.103.71.142
+    servername: ccc.010304.xyz
+    tls: true
+    type: vless
+    uuid: d342d11e-d224-4463-b982-532309285094
+    ws-opts:
+      headers:
+        Host: ccc.010304.xyz
+      path: /fp=chrome
+  - name: 41 BY
+    network: ws
+    port: 14430
+    server: 178.172.227.228
+    tls: false
+    type: vless
+    uuid: b6e5dc56-836f-48c1-9163-b0b0b43b647d
+    ws-opts:
+      headers:
+        Host: 178.172.227.228
+      path: /vless
+  - name: 42 BY
     network: ws
     port: 14430
     server: 178.172.227.124
@@ -96,10 +131,12 @@ proxies:
       headers:
         Host: 178.172.227.124
       path: /vless
-  - name: 40 BY
+  - encryption: none
+    name: 43 BY
     network: ws
     port: 14430
     server: 95.128.71.79
+    servername: 95.128.71.79
     tls: false
     type: vless
     uuid: 8cef7621-c6f0-486e-b51d-59c30c5b0b25
@@ -108,11 +145,10 @@ proxies:
         Host: 95.128.71.79
       path: /vless
   - client-fingerprint: chrome
-    encryption: none
-    name: 41 CA
+    name: 44 NL
     network: ws
     port: 443
-    server: 172.64.152.241
+    server: 198.211.123.90
     servername: ccc.010304.xyz
     tls: true
     type: vless
@@ -120,24 +156,9 @@ proxies:
     ws-opts:
       headers:
         Host: ccc.010304.xyz
-      path: /fp=chrome
-  - alpn:
-      - http/1.1
-    client-fingerprint: unsafe
-    name: 42 CA
-    network: ws
-    port: 443
-    server: 188.114.97.6
-    servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
-    tls: true
-    type: vless
-    uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
-    ws-opts:
-      headers:
-        Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
-      path: /9BozNyvQ8VdRvsYX?ed=2560
+      path: /fp=unsafe
   - client-fingerprint: chrome
-    name: 43 CA
+    name: 45 CA
     network: ws
     port: 443
     server: 188.114.98.0
@@ -151,7 +172,7 @@ proxies:
       path: /id-pusat
   - client-fingerprint: chrome
     encryption: none
-    name: 44 ZA
+    name: 46 ZA
     network: ws
     port: 443
     server: 139.84.242.103
@@ -163,8 +184,21 @@ proxies:
       headers:
         Host: vlso5.1d.mom
       path: /socks5=888:888@hkip.1d.mom:1080
+  - client-fingerprint: chrome
+    name: 47 CA
+    network: ws
+    port: 2096
+    server: 104.18.47.140
+    servername: rainfall0705.cc.cd
+    tls: true
+    type: vless
+    uuid: 341832cc-ba98-425b-8225-b3db621a0da3
+    ws-opts:
+      headers:
+        Host: rainfall0705.cc.cd
+      path: /
   - encryption: none
-    name: 45 GB
+    name: 48 GB
     network: ws
     port: 8880
     server: 185.162.229.40
@@ -175,24 +209,25 @@ proxies:
       headers:
         Host: vms.lifetime61.workers.dev
       path: /
-  - name: 46 SC
+  - client-fingerprint: chrome
+    encryption: none
+    name: 49 CA
     network: ws
-    port: 8880
-    server: 45.130.125.30
-    servername: vms.lifetime58.workers.dev
-    tls: false
+    port: 443
+    server: 104.17.3.81
+    servername: nautica-cff.kloningstrife002.workers.dev
+    tls: true
     type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
     ws-opts:
       headers:
-        Host: vms.lifetime58.workers.dev
-      path: /
-  - encryption: none
-    name: 47 CA
+        Host: nautica-cff.kloningstrife002.workers.dev
+      path: /138.2.74.219-28616
+  - name: 50 CA
     network: ws
     port: 8080
-    server: 172.64.150.43
-    servername: "hhlfy.twiladaphne.ndjp.net "
+    server: 188.114.97.6
+    servername: hhlfy.twiladaphne.ndjp.net
     tls: false
     type: vless
     uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
@@ -201,21 +236,20 @@ proxies:
         Host: hhlfy.twiladaphne.ndjp.net
       path: /sg-melbi
   - client-fingerprint: unsafe
-    name: 48 CA
+    encryption: none
+    name: 51 CA
     network: ws
     port: 443
-    server: 172.64.150.43
-    servername: snip.edgeoneai.cc.cd
-    skip-cert-verify: false
+    server: 188.114.97.6
+    servername: courses.mftplus.qzz.io
     tls: true
     type: vless
-    udp: true
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    uuid: b9ede7a5-5b4b-4aee-ac37-2c307e587e47
     ws-opts:
       headers:
-        Host: snip.edgeoneai.cc.cd
-      path: /
-  - name: 49 AR
+        Host: courses.mftplus.qzz.io
+      path: /eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+  - name: 52 AR
     network: ws
     port: 443
     server: 131.255.6.88
@@ -227,9 +261,7 @@ proxies:
       headers:
         Host: free.cndyw.ggff.net
       path: pyip=bpb.yousef.isegaro.comfp=chrome
-  - client-fingerprint: chrome
-    encryption: none
-    name: 50 CY
+  - name: 53 CY
     network: ws
     port: 443
     server: 213.111.177.107
@@ -240,8 +272,21 @@ proxies:
     ws-opts:
       headers:
         Host: vlso5.1d.mom
-      path: /socks5=888:888@hkip.1d.mom:1080
-  - name: 51 ME
+      path: /socks5=888:888@hkip.1d.mom:1080fp=chrome
+  - client-fingerprint: chrome
+    name: 54 CA
+    network: ws
+    port: 8443
+    server: 104.17.73.206
+    servername: free.sahanwickramasinghe.me
+    tls: true
+    type: vless
+    uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+    ws-opts:
+      headers:
+        Host: free.sahanwickramasinghe.me
+      path: /
+  - name: 55 ME
     network: ws
     port: 443
     server: 31.57.190.89
@@ -253,7 +298,7 @@ proxies:
       headers:
         Host: ccc.010304.xyz
       path: /fp=chromefp=chrome
-  - name: 52 FI
+  - name: 56 FI
     network: ws
     port: 14430
     server: 45.144.234.157
@@ -264,7 +309,7 @@ proxies:
       headers:
         Host: 45.144.234.157
       path: /vless
-  - name: 53 SE
+  - name: 57 SE
     network: ws
     port: 443
     server: 77.110.97.245
@@ -277,7 +322,7 @@ proxies:
         Host: ccc.010304.xyz
       path: /fp=chromesecurity=tls
   - client-fingerprint: firefox
-    name: 54 FR
+    name: 58 FR
     network: ws
     port: 8443
     server: 179.255.176.28
@@ -287,10 +332,12 @@ proxies:
     uuid: 69da3674-4941-468b-96f0-c17cf5b0a047
     ws-opts:
       path: /assets
-  - name: 55 FR
+  - encryption: none
+    name: 59 FR
     network: ws
     port: 14430
     server: 138.124.70.41
+    servername: 138.124.70.41
     tls: false
     type: vless
     uuid: 6cc745e3-4eb9-46c8-a4a1-85dee7b87edc
@@ -298,12 +345,14 @@ proxies:
       headers:
         Host: 138.124.70.41
       path: /vless
-  - client-fingerprint: chrome
-    name: 56 US
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: 60 US
     network: ws
     port: 443
-    server: 199.232.78.160
-    servername: cdn.akamai.steamstatic.com
+    server: 199.232.78.170
+    servername: ssl.fastly.com
     tls: true
     type: vless
     uuid: 88888888-8888-8888-8888-888888888888
@@ -311,60 +360,8 @@ proxies:
       headers:
         Host: Appxdn.global.ssl.fastly.net
       path: /
-  - encryption: none
-    name: 58 FR
-    network: ws
-    port: 80
-    server: 152.228.162.19
-    tls: false
-    type: vless
-    uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-    ws-opts:
-      path: /vless/
-  - name: 59 FR
-    type: vless
-    server: OV-France1.09vpn.com
-    port: 80
-    encryption: none
-    network: ws
-    packet-encoding: xudp
-    skip-cert-verify: false
-    tls: false
-    udp: true
-    uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-    ws-opts:
-      headers:
-        Host: OV-France1.09vpn.com
-      path: /vless/
-  - name: 60 FR
-    type: vless
-    server: ov-france1.09vpn.com
-    port: 80
-    encryption: none
-    network: ws
-    skip-cert-verify: false
-    tls: false
-    uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-    ws-opts:
-      headers:
-        Host: ov-france1.09vpn.com
-      path: /vless/
-  - encryption: none
-    name: 61 GB
-    network: ws
-    port: 443
-    server: 159.65.51.189
-    servername: ccc.010304.xyz
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    uuid: d342d11e-d224-4463-b982-532309285094
-    ws-opts:
-      headers:
-        Host: ccc.010304.xyz
-      path: /fp
   - client-fingerprint: random
-    name: 62 GR
+    name: 61 GR
     network: ws
     port: 443
     server: 85.90.197.156
@@ -377,21 +374,19 @@ proxies:
         Host: free.cndyw.ggff.net
       path: pyip=bpb.yousef.isegaro.com
   - client-fingerprint: chrome
-    name: 63 HK
+    name: 62 HK
     network: ws
     port: 8443
     server: 103.180.20.108
     servername: ty986gfazs.cainiaohub.xyz
     tls: true
     type: vless
-    udp: true
     uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
     ws-opts:
       headers:
         Host: ty986gfazs.cainiaohub.xyz
       path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-  - client-fingerprint: random
-    name: 64 HU
+  - name: 63 HU
     network: ws
     port: 8443
     server: 37.221.210.113
@@ -402,8 +397,8 @@ proxies:
     ws-opts:
       headers:
         Host: free.cndyw.ggff.net
-      path: pyip=bpb.yousef.isegaro.com
-  - name: 65 IL
+      path: pyip=bpb.yousef.isegaro.comfp=chrome
+  - name: 64 IL
     network: ws
     port: 443
     server: 185.253.75.119
@@ -415,7 +410,7 @@ proxies:
       headers:
         Host: ccc.010304.xyz
       path: /fp=chrome
-  - name: 66 IN
+  - name: 65 IN
     network: ws
     port: 14430
     server: 13.140.56.100
@@ -431,7 +426,7 @@ proxies:
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: 67 CA
+    name: 66 CA
     network: ws
     port: 443
     server: 104.21.91.244
@@ -444,11 +439,12 @@ proxies:
       headers:
         Host: lucasjow.us.ci
       path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-  - client-fingerprint: unsafe
-    name: 68 CA
+  - client-fingerprint: chrome
+    encryption: none
+    name: 67 CA
     network: ws
     port: 443
-    server: 104.16.111.102
+    server: 104.16.10.185
     servername: jp3.yohototo.top
     tls: true
     type: vless
@@ -457,7 +453,7 @@ proxies:
       headers:
         Host: jp3.yohototo.top
       path: /tyxyws
-  - name: 69 JP
+  - name: 68 JP
     network: ws
     port: 443
     server: 141.11.139.215
@@ -469,7 +465,9 @@ proxies:
       headers:
         Host: ccc.010304.xyz
       path: /fp=chrome
-  - name: 70 MD
+  - client-fingerprint: chrome
+    encryption: none
+    name: 69 MD
     network: ws
     port: 443
     server: 185.153.198.86
@@ -480,9 +478,9 @@ proxies:
     ws-opts:
       headers:
         Host: vlso5.1d.mom
-      path: /socks5=888:888@hkip.1d.mom:1080fp=chrome
+      path: /socks5=888:888@hkip.1d.mom:1080
   - client-fingerprint: chrome
-    name: 71 MX
+    name: 70 MX
     network: ws
     port: 443
     server: 131.196.253.141
@@ -496,7 +494,7 @@ proxies:
       path: /154.16.10.34-8080
   - client-fingerprint: chrome
     encryption: none
-    name: 72 MY
+    name: 71 MY
     network: ws
     port: 443
     server: 216.173.67.59
@@ -510,7 +508,7 @@ proxies:
         Host: ccc.010304.xyz
       path: /
   - client-fingerprint: chrome
-    name: 73 PL
+    name: 72 PL
     network: tcp
     port: 2087
     server: 2.26.6.1
@@ -521,21 +519,9 @@ proxies:
     uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
     ws-opts:
       path: /
-  - name: 74 UZ
-    network: ws
-    port: 443
-    server: 157.22.128.7
-    servername: free.cndyw.ggff.net
-    tls: true
-    type: vless
-    uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-    ws-opts:
-      headers:
-        Host: free.cndyw.ggff.net
-      path: pyip=bpb.yousef.isegaro.comfp=random
   - client-fingerprint: chrome
     encryption: none
-    name: 75 KZ
+    name: 73 KZ
     network: ws
     port: 443
     server: 38.180.38.137
@@ -548,7 +534,7 @@ proxies:
         Host: vlso5.1d.mom
       path: /socks5=888:888@hkip.1d.mom:1080
   - client-fingerprint: random
-    name: 76 RU
+    name: 74 RU
     network: ws
     port: 8443
     server: 194.87.143.165
@@ -558,11 +544,23 @@ proxies:
     uuid: f9613819-d2fe-4b3a-a2e6-40c184c6854c
     ws-opts:
       path: /
-  - name: 77 SE
+  - client-fingerprint: random
+    name: 75 UZ
+    network: ws
+    port: 443
+    server: 157.22.128.7
+    servername: free.cndyw.ggff.net
+    tls: true
+    type: vless
+    uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+    ws-opts:
+      headers:
+        Host: free.cndyw.ggff.net
+      path: pyip=bpb.yousef.isegaro.com
+  - name: 76 SE
     network: ws
     port: 14430
     server: 5.178.109.174
-    servername: 5.178.109.174
     tls: false
     type: vless
     uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
@@ -570,7 +568,7 @@ proxies:
       headers:
         Host: 5.178.109.174
       path: /vless
-  - name: 78 SE
+  - name: 77 SE
     network: ws
     port: 14430
     server: 193.188.21.253
@@ -583,7 +581,7 @@ proxies:
       path: /vless
   - client-fingerprint: chrome
     encryption: none
-    name: 79 SG
+    name: 78 SG
     network: ws
     port: 2096
     server: 139.162.27.96
@@ -596,25 +594,43 @@ proxies:
       headers:
         Host: free-server.techsonic.dev
       path: /free-server.techsonic.dev
-  - encryption: none
-    name: 80 US
+  - client-fingerprint: chrome
+    encryption: none
+    name: 79 CA
+    network: ws
+    port: 443
+    server: 172.64.158.170
+    servername: ccc.010304.xyz
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: d342d11e-d224-4463-b982-532309285094
+    ws-opts:
+      headers:
+        Host: ccc.010304.xyz
+      path: /
+  - name: 80 US
     network: ws
     port: 8880
-    server: 63.141.128.30
+    server: 159.242.242.30
     tls: false
     type: vless
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     ws-opts:
       headers:
-        Host: vms.lifetime42.workers.dev
+        Host: vms.lifetime58.workers.dev
       path: /
-  - name: 81 CA
+  - encryption: none
+    name: 81 CA
+    network: ws
     port: 2082
     server: 172.64.150.28
     tls: false
     type: vless
     uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
     ws-opts:
+      headers:
+        Host: hhlfy.twiladaphne.ndjp.net
       path: /fp
   - client-fingerprint: chrome
     name: 82 CA
@@ -629,24 +645,85 @@ proxies:
       headers:
         Host: cf-socks.caoyuwu.eu.org
       path: /fp=chrome
-  - client-fingerprint: chrome
-    name: 83 TW
+  - encryption: none
+    name: 83 TH
+    network: ws
+    port: 80
+    server: 103.86.49.57
+    tls: false
+    type: vless
+    uuid: 3c52e091-6714-4915-949f-2149fe69951b
+    ws-opts:
+      headers:
+        Host: aIs.SpEeDtEsT.nEt
+      path: /ws
+  - client-fingerprint: firefox
+    name: 84 NL
     network: ws
     port: 443
-    server: 59.125.69.23
+    server: 177.3.208.65
+    servername: tgmansion.site
+    tls: true
+    type: vless
+    uuid: 4f34bc04-479c-49ba-91a8-6bb9ed15031c
+    ws-opts:
+      path: /vless-tr
+  - client-fingerprint: chrome
+    name: 85 TW
+    network: ws
+    port: 443
+    server: 60.248.219.53
     servername: ty986gfazs.cainiaohub.xyz
     tls: true
     type: vless
-    udp: true
     uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
     ws-opts:
       headers:
         Host: ty986gfazs.cainiaohub.xyz
       path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+  - client-fingerprint: chrome
+    name: 86 US
+    network: ws
+    port: 443
+    server: 167.82.64.64
+    servername: cdn.akamai.steamstatic.com
+    tls: true
+    type: vless
+    uuid: f9a9aa1f-75fb-4490-9155-85567af7a0ff
+    ws-opts:
+      headers:
+        Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
+      path: /
+  - client-fingerprint: chrome
+    name: 87 US
+    network: ws
+    port: 443
+    server: wwww.qarvian.ir
+    servername: firefox.com
+    tls: true
+    type: vless
+    uuid: 9f5f0438-0d05-44a0-b9bd-a2b91780b2a0
+    ws-opts:
+      headers:
+        Host: albaniaoijji.global.ssl.fastly.net
+      path: /
+  - client-fingerprint: chrome
+    name: 88 CA
+    network: ws
+    port: 443
+    server: 104.17.182.41
+    servername: cf.5208877.xyz
+    tls: true
+    type: vless
+    uuid: f6a015b4-4783-4f2a-a01b-39f281ba5d07
+    ws-opts:
+      headers:
+        Host: cf.5208877.xyz
+      path: /
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 84 US
+    name: 89 US
     network: ws
     port: 443
     server: 69.46.46.194
@@ -659,7 +736,20 @@ proxies:
         Host: service-453728-7467c1-production.up.railway.app
       path: /ws/Default
   - client-fingerprint: chrome
-    name: 85 US
+    name: 90 US
+    network: ws
+    port: 443
+    server: 199.232.78.160
+    servername: firefox.com
+    tls: true
+    type: vless
+    uuid: 7dee06cc-4bc8-43ca-a6c2-59f81107f2e3
+    ws-opts:
+      headers:
+        Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
+      path: /
+  - client-fingerprint: chrome
+    name: 92 US
     network: ws
     port: 443
     server: 146.75.59.186
@@ -672,12 +762,52 @@ proxies:
         Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
       path: /
   - client-fingerprint: firefox
-    encryption: none
-    name: 88 US
+    name: 94 EE
+    network: ws
+    port: 8443
+    server: 13.143.239.69
+    servername: ee4.pad-sservice.lat
+    tls: true
+    type: vless
+    udp: true
+    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+    ws-opts:
+      headers:
+        Host: ee4.pad-sservice.lat
+      path: /EE4W
+  - client-fingerprint: firefox
+    name: 95 FR
+    network: ws
+    port: 443
+    server: 194.24.161.220
+    servername: borsch2.spravedlivost.fun
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4c5a54b3-774e-4391-b78e-f3e9fa928792
+    ws-opts:
+      path: /api/metric/ws
+  - client-fingerprint: chrome
+    name: 96 US
+    network: ws
+    port: 443
+    server: 146.75.57.238
+    servername: firefox.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 678aeb5e-b88b-4c82-869c-b1bc273c1c21
+    ws-opts:
+      headers:
+        Host: polandboijji.global.ssl.fastly.net
+      path: /
+  - client-fingerprint: firefox
+    name: 97 US
     network: ws
     port: 8443
     server: 152.53.31.46
     servername: usa3.pad-sservice.lat
+    skip-cert-verify: false
     tls: true
     type: vless
     udp: true
@@ -685,123 +815,18 @@ proxies:
     ws-opts:
       headers:
         Host: usa3.pad-service.com
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
       path: /U1SA
-    xudp: true
-  - name: 89 CW
-    network: ws
-    port: 8880
-    server: 88.216.67.50
-    tls: false
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: vms.lifetime05.workers.dev
-      path: /?ed=2560
-  - alpn:
-      - h2
-    client-fingerprint: chrome
-    name: 90 US
-    network: ws
-    port: 443
-    server: 199.232.239.239
-    servername: firefox.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 79f3da36-cf1b-47a8-d60a-2e124cbb1739
-    ws-opts:
-      headers:
-        Host: mpkoe7ypcibr80p102020123.global.ssl.fastly.net
-      path: /@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel?ed=2056
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: 91 US
-    network: ws
-    port: 443
-    server: 199.232.78.170
-    servername: ssl.fastly.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 88888888-8888-8888-8888-888888888888
-    ws-opts:
-      headers:
-        Host: Appxdn.global.ssl.fastly.net
-      path: /
-  - client-fingerprint: chrome
-    name: 94 TW
-    network: ws
-    port: 443
-    server: 59.125.69.22
-    servername: tse1.mm.bing.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
-    ws-opts:
-      headers:
-        Host: tse1.mm.bing.net
-      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-  - client-fingerprint: chrome
-    name: 95 TW
-    network: ws
-    port: 443
-    server: 60.248.219.53
-    servername: ty986gfazs.cainiaohub.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
-    ws-opts:
-      headers:
-        Host: ty986gfazs.cainiaohub.xyz
-      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: 96 CA
-    network: ws
-    port: 443
-    server: 172.66.47.45
-    servername: EZAcCESS-pROjECt-F62c30.PAGES.dEv
-    tls: true
-    type: vless
-    udp: true
-    uuid: e56059f1-5a1a-4d0a-a2d0-58ecb4eb2f3f
-    ws-opts:
-      headers:
-        Host: ezaccess-project-f62c30.pages.dev
-      path: /eyJqdW5rIjoiZWlPODVjTnhnaSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
-  - client-fingerprint: chrome
-    name: 97 US
-    network: ws
-    port: 443
-    server: 167.82.64.64
-    servername: cdn.akamai.steamstatic.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: f9a9aa1f-75fb-4490-9155-85567af7a0ff
-    ws-opts:
-      headers:
-        Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
-      path: /
-  - client-fingerprint: chrome
+  - client-fingerprint: firefox
     name: 98 US
-    network: ws
-    port: 443
-    server: wwww.qarvian.ir
-    servername: firefox.com
+    network: tcp
+    port: 33069
+    server: 152.175.97.115
+    servername: us6.zestapp778.com
     tls: true
     type: vless
-    uuid: 9f5f0438-0d05-44a0-b9bd-a2b91780b2a0
+    udp: true
+    uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
     ws-opts:
-      headers:
-        Host: albaniaoijji.global.ssl.fastly.net
       path: /
   - name: 100 HK
     type: vless
@@ -1439,23 +1464,7 @@ proxies:
       headers:
         Host: shegeftihaaa.net
       path: /rsedgws
-  - name: 231 CA
-    type: vless
-    server: www.speedtest.org
-    port: 443
-    encryption: none
-    network: ws
-    packet-encoding: xudp
-    servername: shegeftihaaa.net
-    skip-cert-verify: false
-    tls: true
-    udp: true
-    uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
-    ws-opts:
-      headers:
-        Host: shegeftihaaa.net
-      path: /rsedgws
-  - name: 233 JP
+  - name: 232 JP
     type: vless
     server: 149.28.21.106
     port: 443
@@ -1476,7 +1485,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
-  - name: 236 GB
+  - name: 235 GB
     type: vless
     server: 91.193.58.77
     port: 443
@@ -1492,7 +1501,7 @@ proxies:
       headers:
         Host: unnes.ac.id.yxls.eu.cc
       path: /ca-cl
-  - name: 238 US
+  - name: 237 US
     type: vless
     server: 159.112.235.52
     port: 443
@@ -1509,7 +1518,7 @@ proxies:
       headers:
         Host: octopusss.net
       path: /odiyfws
-  - name: 243 KR
+  - name: 242 KR
     type: vless
     server: 158.247.211.170
     port: 443
@@ -1525,7 +1534,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
-  - name: 245 KR
+  - name: 244 KR
     type: vless
     server: 141.164.51.88
     port: 443
@@ -1541,7 +1550,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
-  - name: 247 KR
+  - name: 246 KR
     type: vless
     server: 161.118.158.9
     port: 443
@@ -1557,7 +1566,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
-  - name: 253 KR
+  - name: 252 KR
     type: vless
     server: 3.35.238.2
     port: 443
@@ -1572,7 +1581,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
-  - name: 260 KR
+  - name: 259 KR
     type: vless
     server: 158.180.71.69
     port: 443
@@ -1588,7 +1597,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
-  - name: 278 KR
+  - name: 277 KR
     type: vless
     server: 146.56.187.1
     port: 8443
@@ -1607,7 +1616,7 @@ proxies:
   - alpn:
       - h2
     client-fingerprint: chrome
-    name: 285 CA
+    name: 284 CA
     network: xhttp
     port: 443
     server: 104.18.12.149
@@ -1621,7 +1630,7 @@ proxies:
       host: fran.sarzamiiinahang.ir
       mode: auto
       path: /Meh?di=443
-  - name: 288 US
+  - name: 287 US
     type: vless
     server: 104.253.175.99
     port: 443
@@ -1637,9 +1646,25 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
-  - name: 297 CA
+  - name: 296 CA
     type: vless
     server: 104.26.15.137
+    port: 443
+    encryption: none
+    network: ws
+    packet-encoding: xudp
+    servername: shegeftihaaa.net
+    skip-cert-verify: false
+    tls: true
+    udp: true
+    uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
+    ws-opts:
+      headers:
+        Host: shegeftihaaa.net
+      path: /rsedgws
+  - name: 297 CA
+    type: vless
+    server: www.speedtest.org
     port: 443
     encryption: none
     network: ws
@@ -4292,7 +4317,23 @@ proxies:
       headers:
         Host: octopusss5.info
       path: /udfyfws
-  - name: 442 JP
+  - name: 442 CA
+    type: vless
+    server: octopusss5.info
+    port: 443
+    encryption: none
+    network: ws
+    packet-encoding: xudp
+    servername: octopusss5.info
+    skip-cert-verify: false
+    tls: true
+    udp: true
+    uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+    ws-opts:
+      headers:
+        Host: octopusss5.info
+      path: /udfyfws
+  - name: 443 JP
     type: vless
     server: 108.160.131.197
     port: 443
@@ -4313,7 +4354,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
-  - name: 443 CA
+  - name: 444 CA
     type: vless
     server: 104.17.127.41
     port: 2087
@@ -4330,7 +4371,7 @@ proxies:
       headers:
         Host: nova-sunny-garden-522f.hojatnamat67.workers.dev
       path: /
-  - name: 444 CA
+  - name: 445 CA
     type: vless
     server: 172.67.71.247
     port: 443
@@ -4346,7 +4387,7 @@ proxies:
       headers:
         Host: octopusss5.info
       path: /udfyfws
-  - name: 445 SC
+  - name: 446 SC
     type: vless
     server: 45.130.125.229
     port: 443
@@ -4362,7 +4403,7 @@ proxies:
       headers:
         Host: octopusss5.info
       path: /udfyfws
-  - name: 446 CA
+  - name: 447 CA
     type: vless
     server: 173.245.59.162
     port: 443
@@ -4379,7 +4420,7 @@ proxies:
       headers:
         Host: octopusss5.info
       path: /udfyfws
-  - name: 447 CA
+  - name: 448 CA
     type: vless
     server: 104.19.134.235
     port: 443
@@ -4396,7 +4437,7 @@ proxies:
       headers:
         Host: amooaliii.net
       path: /jdhfyws
-  - name: 448 CA
+  - name: 449 CA
     type: vless
     server: 104.18.95.216
     port: 443
@@ -4412,27 +4453,11 @@ proxies:
       headers:
         Host: ez-19e289.ezaccess1a77d28.workers.dev
       path: /sync
-  - name: 449 CA
+  - name: 450 CA
     type: vless
     server: 104.26.13.222
     port: 443
     client-fingerprint: chrome
-    network: ws
-    packet-encoding: xudp
-    servername: octopusss5.info
-    skip-cert-verify: false
-    tls: true
-    udp: true
-    uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
-    ws-opts:
-      headers:
-        Host: octopusss5.info
-      path: /udfyfws
-  - name: 450 CA
-    type: vless
-    server: octopusss5.info
-    port: 443
-    encryption: none
     network: ws
     packet-encoding: xudp
     servername: octopusss5.info
@@ -4729,7 +4754,47 @@ proxies:
       headers:
         Host: splash.ariyuz.org
       path: /api/v1
-  - name: 469 DE
+  - name: 469 FR
+    type: vless
+    server: 152.228.162.19
+    port: 80
+    encryption: none
+    network: ws
+    skip-cert-verify: false
+    tls: false
+    uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
+    ws-opts:
+      headers:
+        Host: akamaized.net
+      path: /vless/
+  - name: 470 FR
+    network: ws
+    port: 80
+    server: ov-france1.09vpn.com
+    servername: ov-france1.09vpn.com
+    tls: false
+    type: vless
+    uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
+    ws-opts:
+      headers:
+        Host: ov-france1.09vpn.com
+      path: /vless/
+  - name: 471 FR
+    type: vless
+    server: OV-France1.09vpn.com
+    port: 80
+    encryption: none
+    network: ws
+    packet-encoding: xudp
+    skip-cert-verify: false
+    tls: false
+    udp: true
+    uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+    ws-opts:
+      headers:
+        Host: OV-France1.09vpn.com
+      path: /vless/
+  - name: 472 DE
     type: vless
     server: 89.106.64.15
     port: 7000
@@ -4745,7 +4810,7 @@ proxies:
       mode: stream-one
       path: /
       x-padding-bytes: 100-1000
-  - name: 470 SG
+  - name: 473 SG
     type: vless
     server: 149.28.156.182
     port: 443
@@ -4760,7 +4825,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
-  - name: 471 NL
+  - name: 474 NL
     type: vless
     server: 163.172.214.188
     port: 8443
@@ -4773,7 +4838,7 @@ proxies:
     uuid: 40cc9b52-25b8-4cd5-8b45-715ae26e6baf
     ws-opts:
       path: /vless/
-  - name: 472 NL
+  - name: 475 NL
     type: vless
     server: 163.172.214.188
     port: 80
@@ -4785,7 +4850,7 @@ proxies:
     uuid: 40cc9b52-25b8-4cd5-8b45-715ae26e6baf
     ws-opts:
       path: /vless/
-  - name: 473 NL
+  - name: 476 NL
     type: vless
     server: sc-thenetherlands1.09vpn.com
     port: 8443
@@ -4802,7 +4867,7 @@ proxies:
       headers:
         Host: sc-thenetherlands1.09vpn.com
       path: /vless/
-  - name: 474 NL
+  - name: 477 NL
     type: vless
     server: sc-thenetherlands1.09vpn.com
     port: 80
@@ -4817,7 +4882,7 @@ proxies:
       headers:
         Host: sc-thenetherlands1.09vpn.com
       path: /vless/
-  - name: 475 NL
+  - name: 478 NL
     type: vless
     server: SC-TheNetherlands1.09vpn.com
     port: 80
@@ -4830,7 +4895,7 @@ proxies:
       headers:
         Host: SC-TheNetherlands1.09vpn.com
       path: /vless/
-  - name: 476 DE
+  - name: 479 DE
     type: vless
     server: 178.22.26.54
     port: 443
@@ -4845,7 +4910,7 @@ proxies:
       headers:
         Host: nbhhh.mrcool.kdns.fr
       path: /proxyip=3cfb8e26.tp30304.ip.090227.xyz
-  - name: 477 DE
+  - name: 480 DE
     type: vless
     server: 31.25.88.11
     port: 443
@@ -4860,7 +4925,7 @@ proxies:
       headers:
         Host: nbhhh.mrcool.kdns.fr
       path: /proxyip=3cfb8e26.tp30304.ip.090227.xyz
-  - name: 478 CA
+  - name: 481 CA
     type: vless
     server: 108.162.194.165
     port: 2086
@@ -4875,7 +4940,7 @@ proxies:
         Host: arshia.lezzatArshia.ir
       path: /
       v2ray-http-upgrade: true
-  - name: 479 US
+  - name: 482 US
     type: vless
     server: 104.253.175.202
     port: 443
@@ -4891,7 +4956,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
-  - name: 480 SG
+  - name: 483 SG
     type: vless
     server: 213.35.127.18
     port: 443
@@ -4912,7 +4977,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
-  - name: 481 MX
+  - name: 484 MX
     type: vless
     server: 45.134.9.133
     port: 8443
@@ -4924,7 +4989,7 @@ proxies:
     uuid: a6d20e79-d326-42c1-bc20-f4cecc6dc42d
     ws-opts:
       path: /vless/
-  - name: 482 MX
+  - name: 485 MX
     type: vless
     server: UL-Mexico1.09vpn.com
     port: 8443
@@ -4939,7 +5004,7 @@ proxies:
     ws-opts:
       path: /vless/
     xudp: true
-  - name: 483 KR
+  - name: 486 KR
     type: vless
     server: 146.56.180.103
     port: 443
@@ -4960,7 +5025,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
-  - name: 484 HK
+  - name: 487 HK
     type: vless
     server: 45.38.42.156
     port: 2053
@@ -4976,7 +5041,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
-  - name: 485 HK
+  - name: 488 HK
     type: vless
     server: 46.8.78.229
     port: 443
@@ -4992,7 +5057,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
-  - name: 486 SG
+  - name: 489 SG
     type: vless
     server: 43.156.71.213
     port: 63443
@@ -5007,7 +5072,7 @@ proxies:
       headers:
         Host: c.eoa.ccwu.cc
       path: /
-  - name: 487 IT
+  - name: 490 IT
     type: vless
     server: 57.131.32.191
     port: 80
@@ -5020,7 +5085,7 @@ proxies:
     ws-opts:
       path: /vless/
     xudp: true
-  - name: 488 IT
+  - name: 491 IT
     type: vless
     server: OV-Italy1.09vpn.com
     port: 80
@@ -5035,7 +5100,7 @@ proxies:
         Host: OV-Italy1.09vpn.com
       path: /vless/
     xudp: true
-  - name: 489 IT
+  - name: 492 IT
     type: vless
     server: ov-italy1.09vpn.com
     port: 80
@@ -5050,7 +5115,7 @@ proxies:
         Host: ov-italy1.09vpn.com
       path: /vless/
     xudp: true
-  - name: 490 SG
+  - name: 493 SG
     type: vless
     server: 43.156.235.151
     port: 12580
@@ -5066,7 +5131,7 @@ proxies:
       headers:
         Host: c.eoa.ccwu.cc
       path: /
-  - name: 491 SG
+  - name: 494 SG
     type: vless
     server: 101.33.45.201
     port: 54321
@@ -5082,7 +5147,7 @@ proxies:
       headers:
         Host: c.eoa.ccwu.cc
       path: /
-  - name: 492 NL
+  - name: 495 NL
     type: vless
     server: 163.172.213.174
     port: 80
@@ -5096,7 +5161,7 @@ proxies:
     ws-opts:
       path: /vless/
     xudp: true
-  - name: 493 NL
+  - name: 496 NL
     type: vless
     server: SC-TheNetherlands2.09vpn.com
     port: 8443
@@ -5113,7 +5178,7 @@ proxies:
         User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
       path: /vless/
     xudp: true
-  - name: 494 US
+  - name: 497 US
     type: vless
     server: 199.232.245.90
     port: 443
@@ -5129,7 +5194,7 @@ proxies:
       headers:
         Host: newip.global.ssl.fastly.neT.
       path: /
-  - name: 495 FI
+  - name: 498 FI
     type: vless
     server: 62.60.229.255
     port: 443
@@ -5146,7 +5211,7 @@ proxies:
       headers:
         Host: billowing-scene-fd36.amirmohammad13860008.workers.dev
       path: /proxyip=13.192.18.59
-  - name: 496 FI
+  - name: 499 FI
     type: vless
     server: 193.233.199.59
     port: 443
@@ -5162,7 +5227,7 @@ proxies:
       headers:
         Host: wstg.datasynctrue.online
       path: /api/connect
-  - name: 497 SG
+  - name: 500 SG
     type: vless
     server: 43.163.98.26
     port: 443
@@ -5179,7 +5244,7 @@ proxies:
         Host: c.eoa.ccwu.cc
       path: /
   - client-fingerprint: chrome
-    name: 498 AM
+    name: 501 AM
     network: ws
     port: 443
     server: 2.56.204.183
@@ -5194,7 +5259,7 @@ proxies:
         Host: shuma.ccwu.cc
       path: /
   - client-fingerprint: chrome
-    name: 499 ES
+    name: 502 ES
     network: ws
     port: 8443
     server: 152.114.195.163
@@ -5209,7 +5274,7 @@ proxies:
         Host: shuma.ccwu.cc
       path: /
   - client-fingerprint: chrome
-    name: 500 CA
+    name: 503 CA
     network: ws
     port: 2096
     server: 172.67.130.159
@@ -5224,7 +5289,7 @@ proxies:
         Host: cdn-us.skyvora.app
       path: /0i027asku
   - client-fingerprint: chrome
-    name: 501 PL
+    name: 504 PL
     network: ws
     port: 443
     server: 103.167.234.26
@@ -5239,7 +5304,7 @@ proxies:
         Host: shuma.ccwu.cc
       path: /
   - client-fingerprint: chrome
-    name: 502 HK
+    name: 505 HK
     network: ws
     port: 443
     server: 103.143.81.178
@@ -5254,7 +5319,7 @@ proxies:
         Host: shuma.ccwu.cc
       path: /
   - client-fingerprint: chrome
-    name: 503 AU
+    name: 506 AU
     network: ws
     port: 443
     server: 202.166.187.132
@@ -5269,7 +5334,7 @@ proxies:
         Host: f.yoptybla.ru
       path: /
   - client-fingerprint: chrome
-    name: 504 JP
+    name: 507 JP
     network: ws
     port: 443
     server: 35.72.179.15
@@ -5284,7 +5349,7 @@ proxies:
         Host: shuma.ccwu.cc
       path: /
   - client-fingerprint: chrome
-    name: 505 TR
+    name: 508 TR
     network: ws
     port: 8443
     server: 104.143.204.23
@@ -5299,7 +5364,7 @@ proxies:
         Host: shuma.ccwu.cc
       path: /
   - client-fingerprint: chrome
-    name: 506 CA
+    name: 509 CA
     network: ws
     port: 443
     server: 104.21.78.105
@@ -5314,7 +5379,7 @@ proxies:
         Host: 6-M17.kuwAit.kDns.Fr
       path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
   - client-fingerprint: chrome
-    name: 507 HK
+    name: 510 HK
     network: ws
     port: 443
     server: 103.101.0.73
@@ -5328,7 +5393,7 @@ proxies:
       headers:
         Host: shuma.ccwu.cc
       path: /
-  - name: 508 CA
+  - name: 511 CA
     server: 104.27.0.121
     port: 443
     type: vless
@@ -5345,7 +5410,7 @@ proxies:
     xhttp-opts:
       path: e0d9cd6ea04ecda957b4ca0869e038af
       host: b33ec4a1s226.fuhuovps.xyz
-  - name: 509 CA
+  - name: 512 CA
     server: 104.21.207.202
     port: 443
     type: vless
@@ -5362,7 +5427,7 @@ proxies:
     xhttp-opts:
       path: e0d9cd6ea04ecda957b4ca0869e038af
       host: b33ec4a1s226.fuhuovps.xyz
-  - name: 510 CA
+  - name: 513 CA
     server: 104.19.12.0
     port: 443
     type: vless
@@ -5379,7 +5444,7 @@ proxies:
     xhttp-opts:
       path: e0d9cd6ea04ecda957b4ca0869e038af
       host: b33ec4a1s226.fuhuovps.xyz
-  - name: 511 CA
+  - name: 514 CA
     type: vless
     server: 162.159.140.116
     port: 443
@@ -5397,7 +5462,7 @@ proxies:
   - alpn:
       - h3
     client-fingerprint: chrome
-    name: 512 CA
+    name: 515 CA
     network: xhttp
     port: 443
     server: 104.18.32.47
@@ -5410,7 +5475,7 @@ proxies:
     xhttp-opts:
       mode: auto
       path: /
-  - name: 513 CA
+  - name: 516 CA
     type: vless
     server: 162.159.130.234
     port: 443
@@ -5425,7 +5490,7 @@ proxies:
         Host: snip.edgeoneai.cc.cd
     skip-cert-verify: true
     udp: true
-  - name: 514 CA
+  - name: 517 CA
     type: vless
     server: cf1.466688.xyz
     port: 8443
@@ -5442,641 +5507,7 @@ proxies:
       headers:
         Host: febeyop587.pages.dev
       path: /service?ed
-  - name: 515 CA
-    type: vless
-    server: cf1.466688.xyz
-    port: 2087
-    client-fingerprint: chrome
-    encryption: none
-    network: ws
-    packet-encoding: xudp
-    servername: febeyop587.pages.dev
-    skip-cert-verify: false
-    tls: true
-    udp: true
-    uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-    ws-opts:
-      headers:
-        Host: febeyop587.pages.dev
-      path: /pics/share/teacher?ed
-  - name: 516 CA
-    type: vless
-    server: cf1.466688.xyz
-    port: 443
-    client-fingerprint: chrome
-    encryption: none
-    network: ws
-    packet-encoding: xudp
-    servername: domah57929.pages.dev
-    skip-cert-verify: false
-    tls: true
-    udp: true
-    uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-    ws-opts:
-      headers:
-        Host: domah57929.pages.dev
-      path: /t.me/QiangLieTuiJian?ed
-  - name: 517 CA
-    type: vless
-    server: saas.sin.fan
-    port: 2053
-    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-    network: ws
-    servername: vp4.1145678.xyz
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /wenku/comics
-      headers:
-        Host: vp4.1145678.xyz
-    skip-cert-verify: true
-    udp: true
   - name: 518 CA
-    type: vless
-    server: saas.sin.fan
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 519 CA
-    type: vless
-    server: saas.sin.fan
-    port: 2083
-    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-    tls: true
-    servername: vp7.1145678.xyz
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /events/class
-      headers:
-        Host: vp7.1145678.xyz
-  - name: 520 CA
-    type: vless
-    server: 172.64.153.153
-    port: 443
-    uuid: d342d11e-d224-4463-b982-532309285094
-    network: ws
-    servername: ccc.010304.xyz
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: ccc.010304.xyz
-    skip-cert-verify: true
-    udp: true
-  - name: 521 US
-    type: vless
-    server: 8.47.69.6
-    port: 2083
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-    network: ws
-    servername: newwk1.f1w.de5.net
-    tls: true
-    client-fingerprint: firefox
-    ws-opts:
-      path: /
-      headers:
-        Host: newwk1.f1w.de5.net
-    skip-cert-verify: true
-    udp: true
-  - name: 522 US
-    type: vless
-    server: 128.203.252.97
-    port: 443
-    uuid: 5e610f80-fc6a-479d-8621-b672355b96a1
-    network: ws
-    servername: cf-1rm.pages.dev
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: cf-1rm.pages.dev
-    skip-cert-verify: true
-    udp: true
-  - name: 523 NL
-    type: vless
-    server: 188.164.248.110
-    port: 443
-    uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
-    network: ws
-    servername: imanvipreserved.pages.dev
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: imanvipreserved.pages.dev
-    skip-cert-verify: true
-    udp: true
-  - name: 524 CA
-    type: vless
-    server: 172.67.138.232
-    port: 443
-    uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
-    network: ws
-    servername: 4-M17.KaZakHSTAn-LiNk.kDNs.FR
-    tls: true
-    ws-opts:
-      path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
-      headers:
-        Host: 4-m17.KazAkhSTAN-LinK.KdnS.FR
-    skip-cert-verify: true
-    udp: true
-  - name: 525 RU
-    type: vless
-    server: 45.9.15.206
-    port: 443
-    uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-    network: ws
-    servername: ru05.abvpn.ru
-    tls: true
-    ws-opts:
-      path: /websocket
-    skip-cert-verify: true
-    udp: true
-  - name: 526 CA
-    type: vless
-    server: 172.64.53.87
-    port: 8443
-    uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-    network: ws
-    servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-    skip-cert-verify: true
-    udp: true
-  - name: 527 CA
-    type: vless
-    server: 172.64.144.66
-    port: 8443
-    uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-    network: ws
-    servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-    skip-cert-verify: true
-    udp: true
-  - name: 528 NL
-    type: vless
-    server: 46.243.142.104
-    port: 443
-    uuid: 9ba53795-4356-40ab-8067-76ec2ae2a3d8
-    network: ws
-    servername: santehdv.site
-    tls: true
-    client-fingerprint: firefox
-    ws-opts:
-      path: /media/stream/qUWu2oaFgxAw
-      headers:
-        Host: santehdv.site
-    skip-cert-verify: true
-    udp: true
-  - alpn:
-      - http/1.1
-    client-fingerprint: edge
-    name: 529 NL
-    network: ws
-    port: 443
-    server: santehdv.site
-    servername: santehdv.site
-    tls: true
-    type: vless
-    uuid: 9ba53795-4356-40ab-8067-76ec2ae2a3d8
-    ws-opts:
-      headers:
-        Host: santehdv.site
-      path: /media/stream/E2QlYgrvniT_
-  - name: 531 JP
-    type: vless
-    server: 45.192.243.63
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 532 GB
-    type: vless
-    server: 45.152.65.137
-    port: 8443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    ws-opts:
-      path: /fp=chromefp=chrome
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 533 CA
-    type: vless
-    server: 104.26.3.162
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 534 CA
-    type: vless
-    server: 104.18.38.125
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 535 US
-    type: vless
-    server: 154.9.243.154
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 536 SG
-    type: vless
-    server: 43.174.195.1
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 537 CA
-    type: vless
-    server: 104.17.134.88
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 538 CA
-    type: vless
-    server: 104.17.143.128
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 539 CA
-    type: vless
-    server: 104.17.130.193
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 540 CA
-    type: vless
-    server: 104.16.66.12
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    ws-opts:
-      path: /fp=chrome
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 541 CA
-    type: vless
-    server: 104.16.105.166
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 542 US
-    type: vless
-    server: 141.98.41.20
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    ws-opts:
-      path: fp=unsafefp=chrome
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 543 CA
-    type: vless
-    server: 104.18.223.253
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 544 CA
-    type: vless
-    server: 188.114.96.6
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    ws-opts:
-      path: /fp=chrome
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 545 US
-    type: vless
-    server: 141.98.41.80
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 546 HU
-    type: vless
-    server: 38.180.225.247
-    port: 2053
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 547 CA
-    type: vless
-    server: 104.19.212.207
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 548 CA
-    type: vless
-    server: 104.18.89.52
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chrome
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 549 CA
-    type: vless
-    server: 104.18.20.69
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 550 VN
-    type: vless
-    server: 103.161.178.215
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 551 BG
-    type: vless
-    server: 104.152.48.248
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    ws-opts:
-      path: /fp=chrome
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 552 CA
-    type: vless
-    server: 104.18.255.167
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 553 US
-    type: vless
-    server: 162.159.224.195
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 554 US
-    type: vless
-    server: 162.35.127.65
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 555 BY
-    type: vless
-    server: 185.179.82.246
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 556 CA
-    type: vless
-    server: 104.27.55.4
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 557 SG
-    type: vless
-    server: 157.245.159.88
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 558 CA
-    type: vless
-    server: 162.159.135.234
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-      headers:
-        Host: snip.edgeoneai.cc.cd
-    skip-cert-verify: true
-    udp: true
-  - name: 559 CA
     type: vless
     server: cf1.466688.xyz
     port: 2053
@@ -6093,7 +5524,639 @@ proxies:
       headers:
         Host: balafi7691.pages.dev
       path: /jump/tv/content?ed
+  - name: 519 CA
+    type: vless
+    server: cf1.466688.xyz
+    port: 2087
+    client-fingerprint: chrome
+    encryption: none
+    network: ws
+    packet-encoding: xudp
+    servername: febeyop587.pages.dev
+    skip-cert-verify: false
+    tls: true
+    udp: true
+    uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+    ws-opts:
+      headers:
+        Host: febeyop587.pages.dev
+      path: /pics/share/teacher?ed
+  - name: 520 CA
+    type: vless
+    server: saas.sin.fan
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 521 CA
+    type: vless
+    server: saas.sin.fan
+    port: 2087
+    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+    tls: true
+    servername: vp6.1145678.xyz
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /thread
+      headers:
+        Host: vp6.1145678.xyz
+  - name: 522 CA
+    type: vless
+    server: saas.sin.fan
+    port: 2083
+    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+    tls: true
+    servername: vp7.1145678.xyz
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /events/class
+      headers:
+        Host: vp7.1145678.xyz
+  - name: 523 CA
+    type: vless
+    server: 172.64.153.153
+    port: 443
+    uuid: d342d11e-d224-4463-b982-532309285094
+    network: ws
+    servername: ccc.010304.xyz
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: ccc.010304.xyz
+    skip-cert-verify: true
+    udp: true
+  - name: 524 US
+    type: vless
+    server: 8.47.69.6
+    port: 2083
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    network: ws
+    servername: newwk1.f1w.de5.net
+    tls: true
+    client-fingerprint: firefox
+    ws-opts:
+      path: /
+      headers:
+        Host: newwk1.f1w.de5.net
+    skip-cert-verify: true
+    udp: true
+  - name: 525 US
+    type: vless
+    server: 128.203.252.97
+    port: 443
+    uuid: 5e610f80-fc6a-479d-8621-b672355b96a1
+    network: ws
+    servername: cf-1rm.pages.dev
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: cf-1rm.pages.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 526 NL
+    type: vless
+    server: 188.164.248.110
+    port: 443
+    uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
+    network: ws
+    servername: imanvipreserved.pages.dev
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: imanvipreserved.pages.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 527 CA
+    type: vless
+    server: 172.67.138.232
+    port: 443
+    uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
+    network: ws
+    servername: 4-M17.KaZakHSTAn-LiNk.kDNs.FR
+    tls: true
+    ws-opts:
+      path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
+      headers:
+        Host: 4-m17.KazAkhSTAN-LinK.KdnS.FR
+    skip-cert-verify: true
+    udp: true
+  - name: 528 RU
+    type: vless
+    server: 45.9.15.206
+    port: 443
+    uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+    network: ws
+    servername: ru05.abvpn.ru
+    tls: true
+    ws-opts:
+      path: /websocket
+    skip-cert-verify: true
+    udp: true
+  - name: 529 CA
+    type: vless
+    server: 172.64.53.87
+    port: 8443
+    uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+    network: ws
+    servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+    udp: true
+  - name: 530 CA
+    type: vless
+    server: 172.64.144.66
+    port: 8443
+    uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+    network: ws
+    servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+    udp: true
+  - name: 531 NL
+    type: vless
+    server: 46.243.142.104
+    port: 443
+    uuid: 9ba53795-4356-40ab-8067-76ec2ae2a3d8
+    network: ws
+    servername: santehdv.site
+    tls: true
+    client-fingerprint: firefox
+    ws-opts:
+      path: /media/stream/qUWu2oaFgxAw
+      headers:
+        Host: santehdv.site
+    skip-cert-verify: true
+    udp: true
+  - name: 533 JP
+    type: vless
+    server: 45.192.243.63
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 534 GB
+    type: vless
+    server: 45.152.65.137
+    port: 8443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    ws-opts:
+      path: /fp=chromefp=chrome
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 535 CA
+    type: vless
+    server: 104.26.3.162
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 536 CA
+    type: vless
+    server: 104.18.38.125
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 537 US
+    type: vless
+    server: 154.9.243.154
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 538 SG
+    type: vless
+    server: 43.174.195.1
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 539 CA
+    type: vless
+    server: 104.17.134.88
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 540 CA
+    type: vless
+    server: 104.17.143.128
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 541 CA
+    type: vless
+    server: 104.17.130.193
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 542 CA
+    type: vless
+    server: 104.16.66.12
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    ws-opts:
+      path: /fp=chrome
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 543 CA
+    type: vless
+    server: 104.16.105.166
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 544 US
+    type: vless
+    server: 141.98.41.20
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    ws-opts:
+      path: fp=unsafefp=chrome
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 545 CA
+    type: vless
+    server: 104.18.223.253
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 546 CA
+    type: vless
+    server: 188.114.96.6
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    ws-opts:
+      path: /fp=chrome
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 547 US
+    type: vless
+    server: 141.98.41.80
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 548 HU
+    type: vless
+    server: 38.180.225.247
+    port: 2053
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 549 CA
+    type: vless
+    server: 104.19.212.207
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 550 CA
+    type: vless
+    server: 104.18.89.52
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chrome
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 551 CA
+    type: vless
+    server: 104.18.20.69
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 552 VN
+    type: vless
+    server: 103.161.178.215
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 553 BG
+    type: vless
+    server: 104.152.48.248
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    ws-opts:
+      path: /fp=chrome
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 554 CA
+    type: vless
+    server: 104.18.255.167
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 555 US
+    type: vless
+    server: 162.159.224.195
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 556 US
+    type: vless
+    server: 162.35.127.65
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 557 BY
+    type: vless
+    server: 185.179.82.246
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 558 CA
+    type: vless
+    server: 104.27.55.4
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 559 SG
+    type: vless
+    server: 157.245.159.88
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
   - name: 560 CA
+    type: vless
+    server: 162.159.135.234
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+      headers:
+        Host: snip.edgeoneai.cc.cd
+    skip-cert-verify: true
+    udp: true
+  - name: 561 CA
+    type: vless
+    server: cf1.466688.xyz
+    port: 443
+    client-fingerprint: chrome
+    encryption: none
+    network: ws
+    packet-encoding: xudp
+    servername: domah57929.pages.dev
+    skip-cert-verify: false
+    tls: true
+    udp: true
+    uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+    ws-opts:
+      headers:
+        Host: domah57929.pages.dev
+      path: /t.me/QiangLieTuiJian?ed
+  - name: 562 CA
+    type: vless
+    server: saas.sin.fan
+    port: 2053
+    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+    network: ws
+    servername: vp4.1145678.xyz
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /wenku/comics
+      headers:
+        Host: vp4.1145678.xyz
+    skip-cert-verify: true
+    udp: true
+  - name: 563 CA
     type: vless
     server: 162.159.197.1
     port: 443
@@ -6108,7 +6171,7 @@ proxies:
         Host: snip.edgeoneai.cc.cd
     skip-cert-verify: true
     udp: true
-  - name: 561 CA
+  - name: 564 CA
     type: vless
     server: 104.18.34.102
     port: 443
@@ -6123,7 +6186,7 @@ proxies:
         Host: snip.edgeoneai.cc.cd
     skip-cert-verify: true
     udp: true
-  - name: 562 CA
+  - name: 565 CA
     type: vless
     server: 172.64.79.1
     port: 443
@@ -6138,7 +6201,7 @@ proxies:
         Host: snip.edgeoneai.cc.cd
     skip-cert-verify: true
     udp: true
-  - name: 563 CA
+  - name: 566 CA
     type: vless
     server: 172.67.118.45
     port: 443
@@ -6153,7 +6216,7 @@ proxies:
         Host: snip.edgeoneai.cc.cd
     skip-cert-verify: true
     udp: true
-  - name: 564 KR
+  - name: 567 KR
     type: vless
     server: 158.247.222.168
     port: 443
@@ -6168,7 +6231,7 @@ proxies:
         Host: snip.edgeoneai.cc.cd
     skip-cert-verify: true
     udp: true
-  - name: 565 US
+  - name: 568 US
     type: vless
     server: 162.35.169.69
     port: 443
@@ -6182,7 +6245,7 @@ proxies:
         Host: snip.edgeoneai.cc.cd
     skip-cert-verify: true
     udp: true
-  - name: 566 DE
+  - name: 569 DE
     type: vless
     server: 72.56.106.210
     port: 443
@@ -6196,7 +6259,7 @@ proxies:
         Host: snip.edgeoneai.cc.cd
     skip-cert-verify: true
     udp: true
-  - name: 567 DE
+  - name: 570 DE
     type: vless
     server: 77.239.104.82
     port: 443
@@ -6209,7 +6272,7 @@ proxies:
       path: /Telegram@VPNine1
     skip-cert-verify: true
     udp: true
-  - name: 569 CA
+  - name: 572 CA
     type: vless
     server: 104.17.173.208
     port: 443
@@ -6224,7 +6287,7 @@ proxies:
         Host: tamoai.ccwu.cc
     skip-cert-verify: true
     udp: true
-  - name: 570 CA
+  - name: 573 CA
     type: vless
     server: 104.17.215.31
     port: 443
@@ -6239,7 +6302,7 @@ proxies:
         Host: cf.5208877.xyz
     skip-cert-verify: true
     udp: true
-  - name: 571 SG
+  - name: 574 SG
     type: vless
     server: 175.41.179.37
     port: 51262
@@ -6254,7 +6317,7 @@ proxies:
         Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
     skip-cert-verify: true
     udp: true
-  - name: 572 JP
+  - name: 575 JP
     type: vless
     server: 203.137.165.164
     port: 57554
@@ -6269,7 +6332,7 @@ proxies:
         Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
     skip-cert-verify: true
     udp: true
-  - name: 573 DE
+  - name: 576 DE
     type: vless
     server: 5.75.195.83
     port: 56879
@@ -6284,7 +6347,7 @@ proxies:
         Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
     skip-cert-verify: true
     udp: true
-  - name: 574 DE
+  - name: 577 DE
     type: vless
     server: 178.105.133.160
     port: 4443
@@ -6299,7 +6362,7 @@ proxies:
         Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
     skip-cert-verify: true
     udp: true
-  - name: 575 GB
+  - name: 578 GB
     type: vless
     server: 57.129.130.34
     port: 52014
@@ -6314,7 +6377,7 @@ proxies:
         Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
     skip-cert-verify: true
     udp: true
-  - name: 576 CA
+  - name: 579 CA
     type: vless
     server: 23.227.39.30
     port: 8880
@@ -6327,7 +6390,7 @@ proxies:
         Host: vms.lifetime17.workers.dev
     skip-cert-verify: true
     udp: true
-  - name: 577 US
+  - name: 580 US
     type: vless
     server: 216.24.57.1
     port: 443
@@ -6339,7 +6402,20 @@ proxies:
       path: /id-amz
     skip-cert-verify: true
     udp: true
-  - name: 578 US
+  - name: 581 US
+    type: vless
+    server: 63.141.128.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: vms.lifetime42.workers.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 582 US
     type: vless
     server: 156.229.163.237
     port: 10238
@@ -6354,7 +6430,7 @@ proxies:
         Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
     skip-cert-verify: true
     udp: true
-  - name: 579 CA
+  - name: 583 CA
     type: vless
     server: 104.16.10.251
     port: 443
@@ -6369,7 +6445,7 @@ proxies:
         Host: a.cwvps.eu.org
     skip-cert-verify: true
     udp: true
-  - name: 580 US
+  - name: 584 US
     type: vless
     server: 155.46.167.30
     port: 8880
@@ -6382,7 +6458,7 @@ proxies:
         Host: vms.lifetime50.workers.dev
     skip-cert-verify: true
     udp: true
-  - name: 581 RU
+  - name: 585 RU
     type: vless
     server: 185.148.104.30
     port: 8880
@@ -6397,7 +6473,7 @@ proxies:
         Host: vms.lifetime51.workers.dev
     skip-cert-verify: true
     udp: true
-  - name: 582 US
+  - name: 586 US
     type: vless
     server: 8.35.211.73
     port: 2087
@@ -6412,7 +6488,7 @@ proxies:
         Host: d39333476.pages.dev
     skip-cert-verify: true
     udp: true
-  - name: 583 NL
+  - name: 587 NL
     type: vless
     server: 79.137.197.212
     port: 2105
@@ -6427,7 +6503,7 @@ proxies:
         Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
     skip-cert-verify: true
     udp: true
-  - name: 584 US
+  - name: 588 US
     type: vless
     server: 80.93.202.40
     port: 8880
@@ -6440,7 +6516,7 @@ proxies:
         Host: vms.lifetime02.workers.dev
     skip-cert-verify: true
     udp: true
-  - name: 585 CA
+  - name: 589 CA
     type: vless
     server: 104.18.42.98
     port: 443
@@ -6455,7 +6531,7 @@ proxies:
         Host: jp3.yohototo.top
     skip-cert-verify: true
     udp: true
-  - name: 586 DE
+  - name: 590 DE
     type: vless
     server: 179.61.251.244
     port: 7443
@@ -6470,7 +6546,7 @@ proxies:
         Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
     skip-cert-verify: true
     udp: true
-  - name: 587 CA
+  - name: 591 CA
     type: vless
     server: 104.24.156.153
     port: 443
@@ -6485,7 +6561,7 @@ proxies:
         Host: a.cwvps.eu.org
     skip-cert-verify: true
     udp: true
-  - name: 588 CA
+  - name: 592 CA
     type: vless
     server: 104.21.70.21
     port: 443
@@ -6498,7 +6574,7 @@ proxies:
       path: /ws
     skip-cert-verify: true
     udp: true
-  - name: 591 CA
+  - name: 595 CA
     server: 104.16.162.89
     port: 8080
     type: vless
@@ -6513,7 +6589,7 @@ proxies:
         Host: hhlfy.twiladaphne.ndjp.net
     udp: true
   - type: vless
-    name: 592 US
+    name: 596 US
     server: 8.35.211.36
     port: 2087
     uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
@@ -6529,7 +6605,7 @@ proxies:
       path: /
     encryption: none
     servername: go.iranfree.de5.net
-  - name: 593 CA
+  - name: 597 CA
     server: 104.18.0.181
     port: 2082
     type: vless
@@ -6544,151 +6620,23 @@ proxies:
         Host: hhlfy.twiladaphne.ndjp.net
     udp: true
     servername: hhlfy.twiladaphne.ndjp.net
-  - encryption: none
-    name: 594 US
-    network: ws
-    port: 8880
-    server: 139.64.235.30
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: vms.lifetime09.workers.dev
-        User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Slackware/Chrome/12.0.742.100 Safari/534.30
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: 595 US
-    network: ws
-    port: 2053
-    server: 8.35.211.43
-    servername: go.iranfree.de5.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
-    ws-opts:
-      headers:
-        Host: go.iranfree.de5.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
-      path: /
-    xudp: true
-  - alpn:
-      - h3
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    name: 596 BR
-    network: ws
-    port: 2083
-    server: 185.133.35.56
-    servername: titp.iranroyalzhin.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2445edef-76b7-4713-87b9-ed6aa0b1a2c9
-    ws-opts:
-      headers:
-        Host: titp.iranroyalzhin.ir
-      path: /
-  - alpn:
-      - http/1.1
-    client-fingerprint: firefox
-    name: 597 RU
+  - client-fingerprint: unsafe
+    name: 608 CA
     network: ws
     port: 443
-    server: 194.55.239.89
-    servername: broadcast.liveflow.space
+    server: 172.64.150.43
+    servername: snip.edgeoneai.cc.cd
+    skip-cert-verify: false
     tls: true
     type: vless
     udp: true
-    uuid: 073b7df7-5527-45a2-ba29-183b85c39071
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
     ws-opts:
       headers:
-        Host: broadcast.liveflow.space
-      path: /live.stream.v1.Broadcast/
-  - alpn:
-      - h2
-    client-fingerprint: firefox
-    name: 599 AE
-    network: xhttp
-    port: 443
-    server: 188.72.103.4
-    servername: ru.nnight.cfd
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
-    xhttp-opts:
-      host: ru.nnight.cfd
-      mode: packet-up
-      path: /api/v4/media/session/poll
-      seq-key: offset
-      seq-placement: query
-      uplink-data-key: X-Playback-Token
-      uplink-data-placement: header
-      uplink-http-method: GET
-      x-padding-bytes: 48-320
-      x-padding-key: q
-      x-padding-method: tokenish
-      x-padding-obfs-mode: true
-      x-padding-placement: query
-  - client-fingerprint: firefox
-    name: 600 SE
-    network: ws
-    port: 2096
-    server: 191.44.114.179
-    servername: st33614.rumedia-cdn.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: d1641bc6-3757-43db-815a-9b3f4d9b0d7e
-    ws-opts:
-      headers:
-        Host: st33614.rumedia-cdn.com
-      path: /cdn/v3/live
-  - name: 602 SG
-    network: tcp
-    port: 13954
-    server: 43.134.176.236
-    tls: false
-    type: vless
-    udp: true
-    uuid: 6ce8ff5b-4975-46d2-80ee-7eb48200cade
-    ws-opts:
+        Host: snip.edgeoneai.cc.cd
       path: /
   - client-fingerprint: chrome
-    name: 603 TW
-    network: ws
-    port: 443
-    server: 59.125.69.24
-    servername: ty986gfazs.cainiaohub.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: 06e177f7-240d-4687-bd85-235505801a5e
-    ws-opts:
-      headers:
-        Host: ty986gfazs.cainiaohub.xyz
-      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-  - client-fingerprint: chrome
-    name: 604 CA
-    network: ws
-    port: 443
-    server: 104.17.182.41
-    servername: cf.5208877.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: f6a015b4-4783-4f2a-a01b-39f281ba5d07
-    ws-opts:
-      headers:
-        Host: cf.5208877.xyz
-      path: /
-  - client-fingerprint: chrome
-    name: 615 US
+    name: 609 US
     network: ws
     port: 30021
     server: 128.241.25.11
@@ -6702,7 +6650,7 @@ proxies:
       headers:
         Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
       path: /@Marisa_kristi
-  - name: 616 US
+  - name: 610 US
     network: ws
     port: 443
     server: 167.82.101.251
@@ -6717,7 +6665,7 @@ proxies:
         Host: newip.global.ssl.fastly.neT.
       path: /
   - client-fingerprint: chrome
-    name: 617 CA
+    name: 611 CA
     network: ws
     port: 443
     server: 104.24.9.6
@@ -6732,7 +6680,7 @@ proxies:
         Host: ld.223350.xyz
       path: /
   - client-fingerprint: chrome
-    name: 618 DE
+    name: 612 DE
     network: ws
     port: 443
     server: 109.120.176.37
@@ -6746,7 +6694,7 @@ proxies:
       headers:
         Host: sertraline.adaspoloandco.com
       path: /download.php
-  - name: 619 FR
+  - name: 613 FR
     network: ws
     port: 443
     server: 185.193.29.123
@@ -6760,7 +6708,7 @@ proxies:
       headers:
         Host: notls.lukongtou.eu.org
       path: Telegram-WangCai2🇨🇳
-  - name: 620 TH
+  - name: 614 TH
     network: ws
     port: 80
     server: 18.239.134.69
@@ -6773,7 +6721,7 @@ proxies:
       headers:
         Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
       path: /
-  - name: 621 JP
+  - name: 615 JP
     network: ws
     port: 18122
     server: 155.248.168.35
@@ -6787,7 +6735,7 @@ proxies:
       headers:
         Host: notls.lukongtou.eu.org
       path: Telegram-WangCai2🇨🇳
-  - name: 622 JP
+  - name: 616 JP
     network: ws
     port: 11424
     server: 38.47.96.220
@@ -6801,7 +6749,7 @@ proxies:
       headers:
         Host: notls.lukongtou.eu.org
       path: Telegram-WangCai2🇨🇳
-  - name: 623 GB
+  - name: 617 GB
     network: ws
     port: 80
     server: 91.193.58.243
@@ -6814,7 +6762,7 @@ proxies:
       headers:
         Host: twilight-poetry-2bfe.218-699.workers.dev
       path: /pyip=Telegram-WangCai2🇨🇳
-  - name: 624 GB
+  - name: 618 GB
     network: ws
     port: 80
     server: 91.193.58.246
@@ -6827,7 +6775,7 @@ proxies:
       headers:
         Host: twilight-poetry-2bfe.218-699.workers.dev
       path: /pyip=Telegram-WangCai2🇨🇳
-  - name: 625 GB
+  - name: 619 GB
     network: ws
     port: 80
     server: 91.193.58.209
@@ -6840,7 +6788,7 @@ proxies:
       headers:
         Host: twilight-poetry-2bfe.218-699.workers.dev
       path: /pyip=Telegram-WangCai2🇨🇳
-  - name: 626 GB
+  - name: 620 GB
     network: ws
     port: 80
     server: 91.193.58.197
@@ -6853,7 +6801,7 @@ proxies:
       headers:
         Host: twilight-poetry-2bfe.218-699.workers.dev
       path: /pyip=Telegram-WangCai2🇨🇳
-  - name: 627 GB
+  - name: 621 GB
     network: ws
     port: 80
     server: 91.193.58.179
@@ -6866,7 +6814,7 @@ proxies:
       headers:
         Host: twilight-poetry-2bfe.218-699.workers.dev
       path: /pyip=Telegram-WangCai2🇨🇳
-  - name: 628 JP
+  - name: 622 JP
     network: ws
     port: 443
     server: 89.125.244.28
@@ -6880,7 +6828,7 @@ proxies:
       headers:
         Host: notls.lukongtou.eu.org
       path: Telegram-WangCai2🇨🇳
-  - name: 629 JP
+  - name: 623 JP
     network: ws
     port: 443
     server: 154.197.88.253
@@ -6894,7 +6842,7 @@ proxies:
       headers:
         Host: notls.lukongtou.eu.org
       path: Telegram-WangCai2🇨🇳
-  - name: 630 GB
+  - name: 624 GB
     network: ws
     port: 443
     server: 91.193.58.93
@@ -6908,7 +6856,7 @@ proxies:
       headers:
         Host: jamph131-1228.pages.dev
       path: Telegram-WangCai2🇨🇳
-  - name: 631 GB
+  - name: 625 GB
     network: ws
     port: 80
     server: 91.193.58.93
@@ -6921,7 +6869,7 @@ proxies:
       headers:
         Host: plain-darkness-90ea.259.workers.dev
       path: /pyip=Telegram🇨🇳+@WangCai2
-  - name: 632 GB
+  - name: 626 GB
     network: ws
     port: 443
     server: 91.193.58.195
@@ -6935,7 +6883,7 @@ proxies:
       headers:
         Host: jamph131-1228.pages.dev
       path: Telegram-WangCai2🇨🇳
-  - name: 633 GB
+  - name: 627 GB
     network: ws
     port: 443
     server: 91.193.58.141
@@ -6949,7 +6897,7 @@ proxies:
       headers:
         Host: jamph131-1228.pages.dev
       path: Telegram-WangCai2🇨🇳
-  - name: 634 GB
+  - name: 628 GB
     network: ws
     port: 443
     server: 91.193.58.117
@@ -6963,7 +6911,7 @@ proxies:
       headers:
         Host: jamph131-1228.pages.dev
       path: Telegram-WangCai2🇨🇳
-  - name: 635 GB
+  - name: 629 GB
     network: ws
     port: 80
     server: 91.193.58.92
@@ -6977,7 +6925,7 @@ proxies:
         Host: plain-darkness-90ea.259.workers.dev
       path: /pyip=Telegram🇨🇳+@WangCai2
   - client-fingerprint: chrome
-    name: 636 US
+    name: 630 US
     network: ws
     port: 443
     server: 199.232.78.159
@@ -6991,7 +6939,7 @@ proxies:
       headers:
         Host: pan11.global.ssl.fastly.net
       path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-  - name: 637 US
+  - name: 631 US
     network: ws
     port: 80
     server: 3.170.185.91
@@ -7005,7 +6953,7 @@ proxies:
         Host: d2pwbkmfr5lxa4.cloudfront.net
       path: /
   - client-fingerprint: chrome
-    name: 638 US
+    name: 632 US
     network: ws
     port: 443
     server: 3.170.185.91
@@ -7020,7 +6968,7 @@ proxies:
         Host: d1yxsk0zprgivr.cloudfront.net
       path: /
   - client-fingerprint: chrome
-    name: 639 CA
+    name: 633 CA
     network: ws
     port: 443
     server: 104.26.2.173
@@ -7034,7 +6982,7 @@ proxies:
       headers:
         Host: support.zoom.us.yxls.eu.cc
       path: /sg-melbi
-  - name: 640 CA
+  - name: 634 CA
     network: ws
     port: 8880
     server: 162.159.156.214
@@ -7048,7 +6996,7 @@ proxies:
         Host: throbbing-moon-a07c.90-ec4.workers.dev
       path: /pyip=ProxyIP.US.CMLiussss.net
   - client-fingerprint: qq
-    name: 641 RU
+    name: 635 RU
     network: xhttp
     port: 443
     server: 178.72.162.73
@@ -7061,7 +7009,7 @@ proxies:
     xhttp-opts:
       host: ru6.ethicsdinnerpave.online
       path: /assets/build/_app/immutable/chunks/stream-one/
-  - name: 642 RU
+  - name: 636 RU
     network: ws
     port: 2200
     server: 104.171.136.112
@@ -7073,7 +7021,7 @@ proxies:
     ws-opts:
       path: /v1
   - client-fingerprint: chrome
-    name: 643 SE
+    name: 637 SE
     network: ws
     port: 8443
     server: 193.232.178.149
@@ -7090,7 +7038,7 @@ proxies:
   - alpn:
       - h2
     client-fingerprint: firefox
-    name: 644 DE
+    name: 638 DE
     network: xhttp
     port: 443
     server: 185.136.12.190
@@ -7105,7 +7053,7 @@ proxies:
       mode: auto
       path: /api/v1/
   - client-fingerprint: chrome
-    name: 645 CN
+    name: 639 CN
     network: ws
     port: 443
     server: 77.105.163.46
@@ -7120,7 +7068,7 @@ proxies:
         Host: ov186.ochmaybrooooo.online
       path: /
   - client-fingerprint: chrome
-    name: 646 DE
+    name: 640 DE
     network: ws
     port: 2083
     server: 46.101.253.244
@@ -7135,7 +7083,7 @@ proxies:
         Host: edge.yzkvm.top
       path: /
   - client-fingerprint: chrome
-    name: 647 JP
+    name: 641 JP
     network: ws
     port: 8443
     server: 82.40.42.204
@@ -7150,7 +7098,7 @@ proxies:
         Host: rubifen.adaspoloandco.com
       path: /GOrbEh
   - client-fingerprint: chrome
-    name: 648 JP
+    name: 642 JP
     network: ws
     port: 8443
     server: 45.192.200.66
@@ -7164,7 +7112,7 @@ proxies:
       headers:
         Host: rubifen.adaspoloandco.com
       path: /GOrbEh
-  - name: 649 RU
+  - name: 643 RU
     network: ws
     port: 2200
     server: 104.171.137.176
@@ -7175,7 +7123,7 @@ proxies:
     uuid: 43874ef1-1f74-4b8b-bc84-1d13caabd71b
     ws-opts:
       path: /v1
-  - name: 650 RU
+  - name: 644 RU
     network: ws
     port: 4100
     server: 176.98.178.17
@@ -7188,7 +7136,7 @@ proxies:
       headers:
         Host: live.ok.ru
       path: /v1
-  - name: 651 CA
+  - name: 645 CA
     network: ws
     port: 8880
     server: 104.21.23.72
@@ -7204,7 +7152,7 @@ proxies:
   - alpn:
       - h3
     client-fingerprint: chrome
-    name: 652 US
+    name: 646 US
     network: xhttp
     port: 443
     server: 199.232.239.2
@@ -7218,7 +7166,7 @@ proxies:
       host: oh4.global.ssl.fastly.net
       mode: packet-up
       path: /
-  - name: 653 IR
+  - name: 647 IR
     network: ws
     port: 80
     server: 45.131.4.115
@@ -7231,7 +7179,7 @@ proxies:
       headers:
         Host: worker3.gigak25604.workers.dev
       path: /eyJqdW5rIjoiQXoydFJwaWM0WSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-  - name: 654 US
+  - name: 648 US
     network: ws
     port: 80
     server: 45.40.150.4
@@ -7244,7 +7192,7 @@ proxies:
       headers:
         Host: holy-breeze-0bac.47-dec.workers.dev
       path: /pyip=Telegram🇨🇳++
-  - name: 655 US
+  - name: 649 US
     network: ws
     port: 8880
     server: 50.62.194.30
@@ -7257,7 +7205,7 @@ proxies:
       headers:
         Host: vms.lifetime37.workers.dev
       path: /
-  - name: 656 NL
+  - name: 650 NL
     network: ws
     port: 80
     server: 91.206.71.8
@@ -7270,7 +7218,7 @@ proxies:
       headers:
         Host: round-haze-8783.294.workers.dev
       path: /pyip=Telegram🇨🇳+@WangCai2
-  - name: 657 CA
+  - name: 651 CA
     network: ws
     port: 80
     server: 162.159.81.104
@@ -7283,7 +7231,7 @@ proxies:
       headers:
         Host: icy-darkness-8ff1.farzambia12mo.workers.dev
       path: /eyJqdW5rIjoiUEVTdDRlR2hhc0JuYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ
-  - name: 658 AE
+  - name: 652 AE
     network: ws
     port: 8880
     server: 94.140.0.100
@@ -7297,7 +7245,7 @@ proxies:
         Host: silent-pine-a674.jfadwkglaugul.workers.dev
       path: /sync
   - client-fingerprint: chrome
-    name: 659 CA
+    name: 653 CA
     network: ws
     port: 443
     server: 104.19.87.194
@@ -7311,7 +7259,7 @@ proxies:
       headers:
         Host: ld.223350.xyz
       path: /
-  - name: 660 CA
+  - name: 654 CA
     network: ws
     port: 8880
     server: 104.26.13.40
@@ -7324,7 +7272,7 @@ proxies:
       headers:
         Host: square-sea-01d1.339-be3.workers.dev
       path: /pyip=ProxyIP.JP.CMLiussss.net
-  - name: 661 US
+  - name: 655 US
     network: ws
     port: 8880
     server: 45.40.149.50
@@ -7337,7 +7285,7 @@ proxies:
       headers:
         Host: vms.lifetime39.workers.dev
       path: /
-  - name: 662 NL
+  - name: 656 NL
     network: ws
     port: 8880
     server: 185.148.107.40
@@ -7350,7 +7298,7 @@ proxies:
       headers:
         Host: vms.lifetime55.workers.dev
       path: /
-  - name: 663 GB
+  - name: 657 GB
     network: xhttp
     port: 2086
     server: 217.163.76.118
@@ -7363,7 +7311,7 @@ proxies:
       host: xvh.andishehparenting.com
       mode: auto
       path: /
-  - name: 665 RU
+  - name: 659 RU
     network: ws
     port: 2200
     server: 200.165.228.51
@@ -7376,7 +7324,7 @@ proxies:
     ws-opts:
       path: /v1
   - client-fingerprint: chrome
-    name: 666 FI
+    name: 660 FI
     network: ws
     port: 2053
     server: 65.109.12.58
@@ -7390,7 +7338,7 @@ proxies:
       headers:
         Host: forfreeuse.rtqa.ru
       path: /
-  - name: 667 DE
+  - name: 661 DE
     network: ws
     port: 2053
     server: 188.241.241.28
@@ -7405,7 +7353,7 @@ proxies:
         Host: forfreeuse.rtqa.ru
       path: /
   - client-fingerprint: chrome
-    name: 668 NL
+    name: 662 NL
     network: ws
     port: 2053
     server: 185.18.52.77
@@ -7420,7 +7368,7 @@ proxies:
         Host: forfreeuse.rtqa.ru
       path: /
   - client-fingerprint: chrome
-    name: 669 PL
+    name: 663 PL
     network: ws
     port: 2053
     server: 31.133.0.133
@@ -7434,7 +7382,7 @@ proxies:
       headers:
         Host: forfreeuse.rtqa.ru
       path: /
-  - name: 670 PL
+  - name: 664 PL
     network: ws
     port: 2053
     server: 31.133.0.103
@@ -7448,7 +7396,7 @@ proxies:
       headers:
         Host: forfreeuse.rtqa.ru
       path: /
-  - name: 671 PL
+  - name: 665 PL
     network: ws
     port: 2053
     server: 31.133.0.70
@@ -7462,7 +7410,7 @@ proxies:
       headers:
         Host: forfreeuse.rtqa.ru
       path: /
-  - name: 672 NL
+  - name: 666 NL
     network: ws
     port: 2053
     server: 31.15.17.129
@@ -7477,7 +7425,7 @@ proxies:
         Host: forfreeuse.rtqa.ru
       path: /
   - client-fingerprint: chrome
-    name: 673 GB
+    name: 667 GB
     network: ws
     port: 8443
     server: 91.110.174.210
@@ -7491,7 +7439,7 @@ proxies:
       headers:
         Host: rubifen.adaspoloandco.com
       path: /GOrbEh
-  - name: 674 RU
+  - name: 668 RU
     network: ws
     port: 2200
     server: 168.222.140.55
@@ -7505,7 +7453,7 @@ proxies:
         Host: rzd.ru
       path: /v1
   - client-fingerprint: chrome
-    name: 676 US
+    name: 670 US
     network: ws
     port: 443
     server: 18.154.132.116
@@ -7519,7 +7467,7 @@ proxies:
       headers:
         Host: d1yxsk0zprgivr.cloudfront.net
       path: /
-  - name: 677 NL
+  - name: 671 NL
     network: ws
     port: 2053
     server: 185.109.48.13
@@ -7533,7 +7481,7 @@ proxies:
       headers:
         Host: forfreeuse.rtqa.ru
       path: /
-  - name: 678 RU
+  - name: 672 RU
     network: ws
     port: 4100
     server: 104.171.136.172
@@ -7546,7 +7494,7 @@ proxies:
       headers:
         Host: live.ok.ru
       path: /v1
-  - name: 679 DE
+  - name: 673 DE
     network: ws
     port: 2087
     server: 163.8.195.241
@@ -7562,7 +7510,7 @@ proxies:
   - alpn:
       - h3
     client-fingerprint: chrome
-    name: 680 US
+    name: 674 US
     network: xhttp
     port: 443
     server: 151.101.69.253
@@ -7575,7 +7523,7 @@ proxies:
     xhttp-opts:
       host: lunex.store
       path: /Lunex
-  - name: 681 GB
+  - name: 675 GB
     network: ws
     port: 2087
     server: 188.220.67.245
@@ -7586,7 +7534,7 @@ proxies:
     uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
     ws-opts:
       path: /8f2690e2d016
-  - name: 682 PL
+  - name: 676 PL
     network: ws
     port: 2087
     server: 178.95.170.83
@@ -7598,7 +7546,7 @@ proxies:
     ws-opts:
       path: /4bc027a44532
   - client-fingerprint: chrome
-    name: 683 KR
+    name: 677 KR
     network: ws
     port: 25524
     server: 116.93.199.28
@@ -7613,7 +7561,7 @@ proxies:
         Host: ylnhh.cc.cd
       path: /Telegram🇨🇳@WangCai2
   - client-fingerprint: chrome
-    name: 684 FR
+    name: 678 FR
     network: ws
     port: 8082
     server: 89.208.113.120
@@ -7628,7 +7576,7 @@ proxies:
         Host: sub.mot.ip-ddns.com
       path: /
   - client-fingerprint: ios
-    name: 685 FR
+    name: 679 FR
     network: xhttp
     port: 443
     server: 147.45.42.218
@@ -7642,7 +7590,7 @@ proxies:
       host: bz-fra-01.hello-there.ru
       path: /xh
   - client-fingerprint: chrome
-    name: 686 SG
+    name: 680 SG
     network: ws
     port: 443
     server: 47.131.189.221
@@ -7656,7 +7604,7 @@ proxies:
       headers:
         Host: mia7.pages.dev
       path: /TG:@MiaChatChannel
-  - name: 687 CA
+  - name: 681 CA
     network: ws
     port: 8880
     server: 104.17.191.15
@@ -7669,7 +7617,7 @@ proxies:
       headers:
         Host: fancy-haze-ab00.236-68b.workers.dev
       path: /pyip=ProxyIP.SG.CMLiussss.net
-  - name: 688 CA
+  - name: 682 CA
     network: ws
     port: 8880
     server: 172.65.90.53
@@ -7682,7 +7630,7 @@ proxies:
       headers:
         Host: orange-lab-896e.365-80b.workers.dev
       path: /pyip=ProxyIP.SG.CMLiussss.net
-  - name: 689 CA
+  - name: 683 CA
     network: ws
     port: 8880
     server: 172.64.94.251
@@ -7696,7 +7644,7 @@ proxies:
         Host: old-violet-a5ce.29-440.workers.dev
       path: /pyip=ProxyIP.SG.CMLiussss.net
   - client-fingerprint: chrome
-    name: 690 US
+    name: 684 US
     network: ws
     port: 28863
     server: 129.153.71.28
@@ -7710,7 +7658,7 @@ proxies:
       headers:
         Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
       path: /@Marisa_kristi
-  - name: 691 BZ
+  - name: 685 BZ
     network: ws
     port: 80
     server: 45.131.208.4
@@ -7723,7 +7671,7 @@ proxies:
       headers:
         Host: floral-thunder-10d3.82-67d.workers.dev
       path: /
-  - name: 692 CA
+  - name: 686 CA
     network: ws
     port: 8880
     server: 104.17.64.70
@@ -7736,7 +7684,7 @@ proxies:
       headers:
         Host: yellow-sky-38b3.154-d73.workers.dev
       path: /pyip=ProxyIP.SG.CMLiussss.net
-  - name: 693 CA
+  - name: 687 CA
     network: ws
     port: 8880
     server: 104.27.82.154
@@ -7749,7 +7697,7 @@ proxies:
       headers:
         Host: old-violet-a5ce.29-440.workers.dev
       path: /pyip=ProxyIP.SG.CMLiussss.net
-  - name: 694 CA
+  - name: 688 CA
     network: ws
     port: 8880
     server: 104.17.144.29
@@ -7762,8 +7710,25 @@ proxies:
       headers:
         Host: spring-sound-8d8e.36-9ff.workers.dev
       path: /pyip=ProxyIP.KR.CMLiussss.net
+  - alpn:
+      - h2
+    client-fingerprint: firefox
+    name: 689 US
+    network: xhttp
+    port: 443
+    server: 199.232.239.239
+    servername: ssl.fastly.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 71a195c5-df47-47ad-81be-f4d3a3a21be3
+    xhttp-opts:
+      host: cloudnet2026.global.ssl.fastly.net
+      mode: auto
+      path: /@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel
   - client-fingerprint: chrome
-    name: 695 SG
+    name: 690 SG
     network: ws
     port: 443
     server: 103.25.202.102
@@ -7778,7 +7743,7 @@ proxies:
         Host: asia.csmaster.site
       path: /
   - client-fingerprint: chrome
-    name: 696 CA
+    name: 691 CA
     network: ws
     port: 2087
     server: 172.67.79.160
@@ -7797,7 +7762,7 @@ proxies:
       - http/1.1
       - h3
     client-fingerprint: chrome
-    name: 697 DE
+    name: 692 DE
     network: xhttp
     port: 443
     server: 195.137.226.11
@@ -7812,7 +7777,7 @@ proxies:
       mode: auto
       path: /
   - client-fingerprint: chrome
-    name: 698 CA
+    name: 693 CA
     network: ws
     port: 443
     server: 104.21.28.176
@@ -7826,7 +7791,7 @@ proxies:
         Host: sg.lovehk.xyz
       path: /Singapore1
   - client-fingerprint: chrome
-    name: 699 CA
+    name: 694 CA
     network: ws
     port: 443
     server: 104.21.81.50
@@ -7840,7 +7805,7 @@ proxies:
         Host: jp.lovehk.xyz
       path: /Tokyo1
   - client-fingerprint: chrome
-    name: 700 CA
+    name: 695 CA
     network: ws
     port: 443
     server: 172.67.139.229
@@ -7853,7 +7818,21 @@ proxies:
       headers:
         Host: usa.lovehk.xyz
       path: /Dallas1
-  - name: 701 BG
+  - name: 696 CA
+    network: ws
+    port: 443
+    server: 172.64.152.241
+    servername: ccc.010304.xyz
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: d342d11e-d224-4463-b982-532309285094
+    ws-opts:
+      headers:
+        Host: ccc.010304.xyz
+      path: /fp
+  - name: 697 BG
     network: ws
     port: 8880
     server: 89.117.112.30
@@ -7866,7 +7845,7 @@ proxies:
       headers:
         Host: vms.lifetime11.workers.dev
       path: /
-  - name: 702 US
+  - name: 698 US
     network: ws
     port: 8880
     server: 104.254.140.30
@@ -7879,7 +7858,7 @@ proxies:
       headers:
         Host: vms.lifetime54.workers.dev
       path: /
-  - name: 703 VG
+  - name: 699 VG
     network: ws
     port: 8880
     server: 45.142.120.30
@@ -7892,62 +7871,195 @@ proxies:
       headers:
         Host: vms.lifetime08.workers.dev
       path: /
-  - client-fingerprint: chrome
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
     encryption: none
-    name: 704 RU
+    name: 700 DE
     network: ws
-    port: 443
-    server: 200.165.231.209
-    servername: wstg.datasynctrue.online
+    port: 2083
+    server: 140.225.208.140
+    servername: speedtestmark.com
     tls: true
     type: vless
     udp: true
-    uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
+    uuid: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
     ws-opts:
       headers:
-        Host: wstg.datasynctrue.online
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36
-      path: /api/connect
+        Host: ""
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+      path: /vless-ws
     xudp: true
-  - encryption: none
-    name: 716 AE
-    network: ws
-    port: 22573
-    server: uae.unixzone.us
-    tls: false
+  - name: 701 DE
+    server: 179.254.115.173
+    port: 8443
     type: vless
-    uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+    tls: true
+    servername: de10.pad-sservice.lat
+    client-fingerprint: firefox
+    network: ws
+    ws-opts:
+      path: /DE10W
+      headers:
+        Host: de10.pad-service.com
+    udp: true
+  - encryption: none
+    name: 702 DE
+    network: ws
+    port: 8443
+    server: de10.pad-sservice.lat
+    servername: de10.pad-sservice.lat
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
     ws-opts:
       headers:
-        Host: uae.unixzone.us
-      path: /
+        Host: de10.pad-service.com
+      path: /DE10W
+  - name: 703 EE
+    server: 179.254.126.223
+    port: 8443
+    type: vless
+    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+    tls: true
+    servername: ee2.pad-sservice.lat
+    client-fingerprint: firefox
+    network: ws
+    ws-opts:
+      path: /EE2W
+      headers:
+        Host: ee2.pad-service.com
+    udp: true
+  - name: 705 NL
+    server: 13.143.232.104
+    port: 8443
+    type: vless
+    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+    tls: true
+    servername: nl8.pad-sservice.lat
+    client-fingerprint: ios
+    network: ws
+    ws-opts:
+      path: /NL8W
+      headers:
+        Host: nl8.pad-service.com
+    udp: true
   - client-fingerprint: chrome
-    name: 717 AT
+    name: 706 NL
+    network: ws
+    port: 8443
+    server: nl8.pad-sservice.lat
+    servername: nl8.pad-sservice.lat
+    tls: true
+    type: vless
+    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+    ws-opts:
+      headers:
+        Host: nl8.pad-service.com
+      path: /NL8W
+  - name: 707 NL
+    server: 150.251.141.60
+    port: 8443
+    type: vless
+    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+    tls: true
+    servername: nl4.1.pad-sservice.lat
+    client-fingerprint: firefox
+    network: ws
+    ws-opts:
+      path: /NL4W
+      headers:
+        Host: nl4.1.pad-service.com
+    udp: true
+  - name: 708 CA
+    server: 104.18.35.86
+    port: 2082
+    type: vless
+    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+    tls: false
+    servername: hhlfy.twiladaphne.ndjp.net
+    network: ws
+    ws-opts:
+      path: /fp
+      headers:
+        Host: hhlfy.twiladaphne.ndjp.net
+    udp: true
+  - name: 709 CA
+    server: 104.18.35.86
+    port: 8080
+    type: vless
+    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+    tls: false
+    servername: hhlfy.twiladaphne.ndjp.net
+    network: ws
+    ws-opts:
+      path: /sg-melbi
+      headers:
+        Host: hhlfy.twiladaphne.ndjp.net
+    udp: true
+  - name: 710 US
+    server: 152.53.170.163
+    port: 8443
+    type: vless
+    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+    tls: true
+    servername: usa2.pad-sservice.lat
+    client-fingerprint: firefox
+    network: ws
+    ws-opts:
+      path: /usa2-1
+      headers:
+        Host: usa2.pad-service.com
+    udp: true
+  - name: 711 US
+    server: usa2.pad-sservice.lat
+    port: 8443
+    type: vless
+    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+    tls: true
+    alpn:
+      - http/1.1
+    servername: usa2.pad-sservice.lat
+    client-fingerprint: firefox
+    network: ws
+    ws-opts:
+      path: /usa2-1
+      headers:
+        Host: usa2.pad-service.com
+    udp: true
+  - client-fingerprint: chrome
+    name: 723 AT
     network: ws
     port: 8443
     server: au2.pad-sservice.lat
     servername: au2.pad-sservice.lat
+    skip-cert-verify: false
     tls: true
     type: vless
+    udp: true
     uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
     ws-opts:
       headers:
         Host: au2.pad-service.com
       path: /A11U
   - client-fingerprint: chrome
-    name: 718 AT
+    name: 724 AT
     network: ws
     port: 8443
     server: au5.pad-sservice.lat
     servername: au5.pad-sservice.lat
+    skip-cert-verify: false
     tls: true
     type: vless
+    udp: true
     uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
     ws-opts:
       headers:
         Host: au5.pad-sservice.lat
       path: /AU5W
-  - name: 719 CA
+  - name: 725 CA
     network: ws
     port: 443
     server: cf.090227.xyz
@@ -7959,394 +8071,7 @@ proxies:
       headers:
         Host: ccc.010304.xyz
       path: /fp=chromesecurity=tls
-  - client-fingerprint: chrome
-    encryption: none
-    name: 720 CA
-    network: ws
-    port: 443
-    server: ccc.010304.xyz
-    servername: ccc.010304.xyz
-    tls: true
-    type: vless
-    uuid: d342d11e-d224-4463-b982-532309285094
-    ws-opts:
-      path: /
-  - client-fingerprint: random
-    name: 721 CA
-    network: ws
-    port: 2053
-    server: vl.cocopon.top
-    servername: vl.cocopon.top
-    tls: true
-    type: vless
-    uuid: 44f06ad1-982c-4e03-849f-899c1c8dc14f
-    ws-opts:
-      headers:
-        Host: vl.cocopon.top
-      path: /
-  - name: 722 DE
-    network: ws
-    port: 80
-    server: free.sahanwickramasinghe.me
-    tls: false
-    type: vless
-    uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
-    ws-opts:
-      headers:
-        Host: free.sahanwickramasinghe.me
-      path: /
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: 723 US
-    network: ws
-    port: 443
-    server: uiuxtestsdcv-development-r6dg9.lucity.app
-    servername: uiuxtestsdcv-development-r6dg9.lucity.app
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    uuid: 58b06206-cd53-23d6-279a-0f0dd259cb0a
-    ws-opts:
-      headers:
-        Host: uiuxtestsdcv-development-r6dg9.lucity.app
-      path: /ws/58b06206-cd53-23d6-279a-0f0dd259cb0a
-  - alpn:
-      - http/1.1
-    client-fingerprint: firefox
-    name: 724 FI
-    network: ws
-    port: 8443
-    server: finp2g.yandex-api.store
-    servername: finp2g.yandex-api.store
-    tls: true
-    type: vless
-    uuid: 78559873-84ef-4cab-a0b2-46d4cd20de4a
-    ws-opts:
-      headers:
-        Host: finp2g.yandex-api.store
-      path: /assets
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: 725 CA
-    network: ws
-    port: 443
-    server: vpn.kovira.site
-    servername: vpn.kovira.site
-    tls: true
-    type: vless
-    uuid: 22e6604e-0481-411f-8028-ffbd65f624b6
-    ws-opts:
-      headers:
-        Host: vpn.kovira.site
-      path: /ws-738d2d0c5eba7609f3c37de2
-  - client-fingerprint: chrome
-    name: 726 CA
-    network: ws
-    port: 443
-    server: kclx.eu.org
-    servername: kclx.eu.org
-    tls: true
-    type: vless
-    uuid: 0575005f-0ba9-4d6d-85e0-4a6a8cbafc1b
-    ws-opts:
-      headers:
-        Host: kclx.eu.org
-      path: /154.16.10.34-8080
-  - client-fingerprint: chrome
-    name: 727 CA
-    network: ws
-    port: 8443
-    server: centurylink.es
-    servername: free.sahanwickramasinghe.me
-    tls: true
-    type: vless
-    uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
-    ws-opts:
-      headers:
-        Host: free.sahanwickramasinghe.me
-      path: /
-  - name: 728 US
-    network: ws
-    port: 80
-    server: support.zoom.us
-    servername: support.zoom.us
-    tls: false
-    type: vless
-    uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
-    ws-opts:
-      headers:
-        Host: free.sahanwickramasinghe.me
-      path: /
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: 729 CA
-    network: ws
-    port: 443
-    server: n1.fazelino.site
-    servername: api.fazelino.site
-    tls: true
-    type: vless
-    uuid: dd688bb9-41d9-4eb7-b5eb-6175f612cdb6
-    ws-opts:
-      headers:
-        Host: api.fazelino.site
-      path: /api/get
-  - alpn:
-      - http/1.1
-      - h2
-    client-fingerprint: chrome
-    name: 730 TR
-    network: ws
-    port: 2053
-    server: tr2.soft10.ir
-    servername: tr2.soft10.ir
-    tls: true
-    type: vless
-    uuid: 480b4042-f713-43d7-b24b-b4064c97f841
-    ws-opts:
-      headers:
-        Host: tr2.soft10.ir
-      path: /
-  - name: 731 TR
-    type: vless
-    server: tr2.soft10.ir
-    port: 443
-    uuid: 480b4042-f713-43d7-b24b-b4064c97f841
-    network: ws
-    servername: tr2.soft10.ir
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-    skip-cert-verify: true
-    udp: true
-  - client-fingerprint: chrome
-    name: 732 AT
-    network: ws
-    port: 8443
-    server: au6.pad-sservice.lat
-    servername: au6.pad-sservice.lat
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-    ws-opts:
-      headers:
-        Host: au6.pad-sservice.lat
-      path: /AU6W
-  - client-fingerprint: chrome
-    name: 733 DE
-    network: ws
-    port: 8443
-    server: de4.pad-sservice.lat
-    servername: de4.pad-sservice.lat
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-    ws-opts:
-      headers:
-        Host: de4.pad-service.com
-      path: /D14E
-  - client-fingerprint: chrome
-    name: 734 DE
-    network: ws
-    port: 8443
-    server: de9.pad-sservice.lat
-    servername: de9.pad-sservice.lat
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-    ws-opts:
-      headers:
-        Host: de9.pad-service.com
-      path: /DE9W
-  - client-fingerprint: chrome
-    name: 735 DE
-    network: ws
-    port: 8443
-    server: de8.pad-sservice.lat
-    servername: de8.pad-sservice.lat
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-    ws-opts:
-      headers:
-        Host: de8.pad-service.com
-      path: /DE8W
-  - client-fingerprint: chrome
-    name: 736 CA
-    network: ws
-    port: 2096
-    server: sinavm7.soft10.ir
-    servername: sinavm7.soft10.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6fdef8d7-4c49-4e6e-93ec-c24ef7c41802
-    ws-opts:
-      headers:
-        Host: sinavm7.soft10.ir
-      path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM
-  - client-fingerprint: chrome
-    name: 741 NL
-    network: ws
-    port: 443
-    server: de6.pad-sservice.lat
-    servername: de6.pad-sservice.lat
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-    ws-opts:
-      headers:
-        Host: de6.pad-service.com
-      path: /DE6W
-  - client-fingerprint: chrome
-    name: 742 NL
-    network: ws
-    port: 8443
-    server: nl8.pad-sservice.lat
-    servername: nl8.pad-sservice.lat
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-    ws-opts:
-      headers:
-        Host: nl8.pad-service.com
-      path: /NL8W
-  - client-fingerprint: chrome
-    name: 743 PL
-    network: ws
-    port: 8443
-    server: pl2.pad-sservice.lat
-    servername: pl2.pad-sservice.lat
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-    ws-opts:
-      headers:
-        Host: pl2.pad-service.com
-      path: /PL2W
-  - client-fingerprint: chrome
-    name: 744 PL
-    network: ws
-    port: 8443
-    server: pl1.pad-sservice.lat
-    servername: pl1.pad-sservice.lat
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-    ws-opts:
-      headers:
-        Host: pl1.pad-service.com
-      path: /PL1W
-  - client-fingerprint: chrome
-    name: 745 PL
-    network: ws
-    port: 8443
-    server: pl3.pad-sservice.lat
-    servername: pl3.pad-sservice.lat
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-    ws-opts:
-      headers:
-        Host: pl3.pad-service.com
-      path: /PL3W
-  - client-fingerprint: chrome
-    name: 746 US
-    network: ws
-    port: 443
-    server: www.qarvian.ir
-    servername: cdn.akamai.steamstatic.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: f9a9aa1f-75fb-4490-9155-85567af7a0ff
-    ws-opts:
-      headers:
-        Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
-      path: /?TELEGRAM--FaraGATE-FaraGATE-FaraGATE-FaraGATE-FaraGATE-FaraGATE-FaraGATE-FaraGATE-FaraGATE-FaraGATE--TELEGRAM
-  - name: 747 US
-    type: vless
-    server: python-graysongon.wasmer.app
-    port: 443
-    encryption: none
-    network: ws
-    packet-encoding: xudp
-    servername: python-graysongon.wasmer.app
-    tls: true
-    udp: true
-    uuid: 7bd180e8-1142-4387-93f5-03e8d750a896
-    ws-opts:
-      headers:
-        Host: python-graysongon.wasmer.app
-        User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Slackware/Chrome/12.0.742.100 Safari/534.30
-      path: /7bd180e8
-    xudp: true
-  - name: 750 US
-    type: vless
-    server: blog.webex.com
-    port: 443
-    encryption: none
-    network: ws
-    packet-encoding: xudp
-    servername: blog.webex.com.yxls.eu.cc
-    skip-cert-verify: false
-    tls: true
-    udp: true
-    uuid: 57d22829-187c-4f83-b757-d6e367ca6de8
-    ws-opts:
-      headers:
-        Host: blog.webex.com.yxls.eu.cc
-      path: /au-mt
-  - name: 751 CA
-    type: vless
-    server: cf2.466688.xyz
-    port: 8443
-    client-fingerprint: chrome
-    encryption: none
-    network: ws
-    packet-encoding: xudp
-    servername: pavah949141.pages.dev
-    skip-cert-verify: false
-    tls: true
-    udp: true
-    uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-    ws-opts:
-      headers:
-        Host: pavah949141.pages.dev
-      path: /project?ed
-  - name: 752 CA
-    type: vless
-    server: cf2.466688.xyz
-    port: 443
-    client-fingerprint: chrome
-    encryption: none
-    network: ws
-    packet-encoding: xudp
-    servername: domah57929.pages.dev
-    skip-cert-verify: false
-    tls: true
-    udp: true
-    uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-    ws-opts:
-      headers:
-        Host: domah57929.pages.dev
-      path: /t.me/QiangLieTuiJian?ed
-  - name: 753 CA
+  - name: 726 CA
     type: vless
     server: cf7.466688.xyz
     port: 443
@@ -8363,7 +8088,328 @@ proxies:
       headers:
         Host: domah57929.pages.dev
       path: /t.me/QiangLieTuiJian?ed
-  - name: 754 CA
+  - client-fingerprint: chrome
+    encryption: none
+    name: 727 CA
+    network: ws
+    port: 443
+    server: ccc.010304.xyz
+    servername: ccc.010304.xyz
+    tls: true
+    type: vless
+    uuid: d342d11e-d224-4463-b982-532309285094
+    ws-opts:
+      path: /
+  - client-fingerprint: chrome
+    name: 728 CA
+    network: ws
+    port: 443
+    server: cf-socks.caoyuwu.eu.org
+    servername: cf-socks.caoyuwu.eu.org
+    tls: true
+    type: vless
+    uuid: 9cdcbaf0-d244-4f37-b227-90166e43f5b5
+    ws-opts:
+      path: /
+  - client-fingerprint: random
+    name: 729 CA
+    network: ws
+    port: 2053
+    server: vl.cocopon.top
+    servername: vl.cocopon.top
+    tls: true
+    type: vless
+    uuid: 44f06ad1-982c-4e03-849f-899c1c8dc14f
+    ws-opts:
+      headers:
+        Host: vl.cocopon.top
+      path: /
+  - client-fingerprint: chrome
+    name: 730 DE
+    network: ws
+    port: 8443
+    server: de4.pad-sservice.lat
+    servername: de4.pad-sservice.lat
+    tls: true
+    type: vless
+    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+    ws-opts:
+      headers:
+        Host: de4.pad-service.com
+      path: /D14E
+  - client-fingerprint: chrome
+    name: 731 DE
+    network: ws
+    port: 443
+    server: de5.pad-sservice.lat
+    servername: de5.pad-sservice.lat
+    tls: true
+    type: vless
+    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+    ws-opts:
+      headers:
+        Host: de5.pad-service.com
+      path: /DE5W
+  - alpn:
+      - http/1.1
+    client-fingerprint: firefox
+    name: 732 FI
+    network: ws
+    port: 8443
+    server: finp2g.yandex-api.store
+    servername: finp2g.yandex-api.store
+    tls: true
+    type: vless
+    uuid: 78559873-84ef-4cab-a0b2-46d4cd20de4a
+    ws-opts:
+      headers:
+        Host: finp2g.yandex-api.store
+      path: /assets
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 733 CA
+    network: ws
+    port: 443
+    server: vpn.kovira.site
+    servername: vpn.kovira.site
+    tls: true
+    type: vless
+    uuid: 22e6604e-0481-411f-8028-ffbd65f624b6
+    ws-opts:
+      headers:
+        Host: vpn.kovira.site
+      path: /ws-738d2d0c5eba7609f3c37de2
+  - client-fingerprint: chrome
+    name: 734 CA
+    network: ws
+    port: 443
+    server: kclx.eu.org
+    servername: kclx.eu.org
+    tls: true
+    type: vless
+    uuid: 0575005f-0ba9-4d6d-85e0-4a6a8cbafc1b
+    ws-opts:
+      headers:
+        Host: kclx.eu.org
+      path: /154.16.10.34-8080
+  - client-fingerprint: chrome
+    name: 735 CA
+    network: ws
+    port: 8443
+    server: centurylink.es
+    servername: free.sahanwickramasinghe.me
+    tls: true
+    type: vless
+    uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+    ws-opts:
+      headers:
+        Host: free.sahanwickramasinghe.me
+      path: /
+  - name: 736 US
+    network: ws
+    port: 80
+    server: support.zoom.us
+    servername: support.zoom.us
+    tls: false
+    type: vless
+    uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
+    ws-opts:
+      headers:
+        Host: free.sahanwickramasinghe.me
+      path: /
+  - client-fingerprint: unsafe
+    name: 737 CA
+    network: ws
+    port: 443
+    server: vpn.cintaku.qzz.io
+    servername: vpn.cintaku.qzz.io
+    tls: true
+    type: vless
+    uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
+    ws-opts:
+      headers:
+        Host: vpn.cintaku.qzz.io
+      path: /vlessws
+  - client-fingerprint: chrome
+    name: 738 NL
+    network: ws
+    port: 443
+    server: de6.pad-sservice.lat
+    servername: de6.pad-sservice.lat
+    tls: true
+    type: vless
+    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+    ws-opts:
+      headers:
+        Host: de6.pad-service.com
+      path: /DE6W
+  - client-fingerprint: chrome
+    name: 739 NL
+    network: ws
+    port: 8443
+    server: de3.pad-sservice.lat
+    servername: de3.pad-sservice.lat
+    tls: true
+    type: vless
+    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+    ws-opts:
+      headers:
+        Host: de3.pad-service.com
+      path: /D1E
+  - client-fingerprint: chrome
+    name: 740 PL
+    network: ws
+    port: 8443
+    server: pl1.pad-sservice.lat
+    servername: pl1.pad-sservice.lat
+    tls: true
+    type: vless
+    udp: true
+    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+    ws-opts:
+      headers:
+        Host: pl1.pad-service.com
+      path: /PL1W
+  - client-fingerprint: chrome
+    name: 741 PL
+    network: ws
+    port: 8443
+    server: pl2.pad-sservice.lat
+    servername: pl2.pad-sservice.lat
+    tls: true
+    type: vless
+    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+    ws-opts:
+      headers:
+        Host: pl2.pad-service.com
+      path: /PL2W
+  - alpn:
+      - http/1.1
+      - h2
+    client-fingerprint: chrome
+    name: 742 TR
+    network: ws
+    port: 2053
+    server: tr2.soft10.ir
+    servername: tr2.soft10.ir
+    tls: true
+    type: vless
+    uuid: 480b4042-f713-43d7-b24b-b4064c97f841
+    ws-opts:
+      headers:
+        Host: tr2.soft10.ir
+      path: /
+  - name: 743 TR
+    type: vless
+    server: tr2.soft10.ir
+    port: 443
+    uuid: 480b4042-f713-43d7-b24b-b4064c97f841
+    network: ws
+    servername: tr2.soft10.ir
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+    udp: true
+  - alpn:
+      - http/1.1
+    client-fingerprint: edge
+    name: 744 RU
+    network: ws
+    port: 443
+    server: santehdv.site
+    servername: santehdv.site
+    tls: true
+    type: vless
+    uuid: 9ba53795-4356-40ab-8067-76ec2ae2a3d8
+    ws-opts:
+      headers:
+        Host: santehdv.site
+      path: /media/stream/E2QlYgrvniT_
+  - alpn:
+      - http/1.1
+    client-fingerprint: firefox
+    name: 747 TR
+    network: ws
+    port: 8443
+    server: tr.pad-sservice.lat
+    servername: tr.pad-sservice.lat
+    tls: true
+    type: vless
+    udp: true
+    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+    ws-opts:
+      headers:
+        Host: tr.pad-service.com
+      path: /TR1
+  - name: 750 DE
+    network: ws
+    port: 8443
+    server: de9.pad-sservice.lat
+    servername: de9.pad-sservice.lat
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+    ws-opts:
+      headers:
+        Host: de9.pad-service.com
+      path: /DE9W
+  - name: 751 US
+    type: vless
+    server: python-graysongon.wasmer.app
+    port: 443
+    encryption: none
+    network: ws
+    packet-encoding: xudp
+    servername: python-graysongon.wasmer.app
+    tls: true
+    udp: true
+    uuid: 7bd180e8-1142-4387-93f5-03e8d750a896
+    ws-opts:
+      headers:
+        Host: python-graysongon.wasmer.app
+        User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Slackware/Chrome/12.0.742.100 Safari/534.30
+      path: /7bd180e8
+    xudp: true
+  - name: 754 US
+    type: vless
+    server: blog.webex.com
+    port: 443
+    encryption: none
+    network: ws
+    packet-encoding: xudp
+    servername: blog.webex.com.yxls.eu.cc
+    skip-cert-verify: false
+    tls: true
+    udp: true
+    uuid: 57d22829-187c-4f83-b757-d6e367ca6de8
+    ws-opts:
+      headers:
+        Host: blog.webex.com.yxls.eu.cc
+      path: /au-mt
+  - name: 755 CA
+    type: vless
+    server: cf2.466688.xyz
+    port: 8443
+    client-fingerprint: chrome
+    encryption: none
+    network: ws
+    packet-encoding: xudp
+    servername: pavah949141.pages.dev
+    skip-cert-verify: false
+    tls: true
+    udp: true
+    uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+    ws-opts:
+      headers:
+        Host: pavah949141.pages.dev
+      path: /project?ed
+  - name: 756 CA
     type: vless
     server: cf9.466688.xyz
     port: 443
@@ -8380,7 +8426,7 @@ proxies:
       headers:
         Host: domah57929.pages.dev
       path: /t.me/QiangLieTuiJian?ed
-  - name: 755 CA
+  - name: 757 CA
     type: vless
     server: bpb-panel-4e2c.sakwra939.workers.dev
     port: 443
@@ -8401,7 +8447,7 @@ proxies:
         Host: bpb-panel-4e2c.sakwra939.workers.dev
       max-early-data: 2560
       path: /eyJqdW5rIjoiVndBTWp2RGsyc0g4TlgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9
-  - name: 756 CA
+  - name: 758 CA
     type: vless
     server: cf6.466688.xyz
     port: 443
@@ -8418,7 +8464,7 @@ proxies:
       headers:
         Host: domah57929.pages.dev
       path: /t.me/QiangLieTuiJian?ed
-  - name: 757 CA
+  - name: 759 CA
     type: vless
     server: cf10.466688.xyz
     port: 443
@@ -8435,7 +8481,7 @@ proxies:
       headers:
         Host: domah57929.pages.dev
       path: /t.me/QiangLieTuiJian?ed
-  - name: 758 CA
+  - name: 760 CA
     type: vless
     server: cf3.466688.xyz
     port: 443
@@ -8452,7 +8498,7 @@ proxies:
       headers:
         Host: domah57929.pages.dev
       path: /t.me/QiangLieTuiJian?ed
-  - name: 759 CA
+  - name: 761 CA
     type: vless
     server: s4090.gogocs.xyz
     port: 443
@@ -8471,26 +8517,7 @@ proxies:
     xhttp-opts:
       host: 194f0d0fs4088.wagahaha.xyz
       path: /30150a48353d3f1b2f9ea9d7e5b314bc
-  - name: 760 CA
-    type: vless
-    server: s4089.gogocs.xyz
-    port: 443
-    alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: firefox
-    encryption: none
-    network: xhttp
-    packet-encoding: xudp
-    servername: u691611u194f0d0fs4088.wagahaha.xyz
-    skip-cert-verify: false
-    tls: true
-    udp: true
-    uuid: 9794d18f-9280-3553-a7a5-a23da75aca76
-    xhttp-opts:
-      host: 194f0d0fs4088.wagahaha.xyz
-      path: /30150a48353d3f1b2f9ea9d7e5b314bc
-  - name: 761 CA
+  - name: 762 CA
     type: vless
     server: ld.242311.xyz
     port: 443
@@ -8513,7 +8540,26 @@ proxies:
         Host: ld.242311.xyz
       max-early-data: 2048
       path: /
-  - name: 762 CA
+  - name: 763 CA
+    type: vless
+    server: s4089.gogocs.xyz
+    port: 443
+    alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: firefox
+    encryption: none
+    network: xhttp
+    packet-encoding: xudp
+    servername: u691611u194f0d0fs4088.wagahaha.xyz
+    skip-cert-verify: false
+    tls: true
+    udp: true
+    uuid: 9794d18f-9280-3553-a7a5-a23da75aca76
+    xhttp-opts:
+      host: 194f0d0fs4088.wagahaha.xyz
+      path: /30150a48353d3f1b2f9ea9d7e5b314bc
+  - name: 764 CA
     type: vless
     server: cf4.466688.xyz
     port: 443
@@ -8530,7 +8576,7 @@ proxies:
       headers:
         Host: domah57929.pages.dev
       path: /t.me/QiangLieTuiJian?ed
-  - name: 763 CA
+  - name: 765 CA
     type: vless
     server: s4120.wagahaha.xyz
     port: 443
@@ -8551,7 +8597,7 @@ proxies:
         Xhttp-Verify: 3769e495-72dc-42ea-95eb-093cb0e4a6f8
       host: s4117.wagahaha.xyz
       path: /632f3ba5cd0889698a3e4b43d19aa601
-  - name: 764 CA
+  - name: 766 CA
     type: vless
     server: s4119.wagahaha.xyz
     port: 443
@@ -8572,7 +8618,7 @@ proxies:
         Xhttp-Verify: 3769e495-72dc-42ea-95eb-093cb0e4a6f8
       host: s4117.wagahaha.xyz
       path: /632f3ba5cd0889698a3e4b43d19aa601
-  - name: 765 CA
+  - name: 767 CA
     type: vless
     server: ava.game.naver.com.cf.novantunnel.life
     port: 443
@@ -8586,7 +8632,7 @@ proxies:
       headers:
         Host: ava.game.naver.com.cf.novantunnel.life
       path: /Novan-AE26
-  - name: 766 CA
+  - name: 768 CA
     type: vless
     server: securitytrails.com
     port: 2087
@@ -8606,7 +8652,7 @@ proxies:
       host: fl2.forall-npv.shop
       mode: auto
       path: /forall
-  - name: 767 CA
+  - name: 769 CA
     type: vless
     server: securitytrails.com
     port: 2083
@@ -8626,7 +8672,7 @@ proxies:
       host: ns1.mtp-roto.info
       mode: auto
       path: /forall
-  - name: 768 US
+  - name: 770 US
     type: vless
     server: rvg-production-cdb5.up.railway.app
     port: 443
@@ -8643,7 +8689,7 @@ proxies:
     uuid: 75747938-b9db-ec4a-e44a-5db2d21bd5b8
     ws-opts:
       path: /ws/75747938-b9db-ec4a-e44a-5db2d21bd5b8
-  - name: 769 CA
+  - name: 771 CA
     type: vless
     server: cf5.466688.xyz
     port: 443
@@ -8660,7 +8706,7 @@ proxies:
       headers:
         Host: domah57929.pages.dev
       path: /t.me/QiangLieTuiJian?ed
-  - name: 770 CA
+  - name: 772 CA
     type: vless
     server: ez-1707bf.codeine956.workers.dev
     port: 2096
@@ -8677,7 +8723,7 @@ proxies:
       headers:
         Host: ez-1707bf.codeine956.workers.dev
       path: /
-  - name: 771 CA
+  - name: 773 CA
     type: vless
     server: ez-1707bf.codeine956.workers.dev
     port: 2083
@@ -8694,7 +8740,24 @@ proxies:
       headers:
         Host: ez-1707bf.codeine956.workers.dev
       path: /
-  - name: 772 CA
+  - name: 774 CA
+    type: vless
+    server: cf2.466688.xyz
+    port: 443
+    client-fingerprint: chrome
+    encryption: none
+    network: ws
+    packet-encoding: xudp
+    servername: domah57929.pages.dev
+    skip-cert-verify: false
+    tls: true
+    udp: true
+    uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+    ws-opts:
+      headers:
+        Host: domah57929.pages.dev
+      path: /t.me/QiangLieTuiJian?ed
+  - name: 775 CA
     type: vless
     server: mci.mgvip.ir
     port: 8443
@@ -8714,7 +8777,7 @@ proxies:
       host: mdmhi.mgvip.ir
       mode: auto
       path: /
-  - name: 773 CA
+  - name: 776 CA
     type: vless
     server: mci.mgvip.ir
     port: 443
@@ -8737,7 +8800,7 @@ proxies:
       mode: auto
       path: /
       x-padding-bytes: 100-1000
-  - name: 774 DE
+  - name: 777 DE
     type: vless
     server: de.vpnbase.net
     port: 80
@@ -8752,7 +8815,7 @@ proxies:
       headers:
         Host: de.vpnbase.net
       path: /http
-  - name: 775 CA
+  - name: 778 CA
     type: vless
     server: img.yust.eu.org
     port: 443
@@ -8772,7 +8835,7 @@ proxies:
         Host: wz1.fum.ccwu.cc
       path: /proxyip=sjc.o00o.ooo
   - client-fingerprint: firefox
-    name: 776 US
+    name: 779 US
     network: ws
     port: 443
     server: a2.arshia-nova.ir
@@ -8786,7 +8849,7 @@ proxies:
       headers:
         Host: c12.com
       path: /
-  - name: 777 CA
+  - name: 780 CA
     server: 5c264184c99.fuhuovps.xyz
     port: 443
     type: vless
@@ -8803,75 +8866,7 @@ proxies:
     xhttp-opts:
       path: f00757d3fec0e7aca102e554fb32f21e
       host: f0c5bfd6s394.fuhuovps.xyz
-  - name: 778 CA
-    server: d9def735c462.fuhuovps.xyz
-    port: 443
-    type: vless
-    uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-    tls: true
-    alpn:
-      - h2
-      - http/1.1
-    tfo: false
-    skip-cert-verify: false
-    servername: f0c5bfd6s394.fuhuovps.xyz
-    client-fingerprint: ios
-    network: xhttp
-    xhttp-opts:
-      path: f00757d3fec0e7aca102e554fb32f21e
-      host: f0c5bfd6s394.fuhuovps.xyz
-  - name: 779 CA
-    server: 69d2cbcdc461.fuhuovps.xyz
-    port: 443
-    type: vless
-    uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-    tls: true
-    alpn:
-      - h2
-      - http/1.1
-    tfo: false
-    skip-cert-verify: false
-    servername: f0c5bfd6s394.fuhuovps.xyz
-    client-fingerprint: ios
-    network: xhttp
-    xhttp-opts:
-      path: f00757d3fec0e7aca102e554fb32f21e
-      host: f0c5bfd6s394.fuhuovps.xyz
-  - name: 780 CA
-    server: f2d0ba8dc394.fuhuovps.xyz
-    port: 443
-    type: vless
-    uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-    tls: true
-    alpn:
-      - h2
-      - http/1.1
-    tfo: false
-    skip-cert-verify: false
-    servername: f0c5bfd6s394.fuhuovps.xyz
-    client-fingerprint: ios
-    network: xhttp
-    xhttp-opts:
-      path: f00757d3fec0e7aca102e554fb32f21e
-      host: f0c5bfd6s394.fuhuovps.xyz
   - name: 781 CA
-    server: 9792205ac100.fuhuovps.xyz
-    port: 443
-    type: vless
-    uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-    tls: true
-    alpn:
-      - h2
-      - http/1.1
-    tfo: false
-    skip-cert-verify: false
-    servername: f0c5bfd6s394.fuhuovps.xyz
-    client-fingerprint: ios
-    network: xhttp
-    xhttp-opts:
-      path: f00757d3fec0e7aca102e554fb32f21e
-      host: f0c5bfd6s394.fuhuovps.xyz
-  - name: 782 CA
     server: 7427b4edc101.fuhuovps.xyz
     port: 443
     type: vless
@@ -8888,7 +8883,87 @@ proxies:
     xhttp-opts:
       path: f00757d3fec0e7aca102e554fb32f21e
       host: f0c5bfd6s394.fuhuovps.xyz
-  - name: 783 US
+  - name: 782 CA
+    server: 69d2cbcdc461.fuhuovps.xyz
+    port: 443
+    type: vless
+    uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+    tls: true
+    alpn:
+      - h2
+      - http/1.1
+    tfo: false
+    skip-cert-verify: false
+    servername: f0c5bfd6s394.fuhuovps.xyz
+    client-fingerprint: ios
+    network: xhttp
+    xhttp-opts:
+      path: f00757d3fec0e7aca102e554fb32f21e
+      host: f0c5bfd6s394.fuhuovps.xyz
+  - name: 783 CA
+    server: f2d0ba8dc394.fuhuovps.xyz
+    port: 443
+    type: vless
+    uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+    tls: true
+    alpn:
+      - h2
+      - http/1.1
+    tfo: false
+    skip-cert-verify: false
+    servername: f0c5bfd6s394.fuhuovps.xyz
+    client-fingerprint: ios
+    network: xhttp
+    xhttp-opts:
+      path: f00757d3fec0e7aca102e554fb32f21e
+      host: f0c5bfd6s394.fuhuovps.xyz
+  - name: 784 CA
+    server: 9792205ac100.fuhuovps.xyz
+    port: 443
+    type: vless
+    uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+    tls: true
+    alpn:
+      - h2
+      - http/1.1
+    tfo: false
+    skip-cert-verify: false
+    servername: f0c5bfd6s394.fuhuovps.xyz
+    client-fingerprint: ios
+    network: xhttp
+    xhttp-opts:
+      path: f00757d3fec0e7aca102e554fb32f21e
+      host: f0c5bfd6s394.fuhuovps.xyz
+  - name: 785 CA
+    server: d9def735c462.fuhuovps.xyz
+    port: 443
+    type: vless
+    uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+    tls: true
+    alpn:
+      - h2
+      - http/1.1
+    tfo: false
+    skip-cert-verify: false
+    servername: f0c5bfd6s394.fuhuovps.xyz
+    client-fingerprint: ios
+    network: xhttp
+    xhttp-opts:
+      path: f00757d3fec0e7aca102e554fb32f21e
+      host: f0c5bfd6s394.fuhuovps.xyz
+  - name: 786 AT
+    type: vless
+    server: au6.pad-sservice.lat
+    port: 8443
+    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+    network: ws
+    servername: au6.pad-sservice.lat
+    tls: true
+    ws-opts:
+      path: /AU6W
+    skip-cert-verify: true
+    udp: true
+  - name: 787 US
     type: vless
     server: net-92d53d-d93685-production.up.railway.app
     port: 443
@@ -8903,7 +8978,7 @@ proxies:
         Host: net-92d53d-d93685-production.up.railway.app
     skip-cert-verify: true
     udp: true
-  - name: 784 CA
+  - name: 788 CA
     type: vless
     server: cdn.ir53.indevs.in
     port: 443
@@ -8916,7 +8991,20 @@ proxies:
       path: /varzesh3.com
     skip-cert-verify: true
     udp: true
-  - name: 785 NL
+  - name: 789 CA
+    type: vless
+    server: sinavm7.soft10.ir
+    port: 2096
+    uuid: 6fdef8d7-4c49-4e6e-93ec-c24ef7c41802
+    network: ws
+    servername: sinavm7.soft10.ir
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM
+    skip-cert-verify: true
+    udp: true
+  - name: 790 NL
     type: vless
     server: z1q3pv4g78.rucdncomp.pro
     port: 443
@@ -8931,7 +9019,7 @@ proxies:
         Host: z1q3pv4g78.rucdncomp.pro
     skip-cert-verify: true
     udp: true
-  - name: 786 CA
+  - name: 791 CA
     type: vless
     server: ccs2g.pai50288.uk
     port: 443
@@ -8944,7 +9032,7 @@ proxies:
       path: /pai50288
     skip-cert-verify: true
     udp: true
-  - name: 787 FI
+  - name: 792 FI
     type: vless
     server: hw3.divarkhaghazi.com
     port: 465
@@ -8959,7 +9047,7 @@ proxies:
         Host: hw3.divarkhaghazi.com.
     skip-cert-verify: true
     udp: true
-  - name: 788 CA
+  - name: 793 CA
     type: vless
     server: cf.877774.xyz
     port: 443
@@ -8974,7 +9062,7 @@ proxies:
         Host: ccc.010304.xyz
     skip-cert-verify: true
     udp: true
-  - name: 789 CA
+  - name: 794 CA
     type: vless
     server: www.speedtest.net
     port: 443
@@ -8993,7 +9081,7 @@ proxies:
       - h3
     client-fingerprint: chrome
     encryption: none
-    name: 797 CA
+    name: 802 CA
     network: xhttp
     port: 443
     server: www.canva.com
@@ -9008,52 +9096,10 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: kanapucin.tolkun-tv.ru
-  - client-fingerprint: chrome
-    name: 798 DE
-    network: ws
-    port: 443
-    server: de5.pad-sservice.lat
-    servername: de5.pad-sservice.lat
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-    ws-opts:
-      headers:
-        Host: de5.pad-service.com
-      path: /DE5W
-  - client-fingerprint: chrome
-    name: 799 NL
-    network: ws
-    port: 8443
-    server: de3.pad-sservice.lat
-    servername: de3.pad-sservice.lat
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-    ws-opts:
-      headers:
-        Host: de3.pad-service.com
-      path: /D1E
-  - client-fingerprint: chrome
-    name: 800 PL
-    network: xhttp
-    port: 34451
-    server: pl-cfe6b10b7f.shamanapp.online
-    servername: pl-cfe6b10b7f.shamanapp.online
-    tls: true
-    type: vless
-    udp: true
-    uuid: f259a2e5-fd8d-4db9-a3ac-6b26322cffa9
-    xhttp-opts:
-      host: pl-cfe6b10b7f.shamanapp.online
-      mode: stream-up
-      path: /ShamanXHTTP2026
   - alpn:
       - h2
     client-fingerprint: ios
-    name: 804 CA
+    name: 805 CA
     network: xhttp
     port: 443
     server: frfx.pafaktalaei.ir
@@ -9070,7 +9116,7 @@ proxies:
   - alpn:
       - h2
     client-fingerprint: chrome
-    name: 805 NL
+    name: 806 NL
     network: xhttp
     port: 443
     server: dey.lnmarketplace.net
@@ -9085,7 +9131,7 @@ proxies:
       mode: stream-one
       path: /kavir
   - client-fingerprint: chrome
-    name: 806 US
+    name: 807 US
     network: ws
     port: 443
     server: support.zoom.us
@@ -9100,7 +9146,7 @@ proxies:
         Host: support.zoom.us.yxls.eu.cc
       path: /sg-amz
   - client-fingerprint: chrome
-    name: 807 CA
+    name: 808 CA
     network: ws
     port: 443
     server: cf.130519.xyz
@@ -9115,7 +9161,7 @@ proxies:
         Host: t1s1.rittbo.kdns.fr
       path: /
   - client-fingerprint: chrome
-    name: 808 CA
+    name: 809 CA
     network: ws
     port: 443
     server: cloudflare-ip.mofashi.ltd
@@ -9130,7 +9176,7 @@ proxies:
         Host: t1s1.rittbo.kdns.fr
       path: /
   - client-fingerprint: chrome
-    name: 809 CA
+    name: 810 CA
     network: ws
     port: 443
     server: store.ubi.com
@@ -9144,7 +9190,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
-  - name: 810 US
+  - name: 811 US
     network: ws
     port: 80
     server: www.true.th
@@ -9159,7 +9205,7 @@ proxies:
         Host: d2pwbkmfr5lxa4.cloudfront.net
       path: /
   - client-fingerprint: chrome
-    name: 811 US
+    name: 812 US
     network: ws
     port: 443
     server: www.true.th
@@ -9172,7 +9218,7 @@ proxies:
     ws-opts:
       path: /
   - client-fingerprint: firefox
-    name: 812 DE
+    name: 813 DE
     network: ws
     port: 443
     server: 150.241.101.218.fwqfw783rg2dad.website
@@ -9186,7 +9232,7 @@ proxies:
       headers:
         Host: 150.241.101.218.fwqfw783rg2dad.website
       path: /websocket
-  - name: 813 CA
+  - name: 814 CA
     network: ws
     port: 8880
     server: crimson-smoke-7818.397.workers.dev
@@ -9201,7 +9247,7 @@ proxies:
       - h3
       - h2
     client-fingerprint: random
-    name: 814 CA
+    name: 815 CA
     network: xhttp
     port: 443
     server: pew.dianawmoon.dpdns.org
@@ -9215,7 +9261,7 @@ proxies:
       host: pew.dianawmoon.dpdns.org
       mode: auto
       path: /21096/noencd1ana
-  - name: 815 US
+  - name: 816 US
     network: ws
     port: 80
     server: psf-3.weedly.top
@@ -9228,7 +9274,7 @@ proxies:
       headers:
         Host: machinemag.ir
       path: /
-  - name: 816 IR
+  - name: 817 IR
     network: xhttp
     port: 6008
     server: link.mrpgd.ir
@@ -9242,7 +9288,7 @@ proxies:
       host: cafebazaar.ir
       mode: stream-up
       path: /assets
-  - name: 817 CA
+  - name: 818 CA
     network: ws
     port: 8080
     server: www.iplocation.net
@@ -9255,3 +9301,65 @@ proxies:
       headers:
         Host: n23odi-jolly-sound-f784.mbkl61es.workers.dev
       path: /
+  - client-fingerprint: chrome
+    encryption: none
+    name: 823 RU
+    network: ws
+    port: 443
+    server: wstg.datasynctrue.online
+    tls: true
+    type: vless
+    udp: true
+    uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
+    ws-opts:
+      headers:
+        Host: wstg.datasynctrue.online
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+      path: /api/connect
+    xudp: true
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: 824 CA
+    network: ws
+    port: 443
+    server: cdn.8211992.xyz
+    servername: mao.kipfelmaomao.de5.net
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
+    ws-opts:
+      headers:
+        Host: mao.kipfelmaomao.de5.net
+      path: /api/v1/guests/profiles/5de14443985f/
+  - name: 826 NL
+    server: de2.pad-sservice.lat
+    port: 8443
+    type: vless
+    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+    tls: true
+    servername: de2.pad-sservice.lat
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /de2-1
+      headers:
+        Host: de2.pad-service.com
+    udp: true
+  - name: 827 US
+    server: www.qarvian.ir
+    port: 443
+    type: vless
+    uuid: f9a9aa1f-75fb-4490-9155-85567af7a0ff
+    tls: true
+    servername: cdn.akamai.steamstatic.com
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /?TELEGRAM--FaraGATE-FaraGATE-FaraGATE-FaraGATE-FaraGATE-FaraGATE-FaraGATE-FaraGATE-FaraGATE-FaraGATE--TELEGRAM
+      headers:
+        Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
+    udp: true
