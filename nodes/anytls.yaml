@@ -1,6 +1,6 @@
 proxies:
   - type: anytls
-    name: 747 TW
+    name: 745 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     udp: true
@@ -12,7 +12,7 @@ proxies:
     allowInsecure: "1"
     sub-tag: P002-260618
   - type: anytls
-    name: 749 HK
+    name: 747 HK
     server: 654968169.df6h451rh.xin
     port: 443
     udp: true
@@ -28,7 +28,7 @@ proxies:
     fp: chrome
     sub-tag: R002-260618
   - type: anytls
-    name: 750 HK
+    name: 748 HK
     server: 56481.df6h451rh.xin
     port: 443
     udp: true
@@ -42,14 +42,14 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 770 TW
+    name: 769 TW
     password: 0324fbc29561
     port: 443
     server: 684616s4.df6h451rh.xin
     skip-cert-verify: true
     sni: px.ads.linkedin.com
     type: anytls
-  - name: 772 HK
+  - name: 771 HK
     password: 306272e0-865d-456d-b452-42e8e3ee5592
     port: 53982
     server: user02.godvpn.lol
