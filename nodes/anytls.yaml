@@ -1,5 +1,5 @@
 proxies:
-  - name: 743 HK
+  - name: 695 HK
     password: 0324fbc29561
     port: 443
     server: 654968169.df6h451rh.xin
@@ -7,7 +7,15 @@ proxies:
     sni: images.ctfassets.net
     type: anytls
     udp: true
-  - name: 744 TW
+  - name: 696 HK
+    password: 0324fbc29561
+    port: 443
+    server: 56481.df6h451rh.xin
+    skip-cert-verify: true
+    sni: images.ctfassets.net
+    type: anytls
+    udp: true
+  - name: 698 TW
     password: 0324fbc29561
     port: 443
     server: 684616s4.df6h451rh.xin
@@ -15,27 +23,11 @@ proxies:
     sni: px.ads.linkedin.com
     type: anytls
     udp: true
-  - type: anytls
-    name: 798 TW
+  - name: 699 TW
+    password: 0324fbc29561
+    port: 443
     server: er8u54dh.df6h451rh.xin
-    port: 443
-    udp: true
+    skip-cert-verify: true
     sni: px.ads.linkedin.com
-    skip-cert-verify: true
-    packet-encoding: ""
-    password: 0324fbc29561
-    packetEncoding: none
-    allowInsecure: "1"
-    sub-tag: P002-260618
-  - type: anytls
-    name: 800 HK
-    server: 56481.df6h451rh.xin
-    port: 443
+    type: anytls
     udp: true
-    sni: images.ctfassets.net
-    skip-cert-verify: true
-    packet-encoding: ""
-    password: 0324fbc29561
-    packetEncoding: none
-    allowInsecure: "1"
-    sub-tag: P002-260618
