@@ -1,5 +1,5 @@
 proxies:
-  - name: 705 HK
+  - name: 668 HK
     password: 0324fbc29561
     port: 443
     server: 56481.df6h451rh.xin
@@ -7,7 +7,7 @@ proxies:
     sni: images.ctfassets.net
     type: anytls
     udp: true
-  - name: 707 TW
+  - name: 669 TW
     password: 0324fbc29561
     port: 443
     server: 684616s4.df6h451rh.xin
@@ -15,16 +15,20 @@ proxies:
     sni: px.ads.linkedin.com
     type: anytls
     udp: true
-  - name: 708 TW
-    password: 0324fbc29561
-    port: 443
-    server: er8u54dh.df6h451rh.xin
-    skip-cert-verify: true
-    sni: px.ads.linkedin.com
-    type: anytls
-    udp: true
   - type: anytls
-    name: 756 HK
+    name: 723 TW
+    server: er8u54dh.df6h451rh.xin
+    port: 443
+    udp: true
+    sni: px.ads.linkedin.com
+    skip-cert-verify: true
+    packet-encoding: ""
+    password: 0324fbc29561
+    packetEncoding: none
+    allowInsecure: "1"
+    sub-tag: P002-260618
+  - type: anytls
+    name: 725 HK
     server: 654968169.df6h451rh.xin
     port: 443
     udp: true
@@ -39,9 +43,9 @@ proxies:
     allowInsecure: "1"
     fp: chrome
     sub-tag: R002-260618
-  - name: 784 HK
-    password: 306272e0-865d-456d-b452-42e8e3ee5592
-    port: 53982
-    server: user02.godvpn.lol
-    skip-cert-verify: true
+  - name: 744 FR
+    password: dongtaiwang.com
+    port: 44889
+    server: ip5.934618.xyz
     type: anytls
+    udp: true
