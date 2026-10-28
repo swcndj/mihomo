@@ -4,7 +4,7 @@ proxies:
     congestion-controller: bbr
     disable-sni: false
     fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
-    name: 654 US
+    name: 651 US
     password: e3bc601b-364e-4304-8fea-46f04a9ccad4
     port: 18662
     reduce-rtt: false
@@ -14,7 +14,7 @@ proxies:
     type: tuic
     udp-relay-mode: native
     uuid: e3bc601b-364e-4304-8fea-46f04a9ccad4
-  - name: 707 SG
+  - name: 709 SG
     type: tuic
     server: sg2-8sb.6121999.dpdns.org
     port: 33738
