@@ -1,34 +1,14 @@
 proxies:
-  - name: 668 HK
+  - name: 680 TW
     password: 0324fbc29561
     port: 443
-    server: 56481.df6h451rh.xin
-    skip-cert-verify: true
-    sni: images.ctfassets.net
-    type: anytls
-    udp: true
-  - name: 669 TW
-    password: 0324fbc29561
-    port: 443
-    server: 684616s4.df6h451rh.xin
-    skip-cert-verify: true
-    sni: px.ads.linkedin.com
-    type: anytls
-    udp: true
-  - type: anytls
-    name: 723 TW
     server: er8u54dh.df6h451rh.xin
-    port: 443
-    udp: true
-    sni: px.ads.linkedin.com
     skip-cert-verify: true
-    packet-encoding: ""
-    password: 0324fbc29561
-    packetEncoding: none
-    allowInsecure: "1"
-    sub-tag: P002-260618
+    sni: px.ads.linkedin.com
+    type: anytls
+    udp: true
   - type: anytls
-    name: 725 HK
+    name: 735 HK
     server: 654968169.df6h451rh.xin
     port: 443
     udp: true
@@ -43,7 +23,29 @@ proxies:
     allowInsecure: "1"
     fp: chrome
     sub-tag: R002-260618
-  - name: 744 FR
+  - type: anytls
+    name: 736 HK
+    server: 56481.df6h451rh.xin
+    port: 443
+    udp: true
+    sni: images.ctfassets.net
+    skip-cert-verify: true
+    packet-encoding: ""
+    password: 0324fbc29561
+    packetEncoding: none
+    allowInsecure: "1"
+    sub-tag: P002-260618
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: 754 TW
+    password: 0324fbc29561
+    port: 443
+    server: 684616s4.df6h451rh.xin
+    skip-cert-verify: true
+    sni: px.ads.linkedin.com
+    type: anytls
+  - name: 755 FR
     password: dongtaiwang.com
     port: 44889
     server: ip5.934618.xyz
