@@ -1,51 +1,56 @@
 proxies:
-  - name: 680 TW
-    password: 0324fbc29561
-    port: 443
-    server: er8u54dh.df6h451rh.xin
+  - name: 396 TW
+    alpn:
+      - h2
+    password: dongtaiwang.com
+    port: 59901
+    server: 45.221.98.14
     skip-cert-verify: true
-    sni: px.ads.linkedin.com
     type: anytls
     udp: true
-  - type: anytls
-    name: 735 HK
+  - name: 1815 HK
+    type: anytls
+    server: 56481.df6h451rh.xin
+    port: 443
+    password: 0324fbc29561
+    sni: images.ctfassets.net
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 1816 HK
+    type: anytls
     server: 654968169.df6h451rh.xin
     port: 443
-    udp: true
+    password: 0324fbc29561
     sni: images.ctfassets.net
-    client-fingerprint: chrome
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 1841 TW
+    type: anytls
+    server: er8u54dh.df6h451rh.xin
+    port: 443
+    password: 0324fbc29561
+    sni: px.ads.linkedin.com
     alpn:
       - http/1.1
     skip-cert-verify: true
-    packet-encoding: ""
-    password: 0324fbc29561
-    packetEncoding: none
-    allowInsecure: "1"
-    fp: chrome
-    sub-tag: R002-260618
-  - type: anytls
-    name: 736 HK
-    server: 56481.df6h451rh.xin
-    port: 443
+    tls: true
     udp: true
-    sni: images.ctfassets.net
-    skip-cert-verify: true
-    packet-encoding: ""
-    password: 0324fbc29561
-    packetEncoding: none
-    allowInsecure: "1"
-    sub-tag: P002-260618
-  - alpn:
-      - http/1.1
     client-fingerprint: chrome
-    name: 754 TW
-    password: 0324fbc29561
-    port: 443
-    server: 684616s4.df6h451rh.xin
-    skip-cert-verify: true
-    sni: px.ads.linkedin.com
+  - name: 1842 TW
     type: anytls
-  - name: 755 FR
+    server: 684616s4.df6h451rh.xin
+    port: 443
+    password: 0324fbc29561
+    sni: px.ads.linkedin.com
+    alpn:
+      - http/1.1
+    skip-cert-verify: true
+    tls: true
+    udp: true
+    client-fingerprint: chrome
+  - name: 1967 FR
     password: dongtaiwang.com
     port: 44889
     server: ip5.934618.xyz
