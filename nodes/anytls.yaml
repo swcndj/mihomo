@@ -1,5 +1,5 @@
 proxies:
-  - name: 400 TW
+  - name: 279 TW
     alpn:
       - h2
     password: dongtaiwang.com
@@ -8,63 +8,48 @@ proxies:
     skip-cert-verify: true
     type: anytls
     udp: true
-  - name: 1809 HK
-    type: anytls
-    server: 56481.df6h451rh.xin
-    port: 443
-    password: 0324fbc29561
-    sni: images.ctfassets.net
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 1810 HK
-    type: anytls
-    server: 654968169.df6h451rh.xin
-    port: 443
-    password: 0324fbc29561
-    sni: images.ctfassets.net
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 1839 TW
-    type: anytls
+  - type: anytls
+    name: 1421 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     password: 0324fbc29561
-    sni: px.ads.linkedin.com
-    alpn:
-      - http/1.1
-    skip-cert-verify: true
-    tls: true
     udp: true
+    tls: true
+    servername: px.ads.linkedin.com
+    sni: px.ads.linkedin.com
+    skip-cert-verify: false
     client-fingerprint: chrome
-  - name: 1840 TW
-    type: anytls
+  - type: anytls
+    name: 1422 HK
+    server: 56481.df6h451rh.xin
+    port: 443
+    password: 0324fbc29561
+    udp: true
+    tls: true
+    servername: images.ctfassets.net
+    sni: images.ctfassets.net
+    skip-cert-verify: false
+    client-fingerprint: chrome
+  - type: anytls
+    name: 1423 HK
+    server: 654968169.df6h451rh.xin
+    port: 443
+    password: 0324fbc29561
+    udp: true
+    tls: true
+    servername: 654968169.df6h451rh.xin
+    sni: 654968169.df6h451rh.xin
+    skip-cert-verify: false
+  - type: anytls
+    name: 1424 TW
     server: 684616s4.df6h451rh.xin
     port: 443
     password: 0324fbc29561
+    udp: true
+    tls: true
+    servername: px.ads.linkedin.com
     sni: px.ads.linkedin.com
+    skip-cert-verify: false
     alpn:
       - http/1.1
-    skip-cert-verify: true
-    tls: true
-    udp: true
     client-fingerprint: chrome
-  - name: 1969 NL
-    password: a8c96458-be64-4c27-b9d8-23965df8ef55
-    port: 18233
-    server: nl1.xiaoliyu.cyou
-    skip-cert-verify: true
-    type: anytls
-  - name: 1971 TW
-    password: 306272e0-865d-456d-b452-42e8e3ee5592
-    port: 53982
-    server: user02.godvpn.lol
-    skip-cert-verify: true
-    type: anytls
-  - name: 1972 US
-    password: a8c96458-be64-4c27-b9d8-23965df8ef55
-    port: 18233
-    server: sg1.xiaoliyu.cyou
-    skip-cert-verify: true
-    type: anytls
