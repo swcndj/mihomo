@@ -1,5 +1,5 @@
 proxies:
-  - name: 395 TW
+  - name: 400 TW
     alpn:
       - h2
     password: dongtaiwang.com
@@ -8,7 +8,7 @@ proxies:
     skip-cert-verify: true
     type: anytls
     udp: true
-  - name: 1771 HK
+  - name: 1809 HK
     type: anytls
     server: 56481.df6h451rh.xin
     port: 443
@@ -17,7 +17,7 @@ proxies:
     skip-cert-verify: true
     tls: true
     udp: true
-  - name: 1772 HK
+  - name: 1810 HK
     type: anytls
     server: 654968169.df6h451rh.xin
     port: 443
@@ -26,7 +26,7 @@ proxies:
     skip-cert-verify: true
     tls: true
     udp: true
-  - name: 1800 TW
+  - name: 1839 TW
     type: anytls
     server: er8u54dh.df6h451rh.xin
     port: 443
@@ -38,7 +38,7 @@ proxies:
     tls: true
     udp: true
     client-fingerprint: chrome
-  - name: 1801 TW
+  - name: 1840 TW
     type: anytls
     server: 684616s4.df6h451rh.xin
     port: 443
@@ -50,19 +50,19 @@ proxies:
     tls: true
     udp: true
     client-fingerprint: chrome
-  - name: 1932 NL
+  - name: 1969 NL
     password: a8c96458-be64-4c27-b9d8-23965df8ef55
     port: 18233
     server: nl1.xiaoliyu.cyou
     skip-cert-verify: true
     type: anytls
-  - name: 1934 HK
+  - name: 1971 TW
     password: 306272e0-865d-456d-b452-42e8e3ee5592
     port: 53982
     server: user02.godvpn.lol
     skip-cert-verify: true
     type: anytls
-  - name: 1935 US
+  - name: 1972 US
     password: a8c96458-be64-4c27-b9d8-23965df8ef55
     port: 18233
     server: sg1.xiaoliyu.cyou
