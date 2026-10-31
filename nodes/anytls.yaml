@@ -1,5 +1,5 @@
 proxies:
-  - name: 282 TW
+  - name: 275 TW
     alpn:
       - h2
     password: dongtaiwang.com
@@ -9,7 +9,7 @@ proxies:
     type: anytls
     udp: true
   - type: anytls
-    name: 1430 TW
+    name: 1439 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -20,7 +20,7 @@ proxies:
     skip-cert-verify: false
     client-fingerprint: chrome
   - type: anytls
-    name: 1431 HK
+    name: 1440 HK
     server: 56481.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -31,7 +31,7 @@ proxies:
     skip-cert-verify: false
     client-fingerprint: chrome
   - type: anytls
-    name: 1432 HK
+    name: 1441 HK
     server: 654968169.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -41,7 +41,7 @@ proxies:
     sni: 654968169.df6h451rh.xin
     skip-cert-verify: false
   - type: anytls
-    name: 1433 TW
+    name: 1442 TW
     server: 684616s4.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -53,3 +53,19 @@ proxies:
     alpn:
       - http/1.1
     client-fingerprint: chrome
+  - name: 1553 JP
+    password: c86efa7e-f7fb-47d6-b832-6b44cf5e8b71
+    port: 11105
+    server: de01.dw.sh-cloudflare.sbs
+    skip-cert-verify: true
+    sni: de01.shanhai.me
+    type: anytls
+    udp: true
+  - name: 1554 JP
+    password: c86efa7e-f7fb-47d6-b832-6b44cf5e8b71
+    port: 21101
+    server: hk02.dw.sh-cloudflare.sbs
+    skip-cert-verify: true
+    sni: hk02.shanhai.me
+    type: anytls
+    udp: true
