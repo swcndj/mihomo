@@ -23,7 +23,7 @@ proxies:
     password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
     port: 52892
     reduce-rtt: false
-    server: 85.211.196.15
+    server: hkv6a.8c7d12ac-b133-4847-9e45-4684e612d4b8.a5e6e977.edu-header-airport.com
     skip-cert-verify: false
     sni: www.bing.com
     type: tuic
@@ -38,6 +38,21 @@ proxies:
     password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
     port: 52892
     reduce-rtt: false
+    server: 85.211.196.15
+    skip-cert-verify: false
+    sni: www.bing.com
+    type: tuic
+    udp-relay-mode: native
+    uuid: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
+    name: 1386 MY
+    password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
+    port: 52892
+    reduce-rtt: false
     server: 85.211.249.193
     skip-cert-verify: false
     sni: www.bing.com
@@ -49,7 +64,7 @@ proxies:
     congestion-controller: bbr
     disable-sni: false
     fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
-    name: 1386 ID
+    name: 1387 ID
     password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
     port: 52892
     reduce-rtt: false
@@ -64,7 +79,7 @@ proxies:
     congestion-controller: bbr
     disable-sni: false
     fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
-    name: 1387 MY
+    name: 1388 MY
     password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
     port: 52892
     reduce-rtt: false
@@ -79,7 +94,7 @@ proxies:
     congestion-controller: bbr
     disable-sni: false
     fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
-    name: 1388 ID
+    name: 1389 ID
     password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
     port: 52892
     reduce-rtt: false
@@ -94,7 +109,7 @@ proxies:
     congestion-controller: bbr
     disable-sni: false
     fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
-    name: 1389 ID
+    name: 1390 ID
     password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
     port: 52892
     reduce-rtt: false
@@ -109,7 +124,7 @@ proxies:
     congestion-controller: bbr
     disable-sni: false
     fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
-    name: 1391 GB
+    name: 1392 GB
     password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
     port: 52892
     reduce-rtt: false
@@ -134,7 +149,7 @@ proxies:
     type: tuic
     udp-relay-mode: native
     uuid: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
-  - name: 1533 SG
+  - name: 1550 SG
     type: tuic
     server: sg2-8sb.6121999.dpdns.org
     port: 33738
@@ -151,22 +166,7 @@ proxies:
     congestion-controller: bbr
     disable-sni: false
     fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
-    name: 1569 JP
-    password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
-    port: 52892
-    reduce-rtt: false
-    server: hkv6a.8c7d12ac-b133-4847-9e45-4684e612d4b8.a5e6e977.edu-header-airport.com
-    skip-cert-verify: false
-    sni: www.bing.com
-    type: tuic
-    udp-relay-mode: native
-    uuid: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
-  - alpn:
-      - h3
-    congestion-controller: bbr
-    disable-sni: false
-    fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
-    name: 1570 JP
+    name: 1584 JP
     password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
     port: 52892
     reduce-rtt: false
@@ -181,7 +181,7 @@ proxies:
     congestion-controller: bbr
     disable-sni: false
     fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
-    name: 1571 KR
+    name: 1585 KR
     password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
     port: 52892
     reduce-rtt: false
@@ -196,7 +196,7 @@ proxies:
     congestion-controller: bbr
     disable-sni: false
     fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
-    name: 1572 SG
+    name: 1586 SG
     password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
     port: 52892
     reduce-rtt: false
@@ -211,7 +211,7 @@ proxies:
     congestion-controller: bbr
     disable-sni: false
     fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
-    name: 1573 HK
+    name: 1587 HK
     password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
     port: 52892
     reduce-rtt: false
@@ -226,7 +226,7 @@ proxies:
     congestion-controller: bbr
     disable-sni: false
     fingerprint: 84c855b4a09bba0ff518c778c0540da87acb9871dd3ae6dc5e8f78423e7ede05
-    name: 1574 US
+    name: 1588 US
     password: bad7770a-ea0e-43cb-8aec-414c4e9b6f08
     port: 52892
     reduce-rtt: false

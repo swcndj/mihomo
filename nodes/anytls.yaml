@@ -1,5 +1,5 @@
 proxies:
-  - name: 279 TW
+  - name: 282 TW
     alpn:
       - h2
     password: dongtaiwang.com
@@ -9,7 +9,7 @@ proxies:
     type: anytls
     udp: true
   - type: anytls
-    name: 1421 TW
+    name: 1430 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -20,7 +20,7 @@ proxies:
     skip-cert-verify: false
     client-fingerprint: chrome
   - type: anytls
-    name: 1422 HK
+    name: 1431 HK
     server: 56481.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -31,7 +31,7 @@ proxies:
     skip-cert-verify: false
     client-fingerprint: chrome
   - type: anytls
-    name: 1423 HK
+    name: 1432 HK
     server: 654968169.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -41,7 +41,7 @@ proxies:
     sni: 654968169.df6h451rh.xin
     skip-cert-verify: false
   - type: anytls
-    name: 1424 TW
+    name: 1433 TW
     server: 684616s4.df6h451rh.xin
     port: 443
     password: 0324fbc29561
