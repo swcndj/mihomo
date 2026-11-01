@@ -1,6 +1,6 @@
 proxies:
   - type: anytls
-    name: 1586 TW
+    name: 1590 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -10,7 +10,7 @@ proxies:
     sni: px.ads.linkedin.com
     skip-cert-verify: false
   - type: anytls
-    name: 1587 HK
+    name: 1594 HK
     server: 56481.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -21,7 +21,7 @@ proxies:
     skip-cert-verify: false
     client-fingerprint: chrome
   - type: anytls
-    name: 1588 TW
+    name: 1595 TW
     server: 684616s4.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -33,3 +33,47 @@ proxies:
     alpn:
       - http/1.1
     client-fingerprint: chrome
+  - name: 1716 JP
+    server: de01.dw.sh-cloudflare.sbs
+    port: 11105
+    type: anytls
+    password: c86efa7e-f7fb-47d6-b832-6b44cf5e8b71
+    udp: true
+    sni: de01.shanhai.me
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 1717 JP
+    server: gb01.dw.sh-cloudflare.sbs
+    port: 11108
+    type: anytls
+    password: c86efa7e-f7fb-47d6-b832-6b44cf5e8b71
+    udp: true
+    sni: gb01.shanhai.me
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 1718 JP
+    server: hk03.dw.sh-cloudflare.sbs
+    port: 31101
+    type: anytls
+    password: c86efa7e-f7fb-47d6-b832-6b44cf5e8b71
+    udp: true
+    sni: hk03.shanhai.me
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 1719 JP
+    server: us01.dw.sh-cloudflare.sbs
+    port: 11104
+    type: anytls
+    password: c86efa7e-f7fb-47d6-b832-6b44cf5e8b71
+    udp: true
+    sni: us01.shanhai.me
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
