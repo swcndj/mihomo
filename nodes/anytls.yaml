@@ -1,6 +1,6 @@
 proxies:
   - type: anytls
-    name: 1592 TW
+    name: 1764 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -9,20 +9,8 @@ proxies:
     servername: px.ads.linkedin.com
     sni: px.ads.linkedin.com
     skip-cert-verify: false
-    client-fingerprint: chrome
   - type: anytls
-    name: 1593 HK
-    server: 56481.df6h451rh.xin
-    port: 443
-    password: 0324fbc29561
-    udp: true
-    tls: true
-    servername: images.ctfassets.net
-    sni: images.ctfassets.net
-    skip-cert-verify: false
-    client-fingerprint: chrome
-  - type: anytls
-    name: 1595 TW
+    name: 1765 TW
     server: 684616s4.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -34,102 +22,42 @@ proxies:
     alpn:
       - http/1.1
     client-fingerprint: chrome
-  - name: 1696 GB
-    password: 2ff77d47-96f2-4863-b023-c52fb099cab0
-    port: 38553
-    server: fr1.xinhuanet.network
-    skip-cert-verify: true
-    sni: fr1.xinhuanet.network
-    type: anytls
-  - name: 1733 HK
+  - type: anytls
+    name: 1790 HK
+    server: 56481.df6h451rh.xin
+    port: 443
+    password: 0324fbc29561
+    udp: true
+    tls: true
+    servername: images.ctfassets.net
+    sni: images.ctfassets.net
+    skip-cert-verify: false
+    client-fingerprint: chrome
+  - name: 1868 SG
     password: 92a1538c-7801-4cca-ab98-6a9062aa507c
-    port: 16492
-    server: byhk1000.luoyun2.com
+    port: 38702
+    server: xxxxxx55595.luoyun2.com
     skip-cert-verify: true
     sni: ajldb0907.luoyun2.com
     type: anytls
     udp: true
-  - name: 1734 HK
+  - name: 1869 SG
     password: 92a1538c-7801-4cca-ab98-6a9062aa507c
-    port: 37893
-    server: byhk1000.luoyun2.com
+    port: 20664
+    server: xxxxxx55595.luoyun2.com
     skip-cert-verify: true
-    sni: adly99.luoyun2.com
+    sni: ddw881.luoyun2.com
     type: anytls
     udp: true
-  - name: 1735 HK
+  - name: 1870 SG
     password: 92a1538c-7801-4cca-ab98-6a9062aa507c
-    port: 15842
-    server: byhk1000.luoyun2.com
+    port: 52455
+    server: xxxxxx3331022.luoyun2.com
     skip-cert-verify: true
-    sni: hggk99.luoyun2.com
+    sni: wenlai000202.ly123.edu.kg
     type: anytls
     udp: true
-  - name: 1736 HK
-    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
-    port: 19953
-    server: byhk1000.luoyun2.com
-    skip-cert-verify: true
-    sni: malaixy94.luoyun2.com
-    type: anytls
-    udp: true
-  - name: 1737 HK
-    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
-    port: 26641
-    server: byhk1000.luoyun2.com
-    skip-cert-verify: true
-    sni: he8861.luoyun2.com
-    type: anytls
-    udp: true
-  - name: 1738 JP
-    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
-    port: 37237
-    server: rrrrrr101010r.luoyun2.com
-    skip-cert-verify: true
-    sni: adly99.luoyun2.com
-    type: anytls
-    udp: true
-  - name: 1739 JP
-    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
-    port: 12899
-    server: rrrrrr101010r.luoyun2.com
-    skip-cert-verify: true
-    sni: rr0520111.ly123.edu.kg
-    type: anytls
-    udp: true
-  - name: 1740 JP
-    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
-    port: 31540
-    server: rrrrrr101010r.luoyun2.com
-    skip-cert-verify: true
-    sni: cdn-edge-sgp-m825.luoyun2.com
-    type: anytls
-    udp: true
-  - name: 1741 SG
-    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
-    port: 61430
-    server: xxxxxx444919.luoyun2.com
-    skip-cert-verify: true
-    sni: rs916.luoyun2.com
-    type: anytls
-    udp: true
-  - name: 1742 TW
-    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
-    port: 11939
-    server: x3yzykeeka-tw2.luoyun2.com
-    skip-cert-verify: true
-    sni: kll102.luoyun2.com
-    type: anytls
-    udp: true
-  - name: 1743 TW
-    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
-    port: 19816
-    server: x3yzykeeka-tw2.luoyun2.com
-    skip-cert-verify: true
-    sni: yn910.luoyun2.com
-    type: anytls
-    udp: true
-  - name: 1744 SG
+  - name: 1871 SG
     password: 92a1538c-7801-4cca-ab98-6a9062aa507c
     port: 33506
     server: xxxxxx3331022.luoyun2.com
@@ -137,47 +65,63 @@ proxies:
     sni: aierl813.luoyun2.com
     type: anytls
     udp: true
-  - name: 1745 SG
+  - name: 1872 JP
     password: 92a1538c-7801-4cca-ab98-6a9062aa507c
-    port: 24314
-    server: xxxxxx3331022.luoyun2.com
+    port: 43675
+    server: rrrrrr101010r.luoyun2.com
     skip-cert-verify: true
-    sni: mdassaz.ly123.edu.kg
+    sni: zhili666.luoyun2.com
     type: anytls
     udp: true
-  - name: 1746 SG
+  - name: 1873 JP
     password: 92a1538c-7801-4cca-ab98-6a9062aa507c
-    port: 34138
-    server: xxxxxx3331022.luoyun2.com
+    port: 17515
+    server: rrrrrr101010r.luoyun2.com
     skip-cert-verify: true
-    sni: malaixy94.luoyun2.com
+    sni: yg816.luoyun2.com
     type: anytls
     udp: true
-  - name: 1747 SG
+  - name: 1874 JP
     password: 92a1538c-7801-4cca-ab98-6a9062aa507c
-    port: 56385
-    server: xxxxxx3331022.luoyun2.com
+    port: 12899
+    server: rrrrrr101010r.luoyun2.com
     skip-cert-verify: true
-    sni: nrly916.luoyun2.com
+    sni: rr0520111.ly123.edu.kg
     type: anytls
     udp: true
-  - name: 1748 SG
+  - name: 1877 TW
     password: 92a1538c-7801-4cca-ab98-6a9062aa507c
-    port: 64915
-    server: xxxxxx3331022.luoyun2.com
+    port: 49414
+    server: 9g96ulhy68tttw4t94.luoyun2.com
     skip-cert-verify: true
-    sni: yn910.luoyun2.com
+    sni: nanji666.ly123.edu.kg
     type: anytls
     udp: true
-  - name: 1749 TW
+  - name: 1878 TW
     password: 92a1538c-7801-4cca-ab98-6a9062aa507c
-    port: 10651
-    server: ucj87nbxk0-tw2.luoyun2.com
+    port: 14999
+    server: 9g96ulhy68tttw4t94.luoyun2.com
     skip-cert-verify: true
-    sni: mxg1024.luoyun2.com
+    sni: yd5156.luoyun2.com
     type: anytls
     udp: true
-  - name: 1750 MX
+  - name: 1879 TW
+    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
+    port: 56464
+    server: 9g96ulhy68tttw4t94.luoyun2.com
+    skip-cert-verify: true
+    sni: de915.luoyun2.com
+    type: anytls
+    udp: true
+  - name: 1880 SG
+    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
+    port: 34377
+    server: xxxxxx444919.luoyun2.com
+    skip-cert-verify: true
+    sni: ydnxy0912.luoyun2.com
+    type: anytls
+    udp: true
+  - name: 1881 MX
     password: 92a1538c-7801-4cca-ab98-6a9062aa507c
     port: 20101
     server: mxg1024.luoyun2.com
@@ -185,11 +129,11 @@ proxies:
     sni: mxg1024.luoyun2.com
     type: anytls
     udp: true
-  - name: 1751 SG
+  - name: 1882 TW
     password: 92a1538c-7801-4cca-ab98-6a9062aa507c
-    port: 20664
-    server: xxxxxx55595.luoyun2.com
+    port: 48311
+    server: 995ys2dcfwzzz.luoyun2.com
     skip-cert-verify: true
-    sni: ddw881.luoyun2.com
+    sni: byhk1007.luoyun2.com
     type: anytls
     udp: true

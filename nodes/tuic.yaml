@@ -1,20 +1,5 @@
 proxies:
-  - alpn:
-      - h3
-    congestion-controller: bbr
-    disable-sni: false
-    name: 1698 US
-    password: 56d8a8fd-68b8-47f8-8c7f-98cc675902db
-    port: 8443
-    reduce-rtt: false
-    request-timeout: 0
-    server: us01.uzifan.monster
-    skip-cert-verify: true
-    sni: azure.microsoft.com
-    type: tuic
-    udp-relay-mode: native
-    uuid: 56d8a8fd-68b8-47f8-8c7f-98cc675902db
-  - name: 1706 SG
+  - name: 1887 SG
     type: tuic
     server: sg2-8sb.6121999.dpdns.org
     port: 33738
