@@ -1,5 +1,5 @@
 proxies:
-  - name: 1672 SG
+  - name: 1693 SG
     type: tuic
     server: sg2-8sb.6121999.dpdns.org
     port: 33738
@@ -11,3 +11,33 @@ proxies:
     udp-relay-mode: quic
     uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
     version: 5
+  - name: 1734 JP
+    server: jp01.uzifan.monster
+    port: 8443
+    type: tuic
+    password: 56d8a8fd-68b8-47f8-8c7f-98cc675902db
+    uuid: 56d8a8fd-68b8-47f8-8c7f-98cc675902db
+    sni: www.bing.com
+    skip-cert-verify: true
+    alpn:
+      - h3
+    disable-sni: false
+    reduce-rtt: false
+    request-timeout: 0
+    udp-relay-mode: native
+    congestion-controller: bbr
+  - name: 1735 US
+    server: us01.uzifan.monster
+    port: 8443
+    type: tuic
+    password: 56d8a8fd-68b8-47f8-8c7f-98cc675902db
+    uuid: 56d8a8fd-68b8-47f8-8c7f-98cc675902db
+    sni: azure.microsoft.com
+    skip-cert-verify: true
+    alpn:
+      - h3
+    disable-sni: false
+    reduce-rtt: false
+    request-timeout: 0
+    udp-relay-mode: native
+    congestion-controller: bbr
