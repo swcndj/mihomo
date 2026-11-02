@@ -1,6 +1,6 @@
 proxies:
   - type: anytls
-    name: 1586 TW
+    name: 1592 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -11,7 +11,7 @@ proxies:
     skip-cert-verify: false
     client-fingerprint: chrome
   - type: anytls
-    name: 1587 HK
+    name: 1593 HK
     server: 56481.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -22,7 +22,7 @@ proxies:
     skip-cert-verify: false
     client-fingerprint: chrome
   - type: anytls
-    name: 1589 TW
+    name: 1595 TW
     server: 684616s4.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -34,91 +34,162 @@ proxies:
     alpn:
       - http/1.1
     client-fingerprint: chrome
-  - name: 1723 SG
-    server: 2088.nyyen.com
-    port: 10016
-    type: anytls
-    password: ece1b2df-a71d-47a4-962a-9084226263d3
-    udp: true
-    sni: buylite.music.apple.com
+  - name: 1696 GB
+    password: 2ff77d47-96f2-4863-b023-c52fb099cab0
+    port: 38553
+    server: fr1.xinhuanet.network
     skip-cert-verify: true
-  - name: 1724 SG
-    server: 2088.nyyen.com
-    port: 10009
+    sni: fr1.xinhuanet.network
     type: anytls
-    password: ece1b2df-a71d-47a4-962a-9084226263d3
-    udp: true
-    sni: buylite.music.apple.com
-    skip-cert-verify: true
-  - name: 1725 SG
-    server: 2088.nyyen.com
-    port: 10010
-    type: anytls
-    password: ece1b2df-a71d-47a4-962a-9084226263d3
-    udp: true
-    sni: www.sony.com
-    skip-cert-verify: true
-  - name: 1726 SG
-    server: 2088.nyyen.com
-    port: 10015
-    type: anytls
-    password: ece1b2df-a71d-47a4-962a-9084226263d3
-    udp: true
-    sni: buylite.music.apple.com
-    skip-cert-verify: true
-  - name: 1727 SG
-    server: 2088.nyyen.com
-    port: 10012
-    type: anytls
-    password: ece1b2df-a71d-47a4-962a-9084226263d3
-    udp: true
-    sni: www.microsoft.com
-    skip-cert-verify: true
-  - name: 1728 SG
-    server: 2088.nyyen.com
-    port: 10008
-    type: anytls
-    password: ece1b2df-a71d-47a4-962a-9084226263d3
-    udp: true
-    sni: buylite.music.apple.com
-    skip-cert-verify: true
-  - name: 1729 JP
-    server: jp.tgnb.uk
-    port: 10002
-    type: anytls
-    password: ece1b2df-a71d-47a4-962a-9084226263d3
-    udp: true
-    sni: www.microsoft.com
-    skip-cert-verify: true
-  - name: 1730 JP
-    server: jp.tgnb.uk
-    port: 15001
-    type: anytls
-    password: ece1b2df-a71d-47a4-962a-9084226263d3
-    udp: true
-    sni: buylite.music.apple.com
-    skip-cert-verify: true
-  - name: 1731 HK
-    server: hk1.nyyen.com
-    port: 51001
-    type: anytls
-    password: ece1b2df-a71d-47a4-962a-9084226263d3
-    udp: true
-    sni: addons.mozilla.org
-    skip-cert-verify: true
-  - name: 1732 HK
-    server: hk1.nyyen.com
-    port: 51003
-    type: anytls
-    password: ece1b2df-a71d-47a4-962a-9084226263d3
-    udp: true
-    sni: addons.mozilla.org
-    skip-cert-verify: true
   - name: 1733 HK
-    server: hk1.nyyen.com
-    port: 51012
-    type: anytls
-    password: ece1b2df-a71d-47a4-962a-9084226263d3
-    udp: true
-    sni: buylite.music.apple.com
+    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
+    port: 16492
+    server: byhk1000.luoyun2.com
     skip-cert-verify: true
+    sni: ajldb0907.luoyun2.com
+    type: anytls
+    udp: true
+  - name: 1734 HK
+    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
+    port: 37893
+    server: byhk1000.luoyun2.com
+    skip-cert-verify: true
+    sni: adly99.luoyun2.com
+    type: anytls
+    udp: true
+  - name: 1735 HK
+    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
+    port: 15842
+    server: byhk1000.luoyun2.com
+    skip-cert-verify: true
+    sni: hggk99.luoyun2.com
+    type: anytls
+    udp: true
+  - name: 1736 HK
+    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
+    port: 19953
+    server: byhk1000.luoyun2.com
+    skip-cert-verify: true
+    sni: malaixy94.luoyun2.com
+    type: anytls
+    udp: true
+  - name: 1737 HK
+    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
+    port: 26641
+    server: byhk1000.luoyun2.com
+    skip-cert-verify: true
+    sni: he8861.luoyun2.com
+    type: anytls
+    udp: true
+  - name: 1738 JP
+    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
+    port: 37237
+    server: rrrrrr101010r.luoyun2.com
+    skip-cert-verify: true
+    sni: adly99.luoyun2.com
+    type: anytls
+    udp: true
+  - name: 1739 JP
+    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
+    port: 12899
+    server: rrrrrr101010r.luoyun2.com
+    skip-cert-verify: true
+    sni: rr0520111.ly123.edu.kg
+    type: anytls
+    udp: true
+  - name: 1740 JP
+    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
+    port: 31540
+    server: rrrrrr101010r.luoyun2.com
+    skip-cert-verify: true
+    sni: cdn-edge-sgp-m825.luoyun2.com
+    type: anytls
+    udp: true
+  - name: 1741 SG
+    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
+    port: 61430
+    server: xxxxxx444919.luoyun2.com
+    skip-cert-verify: true
+    sni: rs916.luoyun2.com
+    type: anytls
+    udp: true
+  - name: 1742 TW
+    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
+    port: 11939
+    server: x3yzykeeka-tw2.luoyun2.com
+    skip-cert-verify: true
+    sni: kll102.luoyun2.com
+    type: anytls
+    udp: true
+  - name: 1743 TW
+    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
+    port: 19816
+    server: x3yzykeeka-tw2.luoyun2.com
+    skip-cert-verify: true
+    sni: yn910.luoyun2.com
+    type: anytls
+    udp: true
+  - name: 1744 SG
+    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
+    port: 33506
+    server: xxxxxx3331022.luoyun2.com
+    skip-cert-verify: true
+    sni: aierl813.luoyun2.com
+    type: anytls
+    udp: true
+  - name: 1745 SG
+    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
+    port: 24314
+    server: xxxxxx3331022.luoyun2.com
+    skip-cert-verify: true
+    sni: mdassaz.ly123.edu.kg
+    type: anytls
+    udp: true
+  - name: 1746 SG
+    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
+    port: 34138
+    server: xxxxxx3331022.luoyun2.com
+    skip-cert-verify: true
+    sni: malaixy94.luoyun2.com
+    type: anytls
+    udp: true
+  - name: 1747 SG
+    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
+    port: 56385
+    server: xxxxxx3331022.luoyun2.com
+    skip-cert-verify: true
+    sni: nrly916.luoyun2.com
+    type: anytls
+    udp: true
+  - name: 1748 SG
+    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
+    port: 64915
+    server: xxxxxx3331022.luoyun2.com
+    skip-cert-verify: true
+    sni: yn910.luoyun2.com
+    type: anytls
+    udp: true
+  - name: 1749 TW
+    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
+    port: 10651
+    server: ucj87nbxk0-tw2.luoyun2.com
+    skip-cert-verify: true
+    sni: mxg1024.luoyun2.com
+    type: anytls
+    udp: true
+  - name: 1750 MX
+    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
+    port: 20101
+    server: mxg1024.luoyun2.com
+    skip-cert-verify: true
+    sni: mxg1024.luoyun2.com
+    type: anytls
+    udp: true
+  - name: 1751 SG
+    password: 92a1538c-7801-4cca-ab98-6a9062aa507c
+    port: 20664
+    server: xxxxxx55595.luoyun2.com
+    skip-cert-verify: true
+    sni: ddw881.luoyun2.com
+    type: anytls
+    udp: true
