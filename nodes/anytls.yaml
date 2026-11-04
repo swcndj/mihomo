@@ -1,19 +1,6 @@
 proxies:
   - type: anytls
-    name: 1811 TW
-    server: 684616s4.df6h451rh.xin
-    port: 443
-    password: 0324fbc29561
-    udp: true
-    tls: true
-    servername: px.ads.linkedin.com
-    sni: px.ads.linkedin.com
-    skip-cert-verify: false
-    alpn:
-      - http/1.1
-    client-fingerprint: chrome
-  - type: anytls
-    name: 1812 TW
+    name: 1748 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -23,7 +10,7 @@ proxies:
     sni: px.ads.linkedin.com
     skip-cert-verify: false
   - type: anytls
-    name: 1813 HK
+    name: 1749 HK
     server: 56481.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -33,17 +20,3 @@ proxies:
     sni: images.ctfassets.net
     skip-cert-verify: false
     client-fingerprint: chrome
-  - name: 1911 GB
-    password: ee509c94-ee1b-4747-b8d1-117924408240
-    port: 443
-    server: gbat.85s.me
-    skip-cert-verify: true
-    sni: gbat.85s.me
-    type: anytls
-  - name: 1913 US
-    password: ee509c94-ee1b-4747-b8d1-117924408240
-    port: 443
-    server: us4837.85s.me
-    skip-cert-verify: true
-    sni: us4837.85s.me
-    type: anytls
