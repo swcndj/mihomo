@@ -1,6 +1,6 @@
 proxies:
   - type: trojan
-    name: 70 US
+    name: 71 US
     server: 216.24.57.7
     port: 443
     password: humanity
@@ -16,7 +16,7 @@ proxies:
     ws-opts:
       path: /assignment
   - type: trojan
-    name: 81 US
+    name: 82 US
     server: 8.6.112.6
     port: 443
     password: humanity
@@ -29,7 +29,7 @@ proxies:
     ws-opts:
       path: /assignment
   - type: trojan
-    name: 149 US
+    name: 150 US
     server: 167.82.64.120
     port: 443
     password: MiTiVPN
@@ -89,7 +89,7 @@ proxies:
     ws-opts:
       path: /assignment
   - type: trojan
-    name: 177 JP
+    name: 176 JP
     server: 52.194.44.56
     port: 443
     password: humanity
@@ -102,7 +102,7 @@ proxies:
     ws-opts:
       path: /assignment
   - type: trojan
-    name: 179 HK
+    name: 177 HK
     server: 45.136.14.240
     port: 443
     password: humanity
@@ -114,7 +114,7 @@ proxies:
     network: ws
     ws-opts:
       path: /assignment
-  - name: 219 US
+  - name: 214 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -128,7 +128,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
       path: /assignment
-  - name: 224 US
+  - name: 220 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -142,7 +142,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
       path: /assignment
-  - name: 235 US
+  - name: 232 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -156,7 +156,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
       path: /assignment
-  - name: 242 SG
+  - name: 237 SG
     network: ws
     password: humanity
     port: 443
@@ -169,7 +169,7 @@ proxies:
       headers:
         Host: www.cordweave.com
       path: /assignment
-  - name: 258 JP
+  - name: 253 JP
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -183,7 +183,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
       path: /assignment
-  - name: 259 TH
+  - name: 254 TH
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -197,7 +197,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Slackware/Chrome/12.0.742.100 Safari/534.30
       path: /assignment
-  - name: 285 US
+  - name: 287 US
     network: ws
     password: humanity
     port: 443
@@ -209,7 +209,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 296 US
+  - name: 297 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -223,7 +223,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
       path: /assignment
-  - name: 299 US
+  - name: 300 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -237,7 +237,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
       path: /assignment
-  - name: 302 JP
+  - name: 303 JP
     network: ws
     password: humanity
     port: 443
@@ -250,7 +250,7 @@ proxies:
       headers:
         Host: www.cordweave.com
       path: /assignment
-  - name: 307 KR
+  - name: 308 KR
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -264,7 +264,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
       path: /assignment
-  - name: 309 SG
+  - name: 310 SG
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -401,7 +401,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
       path: /assignment
-  - name: 375 US
+  - name: 374 US
     network: ws
     password: humanity
     port: 443
@@ -414,7 +414,7 @@ proxies:
       headers:
         Host: www.cordweave.com
       path: /assignment
-  - name: 377 US
+  - name: 376 US
     alpn:
       - http/1.1
     network: ws
@@ -429,7 +429,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
       path: /assignment
-  - name: 381 US
+  - name: 380 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -443,7 +443,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
       path: /assignment
-  - name: 385 HK
+  - name: 384 HK
     network: ws
     password: humanity
     port: 443
@@ -456,7 +456,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
       path: /assignment
-  - name: 388 US
+  - name: 387 US
     network: ws
     password: humanity
     port: 443
@@ -468,7 +468,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 390 AU
+  - name: 389 AU
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -482,7 +482,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
       path: /assignment
-  - name: 408 US
+  - name: 407 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -496,7 +496,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
       path: /assignment
-  - name: 410 KR
+  - name: 409 KR
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -510,7 +510,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36
       path: /assignment
-  - name: 412 US
+  - name: 411 US
     alpn:
       - http/1.1
     network: ws
@@ -525,7 +525,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
       path: /assignment
-  - name: 423 JP
+  - name: 421 JP
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -539,7 +539,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
       path: /assignment
-  - name: 440 US
+  - name: 437 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -553,7 +553,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
       path: /assignment
-  - name: 446 JP
+  - name: 444 JP
     type: trojan
     server: 43.170.8.95
     port: 443
@@ -565,7 +565,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 451 US
+  - name: 449 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -579,7 +579,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
       path: /assignment
-  - name: 456 US
+  - name: 454 US
     type: trojan
     server: 188.114.99.0
     port: 443
@@ -592,7 +592,7 @@ proxies:
       path: /assignment
       headers:
         host: www.gossipglove.com
-  - name: 468 US
+  - name: 466 US
     network: ws
     password: humanity
     port: 443
@@ -605,7 +605,7 @@ proxies:
       headers:
         Host: www.cordweave.com
       path: /assignment
-  - name: 470 US
+  - name: 468 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -619,7 +619,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
       path: /assignment
-  - name: 479 HK
+  - name: 474 HK
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -633,7 +633,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
       path: /assignment
-  - name: 487 US
+  - name: 482 US
     network: ws
     password: humanity
     port: 443
@@ -646,7 +646,7 @@ proxies:
       headers:
         Host: www.cordweave.com
       path: /assignment
-  - name: 491 HK
+  - name: 486 HK
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -660,7 +660,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
       path: /assignment
-  - name: 497 SG
+  - name: 492 SG
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -674,7 +674,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
       path: /assignment
-  - name: 504 JP
+  - name: 499 JP
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -688,7 +688,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
       path: /assignment
-  - name: 508 JP
+  - name: 503 JP
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -702,7 +702,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
       path: /assignment
-  - name: 511 US
+  - name: 506 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -716,7 +716,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36
       path: /assignment
-  - name: 522 HK
+  - name: 519 HK
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -730,7 +730,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
       path: /assignment
-  - name: 525 JP
+  - name: 522 JP
     network: ws
     password: humanity
     port: 443
@@ -742,7 +742,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 544 US
+  - name: 540 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -756,7 +756,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
       path: /assignment
-  - name: 583 HK
+  - name: 578 HK
     network: ws
     password: humanity
     port: 443
@@ -769,7 +769,7 @@ proxies:
         Host: www.cordweave.com
       path: /assignment
     udp: true
-  - name: 585 US
+  - name: 580 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -783,7 +783,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
       path: /assignment
-  - name: 586 US
+  - name: 581 US
     network: ws
     password: humanity
     port: 443
@@ -796,7 +796,7 @@ proxies:
       headers:
         Host: www.cordweave.com
       path: /assignment
-  - name: 593 JP
+  - name: 587 JP
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -810,7 +810,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
       path: /assignment
-  - name: 595 KR
+  - name: 589 KR
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -824,7 +824,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
       path: /assignment
-  - name: 601 US
+  - name: 595 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -838,7 +838,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
       path: /assignment
-  - name: 606 MY
+  - name: 600 MY
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -852,7 +852,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36
       path: /assignment
-  - name: 608 KR
+  - name: 602 KR
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -866,7 +866,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
       path: /assignment
-  - name: 624 US
+  - name: 618 US
     client-fingerprint: edge
     network: ws
     password: 70756c73-0000-4000-8000-650000000000
@@ -880,7 +880,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
       path: /pulse
-  - name: 637 US
+  - name: 629 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -894,7 +894,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36
       path: /assignment
-  - name: 647 SG
+  - name: 640 SG
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -908,7 +908,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
       path: /assignment
-  - name: 649 US
+  - name: 642 US
     network: ws
     password: humanity
     port: 443
@@ -921,7 +921,7 @@ proxies:
       headers:
         Host: www.cordweave.com
       path: /assignment
-  - name: 650 KR
+  - name: 643 KR
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -935,7 +935,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
       path: /assignment
-  - name: 653 US
+  - name: 646 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -949,7 +949,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
       path: /assignment
-  - name: 663 US
+  - name: 655 US
     network: ws
     password: humanity
     port: 443
@@ -962,7 +962,7 @@ proxies:
       headers:
         Host: www.cordweave.com
       path: /assignment
-  - name: 668 US
+  - name: 660 US
     network: ws
     password: humanity
     port: 443
@@ -975,7 +975,7 @@ proxies:
       headers:
         Host: www.cordweave.com
       path: /assignment
-  - name: 672 US
+  - name: 664 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -989,7 +989,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
       path: /assignment
-  - name: 675 US
+  - name: 667 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -1003,7 +1003,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
       path: /assignment
-  - name: 677 US
+  - name: 669 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -1017,7 +1017,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
       path: /assignment
-  - name: 679 SG
+  - name: 671 SG
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -1031,7 +1031,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
       path: /assignment
-  - name: 685 SG
+  - name: 677 SG
     network: ws
     password: humanity
     port: 443
@@ -1044,7 +1044,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko) Chrome/v1.0.0 Safari/538.1
       path: /assignment
-  - name: 689 US
+  - name: 681 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -1058,7 +1058,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
       path: /assignment
-  - name: 703 US
+  - name: 694 US
     network: ws
     password: humanity
     port: 443
@@ -1071,7 +1071,7 @@ proxies:
       headers:
         Host: www.cordweave.com
       path: /assignment
-  - name: 706 SG
+  - name: 697 SG
     network: ws
     password: humanity
     port: 443
@@ -1084,7 +1084,7 @@ proxies:
       headers:
         Host: www.cordweave.com
       path: /assignment
-  - name: 713 US
+  - name: 703 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -1098,7 +1098,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
       path: /assignment
-  - name: 719 US
+  - name: 709 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -1112,7 +1112,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
       path: /assignment
-  - name: 721 JP
+  - name: 711 JP
     network: ws
     password: humanity
     port: 443
@@ -1124,7 +1124,7 @@ proxies:
     udp: true
     ws-opts:
       path: /assignment
-  - name: 726 US
+  - name: 716 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -1138,7 +1138,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
       path: /assignment
-  - name: 728 SG
+  - name: 718 SG
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -1152,7 +1152,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
       path: /assignment
-  - name: 732 US
+  - name: 722 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -1166,7 +1166,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
       path: /assignment
-  - name: 745 US
+  - name: 735 US
     client-fingerprint: chrome
     network: ws
     password: humanity
@@ -1180,7 +1180,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
       path: /assignment
-  - name: 754 SG
+  - name: 746 SG
     network: ws
     password: humanity
     port: 443
@@ -1193,124 +1193,30 @@ proxies:
       headers:
         Host: www.cordweave.com
       path: /assignment
-  - type: trojan
-    name: 774 VN
-    server: 103.161.179.36
+  - name: 872 US
+    type: trojan
+    server: blog.webex.com
     port: 443
-    password: humanity
-    udp: true
-    tls: true
-    servername: www.cordweave.com
-    sni: www.cordweave.com
-    skip-cert-verify: false
     network: ws
+    password: afbcd89a-5a90-4a44-a42a-be08f444aa3f
+    skip-cert-verify: false
+    sni: unnes.ac.id.yxls.eu.cc
     ws-opts:
-      path: /assignment
-  - type: trojan
-    name: 862 VN
-    server: 103.161.178.72
+      headers:
+        Host: unnes.ac.id.yxls.eu.cc
+      path: /br-orcl
+  - name: 889 US
+    type: trojan
+    server: 141.193.213.21
     port: 443
-    password: humanity
     udp: true
-    tls: true
-    servername: www.cordweave.com
-    sni: www.cordweave.com
+    password: humanity
+    sni: www.multiplydose.com
     skip-cert-verify: false
     network: ws
     ws-opts:
       path: /assignment
-  - type: trojan
-    name: 863 HK
-    server: 47.57.181.17
-    port: 443
-    password: humanity
-    udp: true
-    tls: true
-    servername: www.cordweave.com
-    sni: www.cordweave.com
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /assignment
-  - type: trojan
-    name: 864 SG
-    server: 168.144.41.69
-    port: 443
-    password: humanity
-    udp: true
-    tls: true
-    servername: www.cordweave.com
-    sni: www.cordweave.com
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /assignment
-  - type: trojan
-    name: 865 HK
-    server: 38.207.177.204
-    port: 443
-    password: humanity
-    udp: true
-    tls: true
-    servername: www.cordweave.com
-    sni: www.cordweave.com
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /assignment
-  - type: trojan
-    name: 866 US
-    server: 179.255.136.189
-    port: 443
-    password: humanity
-    udp: true
-    tls: true
-    servername: www.cordweave.com
-    sni: www.cordweave.com
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /assignment
-  - type: trojan
-    name: 867 HK
-    server: 193.134.209.165
-    port: 443
-    password: humanity
-    udp: true
-    tls: true
-    servername: www.cordweave.com
-    sni: www.cordweave.com
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /assignment
-  - type: trojan
-    name: 868 US
-    server: 179.255.157.247
-    port: 8443
-    password: humanity
-    udp: true
-    tls: true
-    servername: www.cordweave.com
-    sni: www.cordweave.com
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /assignment
-  - type: trojan
-    name: 869 HK
-    server: 68.64.180.218
-    port: 443
-    password: humanity
-    udp: true
-    tls: true
-    servername: www.cordweave.com
-    sni: www.cordweave.com
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /assignment
-  - name: 903 US
+  - name: 924 US
     type: trojan
     server: 162.159.38.119
     port: 443
@@ -1323,7 +1229,7 @@ proxies:
       path: /assignment
       headers:
         host: www.gossipglove.com
-  - name: 937 KR
+  - name: 958 KR
     type: trojan
     server: 146.56.187.1
     port: 8443
@@ -1336,7 +1242,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 983 KR
+  - name: 1003 KR
     type: trojan
     server: 193.123.232.91
     port: 443
@@ -1349,7 +1255,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1035 JP
+  - name: 1055 JP
     type: trojan
     server: 172.104.120.92
     port: 443
@@ -1367,7 +1273,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1049 SG
+  - name: 1069 SG
     type: trojan
     server: 129.212.231.216
     port: 443
@@ -1380,7 +1286,7 @@ proxies:
       path: /
       headers:
         host: tjplay.lxdxo.kdns.fr
-  - name: 1064 KR
+  - name: 1084 KR
     type: trojan
     server: 132.145.91.181
     port: 8443
@@ -1392,7 +1298,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1095 KR
+  - name: 1115 KR
     type: trojan
     server: 193.123.233.175
     port: 443
@@ -1404,7 +1310,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1102 SG
+  - name: 1122 SG
     type: trojan
     server: 66.42.51.60
     port: 8443
@@ -1417,7 +1323,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1152 US
+  - name: 1172 US
     type: trojan
     server: 159.112.235.52
     port: 443
@@ -1428,30 +1334,7 @@ proxies:
     sni: www.multiplydose.com
     ws-opts:
       path: /assignment
-  - name: 1207 US
-    type: trojan
-    server: 141.193.213.21
-    port: 443
-    udp: true
-    password: humanity
-    sni: www.multiplydose.com
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /assignment
-  - name: 1209 US
-    type: trojan
-    server: blog.webex.com
-    port: 443
-    network: ws
-    password: afbcd89a-5a90-4a44-a42a-be08f444aa3f
-    skip-cert-verify: false
-    sni: unnes.ac.id.yxls.eu.cc
-    ws-opts:
-      headers:
-        Host: unnes.ac.id.yxls.eu.cc
-      path: /br-orcl
-  - name: 1210 US
+  - name: 1227 US
     type: trojan
     server: 198.202.211.1
     port: 443
@@ -1464,7 +1347,7 @@ proxies:
       path: /assignment
       headers:
         host: www.creationlong.org
-  - name: 1211 US
+  - name: 1228 US
     type: trojan
     server: 8.6.112.0
     port: 443
@@ -1477,7 +1360,7 @@ proxies:
       path: /assignment
       headers:
         host: www.multiplydose.com
-  - name: 1212 US
+  - name: 1229 US
     type: trojan
     server: 208.103.161.110
     port: 443
@@ -1490,7 +1373,7 @@ proxies:
       path: /assignment
       headers:
         host: www.creationlong.org
-  - name: 1213 US
+  - name: 1230 US
     type: trojan
     server: 198.62.62.23
     port: 443
@@ -1503,7 +1386,7 @@ proxies:
       path: //assignment
       headers:
         host: www.calmlunch.com
-  - name: 1264 JP
+  - name: 1280 JP
     type: trojan
     server: 198.13.60.163
     port: 443
@@ -1515,7 +1398,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1279 US
+  - name: 1295 US
     type: trojan
     server: 45.38.60.139
     port: 443
@@ -1527,7 +1410,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1288 KR
+  - name: 1304 KR
     type: trojan
     server: 64.110.70.64
     port: 443
@@ -1539,7 +1422,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1296 KR
+  - name: 1312 KR
     type: trojan
     server: 158.247.199.106
     port: 443
@@ -1551,7 +1434,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1316 KR
+  - name: 1332 KR
     type: trojan
     server: 152.70.254.197
     port: 443
@@ -1563,7 +1446,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1333 KR
+  - name: 1349 KR
     type: trojan
     server: 158.180.71.69
     port: 443
@@ -1576,7 +1459,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1341 KR
+  - name: 1357 KR
     type: trojan
     server: 161.118.158.9
     port: 443
@@ -1589,7 +1472,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1343 SG
+  - name: 1359 SG
     type: trojan
     server: 129.212.239.178
     port: 443
@@ -1602,7 +1485,7 @@ proxies:
       path: /
       headers:
         host: tjplay.lxdxo.kdns.fr
-  - name: 1344 SG
+  - name: 1360 SG
     type: trojan
     server: 116.251.217.65
     port: 443
@@ -1615,7 +1498,7 @@ proxies:
       path: /
       headers:
         host: tjplay.lxdxo.kdns.fr
-  - name: 1345 US
+  - name: 1361 US
     type: trojan
     server: 216.24.57.1
     port: 443
@@ -1626,7 +1509,7 @@ proxies:
     network: ws
     ws-opts:
       path: /assignment
-  - name: 1405 SG
+  - name: 1417 SG
     type: trojan
     server: 103.25.202.114
     port: 443
@@ -1638,7 +1521,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1406 SG
+  - name: 1418 SG
     type: trojan
     server: 45.127.35.143
     port: 443
@@ -1648,7 +1531,7 @@ proxies:
     sni: tjsp.hhxaf.cc.cd
     ws-opts:
       path: /
-  - name: 1414 JP
+  - name: 1426 JP
     type: trojan
     server: 172.104.86.229
     port: 443
@@ -1666,7 +1549,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1415 JP
+  - name: 1427 JP
     type: trojan
     server: 156.246.91.9
     port: 443
@@ -1678,7 +1561,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1460 US
+  - name: 1472 US
     type: trojan
     server: 134.199.142.254
     port: 443
@@ -1690,7 +1573,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1461 US
+  - name: 1473 US
     type: trojan
     server: 173.255.242.254
     port: 443
@@ -1702,7 +1585,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1462 US
+  - name: 1474 US
     type: trojan
     server: 45.63.89.102
     port: 443
@@ -1715,7 +1598,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1463 US
+  - name: 1475 US
     type: trojan
     server: 64.186.242.72
     port: 443
@@ -1725,7 +1608,7 @@ proxies:
     sni: hhcm.hhxaf.cc.cd
     ws-opts:
       path: /
-  - name: 1464 US
+  - name: 1476 US
     type: trojan
     server: 45.76.169.250
     port: 443
@@ -1737,7 +1620,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1465 US
+  - name: 1477 US
     type: trojan
     server: 154.17.29.221
     port: 443
@@ -1749,7 +1632,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1467 US
+  - name: 1479 US
     type: trojan
     server: 64.186.231.175
     port: 443
@@ -1762,7 +1645,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1468 US
+  - name: 1480 US
     type: trojan
     server: 154.17.22.175
     port: 443
@@ -1774,7 +1657,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1469 US
+  - name: 1481 US
     type: trojan
     server: 162.159.39.153
     port: 443
@@ -1787,7 +1670,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1470 US
+  - name: 1482 US
     type: trojan
     server: 38.207.169.105
     port: 443
@@ -1799,7 +1682,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1471 US
+  - name: 1483 US
     type: trojan
     server: 98.158.29.213
     port: 443
@@ -1811,7 +1694,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1472 US
+  - name: 1484 US
     type: trojan
     server: 144.202.126.96
     port: 443
@@ -1823,7 +1706,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1473 US
+  - name: 1485 US
     type: trojan
     server: 64.186.250.125
     port: 443
@@ -1835,7 +1718,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1474 US
+  - name: 1486 US
     type: trojan
     server: 207.246.97.245
     port: 443
@@ -1847,7 +1730,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1475 US
+  - name: 1487 US
     type: trojan
     server: 199.193.125.72
     port: 443
@@ -1859,7 +1742,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1476 US
+  - name: 1488 US
     type: trojan
     server: 64.186.227.87
     port: 443
@@ -1871,7 +1754,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1477 US
+  - name: 1489 US
     type: trojan
     server: 80.66.196.231
     port: 443
@@ -1883,7 +1766,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1478 US
+  - name: 1490 US
     type: trojan
     server: 154.9.239.44
     port: 443
@@ -1896,7 +1779,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1479 US
+  - name: 1491 US
     type: trojan
     server: 96.126.96.82
     port: 443
@@ -1908,7 +1791,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1480 US
+  - name: 1492 US
     type: trojan
     server: 38.244.25.17
     port: 443
@@ -1920,7 +1803,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1481 US
+  - name: 1493 US
     type: trojan
     server: 149.248.7.25
     port: 443
@@ -1932,7 +1815,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1482 US
+  - name: 1494 US
     type: trojan
     server: 45.32.66.221
     port: 443
@@ -1944,7 +1827,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1483 US
+  - name: 1495 US
     type: trojan
     server: 69.63.212.210
     port: 443
@@ -1957,7 +1840,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1484 US
+  - name: 1496 US
     type: trojan
     server: 157.254.18.193
     port: 443
@@ -1970,7 +1853,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1485 US
+  - name: 1497 US
     type: trojan
     server: 144.202.83.188
     port: 443
@@ -1983,7 +1866,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1486 US
+  - name: 1498 US
     type: trojan
     server: 72.249.205.119
     port: 443
@@ -1995,7 +1878,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1487 US
+  - name: 1499 US
     type: trojan
     server: 142.171.114.133
     port: 443
@@ -2008,7 +1891,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1489 US
+  - name: 1501 US
     type: trojan
     server: 64.186.240.152
     port: 443
@@ -2020,7 +1903,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1490 US
+  - name: 1502 US
     type: trojan
     server: 64.186.248.160
     port: 443
@@ -2030,7 +1913,7 @@ proxies:
     sni: tjsp.hhxaf.cc.cd
     ws-opts:
       path: /
-  - name: 1492 US
+  - name: 1504 US
     type: trojan
     server: 154.17.228.36
     port: 443
@@ -2042,7 +1925,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1494 US
+  - name: 1506 US
     type: trojan
     server: 69.63.212.192
     port: 443
@@ -2054,7 +1937,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1495 US
+  - name: 1507 US
     type: trojan
     server: 72.249.205.12
     port: 443
@@ -2066,7 +1949,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1496 US
+  - name: 1508 US
     type: trojan
     server: 154.17.6.184
     port: 443
@@ -2078,7 +1961,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1497 JP
+  - name: 1509 JP
     type: trojan
     server: 45.192.242.10
     port: 443
@@ -2090,7 +1973,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1498 JP
+  - name: 1510 JP
     type: trojan
     server: 153.121.76.150
     port: 443
@@ -2102,7 +1985,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1499 JP
+  - name: 1511 JP
     type: trojan
     server: 160.16.59.9
     port: 443
@@ -2115,7 +1998,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1500 JP
+  - name: 1512 JP
     type: trojan
     server: 172.104.80.248
     port: 443
@@ -2127,7 +2010,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1501 JP
+  - name: 1513 JP
     type: trojan
     server: 108.160.132.178
     port: 443
@@ -2139,7 +2022,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1503 JP
+  - name: 1515 JP
     type: trojan
     server: 150.230.212.247
     port: 443
@@ -2151,7 +2034,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1504 JP
+  - name: 1516 JP
     type: trojan
     server: 124.156.208.160
     port: 443
@@ -2163,7 +2046,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1505 JP
+  - name: 1517 JP
     type: trojan
     server: 172.237.13.221
     port: 443
@@ -2175,7 +2058,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1506 JP
+  - name: 1518 JP
     type: trojan
     server: 133.18.140.38
     port: 443
@@ -2187,7 +2070,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1507 JP
+  - name: 1519 JP
     type: trojan
     server: 45.77.129.86
     port: 2053
@@ -2200,7 +2083,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1510 JP
+  - name: 1522 JP
     type: trojan
     server: 82.40.42.119
     port: 443
@@ -2212,7 +2095,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1513 JP
+  - name: 1525 JP
     type: trojan
     server: 152.70.105.42
     port: 8443
@@ -2224,7 +2107,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1515 JP
+  - name: 1527 JP
     type: trojan
     server: 158.51.110.12
     port: 443
@@ -2236,7 +2119,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1516 US
+  - name: 1528 US
     type: trojan
     server: 199.181.197.111
     port: 443
@@ -2250,7 +2133,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1517 US
+  - name: 1529 US
     type: trojan
     server: 199.181.197.212
     port: 443
@@ -2264,7 +2147,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1518 JP
+  - name: 1530 JP
     type: trojan
     server: 149.28.21.106
     port: 443
@@ -2276,7 +2159,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1520 JP
+  - name: 1532 JP
     type: trojan
     server: 153.121.32.71
     port: 443
@@ -2288,7 +2171,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1521 US
+  - name: 1533 US
     type: trojan
     server: 199.181.197.169
     port: 443
@@ -2302,7 +2185,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1523 US
+  - name: 1535 US
     type: trojan
     server: 141.193.213.11
     port: 443
@@ -2316,7 +2199,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1524 JP
+  - name: 1536 JP
     type: trojan
     server: 209.33.173.167
     port: 443
@@ -2328,7 +2211,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1525 JP
+  - name: 1537 JP
     type: trojan
     server: 151.241.129.141
     port: 443
@@ -2340,7 +2223,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1526 KR
+  - name: 1538 KR
     type: trojan
     server: 158.247.211.170
     port: 443
@@ -2353,7 +2236,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1528 KR
+  - name: 1540 KR
     type: trojan
     server: 141.164.51.88
     port: 443
@@ -2366,7 +2249,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1530 KR
+  - name: 1542 KR
     type: trojan
     server: 118.218.10.159
     port: 443
@@ -2378,7 +2261,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1531 JP
+  - name: 1543 JP
     type: trojan
     server: 96.126.130.217
     port: 443
@@ -2390,7 +2273,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1532 KR
+  - name: 1544 KR
     type: trojan
     server: 3.35.238.2
     port: 443
@@ -2402,7 +2285,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1534 KR
+  - name: 1546 KR
     type: trojan
     server: 129.154.222.63
     port: 8443
@@ -2414,7 +2297,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1535 KR
+  - name: 1547 KR
     type: trojan
     server: 150.230.249.88
     port: 443
@@ -2426,7 +2309,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1536 KR
+  - name: 1548 KR
     type: trojan
     server: 144.24.94.127
     port: 443
@@ -2438,7 +2321,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1537 KR
+  - name: 1549 KR
     type: trojan
     server: 103.133.240.115
     port: 443
@@ -2450,7 +2333,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1538 US
+  - name: 1550 US
     type: trojan
     server: 154.17.225.54
     port: 443
@@ -2462,7 +2345,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1539 HK
+  - name: 1551 HK
     type: trojan
     server: 27.50.48.49
     port: 443
@@ -2477,7 +2360,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1540 SG
+  - name: 1552 SG
     type: trojan
     server: 45.128.222.55
     port: 443
@@ -2489,7 +2372,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1541 SG
+  - name: 1553 SG
     type: trojan
     server: 168.144.109.68
     port: 443
@@ -2501,7 +2384,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1542 US
+  - name: 1554 US
     type: trojan
     server: 199.181.197.36
     port: 443
@@ -2515,7 +2398,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1543 US
+  - name: 1555 US
     type: trojan
     server: 199.181.197.228
     port: 443
@@ -2529,7 +2412,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1544 US
+  - name: 1556 US
     type: trojan
     server: 64.186.252.166
     port: 443
@@ -2541,7 +2424,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1545 HK
+  - name: 1557 HK
     type: trojan
     server: 8.210.29.68
     port: 443
@@ -2553,7 +2436,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1546 JP
+  - name: 1558 JP
     type: trojan
     server: 125.192.207.63
     port: 443
@@ -2566,7 +2449,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1547 SG
+  - name: 1559 SG
     type: trojan
     server: 161.118.213.45
     port: 443
@@ -2579,7 +2462,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1548 SG
+  - name: 1560 SG
     type: trojan
     server: 165.245.144.113
     port: 443
@@ -2591,7 +2474,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1549 SG
+  - name: 1561 SG
     type: trojan
     server: 139.162.62.195
     port: 443
@@ -2603,7 +2486,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1550 HK
+  - name: 1562 HK
     type: trojan
     server: 216.236.38.234
     port: 443
@@ -2615,7 +2498,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1551 KR
+  - name: 1563 KR
     type: trojan
     server: 140.238.17.157
     port: 443
@@ -2627,7 +2510,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1552 HK
+  - name: 1564 HK
     type: trojan
     server: 23.156.153.57
     port: 443
@@ -2639,7 +2522,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1553 SG
+  - name: 1565 SG
     type: trojan
     server: 168.144.96.147
     port: 443
@@ -2651,7 +2534,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1554 SG
+  - name: 1566 SG
     type: trojan
     server: 45.77.241.64
     port: 443
@@ -2664,7 +2547,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1555 SG
+  - name: 1567 SG
     type: trojan
     server: 139.59.224.185
     port: 443
@@ -2676,7 +2559,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1556 US
+  - name: 1568 US
     type: trojan
     server: 104.253.175.16
     port: 443
@@ -2689,7 +2572,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1557 SG
+  - name: 1569 SG
     type: trojan
     server: 13.250.31.132
     port: 443
@@ -2701,7 +2584,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1558 US
+  - name: 1570 US
     type: trojan
     server: 104.253.175.99
     port: 443
@@ -2714,7 +2597,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1560 HK
+  - name: 1572 HK
     type: trojan
     server: 209.33.166.199
     port: 443
@@ -2726,7 +2609,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1561 SG
+  - name: 1573 SG
     type: trojan
     server: 146.235.16.191
     port: 443
@@ -2739,7 +2622,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1562 SG
+  - name: 1574 SG
     type: trojan
     server: 168.144.108.174
     port: 443
@@ -2751,7 +2634,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1563 SG
+  - name: 1575 SG
     type: trojan
     server: 159.223.41.212
     port: 443
@@ -2763,7 +2646,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1564 KR
+  - name: 1576 KR
     type: trojan
     server: 54.180.151.15
     port: 443
@@ -2775,7 +2658,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1565 US
+  - name: 1577 US
     type: trojan
     server: 141.193.213.30
     port: 443
@@ -2789,7 +2672,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1566 JP
+  - name: 1578 JP
     type: trojan
     server: 185.220.238.77
     port: 11543
@@ -2798,7 +2681,7 @@ proxies:
     skip-cert-verify: true
     ws-opts:
       path: /api
-  - name: 1567 JP
+  - name: 1579 JP
     type: trojan
     server: 168.138.212.80
     port: 443
@@ -2811,7 +2694,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1568 KR
+  - name: 1580 KR
     type: trojan
     server: 132.226.23.185
     port: 443
@@ -2823,7 +2706,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1569 KR
+  - name: 1581 KR
     type: trojan
     server: 211.49.57.178
     port: 443
@@ -2835,7 +2718,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1570 KR
+  - name: 1582 KR
     type: trojan
     server: 211.49.57.175
     port: 443
@@ -2848,7 +2731,7 @@ proxies:
         Host: hhcm.hhxaf.cc.cd
       path: /
   - type: trojan
-    name: 1700 US
+    name: 1713 US
     server: 208.103.161.16
     port: 2096
     password: hWsj5AwIRPF8
@@ -2861,43 +2744,7 @@ proxies:
     network: ws
     ws-opts:
       path: /?ed=2560
-  - name: 1701 US
-    server: 179.253.255.7
-    port: 443
-    type: trojan
-    password: 8deb189a-3aed-4865-843b-b72dae954c46
-    sni: api.85s.me
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: api.85s.me
-  - name: 1702 US
-    server: 179.253.225.172
-    port: 443
-    type: trojan
-    password: 8deb189a-3aed-4865-843b-b72dae954c46
-    sni: api.85s.me
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: api.85s.me
-  - name: 1703 US
-    server: 179.255.103.84
-    port: 443
-    type: trojan
-    password: 8deb189a-3aed-4865-843b-b72dae954c46
-    sni: api.85s.me
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: api.85s.me
-  - name: 1704 US
+  - name: 1714 US
     server: 95.164.33.62
     port: 443
     type: trojan
@@ -2909,7 +2756,7 @@ proxies:
       path: /websocket
       headers:
         Host: sourceforge.net
-  - name: 1705 US
+  - name: 1715 US
     server: 66.228.55.178
     port: 2083
     type: trojan
@@ -2925,7 +2772,7 @@ proxies:
     password: MiTiVPN
     server: 146.75.57.120
     port: 443
-    name: 1707 US
+    name: 1718 US
     skip-cert-verify: false
     sni: firefox.com
     client-fingerprint: chrome
@@ -2937,7 +2784,7 @@ proxies:
       headers:
         Host: mitivpn--mitivpn.ac.ir
     fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
-  - name: 1754 SG
+  - name: 1758 SG
     client-fingerprint: chrome
     network: ws
     password: bpb-trojan
@@ -2953,18 +2800,22 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     sni: vless.herogoing.top
-  - name: 1772 US
+  - alpn:
+      - http/1.1
+    name: 1829 SG
     network: ws
-    password: e20fd145-65f1-4aa3-96be-da0524bbb16e
-    port: 20230
-    server: us003.421421.xyz
+    password: ZPZb_cl7NTrwH7my
+    port: 443
+    server: sidwqer-production.up.railway.app
     skip-cert-verify: true
-    sni: www.alibaba.com
+    sni: sidwqer-production.up.railway.app
     type: trojan
-    ws-opts:
-      path: /
     udp: true
-  - name: 1869 US
+    ws-opts:
+      headers:
+        Host: sidwqer-production.up.railway.app
+      path: /api/l3kVdW
+  - name: 1858 US
     server: notdirect.howhealthyistoomajreally.homes
     port: 443
     type: trojan
@@ -2976,7 +2827,7 @@ proxies:
       path: /ilb9fuWfuqWDjlQrGCkIH66kMFPa
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
-  - name: 1870 US
+  - name: 1859 US
     server: cnamemc1.cdncisco4.co
     port: 443
     type: trojan
@@ -2988,7 +2839,7 @@ proxies:
       path: /422Kdfwzf49IxeZJa
       headers:
         Host: c1mc.cdncisco4.co
-  - name: 1871 AU
+  - name: 1860 AU
     server: cnamemt.ciscocdn1.live
     port: 443
     type: trojan
@@ -3000,7 +2851,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mt.ciscocdn1.live
-  - name: 1872 AU
+  - name: 1861 AU
     server: cnamemk.ciscocdn1.live
     port: 443
     type: trojan
@@ -3012,7 +2863,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mk.ciscocdn1.live
-  - name: 1873 AU
+  - name: 1862 AU
     server: cnamemc.ciscocdn1.live
     port: 443
     type: trojan

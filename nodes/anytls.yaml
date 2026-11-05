@@ -1,6 +1,6 @@
 proxies:
   - type: anytls
-    name: 1734 TW
+    name: 1738 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -10,7 +10,7 @@ proxies:
     sni: px.ads.linkedin.com
     skip-cert-verify: false
   - type: anytls
-    name: 1735 HK
+    name: 1739 HK
     server: 56481.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -20,7 +20,7 @@ proxies:
     sni: images.ctfassets.net
     skip-cert-verify: false
     client-fingerprint: chrome
-  - name: 1843 TW
+  - name: 1864 TW
     password: 0324fbc29561
     port: 443
     server: sdf65h46wr.df6h451rh.xin
