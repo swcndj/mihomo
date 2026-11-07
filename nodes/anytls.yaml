@@ -1,6 +1,6 @@
 proxies:
   - type: anytls
-    name: 1767 TW
+    name: 1769 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -10,7 +10,7 @@ proxies:
     sni: px.ads.linkedin.com
     skip-cert-verify: false
   - type: anytls
-    name: 1768 HK
+    name: 1770 HK
     server: 56481.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -20,7 +20,7 @@ proxies:
     sni: images.ctfassets.net
     skip-cert-verify: false
     client-fingerprint: chrome
-  - name: 1862 TW
+  - name: 1854 TW
     password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
     port: 6549
     server: tw.ccwink.cc
@@ -28,11 +28,33 @@ proxies:
     sni: baidu.com
     type: anytls
     udp: true
-  - name: 1865 TW
-    password: 0324fbc29561
-    port: 443
-    server: sdf65h46wr.df6h451rh.xin
+  - name: 1858 JP
+    password: d1f9c551-d043-4f4b-b8c6-d828b60f2e92
+    port: 44698
+    server: aws.v4.us.ci
     skip-cert-verify: true
-    sni: images.ctfassets.net
+    sni: updates.cdn-apple.com
+    type: anytls
+    udp: true
+  - name: 1860 SG
+    password: 1eb7f03a-59a4-4184-ae6d-7cb0e3b8e77a
+    port: 36033
+    server: site.ddddd.site
+    skip-cert-verify: true
+    sni: virtual.ubuntu24.com
+    type: anytls
+  - name: 1862 HK
+    password: 1eb7f03a-59a4-4184-ae6d-7cb0e3b8e77a
+    port: 46038
+    server: light.ddddd.site
+    skip-cert-verify: true
+    sni: down.centos7.com
+    type: anytls
+  - name: 1906 US
+    password: 1d2392a0-1713-4ea9-be88-8a1e5ddab6bd
+    port: 443
+    server: us2.aoyou.stream
+    skip-cert-verify: true
+    sni: at.aoyou.stream
     type: anytls
     udp: true
