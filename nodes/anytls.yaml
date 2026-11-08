@@ -1,17 +1,6 @@
 proxies:
   - type: anytls
-    name: 1405 TW
-    server: er8u54dh.df6h451rh.xin
-    port: 443
-    password: 0324fbc29561
-    udp: true
-    tls: true
-    servername: px.ads.linkedin.com
-    sni: px.ads.linkedin.com
-    skip-cert-verify: false
-    client-fingerprint: chrome
-  - type: anytls
-    name: 1407 HK
+    name: 1263 HK
     server: 56481.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -20,7 +9,20 @@ proxies:
     servername: images.ctfassets.net
     sni: images.ctfassets.net
     skip-cert-verify: false
-  - name: 1423 TW
+  - type: anytls
+    name: 1265 TW
+    server: er8u54dh.df6h451rh.xin
+    port: 443
+    password: 0324fbc29561
+    udp: true
+    tls: true
+    servername: px.ads.linkedin.com
+    sni: px.ads.linkedin.com
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+    client-fingerprint: chrome
+  - name: 1275 TW
     server: tw.ccwink.cc
     port: 6549
     type: anytls
@@ -28,11 +30,3 @@ proxies:
     udp: true
     sni: baidu.com
     skip-cert-verify: true
-  - name: 1481 TW
-    password: 0324fbc29561
-    port: 443
-    server: sdf65h46wr.df6h451rh.xin
-    skip-cert-verify: true
-    sni: images.ctfassets.net
-    type: anytls
-    udp: true
