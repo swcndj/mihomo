@@ -29,7 +29,7 @@ proxies:
     ws-opts:
       path: /assignment
   - type: trojan
-    name: 140 US
+    name: 137 US
     server: 167.82.64.120
     port: 443
     password: MiTiVPN
@@ -46,7 +46,7 @@ proxies:
       path: /
       headers:
         Host: mitivpn--mitivpn.ac.ir
-  - name: 205 US
+  - name: 206 US
     alpn:
       - http/1.1
       - h3
@@ -64,7 +64,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
       path: /TELEGRAM----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud----@YektaCloud
-  - name: 216 US
+  - name: 217 US
     alpn:
       - http/1.1
     client-fingerprint: firefox
@@ -80,7 +80,19 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
       path: /wss
-  - name: 231 US
+  - name: 222 US
+    type: trojan
+    server: blog.webex.com
+    port: 443
+    network: ws
+    password: afbcd89a-5a90-4a44-a42a-be08f444aa3f
+    skip-cert-verify: false
+    sni: unnes.ac.id.yxls.eu.cc
+    ws-opts:
+      headers:
+        Host: unnes.ac.id.yxls.eu.cc
+      path: /br-orcl
+  - name: 233 US
     alpn:
       - http/1.1
     client-fingerprint: chrome
@@ -96,7 +108,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
       path: /Telegram=@AmyraxVPN
-  - name: 233 US
+  - name: 235 US
     type: trojan
     server: 141.193.213.21
     port: 443
@@ -107,19 +119,7 @@ proxies:
     network: ws
     ws-opts:
       path: /assignment
-  - name: 236 US
-    type: trojan
-    server: blog.webex.com
-    port: 443
-    network: ws
-    password: afbcd89a-5a90-4a44-a42a-be08f444aa3f
-    skip-cert-verify: false
-    sni: unnes.ac.id.yxls.eu.cc
-    ws-opts:
-      headers:
-        Host: unnes.ac.id.yxls.eu.cc
-      path: /br-orcl
-  - name: 336 US
+  - name: 335 US
     type: trojan
     server: 188.114.99.0
     port: 443
@@ -132,7 +132,7 @@ proxies:
       path: /assignment
       headers:
         host: www.gossipglove.com
-  - name: 513 US
+  - name: 515 US
     type: trojan
     server: 162.159.38.119
     port: 443
@@ -158,7 +158,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 593 KR
+  - name: 592 KR
     type: trojan
     server: 193.123.232.91
     port: 443
@@ -171,7 +171,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 646 JP
+  - name: 645 JP
     type: trojan
     server: 172.104.120.92
     port: 443
@@ -189,7 +189,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 660 SG
+  - name: 659 SG
     type: trojan
     server: 129.212.231.216
     port: 443
@@ -202,7 +202,7 @@ proxies:
       path: /
       headers:
         host: tjplay.lxdxo.kdns.fr
-  - name: 675 KR
+  - name: 674 KR
     type: trojan
     server: 132.145.91.181
     port: 8443
@@ -214,7 +214,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 708 KR
+  - name: 706 KR
     type: trojan
     server: 193.123.233.175
     port: 443
@@ -226,7 +226,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 715 SG
+  - name: 713 SG
     type: trojan
     server: 66.42.51.60
     port: 8443
@@ -239,7 +239,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 769 US
+  - name: 766 US
     type: trojan
     server: 159.112.235.52
     port: 443
@@ -250,7 +250,7 @@ proxies:
     sni: www.multiplydose.com
     ws-opts:
       path: /assignment
-  - name: 823 US
+  - name: 821 US
     type: trojan
     server: 165.215.250.14
     port: 443
@@ -263,7 +263,7 @@ proxies:
       path: /assignment
       headers:
         host: www.calmlunch.com
-  - name: 825 US
+  - name: 823 US
     type: trojan
     server: 198.202.211.1
     port: 443
@@ -276,7 +276,7 @@ proxies:
       path: /assignment
       headers:
         host: www.creationlong.org
-  - name: 826 US
+  - name: 824 US
     type: trojan
     server: 8.6.112.0
     port: 443
@@ -289,7 +289,7 @@ proxies:
       path: /assignment
       headers:
         host: www.multiplydose.com
-  - name: 827 US
+  - name: 825 US
     type: trojan
     server: 208.103.161.110
     port: 443
@@ -302,7 +302,7 @@ proxies:
       path: /assignment
       headers:
         host: www.creationlong.org
-  - name: 828 US
+  - name: 826 US
     type: trojan
     server: 198.62.62.23
     port: 443
@@ -315,7 +315,7 @@ proxies:
       path: //assignment
       headers:
         host: www.calmlunch.com
-  - name: 879 JP
+  - name: 878 JP
     type: trojan
     server: 198.13.60.163
     port: 443
@@ -327,7 +327,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 894 US
+  - name: 893 US
     type: trojan
     server: 45.38.60.139
     port: 443
@@ -339,7 +339,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 903 KR
+  - name: 902 KR
     type: trojan
     server: 64.110.70.64
     port: 443
@@ -351,7 +351,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 911 KR
+  - name: 910 KR
     type: trojan
     server: 158.247.199.106
     port: 443
@@ -363,7 +363,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 932 KR
+  - name: 931 KR
     type: trojan
     server: 152.70.254.197
     port: 443
@@ -375,7 +375,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 949 KR
+  - name: 948 KR
     type: trojan
     server: 158.180.71.69
     port: 443
@@ -388,7 +388,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 957 KR
+  - name: 956 KR
     type: trojan
     server: 161.118.158.9
     port: 443
@@ -401,7 +401,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 959 SG
+  - name: 958 SG
     type: trojan
     server: 129.212.239.178
     port: 443
@@ -414,7 +414,7 @@ proxies:
       path: /
       headers:
         host: tjplay.lxdxo.kdns.fr
-  - name: 960 SG
+  - name: 959 SG
     type: trojan
     server: 116.251.217.65
     port: 443
@@ -427,7 +427,7 @@ proxies:
       path: /
       headers:
         host: tjplay.lxdxo.kdns.fr
-  - name: 961 US
+  - name: 960 US
     type: trojan
     server: 216.24.57.1
     port: 443
@@ -1695,7 +1695,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1341 US
+  - name: 1355 US
     server: 95.164.33.62
     port: 443
     type: trojan
@@ -1707,7 +1707,7 @@ proxies:
       path: /websocket
       headers:
         Host: sourceforge.net
-  - name: 1342 US
+  - name: 1356 US
     server: 66.228.55.178
     port: 2083
     type: trojan
@@ -1723,7 +1723,7 @@ proxies:
     password: MiTiVPN
     server: 146.75.57.120
     port: 443
-    name: 1345 US
+    name: 1359 US
     skip-cert-verify: false
     sni: firefox.com
     client-fingerprint: chrome
@@ -1735,7 +1735,7 @@ proxies:
       headers:
         Host: mitivpn--mitivpn.ac.ir
     fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
-  - name: 1494 US
+  - name: 1517 US
     server: notdirect.howhealthyistoomajreally.homes
     port: 443
     type: trojan
@@ -1747,7 +1747,7 @@ proxies:
       path: /ilb9fuWfuqWDjlQrGCkIH66kMFPa
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
-  - name: 1495 US
+  - name: 1518 US
     server: cnamemc1.cdncisco4.co
     port: 443
     type: trojan
@@ -1759,7 +1759,7 @@ proxies:
       path: /422Kdfwzf49IxeZJa
       headers:
         Host: c1mc.cdncisco4.co
-  - name: 1496 AU
+  - name: 1519 AU
     server: cnamemt.ciscocdn1.live
     port: 443
     type: trojan
@@ -1771,7 +1771,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mt.ciscocdn1.live
-  - name: 1497 AU
+  - name: 1520 AU
     server: cnamemk.ciscocdn1.live
     port: 443
     type: trojan
@@ -1783,7 +1783,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mk.ciscocdn1.live
-  - name: 1498 AU
+  - name: 1521 AU
     server: cnamemc.ciscocdn1.live
     port: 443
     type: trojan
