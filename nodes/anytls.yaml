@@ -1,6 +1,6 @@
 proxies:
   - type: anytls
-    name: 1263 HK
+    name: 1276 HK
     server: 56481.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -10,7 +10,7 @@ proxies:
     sni: images.ctfassets.net
     skip-cert-verify: false
   - type: anytls
-    name: 1265 TW
+    name: 1278 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -22,7 +22,7 @@ proxies:
     alpn:
       - http/1.1
     client-fingerprint: chrome
-  - name: 1275 TW
+  - name: 1291 TW
     server: tw.ccwink.cc
     port: 6549
     type: anytls
