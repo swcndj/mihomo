@@ -1,6 +1,6 @@
 proxies:
   - type: anytls
-    name: 1264 HK
+    name: 1367 HK
     server: 56481.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -10,7 +10,7 @@ proxies:
     sni: images.ctfassets.net
     skip-cert-verify: false
   - type: anytls
-    name: 1266 TW
+    name: 1368 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -22,7 +22,7 @@ proxies:
     alpn:
       - http/1.1
     client-fingerprint: chrome
-  - name: 1276 TW
+  - name: 1376 TW
     server: tw.ccwink.cc
     port: 6549
     type: anytls
@@ -30,11 +30,20 @@ proxies:
     udp: true
     sni: baidu.com
     skip-cert-verify: true
-  - name: 1333 TW
+  - name: 1427 TW
     password: 0324fbc29561
     port: 443
     server: sdf65h46wr.df6h451rh.xin
+    servername: images.ctfassets.net
     skip-cert-verify: true
     sni: images.ctfassets.net
+    tls: true
     type: anytls
+  - name: 1474 SG
+    type: anytls
+    server: dddz-1-x.473221.xyz
+    port: 43120
+    password: 65ec84f5-0dd4-4582-8b4f-592e50b22116
     udp: true
+    sni: v1-dy.ixigua.com
+    skip-cert-verify: true
