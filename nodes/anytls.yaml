@@ -1,6 +1,6 @@
 proxies:
   - type: anytls
-    name: 1367 HK
+    name: 1418 HK
     server: 56481.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -10,7 +10,7 @@ proxies:
     sni: images.ctfassets.net
     skip-cert-verify: false
   - type: anytls
-    name: 1368 TW
+    name: 1419 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -22,7 +22,7 @@ proxies:
     alpn:
       - http/1.1
     client-fingerprint: chrome
-  - name: 1376 TW
+  - name: 1426 TW
     server: tw.ccwink.cc
     port: 6549
     type: anytls
@@ -30,20 +30,35 @@ proxies:
     udp: true
     sni: baidu.com
     skip-cert-verify: true
-  - name: 1427 TW
+  - name: 1480 TW
+    password: cf913d0d-15b6-433e-be2e-b2acebabcc71
+    port: 2083
+    server: forwarded.frnhk.xyz
+    skip-cert-verify: true
+    sni: sg.gosthk.site
+    type: anytls
+    udp: true
+  - name: 1481 TW
+    type: anytls
+    server: forwarded.frnhk.xyz
+    port: 2053
+    password: 047e0e0c-1843-4f16-9812-ec2cc94f7a99
+    udp: true
+    sni: my.gosthk.site
+  - name: 1482 TW
     password: 0324fbc29561
     port: 443
     server: sdf65h46wr.df6h451rh.xin
-    servername: images.ctfassets.net
     skip-cert-verify: true
     sni: images.ctfassets.net
-    tls: true
     type: anytls
-  - name: 1474 SG
-    type: anytls
-    server: dddz-1-x.473221.xyz
-    port: 43120
+  - fingerprint: ""
+    name: 1533 SG
     password: 65ec84f5-0dd4-4582-8b4f-592e50b22116
-    udp: true
-    sni: v1-dy.ixigua.com
+    port: 43120
+    server: dddz-1-x.473221.xyz
     skip-cert-verify: true
+    sni: v1-dy.ixigua.com
+    type: anytls
+    udp: true
+    username: 65ec84f5-0dd4-4582-8b4f-592e50b22116
