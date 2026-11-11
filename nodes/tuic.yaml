@@ -1,20 +1,5 @@
 proxies:
-  - alpn:
-      - h3
-    congestion-controller: bbr
-    disable-sni: false
-    name: 956 US
-    password: cd1106bc-1b71-4f11-8d29-d8870099adc6
-    port: 53454
-    reduce-rtt: false
-    request-timeout: 0
-    server: 154.201.73.153
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: tuic
-    udp-relay-mode: native
-    uuid: cd1106bc-1b71-4f11-8d29-d8870099adc6
-  - name: 1457 SG
+  - name: 1452 SG
     type: tuic
     server: sg2-8sb.6121999.dpdns.org
     port: 33738

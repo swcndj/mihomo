@@ -1,6 +1,6 @@
 proxies:
   - type: anytls
-    name: 1400 TW
+    name: 1384 TW
     server: sdf65h46wr.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -9,16 +9,8 @@ proxies:
     servername: images.ctfassets.net
     sni: images.ctfassets.net
     skip-cert-verify: false
-  - name: 1401 TW
-    server: tw.ccwink.cc
-    port: 6549
-    type: anytls
-    password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-    udp: true
-    sni: baidu.com
-    skip-cert-verify: true
   - type: anytls
-    name: 1446 TW
+    name: 1385 TW
     server: forwarded.frnhk.xyz
     port: 2083
     password: cf913d0d-15b6-433e-be2e-b2acebabcc71
@@ -27,16 +19,42 @@ proxies:
     servername: sg.gosthk.site
     sni: sg.gosthk.site
     skip-cert-verify: false
-  - name: 1447 TW
-    server: forwarded.frnhk.xyz
-    port: 2053
+  - name: 1389 TW
+    server: tw.ccwink.cc
+    port: 6549
     type: anytls
-    password: 9fbb8314-c7f1-4d5a-9af3-0bf70a1776d0
+    password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
     udp: true
-    sni: my.gosthk.site
+    sni: baidu.com
     skip-cert-verify: true
+  - fingerprint: ""
+    name: 1442 SG
+    password: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
+    port: 36035
+    server: site.ddddd.site
+    skip-cert-verify: true
+    sni: virtual.ubuntu24.com
+    type: anytls
+    udp: true
+    username: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
+  - name: 1443 SG
+    password: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
+    port: 36031
+    server: site.ddddd.site
+    skip-cert-verify: true
+    sni: virtual.ubuntu24.com
+    type: anytls
+  - name: 1444 SG
+    type: anytls
+    server: site.ddddd.site
+    port: 36032
+    password: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
+    udp: true
+    sni: virtual.ubuntu24.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
   - type: anytls
-    name: 1487 TW
+    name: 1483 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     udp: true
@@ -47,10 +65,3 @@ proxies:
     packetEncoding: none
     allowInsecure: "1"
     sub-tag: P002-260618
-  - name: 1497 SG
-    server: site.ddddd.site
-    port: 36031
-    type: anytls
-    password: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
-    sni: virtual.ubuntu24.com
-    skip-cert-verify: true
