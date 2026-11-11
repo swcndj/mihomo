@@ -1,6 +1,6 @@
 proxies:
   - type: anytls
-    name: 1450 TW
+    name: 1400 TW
     server: sdf65h46wr.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -9,7 +9,7 @@ proxies:
     servername: images.ctfassets.net
     sni: images.ctfassets.net
     skip-cert-verify: false
-  - name: 1451 TW
+  - name: 1401 TW
     server: tw.ccwink.cc
     port: 6549
     type: anytls
@@ -18,7 +18,7 @@ proxies:
     sni: baidu.com
     skip-cert-verify: true
   - type: anytls
-    name: 1495 TW
+    name: 1446 TW
     server: forwarded.frnhk.xyz
     port: 2083
     password: cf913d0d-15b6-433e-be2e-b2acebabcc71
@@ -27,32 +27,16 @@ proxies:
     servername: sg.gosthk.site
     sni: sg.gosthk.site
     skip-cert-verify: false
-  - name: 1496 TW
+  - name: 1447 TW
     server: forwarded.frnhk.xyz
     port: 2053
     type: anytls
-    password: 047e0e0c-1843-4f16-9812-ec2cc94f7a99
+    password: 9fbb8314-c7f1-4d5a-9af3-0bf70a1776d0
     udp: true
     sni: my.gosthk.site
     skip-cert-verify: true
-  - name: 1504 GB
-    password: 66dff097-fa47-4ae1-8ed8-5e147e564f1c
-    port: 30000
-    server: uk1.fastfly.qzz.io
-    skip-cert-verify: true
-    sni: uk1.fastfly.qzz.io
-    type: anytls
-    udp: true
-  - name: 1507 VN
-    password: 66dff097-fa47-4ae1-8ed8-5e147e564f1c
-    port: 12291
-    server: yn1.fastfly.uk
-    skip-cert-verify: true
-    sni: yn1.fastfly.uk
-    type: anytls
-    udp: true
   - type: anytls
-    name: 1564 TW
+    name: 1487 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     udp: true
@@ -63,13 +47,10 @@ proxies:
     packetEncoding: none
     allowInsecure: "1"
     sub-tag: P002-260618
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: 1570 HK
-    password: 0324fbc29561
-    port: 443
-    server: 56481.df6h451rh.xin
-    skip-cert-verify: true
-    sni: images.ctfassets.net
+  - name: 1497 SG
+    server: site.ddddd.site
+    port: 36031
     type: anytls
+    password: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
+    sni: virtual.ubuntu24.com
+    skip-cert-verify: true
