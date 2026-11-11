@@ -1,6 +1,6 @@
 proxies:
   - type: anytls
-    name: 1392 TW
+    name: 1393 TW
     server: sdf65h46wr.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -9,7 +9,7 @@ proxies:
     servername: images.ctfassets.net
     sni: images.ctfassets.net
     skip-cert-verify: false
-  - name: 1393 TW
+  - name: 1394 TW
     server: tw.ccwink.cc
     port: 6549
     type: anytls
@@ -18,7 +18,7 @@ proxies:
     sni: baidu.com
     skip-cert-verify: true
   - type: anytls
-    name: 1430 TW
+    name: 1439 TW
     server: forwarded.frnhk.xyz
     port: 2083
     password: cf913d0d-15b6-433e-be2e-b2acebabcc71
@@ -27,7 +27,15 @@ proxies:
     servername: sg.gosthk.site
     sni: sg.gosthk.site
     skip-cert-verify: false
-  - name: 1437 GB
+  - name: 1440 TW
+    server: forwarded.frnhk.xyz
+    port: 2053
+    type: anytls
+    password: 047e0e0c-1843-4f16-9812-ec2cc94f7a99
+    udp: true
+    sni: my.gosthk.site
+    skip-cert-verify: true
+  - name: 1449 GB
     password: 66dff097-fa47-4ae1-8ed8-5e147e564f1c
     port: 30000
     server: uk1.fastfly.qzz.io
@@ -35,7 +43,7 @@ proxies:
     sni: uk1.fastfly.qzz.io
     type: anytls
     udp: true
-  - name: 1440 VN
+  - name: 1452 VN
     password: 66dff097-fa47-4ae1-8ed8-5e147e564f1c
     port: 12291
     server: yn1.fastfly.uk
@@ -44,7 +52,7 @@ proxies:
     type: anytls
     udp: true
   - type: anytls
-    name: 1480 TW
+    name: 1514 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     udp: true
@@ -58,7 +66,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 1482 HK
+    name: 1520 HK
     password: 0324fbc29561
     port: 443
     server: 56481.df6h451rh.xin
