@@ -120,6 +120,15 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
+  nodes_vless:
+    type: http
+    url: "https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/vless.yaml"
+    interval: 7200
+    path: ./providers/nodes_vless.yaml
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
 # ======================================== 代理组 ========================================
 proxy-groups:
   - name: "自动选择"
@@ -131,6 +140,7 @@ proxy-groups:
     - nodes_tuic
     - nodes_mieru
     - nodes_trojan
+    - nodes_vless
 # ======================================== 规则订阅 ========================================
 rule-providers:
   ads-AWAvenue:
