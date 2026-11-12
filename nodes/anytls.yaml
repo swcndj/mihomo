@@ -1,6 +1,6 @@
 proxies:
   - type: anytls
-    name: 1384 TW
+    name: 1383 TW
     server: sdf65h46wr.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -10,7 +10,7 @@ proxies:
     sni: images.ctfassets.net
     skip-cert-verify: false
   - type: anytls
-    name: 1385 TW
+    name: 1384 TW
     server: forwarded.frnhk.xyz
     port: 2083
     password: cf913d0d-15b6-433e-be2e-b2acebabcc71
@@ -19,7 +19,23 @@ proxies:
     servername: sg.gosthk.site
     sni: sg.gosthk.site
     skip-cert-verify: false
-  - name: 1389 TW
+  - name: 1385 TW
+    password: 9b24e5d0-62be-41df-b967-9b670cf90ff8
+    port: 2086
+    server: forwarded.frnhk.xyz
+    skip-cert-verify: true
+    sni: de.gosthk.site
+    type: anytls
+    udp: true
+  - name: 1386 TW
+    password: 9fbb8314-c7f1-4d5a-9af3-0bf70a1776d0
+    port: 2053
+    server: forwarded.frnhk.xyz
+    skip-cert-verify: true
+    sni: my.gosthk.site
+    type: anytls
+    udp: true
+  - name: 1390 TW
     server: tw.ccwink.cc
     port: 6549
     type: anytls
@@ -27,34 +43,8 @@ proxies:
     udp: true
     sni: baidu.com
     skip-cert-verify: true
-  - fingerprint: ""
-    name: 1442 SG
-    password: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
-    port: 36035
-    server: site.ddddd.site
-    skip-cert-verify: true
-    sni: virtual.ubuntu24.com
-    type: anytls
-    udp: true
-    username: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
-  - name: 1443 SG
-    password: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
-    port: 36031
-    server: site.ddddd.site
-    skip-cert-verify: true
-    sni: virtual.ubuntu24.com
-    type: anytls
-  - name: 1444 SG
-    type: anytls
-    server: site.ddddd.site
-    port: 36032
-    password: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
-    udp: true
-    sni: virtual.ubuntu24.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
   - type: anytls
-    name: 1483 TW
+    name: 1474 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     udp: true
@@ -65,3 +55,22 @@ proxies:
     packetEncoding: none
     allowInsecure: "1"
     sub-tag: P002-260618
+  - fingerprint: ""
+    name: 1482 SG
+    password: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
+    port: 36035
+    server: site.ddddd.site
+    skip-cert-verify: true
+    sni: virtual.ubuntu24.com
+    type: anytls
+    udp: true
+    username: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
+    x-toolall-mihomo: true
+  - name: 1483 SG
+    password: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
+    port: 36031
+    server: site.ddddd.site
+    skip-cert-verify: true
+    sni: virtual.ubuntu24.com
+    type: anytls
+    x-toolall-mihomo: true
