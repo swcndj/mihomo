@@ -1,6 +1,6 @@
 proxies:
   - type: anytls
-    name: 1389 TW
+    name: 1407 TW
     server: sdf65h46wr.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -10,7 +10,7 @@ proxies:
     sni: images.ctfassets.net
     skip-cert-verify: false
   - type: anytls
-    name: 1390 TW
+    name: 1408 TW
     server: forwarded.frnhk.xyz
     port: 2083
     password: cf913d0d-15b6-433e-be2e-b2acebabcc71
@@ -19,7 +19,7 @@ proxies:
     servername: sg.gosthk.site
     sni: sg.gosthk.site
     skip-cert-verify: false
-  - name: 1391 TW
+  - name: 1409 TW
     password: 047e0e0c-1843-4f16-9812-ec2cc94f7a99
     port: 2053
     server: forwarded.frnhk.xyz
@@ -27,7 +27,7 @@ proxies:
     sni: my.gosthk.site
     type: anytls
     udp: true
-  - name: 1395 TW
+  - name: 1414 TW
     server: tw.ccwink.cc
     port: 6549
     type: anytls
@@ -36,7 +36,7 @@ proxies:
     sni: baidu.com
     skip-cert-verify: true
   - type: anytls
-    name: 1479 TW
+    name: 1498 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     udp: true
