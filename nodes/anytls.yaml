@@ -1,6 +1,22 @@
 proxies:
+  - name: 937 JP
+    password: 81a0f80f-760e-4dda-bbdb-196779814c79
+    port: 50000
+    server: 52.196.143.140
+    skip-cert-verify: true
+    sni: www.python.org
+    type: anytls
+    udp: true
+  - name: 939 SG
+    password: 81a0f80f-760e-4dda-bbdb-196779814c79
+    port: 50000
+    server: 13.213.148.167
+    skip-cert-verify: true
+    sni: www.python.org
+    type: anytls
+    udp: true
   - type: anytls
-    name: 1437 TW
+    name: 1370 TW
     server: sdf65h46wr.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -10,7 +26,7 @@ proxies:
     sni: images.ctfassets.net
     skip-cert-verify: false
   - type: anytls
-    name: 1438 TW
+    name: 1398 TW
     server: forwarded.frnhk.xyz
     port: 2083
     password: cf913d0d-15b6-433e-be2e-b2acebabcc71
@@ -19,7 +35,7 @@ proxies:
     servername: sg.gosthk.site
     sni: sg.gosthk.site
     skip-cert-verify: false
-  - name: 1439 TW
+  - name: 1399 TW
     password: 9b24e5d0-62be-41df-b967-9b670cf90ff8
     port: 2086
     server: forwarded.frnhk.xyz
@@ -27,7 +43,7 @@ proxies:
     sni: de.gosthk.site
     type: anytls
     udp: true
-  - name: 1440 TW
+  - name: 1400 TW
     password: 9922ea3a-7314-4af5-a4cb-eb68a9b94fca
     port: 2052
     server: forwarded.frnhk.xyz
@@ -35,7 +51,15 @@ proxies:
     sni: jp2.gosthk.site
     type: anytls
     udp: true
-  - name: 1444 TW
+  - name: 1401 TW
+    password: 7c93d2c4-ebe2-456a-a10e-d650112fa286
+    port: 2053
+    server: forwarded.frnhk.xyz
+    skip-cert-verify: true
+    sni: my.gosthk.site
+    type: anytls
+    udp: true
+  - name: 1406 TW
     server: tw.ccwink.cc
     port: 6549
     type: anytls
@@ -43,8 +67,24 @@ proxies:
     udp: true
     sni: baidu.com
     skip-cert-verify: true
+  - name: 1456 JP
+    password: 81a0f80f-760e-4dda-bbdb-196779814c79
+    port: 52753
+    server: entry.bbqaqseek.shop
+    skip-cert-verify: true
+    sni: apple.com
+    type: anytls
+    udp: true
+  - name: 1457 JP
+    password: 81a0f80f-760e-4dda-bbdb-196779814c79
+    port: 33778
+    server: entry.bbqaqseek.shop
+    skip-cert-verify: true
+    sni: apple.com
+    type: anytls
+    udp: true
   - type: anytls
-    name: 1532 TW
+    name: 1496 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     udp: true
