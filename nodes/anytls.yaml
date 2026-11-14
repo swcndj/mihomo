@@ -1,142 +1,6 @@
 proxies:
-  - name: 1347 JP
-    password: 1caaeda2-7ea1-43c3-b2b6-f8c093a45993
-    port: 23201
-    server: 45.192.198.230
-    skip-cert-verify: true
-    sni: buylite.music.apple.com
-    type: anytls
-    udp: true
-  - name: 1348 JP
-    password: 1caaeda2-7ea1-43c3-b2b6-f8c093a45993
-    port: 23200
-    server: 45.192.198.230
-    skip-cert-verify: true
-    sni: buylite.music.apple.com
-    type: anytls
-    udp: true
-  - name: 1349 JP
-    password: 1caaeda2-7ea1-43c3-b2b6-f8c093a45993
-    port: 23182
-    server: 45.192.198.230
-    skip-cert-verify: true
-    sni: buylite.music.apple.com
-    type: anytls
-    udp: true
-  - name: 1350 JP
-    password: 1caaeda2-7ea1-43c3-b2b6-f8c093a45993
-    port: 23181
-    server: 45.192.198.230
-    skip-cert-verify: true
-    sni: buylite.music.apple.com
-    type: anytls
-    udp: true
-  - name: 1351 JP
-    password: 1caaeda2-7ea1-43c3-b2b6-f8c093a45993
-    port: 23191
-    server: 45.192.198.230
-    skip-cert-verify: true
-    sni: buylite.music.apple.com
-    type: anytls
-    udp: true
-  - name: 1352 JP
-    password: 1caaeda2-7ea1-43c3-b2b6-f8c093a45993
-    port: 23192
-    server: 45.192.198.230
-    skip-cert-verify: true
-    sni: buylite.music.apple.com
-    type: anytls
-    udp: true
-  - name: 1353 JP
-    password: 1caaeda2-7ea1-43c3-b2b6-f8c093a45993
-    port: 23190
-    server: 45.192.198.230
-    skip-cert-verify: true
-    sni: buylite.music.apple.com
-    type: anytls
-    udp: true
-  - name: 1354 JP
-    password: 1caaeda2-7ea1-43c3-b2b6-f8c093a45993
-    port: 23131
-    server: 45.192.198.230
-    skip-cert-verify: true
-    sni: buylite.music.apple.com
-    type: anytls
-    udp: true
-  - name: 1355 JP
-    password: 1caaeda2-7ea1-43c3-b2b6-f8c093a45993
-    port: 23133
-    server: 45.192.198.230
-    skip-cert-verify: true
-    sni: buylite.music.apple.com
-    type: anytls
-    udp: true
-  - name: 1356 JP
-    password: 1caaeda2-7ea1-43c3-b2b6-f8c093a45993
-    port: 23132
-    server: 45.192.198.230
-    skip-cert-verify: true
-    sni: buylite.music.apple.com
-    type: anytls
-    udp: true
-  - name: 1357 JP
-    password: 1caaeda2-7ea1-43c3-b2b6-f8c093a45993
-    port: 23134
-    server: 45.192.198.230
-    skip-cert-verify: true
-    sni: buylite.music.apple.com
-    type: anytls
-    udp: true
-  - name: 1358 JP
-    password: 1caaeda2-7ea1-43c3-b2b6-f8c093a45993
-    port: 23211
-    server: 45.192.198.230
-    skip-cert-verify: true
-    sni: buylite.music.apple.com
-    type: anytls
-    udp: true
-  - name: 1359 JP
-    password: 1caaeda2-7ea1-43c3-b2b6-f8c093a45993
-    port: 23151
-    server: 45.192.198.230
-    skip-cert-verify: true
-    sni: buylite.music.apple.com
-    type: anytls
-    udp: true
-  - name: 1360 JP
-    password: 1caaeda2-7ea1-43c3-b2b6-f8c093a45993
-    port: 23152
-    server: 45.192.198.230
-    skip-cert-verify: true
-    sni: buylite.music.apple.com
-    type: anytls
-    udp: true
-  - name: 1361 JP
-    password: 1caaeda2-7ea1-43c3-b2b6-f8c093a45993
-    port: 23150
-    server: 45.192.198.230
-    skip-cert-verify: true
-    sni: buylite.music.apple.com
-    type: anytls
-    udp: true
-  - name: 1362 JP
-    password: 1caaeda2-7ea1-43c3-b2b6-f8c093a45993
-    port: 23141
-    server: 45.192.198.230
-    skip-cert-verify: true
-    sni: buylite.music.apple.com
-    type: anytls
-    udp: true
-  - name: 1363 JP
-    password: 1caaeda2-7ea1-43c3-b2b6-f8c093a45993
-    port: 23170
-    server: 45.192.198.230
-    skip-cert-verify: true
-    sni: buylite.music.apple.com
-    type: anytls
-    udp: true
   - type: anytls
-    name: 1384 TW
+    name: 1373 TW
     server: sdf65h46wr.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -146,7 +10,7 @@ proxies:
     sni: images.ctfassets.net
     skip-cert-verify: false
   - type: anytls
-    name: 1412 TW
+    name: 1449 TW
     server: forwarded.frnhk.xyz
     port: 2083
     password: cf913d0d-15b6-433e-be2e-b2acebabcc71
@@ -155,22 +19,14 @@ proxies:
     servername: sg.gosthk.site
     sni: sg.gosthk.site
     skip-cert-verify: false
-  - name: 1413 TW
+  - name: 1450 TW
     password: 9922ea3a-7314-4af5-a4cb-eb68a9b94fca
     port: 2052
     server: forwarded.frnhk.xyz
     skip-cert-verify: true
     sni: jp2.gosthk.site
     type: anytls
-  - name: 1414 TW
-    password: 047e0e0c-1843-4f16-9812-ec2cc94f7a99
-    port: 2053
-    server: forwarded.frnhk.xyz
-    skip-cert-verify: true
-    sni: my.gosthk.site
-    type: anytls
-    udp: true
-  - name: 1415 TW
+  - name: 1451 TW
     password: cce1f769-d7db-42d5-b622-15803db8e428
     port: 2082
     server: forwarded.frnhk.xyz
@@ -178,24 +34,24 @@ proxies:
     sni: sg.gosthk.site
     type: anytls
     udp: true
-  - name: 1416 TW
-    password: 97e926e8-0fbf-4af5-89de-4a4c8708a12c
-    port: 2086
-    server: forwarded.frnhk.xyz
+  - name: 1461 TW
+    password: 7d63393e-d64d-4dff-a154-1081dbe0e138
+    port: 443
+    server: usa69.gosthk.site
     skip-cert-verify: true
-    sni: de.gosthk.site
+    sni: usa69.gosthk.site
     type: anytls
     udp: true
-  - name: 1424 TW
-    server: tw.ccwink.cc
-    port: 6549
-    type: anytls
-    password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-    udp: true
-    sni: baidu.com
+  - name: 1462 TW
+    password: b5bf323d-cccd-4e7b-9ecd-2ab4943b7396
+    port: 443
+    server: jp.gosthk.site
     skip-cert-verify: true
+    sni: jp.gosthk.site
+    type: anytls
+    udp: true
   - type: anytls
-    name: 1513 TW
+    name: 1498 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     udp: true
