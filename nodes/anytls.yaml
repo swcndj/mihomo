@@ -1,16 +1,25 @@
 proxies:
   - type: anytls
-    name: 1372 TW
-    server: sdf65h46wr.df6h451rh.xin
-    port: 443
-    password: 0324fbc29561
+    name: 1355 TW
+    server: forwarded.frnhk.xyz
+    port: 2086
+    password: 9b24e5d0-62be-41df-b967-9b670cf90ff8
+    tls: true
+    servername: de.gosthk.site
+    sni: de.gosthk.site
+    skip-cert-verify: true
+  - type: anytls
+    name: 1356 TW
+    server: forwarded.frnhk.xyz
+    port: 2053
+    password: 047e0e0c-1843-4f16-9812-ec2cc94f7a99
     udp: true
     tls: true
-    servername: images.ctfassets.net
-    sni: images.ctfassets.net
+    servername: my.gosthk.site
+    sni: my.gosthk.site
     skip-cert-verify: false
   - type: anytls
-    name: 1447 TW
+    name: 1357 TW
     server: forwarded.frnhk.xyz
     port: 2083
     password: cf913d0d-15b6-433e-be2e-b2acebabcc71
@@ -19,17 +28,81 @@ proxies:
     servername: sg.gosthk.site
     sni: sg.gosthk.site
     skip-cert-verify: false
-  - name: 1448 TW
-    password: 7c93d2c4-ebe2-456a-a10e-d650112fa286
-    port: 2053
+  - name: 1358 TW
+    type: anytls
     server: forwarded.frnhk.xyz
+    port: 2052
+    password: 6ddd5969-fe59-406a-bb23-a48530e5ae80
+    udp: true
+    sni: jp2.gosthk.site
     skip-cert-verify: true
-    sni: my.gosthk.site
+  - type: anytls
+    name: 1359 TW
+    server: sdf65h46wr.df6h451rh.xin
+    port: 443
+    password: 0324fbc29561
+    tls: true
+    servername: images.ctfassets.net
+    sni: images.ctfassets.net
+    skip-cert-verify: true
+  - name: 1457 JP
+    password: 3de197ca-c3d8-4685-b22d-c5237d3943a2
+    port: 36983
+    server: aws.v4.us.ci
+    skip-cert-verify: true
+    sni: updates.cdn-apple.com
     type: anytls
     udp: true
-    x-toolall-mihomo: true
+  - name: 1458 JP
+    password: 3de197ca-c3d8-4685-b22d-c5237d3943a2
+    port: 55285
+    server: aws.v4.zh.kg
+    skip-cert-verify: true
+    sni: updates.cdn-apple.com
+    type: anytls
+    udp: true
+  - name: 1459 JP
+    password: 3de197ca-c3d8-4685-b22d-c5237d3943a2
+    port: 25768
+    server: aws.v4.zh.kg
+    skip-cert-verify: true
+    sni: updates.cdn-apple.com
+    type: anytls
+    udp: true
+  - name: 1460 JP
+    password: 3de197ca-c3d8-4685-b22d-c5237d3943a2
+    port: 40632
+    server: aws.v4.zh.kg
+    skip-cert-verify: true
+    sni: updates.cdn-apple.com
+    type: anytls
+    udp: true
+  - name: 1461 JP
+    password: 3de197ca-c3d8-4685-b22d-c5237d3943a2
+    port: 44698
+    server: aws.v4.us.ci
+    skip-cert-verify: true
+    sni: updates.cdn-apple.com
+    type: anytls
+    udp: true
+  - name: 1462 JP
+    password: 3de197ca-c3d8-4685-b22d-c5237d3943a2
+    port: 42711
+    server: aws.v4.zh.kg
+    skip-cert-verify: true
+    sni: updates.cdn-apple.com
+    type: anytls
+    udp: true
+  - name: 1463 JP
+    password: 3de197ca-c3d8-4685-b22d-c5237d3943a2
+    port: 43113
+    server: aws.v4.zh.kg
+    skip-cert-verify: true
+    sni: updates.cdn-apple.com
+    type: anytls
+    udp: true
   - type: anytls
-    name: 1493 TW
+    name: 1499 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     udp: true
