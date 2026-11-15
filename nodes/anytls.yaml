@@ -1,6 +1,6 @@
 proxies:
   - type: anytls
-    name: 1378 TW
+    name: 1372 TW
     server: sdf65h46wr.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -10,7 +10,7 @@ proxies:
     sni: images.ctfassets.net
     skip-cert-verify: false
   - type: anytls
-    name: 1456 TW
+    name: 1447 TW
     server: forwarded.frnhk.xyz
     port: 2083
     password: cf913d0d-15b6-433e-be2e-b2acebabcc71
@@ -19,46 +19,17 @@ proxies:
     servername: sg.gosthk.site
     sni: sg.gosthk.site
     skip-cert-verify: false
-  - name: 1457 TW
-    password: 9922ea3a-7314-4af5-a4cb-eb68a9b94fca
-    port: 2052
+  - name: 1448 TW
+    password: 7c93d2c4-ebe2-456a-a10e-d650112fa286
+    port: 2053
     server: forwarded.frnhk.xyz
     skip-cert-verify: true
-    sni: jp2.gosthk.site
-    type: anytls
-  - name: 1458 TW
-    password: cce1f769-d7db-42d5-b622-15803db8e428
-    port: 2082
-    server: forwarded.frnhk.xyz
-    skip-cert-verify: true
-    sni: sg.gosthk.site
+    sni: my.gosthk.site
     type: anytls
     udp: true
-  - name: 1459 TW
-    type: anytls
-    server: forwarded.frnhk.xyz
-    port: 2086
-    password: 9b24e5d0-62be-41df-b967-9b670cf90ff8
-    udp: true
-    sni: de.gosthk.site
-  - name: 1472 TW
-    password: 7d63393e-d64d-4dff-a154-1081dbe0e138
-    port: 443
-    server: usa69.gosthk.site
-    skip-cert-verify: true
-    sni: usa69.gosthk.site
-    type: anytls
-    udp: true
-  - name: 1473 TW
-    password: b5bf323d-cccd-4e7b-9ecd-2ab4943b7396
-    port: 443
-    server: jp.gosthk.site
-    skip-cert-verify: true
-    sni: jp.gosthk.site
-    type: anytls
-    udp: true
+    x-toolall-mihomo: true
   - type: anytls
-    name: 1511 TW
+    name: 1493 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     udp: true

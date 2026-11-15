@@ -609,6 +609,16 @@ proxies:
       path: /Meh?di=443
       host: fran.sarzamiiinahang.ir
       mode: auto
+  - name: 45 CA
+    type: vless
+    server: sourceforge.net
+    port: 2095
+    uuid: 3a3f3082-acca-456d-89fa-2a60f96db400
+    tls: false
+    servername: cdn-owmsmsj.mohammad420.sbs
+    network: ws
+    ws-opts:
+      path: /
   - type: vless
     name: 46 JP
     server: 45.192.200.66
@@ -654,7 +664,7 @@ proxies:
       path: /
       mode: auto
   - type: vless
-    name: 50 RU
+    name: 51 RU
     server: 176.98.178.17
     port: 4100
     uuid: 87f3bc47-ee10-4418-9260-7a4e43f28e00
@@ -667,7 +677,7 @@ proxies:
       headers:
         Host: live.ok.ru
   - type: vless
-    name: 51 US
+    name: 52 US
     server: 155.46.167.30
     port: 8880
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -680,7 +690,7 @@ proxies:
       headers:
         Host: vms.lifetime50.workers.dev
   - type: vless
-    name: 52 CA
+    name: 53 CA
     server: 104.21.23.72
     port: 8880
     uuid: f4e6476f-40d0-40cb-841f-cc2f6909ff20
@@ -693,7 +703,7 @@ proxies:
       headers:
         Host: calm-haze-d105.21-7cd.workers.dev
   - type: vless
-    name: 55 US
+    name: 56 US
     server: 199.232.239.2
     port: 443
     uuid: f3ac6161-3592-43ed-82f2-daf9c97806aa
@@ -726,8 +736,19 @@ proxies:
       headers:
         Host: shegeftihaaa.net
       path: /rsedgws
+  - name: 69 CA
+    type: vless
+    server: www.speedtest.org
+    port: 443
+    uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
+    tls: true
+    servername: shegeftihaaa.net
+    network: ws
+    ws-opts:
+      path: /rsedgws
+    client-fingerprint: firefox
   - type: vless
-    name: 70 US
+    name: 71 US
     server: 45.40.150.4
     port: 80
     uuid: 72c2b7cc-fcd9-494f-8a2e-21dcd062ff11
@@ -740,7 +761,7 @@ proxies:
       headers:
         Host: holy-breeze-0bac.47-dec.workers.dev
   - type: vless
-    name: 71 US
+    name: 72 US
     server: 50.62.194.30
     port: 8880
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -753,7 +774,7 @@ proxies:
       headers:
         Host: vms.lifetime37.workers.dev
   - type: vless
-    name: 72 CA
+    name: 73 CA
     server: 162.159.81.104
     port: 80
     uuid: 4b00d726-e072-429b-997e-f07affea3b7f
@@ -766,7 +787,7 @@ proxies:
       headers:
         Host: icy-darkness-8ff1.farzambia12mo.workers.dev
   - type: vless
-    name: 73 CA
+    name: 74 CA
     server: 104.19.87.194
     port: 443
     uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
@@ -782,7 +803,7 @@ proxies:
       headers:
         Host: ld.223350.xyz
   - type: vless
-    name: 74 CA
+    name: 75 CA
     server: 104.26.13.40
     port: 8880
     uuid: 875d3876-ab9a-4dd6-8a8d-bf57f03403aa
@@ -795,7 +816,7 @@ proxies:
       headers:
         Host: square-sea-01d1.339-be3.workers.dev
   - type: vless
-    name: 75 US
+    name: 76 US
     server: 45.40.149.50
     port: 8880
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -807,7 +828,7 @@ proxies:
       path: /
       headers:
         Host: vms.lifetime39.workers.dev
-  - name: 77 CA
+  - name: 78 CA
     type: vless
     server: 104.26.14.137
     port: 443
@@ -823,17 +844,6 @@ proxies:
       headers:
         Host: shegeftihaaa.net
       path: /rsedgws
-  - name: 79 CA
-    type: vless
-    server: www.speedtest.org
-    port: 443
-    uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
-    tls: true
-    servername: shegeftihaaa.net
-    network: ws
-    ws-opts:
-      path: /rsedgws
-    client-fingerprint: firefox
   - type: vless
     name: 82 GB
     server: 217.163.76.118
@@ -1356,71 +1366,6 @@ proxies:
       headers:
         Host: snip.edgeoneai.cc.cd
   - name: 128 CA
-    client-fingerprint: chrome
-    network: ws
-    port: 443
-    server: saas.sin.fan
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-    ws-opts:
-      headers:
-        Host: vp19.1145678.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-      path: /images/classify/dh
-    xudp: true
-    packet-encoding: xudp
-    servername: vp19.1145678.xyz
-  - name: 129 CA
-    client-fingerprint: chrome
-    network: ws
-    port: 2083
-    server: saas.sin.fan
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-    ws-opts:
-      headers:
-        Host: vp14.1145678.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
-      path: /community/redirect.html
-    xudp: true
-    packet-encoding: xudp
-    servername: vp14.1145678.xyz
-  - name: 130 CA
-    client-fingerprint: chrome
-    network: ws
-    port: 2096
-    server: saas.sin.fan
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-    ws-opts:
-      headers:
-        Host: vp13.1145678.xyz
-        User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
-      path: /index/content
-    xudp: true
-    packet-encoding: xudp
-    servername: vp13.1145678.xyz
-  - name: 131 CA
-    client-fingerprint: chrome
-    network: ws
-    port: 2087
-    server: saas.sin.fan
-    tls: true
-    type: vless
-    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-    ws-opts:
-      headers:
-        Host: vp3.1145678.xyz
-      path: /new/comics
-    udp: true
-    servername: vp3.1145678.xyz
-  - name: 132 CA
     type: vless
     server: cf1.466688.xyz
     port: 8443
@@ -1437,24 +1382,24 @@ proxies:
       headers:
         Host: febeyop587.pages.dev
       path: /service?ed
-  - name: 133 CA
+  - name: 129 CA
     type: vless
     server: cf1.466688.xyz
-    port: 2053
+    port: 2087
     client-fingerprint: chrome
     encryption: none
     network: ws
     packet-encoding: xudp
-    servername: balafi7691.pages.dev
+    servername: febeyop587.pages.dev
     skip-cert-verify: false
     tls: true
     udp: true
     uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
     ws-opts:
       headers:
-        Host: balafi7691.pages.dev
-      path: /jump/tv/content?ed
-  - name: 134 CA
+        Host: febeyop587.pages.dev
+      path: /pics/share/teacher?ed
+  - name: 130 CA
     type: vless
     server: cf1.466688.xyz
     port: 443
@@ -1472,7 +1417,22 @@ proxies:
         Host: domah57929.pages.dev
       path: /t.me/QiangLieTuiJian?ed
   - type: vless
-    name: 135 US
+    name: 131 CA
+    server: bet.tunetworkin.online
+    port: 443
+    uuid: 4880ac28-4e37-4d13-9361-44d03e7020f1
+    udp: true
+    tls: true
+    servername: jp-bet.tunetworkin.online
+    sni: jp-bet.tunetworkin.online
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /kygaY42h
+      headers:
+        Host: jp-bet.tunetworkin.online
+  - type: vless
+    name: 132 US
     server: 80.93.202.40
     port: 8880
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -1485,7 +1445,7 @@ proxies:
       headers:
         Host: vms.lifetime02.workers.dev
   - type: vless
-    name: 136 CA
+    name: 133 CA
     server: 188.114.97.6
     port: 443
     uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
@@ -1502,7 +1462,7 @@ proxies:
       path: /
       headers:
         Host: snip.edgeoneai.cc.cd
-  - name: 137 CA
+  - name: 134 CA
     type: vless
     server: 188.114.97.6
     port: 8443
@@ -1513,7 +1473,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 138 CA
+  - name: 135 CA
     type: vless
     server: 188.114.97.6
     port: 80
@@ -1524,7 +1484,7 @@ proxies:
     ws-opts:
       path: /http
   - type: vless
-    name: 140 CA
+    name: 137 CA
     server: 188.114.98.0
     port: 443
     uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
@@ -1542,7 +1502,7 @@ proxies:
       headers:
         Host: snip.edgeoneai.cc.cd
   - type: vless
-    name: 142 US
+    name: 139 US
     server: 128.241.25.11
     port: 30021
     uuid: 339cda3d-79a5-4d37-8ad8-eddc130c992a
@@ -1558,7 +1518,7 @@ proxies:
       headers:
         Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
   - type: vless
-    name: 143 US
+    name: 140 US
     server: 104.254.140.30
     port: 8880
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -1571,7 +1531,7 @@ proxies:
       headers:
         Host: vms.lifetime54.workers.dev
   - type: vless
-    name: 144 US
+    name: 141 US
     server: 128.203.252.97
     port: 443
     uuid: 5e610f80-fc6a-479d-8621-b672355b96a1
@@ -1587,7 +1547,7 @@ proxies:
       headers:
         Host: cf-1rm.pages.dev
   - type: vless
-    name: 145 GB
+    name: 142 GB
     server: 185.162.229.40
     port: 8880
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -1600,7 +1560,7 @@ proxies:
       headers:
         Host: vms.lifetime61.workers.dev
   - type: vless
-    name: 146 DE
+    name: 143 DE
     server: 217.19.122.156
     port: 443
     uuid: 40c4274f-3e4f-4c7b-ae5c-d87645a6e899
@@ -1615,7 +1575,7 @@ proxies:
       headers:
         Host: vzvt1tpiml.rucdncomp.pro
   - type: vless
-    name: 149 US
+    name: 146 US
     server: 141.193.213.10
     port: 443
     uuid: 977b814d-d9e0-4889-bb71-98d6bfb8f462
@@ -1631,7 +1591,7 @@ proxies:
       headers:
         Host: partner.catchplay.com.r3xxe.eu.cc
   - type: vless
-    name: 150 CA
+    name: 147 CA
     server: 172.66.154.57
     port: 443
     uuid: d342d11e-d224-4463-b982-532309285094
@@ -1646,7 +1606,7 @@ proxies:
       headers:
         Host: ccc.010304.xyz
   - type: vless
-    name: 151 SG
+    name: 148 SG
     server: 43.174.195.1
     port: 443
     uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
@@ -1662,7 +1622,7 @@ proxies:
       headers:
         Host: kv.074167.xyz
   - type: vless
-    name: 152 JP
+    name: 149 JP
     server: 62.106.75.86
     port: 443
     uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
@@ -1677,7 +1637,7 @@ proxies:
       headers:
         Host: jp3.yohototo.top
   - type: vless
-    name: 153 CA
+    name: 150 CA
     server: 104.21.70.228
     port: 443
     uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
@@ -1693,7 +1653,7 @@ proxies:
       headers:
         Host: jp3.yohototo.top
   - type: vless
-    name: 154 CA
+    name: 151 CA
     server: 172.64.152.19
     port: 443
     uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
@@ -1708,7 +1668,7 @@ proxies:
       headers:
         Host: jp3.yohototo.top
   - type: vless
-    name: 155 CA
+    name: 152 CA
     server: 172.64.149.88
     port: 443
     uuid: d37a75db-76b6-4db8-b213-0d5b044d138d
@@ -1723,7 +1683,7 @@ proxies:
       headers:
         Host: top-e4s.pages.dev
   - type: vless
-    name: 156 US
+    name: 153 US
     server: 162.159.249.92
     port: 443
     uuid: 00c82fcb-2c67-465d-8432-6743a1593efa
@@ -1741,7 +1701,7 @@ proxies:
       headers:
         Host: dd-xx.pages.dev
   - type: vless
-    name: 157 DE
+    name: 154 DE
     server: 178.105.133.160
     port: 4443
     uuid: fb0818b3-4031-4843-b5f7-1d75177a1758
@@ -1757,7 +1717,7 @@ proxies:
       headers:
         Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
   - type: vless
-    name: 158 HK
+    name: 155 HK
     server: 216.236.45.248
     port: 1891
     uuid: 3f68b079-6087-42d9-9a5d-010722f41392
@@ -1773,7 +1733,7 @@ proxies:
       headers:
         Host: tele-eb6.pages.dev
   - type: vless
-    name: 159 US
+    name: 156 US
     server: 154.211.8.152
     port: 2053
     uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
@@ -1789,7 +1749,7 @@ proxies:
       headers:
         Host: proxy-1cu.pages.dev
   - type: vless
-    name: 160 US
+    name: 157 US
     server: 103.116.7.67
     port: 2083
     uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
@@ -1805,7 +1765,7 @@ proxies:
       headers:
         Host: proxy-1cu.pages.dev
   - type: vless
-    name: 161 CA
+    name: 158 CA
     server: 172.67.67.89
     port: 2083
     uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
@@ -1821,7 +1781,7 @@ proxies:
       headers:
         Host: wk1.f1w.de5.net
   - type: vless
-    name: 162 CA
+    name: 159 CA
     server: 172.67.74.177
     port: 2083
     uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
@@ -1836,7 +1796,7 @@ proxies:
       path: /
       headers:
         Host: wk1.f1w.de5.net
-  - name: 163 CA
+  - name: 160 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -1853,7 +1813,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 164 CA
+  - name: 161 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -1872,7 +1832,7 @@ proxies:
     packet-encoding: xudp
     servername: ns4t32a2zc38o0on-ghqgwsswrh4mqda.pages.dev
   - type: vless
-    name: 165 KR
+    name: 162 KR
     server: 2401:c080:1c02:11f1:5400:7ff:fe05:f481
     port: 443
     uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
@@ -1891,7 +1851,7 @@ proxies:
       host: a07d2bf8s2538.xxti.top
       mode: auto
   - type: vless
-    name: 166 GB
+    name: 163 GB
     server: 129.151.64.169
     port: 31867
     uuid: adeb038d-f011-4733-b133-3791e76950f7
@@ -1907,7 +1867,7 @@ proxies:
       headers:
         Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
   - type: vless
-    name: 167 DE
+    name: 164 DE
     server: 191.44.112.170
     port: 443
     uuid: 46d221fa-e9b4-748c-4eae-019a88e42991
@@ -1920,7 +1880,7 @@ proxies:
     ws-opts:
       path: /tvpn-tor/is
   - type: vless
-    name: 169 CA
+    name: 166 CA
     server: 172.66.44.211
     port: 2083
     uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
@@ -1936,7 +1896,7 @@ proxies:
       headers:
         Host: wk1.f1w.de5.net
   - type: vless
-    name: 171 CA
+    name: 168 CA
     server: 172.66.0.172
     port: 2083
     uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
@@ -1951,7 +1911,7 @@ proxies:
       path: /
       headers:
         Host: wk1.f1w.de5.net
-  - name: 172 CA
+  - name: 169 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -1970,7 +1930,7 @@ proxies:
     packet-encoding: xudp
     servername: wallweb-4r0.pages.dev
   - type: vless
-    name: 173 US
+    name: 170 US
     server: 151.101.36.227
     port: 443
     uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
@@ -1988,7 +1948,7 @@ proxies:
       host: oh1.global.ssl.fastly.net
       mode: auto
   - type: vless
-    name: 174 US
+    name: 171 US
     server: 151.101.36.253
     port: 443
     uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
@@ -2006,7 +1966,7 @@ proxies:
       host: ovd9.global.ssl.fastly.net
       mode: auto
   - type: vless
-    name: 175 US
+    name: 172 US
     server: 151.101.36.128
     port: 443
     uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
@@ -2024,7 +1984,7 @@ proxies:
       host: ovd7.global.ssl.fastly.net
       mode: auto
   - type: vless
-    name: 176 US
+    name: 173 US
     server: 151.101.36.201
     port: 443
     uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
@@ -2042,7 +2002,7 @@ proxies:
       host: oh6.global.ssl.fastly.net
       mode: auto
   - type: vless
-    name: 177 US
+    name: 174 US
     server: 151.101.36.2
     port: 443
     uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
@@ -2060,7 +2020,7 @@ proxies:
       host: oh4.global.ssl.fastly.net
       mode: auto
   - type: vless
-    name: 178 US
+    name: 175 US
     server: 151.101.36.235
     port: 443
     uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
@@ -2078,7 +2038,7 @@ proxies:
       host: ovd13.global.ssl.fastly.net
       mode: auto
   - type: vless
-    name: 179 US
+    name: 176 US
     server: 151.101.36.88
     port: 443
     uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
@@ -2096,7 +2056,7 @@ proxies:
       host: ovd5.global.ssl.fastly.net
       mode: auto
   - type: vless
-    name: 180 US
+    name: 177 US
     server: 151.101.36.111
     port: 443
     uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
@@ -2114,7 +2074,7 @@ proxies:
       host: ovd11.global.ssl.fastly.net
       mode: auto
   - type: vless
-    name: 181 CA
+    name: 178 CA
     server: 104.16.72.101
     port: 8880
     uuid: ddef628e-e3a8-43c4-85eb-bd767a5f3b13
@@ -2126,7 +2086,7 @@ proxies:
       path: /pyip
       headers:
         Host: autumn-forest-3479.121-488.workers.dev
-  - name: 182 CA
+  - name: 179 CA
     type: vless
     server: 104.16.72.101
     port: 8443
@@ -2137,7 +2097,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 183 CA
+  - name: 180 CA
     type: vless
     server: 104.16.72.101
     port: 443
@@ -2147,7 +2107,7 @@ proxies:
     network: ws
     ws-opts:
       path: /rdfgtws
-  - name: 185 CA
+  - name: 182 CA
     type: vless
     server: 104.16.72.101
     port: 2096
@@ -2165,7 +2125,7 @@ proxies:
         Host: sp.linuxdododo.ccwu.cc
       path: /proxyip
   - type: vless
-    name: 186 JP
+    name: 183 JP
     server: 45.94.40.153
     port: 8443
     uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
@@ -2180,7 +2140,7 @@ proxies:
       headers:
         Host: jp3.yohototo.top
   - type: vless
-    name: 187 HK
+    name: 184 HK
     server: 45.149.186.55
     port: 443
     uuid: bf14dc50-e9f2-49fd-8642-620446edeafb
@@ -2196,7 +2156,7 @@ proxies:
       headers:
         Host: v6-95o.pages.dev
   - type: vless
-    name: 188 DE
+    name: 185 DE
     server: 212.113.112.239
     port: 8443
     uuid: bf14dc50-e9f2-49fd-8642-620446edeafb
@@ -2212,7 +2172,7 @@ proxies:
       headers:
         Host: v6-95o.pages.dev
   - type: vless
-    name: 189 CA
+    name: 186 CA
     server: 162.159.198.1
     port: 443
     uuid: bf14dc50-e9f2-49fd-8642-620446edeafb
@@ -2228,7 +2188,7 @@ proxies:
       headers:
         Host: v6-95o.pages.dev
   - type: vless
-    name: 190 DE
+    name: 187 DE
     server: 46.101.220.197
     port: 8443
     uuid: bf14dc50-e9f2-49fd-8642-620446edeafb
@@ -2244,7 +2204,7 @@ proxies:
       headers:
         Host: v6-95o.pages.dev
   - type: vless
-    name: 191 CA
+    name: 188 CA
     server: 104.18.42.98
     port: 443
     uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
@@ -2260,7 +2220,7 @@ proxies:
       headers:
         Host: jp3.yohototo.top
   - type: vless
-    name: 192 US
+    name: 189 US
     server: 200.102.179.69
     port: 443
     uuid: 7592ca5c-b352-4562-8856-a9c936a3331b
@@ -2276,7 +2236,7 @@ proxies:
       host: dmbdnpctq8hjxx.hat.onl
       mode: auto
   - type: vless
-    name: 193 US
+    name: 190 US
     server: 155.103.116.110
     port: 443
     uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
@@ -2291,7 +2251,7 @@ proxies:
       headers:
         Host: jp3.yohototo.top
   - type: vless
-    name: 194 CA
+    name: 191 CA
     server: 188.114.96.246
     port: 8443
     uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
@@ -2304,7 +2264,7 @@ proxies:
     ws-opts:
       path: /man
   - type: vless
-    name: 195 JP
+    name: 192 JP
     server: 103.201.131.202
     port: 2053
     uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
@@ -2318,7 +2278,7 @@ proxies:
       path: /tyxyws
       headers:
         Host: jp3.yohototo.top
-  - name: 196 US
+  - name: 193 US
     client-fingerprint: chrome
     network: ws
     port: 2087
@@ -2335,7 +2295,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: proxy-34l.pages.dev
-  - name: 197 CA
+  - name: 194 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -2353,7 +2313,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: cool-credit-6728.dobiy47415.workers.dev
-  - name: 198 CA
+  - name: 195 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -2371,7 +2331,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: twilight-frost-15b0.yigom67484.workers.dev
-  - name: 199 CA
+  - name: 196 CA
     client-fingerprint: chrome
     network: ws
     port: 8443
@@ -2388,7 +2348,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: edge-fef90023.pages.dev
-  - name: 200 US
+  - name: 197 US
     network: ws
     port: 14430
     server: 45.138.100.248
@@ -2401,7 +2361,7 @@ proxies:
         Host: 45.138.100.248
       path: /vless
     servername: 45.138.100.248
-  - name: 201 CA
+  - name: 198 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -2418,7 +2378,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: cfnode-11ivy8.pages.dev
-  - name: 202 KR
+  - name: 199 KR
     network: ws
     port: 25555
     server: 152.69.226.63
@@ -2432,7 +2392,7 @@ proxies:
       path: /
     xudp: true
     packet-encoding: xudp
-  - name: 203 CA
+  - name: 200 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -2449,7 +2409,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: cfnode-11ivy8.pages.dev
-  - name: 204 GB
+  - name: 201 GB
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -2466,7 +2426,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 205 HK
+  - name: 202 HK
     client-fingerprint: chrome
     network: ws
     port: 2083
@@ -2483,7 +2443,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: proxy-34l.pages.dev
-  - name: 206 CA
+  - name: 203 CA
     client-fingerprint: chrome
     network: ws
     port: 2087
@@ -2500,7 +2460,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: ns4t32a2zc38o0on-ghqgwsswrh4mqda.pages.dev
-  - name: 207 RU
+  - name: 204 RU
     client-fingerprint: firefox
     encryption: none
     network: xhttp
@@ -2527,7 +2487,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: earlytrain.net
-  - name: 208 US
+  - name: 205 US
     network: ws
     port: 30016
     server: 69.48.201.136
@@ -2542,7 +2502,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: uspanel.unixzone.us
-  - name: 209 US
+  - name: 206 US
     encryption: none
     network: ws
     port: 30016
@@ -2557,7 +2517,7 @@ proxies:
       path: /usserver
     xudp: true
     packet-encoding: xudp
-  - name: 210 CA
+  - name: 207 CA
     client-fingerprint: firefox
     encryption: none
     network: ws
@@ -2575,7 +2535,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: moz.ar-marz.fun
-  - name: 211 CA
+  - name: 208 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -2593,7 +2553,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: cf.zhahui.de5.net
-  - name: 212 CA
+  - name: 209 CA
     encryption: none
     network: ws
     port: 8080
@@ -2608,7 +2568,22 @@ proxies:
       path: /
     xudp: true
     packet-encoding: xudp
-  - name: 213 FR
+  - name: 210 CA
+    encryption: none
+    network: ws
+    port: 8080
+    server: ip.sb
+    type: vless
+    udp: true
+    uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
+    ws-opts:
+      headers:
+        Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
+      path: /
+    xudp: true
+    packet-encoding: xudp
+  - name: 211 FR
     encryption: none
     network: ws
     port: 14430
@@ -2624,7 +2599,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: 138.124.70.41
-  - name: 214 CA
+  - name: 212 CA
     client-fingerprint: chrome
     network: ws
     port: 2096
@@ -2641,7 +2616,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: vp8.1145678.xyz
-  - name: 215 CA
+  - name: 213 CA
     client-fingerprint: chrome
     network: ws
     port: 2083
@@ -2658,7 +2633,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: vp14.1145678.xyz
-  - name: 216 CA
+  - name: 214 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -2675,7 +2650,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: vp19.1145678.xyz
-  - name: 217 CA
+  - name: 215 CA
     client-fingerprint: chrome
     network: ws
     port: 2053
@@ -2692,24 +2667,89 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: vp21.1145678.xyz
+  - name: 216 CA
+    client-fingerprint: chrome
+    network: ws
+    port: 443
+    server: saas.sin.fan
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+    ws-opts:
+      headers:
+        Host: vp19.1145678.xyz
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      path: /images/classify/dh
+    xudp: true
+    packet-encoding: xudp
+    servername: vp19.1145678.xyz
+  - name: 217 CA
+    client-fingerprint: chrome
+    network: ws
+    port: 2083
+    server: saas.sin.fan
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+    ws-opts:
+      headers:
+        Host: vp14.1145678.xyz
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      path: /community/redirect.html
+    xudp: true
+    packet-encoding: xudp
+    servername: vp14.1145678.xyz
   - name: 218 CA
+    client-fingerprint: chrome
+    network: ws
+    port: 2096
+    server: saas.sin.fan
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+    ws-opts:
+      headers:
+        Host: vp13.1145678.xyz
+        User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+      path: /index/content
+    xudp: true
+    packet-encoding: xudp
+    servername: vp13.1145678.xyz
+  - name: 219 CA
+    client-fingerprint: chrome
+    network: ws
+    port: 2087
+    server: saas.sin.fan
+    tls: true
+    type: vless
+    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+    ws-opts:
+      headers:
+        Host: vp3.1145678.xyz
+      path: /new/comics
+    udp: true
+    servername: vp3.1145678.xyz
+  - name: 220 CA
     type: vless
     server: cf1.466688.xyz
-    port: 2087
+    port: 2053
     client-fingerprint: chrome
     encryption: none
     network: ws
     packet-encoding: xudp
-    servername: febeyop587.pages.dev
+    servername: balafi7691.pages.dev
     skip-cert-verify: false
     tls: true
     udp: true
     uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
     ws-opts:
       headers:
-        Host: febeyop587.pages.dev
-      path: /pics/share/teacher?ed
-  - name: 219 CA
+        Host: balafi7691.pages.dev
+      path: /jump/tv/content?ed
+  - name: 221 CA
     encryption: none
     network: ws
     port: 8080
@@ -2725,7 +2765,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: ip.sb
-  - name: 220 KR
+  - name: 222 KR
     client-fingerprint: chrome
     network: ws
     port: 8443
@@ -2742,7 +2782,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 221 CA
+  - name: 223 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -2759,7 +2799,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: cfnode-11ivy8.pages.dev
-  - name: 222 FR
+  - name: 224 FR
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -2777,7 +2817,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 223 DE
+  - name: 225 DE
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -2794,7 +2834,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 225 DE
+  - name: 227 DE
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -2812,7 +2852,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 226 US
+  - name: 228 US
     alpn:
       - h3
     client-fingerprint: chrome
@@ -2831,7 +2871,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: accounts.fastly.com
-  - name: 227 CA
+  - name: 229 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -2848,7 +2888,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: powered-by-surena.configfarsi695fd01a94fe7.workers.dev
-  - name: 228 CA
+  - name: 230 CA
     encryption: none
     network: ws
     port: 80
@@ -2863,7 +2903,7 @@ proxies:
       path: /id-amz
     xudp: true
     packet-encoding: xudp
-  - name: 229 CA
+  - name: 231 CA
     encryption: none
     network: ws
     port: 80
@@ -2878,7 +2918,7 @@ proxies:
       path: /id-amz
     xudp: true
     packet-encoding: xudp
-  - name: 230 SG
+  - name: 232 SG
     client-fingerprint: chrome
     network: ws
     port: 2096
@@ -2895,7 +2935,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: free-server.techsonic.dev
-  - name: 231 CA
+  - name: 233 CA
     client-fingerprint: firefox
     network: ws
     port: 8443
@@ -2912,7 +2952,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: edge-fef90023.pages.dev
-  - name: 232 US
+  - name: 234 US
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -2929,7 +2969,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: cfnode-11ivy8.pages.dev
-  - name: 233 US
+  - name: 235 US
     alpn:
       - http/1.1
     client-fingerprint: chrome
@@ -2949,7 +2989,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: lvi.su
-  - name: 235 US
+  - name: 237 US
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -2965,7 +3005,7 @@ proxies:
         User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
       path: /%2F
     servername: fs.qicai99.com
-  - name: 236 US
+  - name: 238 US
     alpn:
       - http%2F1.1
     client-fingerprint: firefox
@@ -2985,7 +3025,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: cryptoventura.online
-  - name: 237 CA
+  - name: 239 CA
     network: ws
     port: 8080
     server: 104.21.0.1
@@ -2999,7 +3039,7 @@ proxies:
       path: /
     xudp: true
     packet-encoding: xudp
-  - name: 238 US
+  - name: 240 US
     client-fingerprint: chrome
     encryption: none
     fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
@@ -3018,7 +3058,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: cdn.akamai.steamstatic.com
-  - name: 239 CA
+  - name: 241 CA
     encryption: none
     network: ws
     port: 2052
@@ -3035,7 +3075,7 @@ proxies:
       max-early-data: 2048
     xudp: true
     packet-encoding: xudp
-  - name: 240 CA
+  - name: 242 CA
     network: ws
     port: 80
     server: 104.18.109.147
@@ -3051,7 +3091,7 @@ proxies:
       max-early-data: 2048
     xudp: true
     packet-encoding: xudp
-  - name: 241 CA
+  - name: 243 CA
     network: ws
     port: 8080
     server: 104.18.109.147
@@ -3067,7 +3107,7 @@ proxies:
       max-early-data: 2048
     xudp: true
     packet-encoding: xudp
-  - name: 242 DE
+  - name: 244 DE
     alpn:
       - h3
       - h2
@@ -3088,7 +3128,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: sino.bestsellers1.site
-  - name: 243 DE
+  - name: 245 DE
     alpn:
       - h3
       - h2
@@ -3110,7 +3150,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: sino.bestsellers1.site
-  - name: 244 HK
+  - name: 246 HK
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -3127,7 +3167,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: vless2-8vx.pages.dev
-  - name: 245 DE
+  - name: 247 DE
     alpn:
       - http/1.1
     client-fingerprint: chrome
@@ -3146,7 +3186,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: d1afk2ndm8pox3.cloudfront.net
-  - name: 246 CA
+  - name: 248 CA
     network: ws
     port: 2052
     server: 104.26.0.1
@@ -3161,7 +3201,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: eu02.123450908.xyz
-  - name: 249 SG
+  - name: 251 SG
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -3178,7 +3218,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 251 CA
+  - name: 253 CA
     encryption: none
     network: ws
     port: 443
@@ -3195,7 +3235,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: kwzu1yelu3ms.ouzrzee5u7rs.workers.dev
-  - name: 252 CA
+  - name: 254 CA
     alpn:
       - http/1.1
     client-fingerprint: chrome
@@ -3215,7 +3255,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: tunc.rupfem.ir
-  - name: 254 US
+  - name: 256 US
     client-fingerprint: firefox
     encryption: none
     network: ws
@@ -3233,7 +3273,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: moz.ar-marz.fun
-  - name: 255 CA
+  - name: 257 CA
     client-fingerprint: firefox
     encryption: none
     network: ws
@@ -3251,7 +3291,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: moz.ar-marz.fun
-  - name: 256 CA
+  - name: 258 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -3269,7 +3309,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: 63yw55ibrgt8rswbfnmhapuzux4p29favnxxslbjbnmqjzz7efh95h3nfdsfdsf.d2ha6.workers.Dev
-  - name: 257 CA
+  - name: 259 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -3286,7 +3326,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: edge-fef90023.pages.dev
-  - name: 258 US
+  - name: 260 US
     client-fingerprint: firefox
     encryption: none
     network: ws
@@ -3304,7 +3344,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: moz.ar-marz.fun
-  - name: 259 GB
+  - name: 261 GB
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -3322,7 +3362,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: uk1.connectsuite.org
-  - name: 260 GB
+  - name: 262 GB
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -3339,7 +3379,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: uk1.connectsuite.org
-  - name: 261 GB
+  - name: 263 GB
     encryption: none
     network: ws
     port: 80
@@ -3354,7 +3394,7 @@ proxies:
       path: /vless/
     xudp: true
     packet-encoding: xudp
-  - name: 262 US
+  - name: 264 US
     client-fingerprint: chrome
     network: ws
     port: 8443
@@ -3371,7 +3411,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: vpn-1fj.pages.dev
-  - name: 263 CA
+  - name: 265 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -3388,7 +3428,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: cfnode-11ivy8.pages.dev
-  - name: 264 CA
+  - name: 266 CA
     encryption: none
     network: ws
     port: 8080
@@ -3403,7 +3443,7 @@ proxies:
       path: /
     xudp: true
     packet-encoding: xudp
-  - name: 266 CA
+  - name: 268 CA
     encryption: none
     network: ws
     port: 8080
@@ -3419,7 +3459,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: www.digitalocean.com
-  - name: 267 US
+  - name: 269 US
     client-fingerprint: firefox
     encryption: none
     network: ws
@@ -3437,7 +3477,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: moz.ar-marz.fun
-  - name: 268 CA
+  - name: 270 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -3455,7 +3495,23 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: wallweb-boi.pages.dev
-  - name: 269 HK
+  - type: vless
+    name: 271 CA
+    server: epam.com
+    port: 443
+    uuid: cced2d3b-9840-4579-a6b3-5de365f3bf50
+    udp: true
+    tls: true
+    servername: wallweb6.pages.dev
+    sni: wallweb6.pages.dev
+    skip-cert-verify: false
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: wallweb6.pages.dev
+  - name: 272 HK
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -3472,7 +3528,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 270 CA
+  - name: 273 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -3490,7 +3546,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: 63yw55ibrgt8rswbfnmhapuzux4p29favnxxslbjbnmqjzz7efh95h3nfdsfdsf.d2ha6.workers.Dev
-  - name: 271 CA
+  - name: 274 CA
     client-fingerprint: firefox
     encryption: none
     network: ws
@@ -3508,7 +3564,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: moz.ar-marz.fun
-  - name: 272 CA
+  - name: 275 CA
     client-fingerprint: chrome
     network: ws
     port: 2053
@@ -3525,7 +3581,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: turbo-smart-628.pokfjfjfdjj.workers.dev
-  - name: 273 CA
+  - name: 276 CA
     alpn:
       - h3
       - h2
@@ -3547,7 +3603,7 @@ proxies:
       path: /
     udp: true
     servername: 1.proxy2.us.ci.
-  - name: 274 CA
+  - name: 277 CA
     alpn:
       - http/1.1
     client-fingerprint: ios
@@ -3566,7 +3622,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: vlsovip.1d.mom
-  - name: 275 CA
+  - name: 278 CA
     type: vless
     server: 104.18.1.1
     port: 443
@@ -3577,7 +3633,7 @@ proxies:
     ws-opts:
       path: /odiyfws
     client-fingerprint: ios
-  - name: 276 CA
+  - name: 279 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -3594,7 +3650,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: pmpmppm.pages.dev
-  - name: 277 US
+  - name: 280 US
     client-fingerprint: chrome
     network: ws
     port: 8443
@@ -3611,7 +3667,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: proxy-34l.pages.dev
-  - name: 278 CA
+  - name: 281 CA
     network: ws
     port: 2052
     server: 172.64.229.129
@@ -3626,7 +3682,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: eu02.123450908.xyz
-  - name: 279 US
+  - name: 282 US
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -3644,7 +3700,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: pcloud.z-tas.com
-  - name: 280 US
+  - name: 283 US
     type: vless
     server: 170.114.45.6
     port: 443
@@ -3655,7 +3711,23 @@ proxies:
     ws-opts:
       path: /sg-melbi
   - type: vless
-    name: 281 US
+    name: 284 US
+    server: support.zoom.us
+    port: 443
+    uuid: 6680846a-8a57-4dfd-9a0e-63209cfc8535
+    udp: true
+    tls: true
+    servername: support.zoom.us.yxls.eu.cc
+    sni: support.zoom.us.yxls.eu.cc
+    skip-cert-verify: false
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /sg-amz
+      headers:
+        Host: support.zoom.us.yxls.eu.cc
+  - type: vless
+    name: 285 US
     server: support.zoom.us
     port: 80
     uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
@@ -3667,7 +3739,7 @@ proxies:
       path: /
       headers:
         Host: free.sahanwickramasinghe.me
-  - name: 282 US
+  - name: 286 US
     encryption: none
     network: ws
     port: 8080
@@ -3682,7 +3754,7 @@ proxies:
       path: /cs
     xudp: true
     packet-encoding: xudp
-  - name: 283 DE
+  - name: 287 DE
     alpn:
       - http/1.1
     client-fingerprint: chrome
@@ -3702,7 +3774,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: d2ex4nxd2e01ub.cloudfront.net
-  - name: 284 CA
+  - name: 288 CA
     client-fingerprint: chrome
     network: ws
     port: 2096
@@ -3719,7 +3791,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: mohammadhoseini4532.pages.dev
-  - name: 285 CA
+  - name: 289 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -3737,7 +3809,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-  - name: 286 CA
+  - name: 290 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -3755,23 +3827,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: wallweb-4r0.pages.dev
-  - type: vless
-    name: 287 CA
-    server: epam.com
-    port: 443
-    uuid: cced2d3b-9840-4579-a6b3-5de365f3bf50
-    udp: true
-    tls: true
-    servername: wallweb6.pages.dev
-    sni: wallweb6.pages.dev
-    skip-cert-verify: false
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: wallweb6.pages.dev
-  - name: 288 DE
+  - name: 291 DE
     alpn:
       - http/1.1
     client-fingerprint: chrome
@@ -3791,7 +3847,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: d1aedflfr97jes.cloudfront.net
-  - name: 289 GB
+  - name: 292 GB
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -3808,7 +3864,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 290 CA
+  - name: 293 CA
     encryption: none
     network: ws
     port: 8080
@@ -3823,7 +3879,7 @@ proxies:
       path: /
     xudp: true
     packet-encoding: xudp
-  - name: 291 CA
+  - name: 294 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -3840,7 +3896,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: kclx.eu.org
-  - name: 292 CA
+  - name: 295 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -3858,7 +3914,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: smart-edge-424.arti98399-1905.workers.dev
-  - name: 293 CA
+  - name: 296 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -3875,7 +3931,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: cf.zhahui.de5.net
-  - name: 294 CA
+  - name: 297 CA
     encryption: none
     network: ws
     port: 80
@@ -3890,7 +3946,7 @@ proxies:
       path: /id-amz
     xudp: true
     packet-encoding: xudp
-  - name: 295 US
+  - name: 298 US
     client-fingerprint: firefox
     encryption: none
     network: ws
@@ -3908,7 +3964,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: moz.ar-marz.fun
-  - name: 296 SG
+  - name: 299 SG
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -3922,7 +3978,7 @@ proxies:
         Host: fs.qicai99.com
       path: /
     servername: fs.qicai99.com
-  - name: 297 CA
+  - name: 300 CA
     network: ws
     port: 8080
     server: 104.26.13.31
@@ -3936,22 +3992,7 @@ proxies:
       path: /
     xudp: true
     packet-encoding: xudp
-  - name: 298 CA
-    encryption: none
-    network: ws
-    port: 8080
-    server: ip.sb
-    type: vless
-    udp: true
-    uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
-    ws-opts:
-      headers:
-        Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
-        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
-      path: /
-    xudp: true
-    packet-encoding: xudp
-  - name: 299 US
+  - name: 301 US
     client-fingerprint: chrome
     encryption: none
     fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
@@ -3970,7 +4011,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: cdn.akamai.steamstatic.com
-  - name: 300 US
+  - name: 302 US
     client-fingerprint: firefox
     encryption: none
     network: ws
@@ -3988,23 +4029,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: pcloud.z-tas.com
-  - type: vless
-    name: 301 US
-    server: support.zoom.us
-    port: 443
-    uuid: 6680846a-8a57-4dfd-9a0e-63209cfc8535
-    udp: true
-    tls: true
-    servername: support.zoom.us.yxls.eu.cc
-    sni: support.zoom.us.yxls.eu.cc
-    skip-cert-verify: false
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /sg-amz
-      headers:
-        Host: support.zoom.us.yxls.eu.cc
-  - name: 303 CA
+  - name: 304 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -4024,7 +4049,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fu.baiproxy.us.ci
-  - name: 304 GB
+  - name: 305 GB
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -4041,7 +4066,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: cfnode-11ivy8.pages.dev
-  - name: 305 CA
+  - name: 306 CA
     client-fingerprint: chrome
     network: ws
     port: 2053
@@ -4058,7 +4083,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: pilot4f8f.pages.dev
-  - name: 306 SG
+  - name: 307 SG
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -4075,7 +4100,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 307 CA
+  - name: 308 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -4093,7 +4118,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: cf.zhahui.de5.net
-  - name: 308 CA
+  - name: 309 CA
     network: ws
     port: 443
     server: 104.18.34.200
@@ -4111,7 +4136,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: pmpmppm.pages.dev
-  - name: 309 CA
+  - name: 310 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -4128,7 +4153,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: vless2-8vx.pages.dev
-  - name: 310 CA
+  - name: 311 CA
     alpn:
       - h3
       - h2
@@ -4149,7 +4174,29 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 311 CA
+  - name: 312 CA
+    alpn:
+      - h3
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    network: ws
+    port: 443
+    server: fs.qicai99.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+    ws-opts:
+      headers:
+        Host: fs.qicai99.com
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: fs.qicai99.com
+  - name: 313 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -4167,7 +4214,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: cf.zhahui.de5.net
-  - name: 312 CA
+  - name: 314 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -4185,7 +4232,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: vpn-1fj.pages.dev
-  - name: 313 CA
+  - name: 315 CA
     client-fingerprint: chrome
     network: ws
     port: 2053
@@ -4202,7 +4249,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: vpn-1fj.pages.dev
-  - name: 314 CA
+  - name: 316 CA
     client-fingerprint: firefox
     encryption: none
     network: ws
@@ -4220,7 +4267,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: moz.ar-marz.fun
-  - name: 315 CA
+  - name: 317 CA
     alpn:
       - http/1.1
     client-fingerprint: firefox
@@ -4242,7 +4289,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: cdn-edge-334a28-gw.build-svc-987d46.workers.dev
-  - name: 316 RU
+  - name: 318 RU
     client-fingerprint: firefox
     encryption: none
     network: ws
@@ -4260,7 +4307,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: torvani.cyou
-  - name: 317 RU
+  - name: 319 RU
     alpn:
       - http/1.1
     client-fingerprint: firefox
@@ -4280,7 +4327,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: torvani.cyou
-  - name: 318 HK
+  - name: 320 HK
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -4297,7 +4344,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: vless2-8vx.pages.dev
-  - name: 320 CA
+  - name: 322 CA
     network: ws
     port: 2083
     server: 104.18.35.86
@@ -4313,7 +4360,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: vlsovip.1d.mom
-  - name: 321 CA
+  - name: 323 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -4331,7 +4378,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: moz.ar-marz.fun
-  - name: 322 CA
+  - name: 324 CA
     encryption: none
     network: ws
     port: 443
@@ -4350,7 +4397,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: pmpmppm.pages.dev
-  - name: 323 CA
+  - name: 325 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -4368,7 +4415,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: cf.zhahui.de5.net
-  - name: 324 CA
+  - name: 326 CA
     encryption: none
     network: ws
     port: 8080
@@ -4384,7 +4431,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: www.digitalocean.com
-  - name: 325 CA
+  - name: 327 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -4401,7 +4448,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: vpn-1fj.pages.dev
-  - name: 326 US
+  - name: 328 US
     client-fingerprint: chrome
     encryption: none
     fingerprint: B39EC30AEA34AE5F9ED15E201E93595E3C445890D16FAED6CEB26F844DBC1AEE
@@ -4422,7 +4469,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: simIlarcaTerpillarPvet-j5H6x4-1.simIlar-caterPillar-pVet.worKers.deV
-  - name: 327 CA
+  - name: 329 CA
     alpn:
       - h2
       - http/1.1
@@ -4444,7 +4491,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: 14F7F5f0.mRBL69BlaCK.paGES.DeV
-  - name: 328 CA
+  - name: 330 CA
     alpn:
       - h2
       - http/1.1
@@ -4467,7 +4514,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: 14F7F5f0.mRBL69BlaCK.paGES.DeV
-  - name: 330 CA
+  - name: 332 CA
     client-fingerprint: firefox
     encryption: none
     network: ws
@@ -4485,7 +4532,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: moz.ar-marz.fun
-  - name: 331 US
+  - name: 333 US
     alpn:
       - h3
     client-fingerprint: chrome
@@ -4504,7 +4551,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: accounts.fastly.com
-  - name: 332 CA
+  - name: 334 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -4522,7 +4569,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 333 CA
+  - name: 335 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -4539,7 +4586,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 334 CA
+  - name: 336 CA
     alpn:
       - h2
       - http/1.1
@@ -4560,7 +4607,29 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: K9-85J.paGEs.Dev
-  - name: 335 CA
+  - name: 337 CA
+    alpn:
+      - h2
+      - http/1.1
+    encryption: none
+    network: ws
+    port: 443
+    server: k9-85j.pages.dev
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3dc83518-4002-485e-a066-d3bbcaaa2b2e
+    ws-opts:
+      headers:
+        Host: k9-85j.pages.dev
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /1WWzkWgNslKTcceU
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    packet-encoding: xudp
+    servername: K9-85J.paGEs.Dev
+  - name: 338 CA
     client-fingerprint: chrome
     network: ws
     port: 2053
@@ -4577,7 +4646,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: vpn-1fj.pages.dev
-  - name: 336 CA
+  - name: 339 CA
     alpn:
       - http/1.1
     encryption: none
@@ -4596,7 +4665,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: 6qwoom7kdrcoan3ui4ra5dy.pages.dev
-  - name: 337 SG
+  - name: 340 SG
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -4613,7 +4682,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 338 CA
+  - name: 341 CA
     alpn:
       - h3
       - h2
@@ -4634,29 +4703,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 339 CA
-    alpn:
-      - h3
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    network: ws
-    port: 443
-    server: fs.qicai99.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-    ws-opts:
-      headers:
-        Host: fs.qicai99.com
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: fs.qicai99.com
-  - name: 340 HK
+  - name: 342 HK
     alpn:
       - h3
     client-fingerprint: chrome
@@ -4676,7 +4723,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: vless2-8vx.pages.dev
-  - name: 341 HK
+  - name: 343 HK
     alpn:
       - h2
       - h3
@@ -4697,7 +4744,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 342 CA
+  - name: 344 CA
     client-fingerprint: firefox
     encryption: none
     network: ws
@@ -4715,7 +4762,28 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: moz.ar-marz.fun
-  - name: 343 CA
+  - name: 345 CA
+    alpn:
+      - h3
+      - h2
+      - http/1.1
+    client-fingerprint: random
+    network: ws
+    port: 8443
+    server: cf.amirmcir.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
+    ws-opts:
+      headers:
+        Host: moz.ar-marz.fun
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /man
+    xudp: true
+    packet-encoding: xudp
+    servername: moz.ar-marz.fun
+  - name: 346 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -4733,7 +4801,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: powered-by-surena.configfarsi695fd01a94fe7.workers.dev
-  - name: 344 CA
+  - name: 347 CA
     encryption: none
     network: ws
     port: 8080
@@ -4748,7 +4816,7 @@ proxies:
       path: /
     xudp: true
     packet-encoding: xudp
-  - name: 345 CA
+  - name: 348 CA
     encryption: none
     network: ws
     port: 8080
@@ -4765,7 +4833,7 @@ proxies:
       path: /
     xudp: true
     packet-encoding: xudp
-  - name: 346 CA
+  - name: 349 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -4783,7 +4851,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
-  - name: 347 GB
+  - name: 350 GB
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -4801,7 +4869,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: yingguo.rymaker.cn
-  - name: 348 CA
+  - name: 351 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -4818,7 +4886,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: top-e4s.pages.dev
-  - name: 349 CA
+  - name: 352 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -4836,7 +4904,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-  - name: 350 DE
+  - name: 353 DE
     alpn:
       - http/1.1
     client-fingerprint: chrome
@@ -4856,7 +4924,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: d1aedflfr97jes.cloudfront.net
-  - name: 351 CA
+  - name: 354 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -4874,7 +4942,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
-  - name: 352 CA
+  - name: 355 CA
     alpn:
       - h2
       - http/1.1
@@ -4896,7 +4964,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: 14F7F5f0.mRBL69BlaCK.paGES.DeV
-  - name: 353 US
+  - name: 356 US
     client-fingerprint: edge
     network: ws
     port: 2096
@@ -4915,7 +4983,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: proxy-34l.pages.dev
-  - name: 354 CA
+  - name: 357 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -4935,7 +5003,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: erupencompanypdr.pages.dev
-  - name: 355 SG
+  - name: 358 SG
     network: ws
     port: 14430
     server: 178.94.25.73
@@ -4950,7 +5018,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: 178.94.25.73
-  - name: 356 HK
+  - name: 359 HK
     client-fingerprint: chrome
     network: ws
     port: 18246
@@ -4964,7 +5032,7 @@ proxies:
         Host: tele-6v9.pages.dev
       path: /
     servername: tele-6v9.pages.dev
-  - name: 357 KR
+  - name: 360 KR
     alpn:
       - h2
       - http/1.1
@@ -4983,7 +5051,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: u695098u66e05ed8s2448.xxti.top
-  - name: 358 JP
+  - name: 361 JP
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -5000,7 +5068,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 359 US
+  - name: 362 US
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -5017,7 +5085,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 360 US
+  - name: 363 US
     client-fingerprint: firefox
     encryption: none
     network: ws
@@ -5035,7 +5103,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: moz.ar-marz.fun
-  - name: 361 US
+  - name: 364 US
     client-fingerprint: chrome
     encryption: none
     fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
@@ -5054,7 +5122,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: cdn.akamai.steamstatic.com
-  - name: 362 US
+  - name: 365 US
     client-fingerprint: chrome
     encryption: none
     fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
@@ -5073,7 +5141,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: cdn.akamai.steamstatic.com
-  - name: 363 CA
+  - name: 366 CA
     alpn:
       - http/1.1
     client-fingerprint: chrome
@@ -5093,7 +5161,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: free.sahanwickramasinghe.com
-  - name: 364 DE
+  - name: 367 DE
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -5110,7 +5178,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 365 HK
+  - name: 368 HK
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -5127,7 +5195,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 366 CA
+  - name: 369 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -5144,7 +5212,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 367 SG
+  - name: 370 SG
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -5162,7 +5230,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
-  - name: 368 CA
+  - name: 371 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -5180,7 +5248,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 369 CA
+  - name: 372 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -5197,7 +5265,25 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 370 CA
+  - name: 373 CA
+    client-fingerprint: chrome
+    encryption: none
+    network: ws
+    port: 443
+    server: cucc.cloudflare.seeck.cn
+    tls: true
+    type: vless
+    udp: true
+    uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+    ws-opts:
+      headers:
+        Host: fs.qicai99.com
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: fs.qicai99.com
+  - name: 374 CA
     client-fingerprint: chrome
     network: ws
     port: 2053
@@ -5214,25 +5300,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fast.145779.xyz
-  - name: 371 CA
-    client-fingerprint: chrome
-    encryption: none
-    network: ws
-    port: 2053
-    server: fast.145779.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-    ws-opts:
-      headers:
-        Host: fast.145779.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
-      path: /ws-tesla
-    xudp: true
-    packet-encoding: xudp
-    servername: fast.145779.xyz
-  - name: 372 CA
+  - name: 375 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -5249,7 +5317,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 373 CA
+  - name: 376 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -5266,7 +5334,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 374 CA
+  - name: 377 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -5283,7 +5351,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 375 CA
+  - name: 378 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -5300,7 +5368,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 376 CA
+  - name: 379 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -5317,7 +5385,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 377 DE
+  - name: 380 DE
     encryption: none
     network: ws
     port: 80
@@ -5332,7 +5400,7 @@ proxies:
       path: /vless/
     xudp: true
     packet-encoding: xudp
-  - name: 378 DE
+  - name: 381 DE
     encryption: none
     network: ws
     port: 80
@@ -5347,7 +5415,7 @@ proxies:
       path: /vless/
     xudp: true
     packet-encoding: xudp
-  - name: 379 DE
+  - name: 382 DE
     type: vless
     server: OV-Germany1.09vpn.com
     port: 80
@@ -5362,7 +5430,7 @@ proxies:
         Host: OV-Germany1.09vpn.com
       path: /vless/
     xudp: true
-  - name: 380 DE
+  - name: 383 DE
     type: vless
     server: OV-Germany1.09vpn.com
     port: 8443
@@ -5378,7 +5446,7 @@ proxies:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
       path: /vless/
     xudp: true
-  - name: 381 CA
+  - name: 384 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -5397,7 +5465,7 @@ proxies:
     packet-encoding: xudp
     servername: fs.qicai99.com
   - type: vless
-    name: 383 CA
+    name: 386 CA
     server: chat.openai.com
     port: 8880
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -5409,7 +5477,7 @@ proxies:
       path: /
       headers:
         Host: vms.lifetime29.workers.dev
-  - name: 384 DE
+  - name: 388 DE
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -5426,7 +5494,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 385 CA
+  - name: 389 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -5444,7 +5512,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 386 DE
+  - name: 390 DE
     alpn:
       - http/1.1
     client-fingerprint: chrome
@@ -5464,7 +5532,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: d2ex4nxd2e01ub.cloudfront.net
-  - name: 387 RU
+  - name: 391 RU
     alpn:
       - http/1.1
     client-fingerprint: chrome
@@ -5483,7 +5551,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: cryptoventura.online
-  - name: 388 RU
+  - name: 392 RU
     alpn:
       - http/1.1
     client-fingerprint: firefox
@@ -5503,7 +5571,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: cryptoventura.online
-  - name: 389 CA
+  - name: 393 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -5521,7 +5589,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 390 CA
+  - name: 394 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -5539,7 +5607,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 391 CA
+  - name: 395 CA
     encryption: none
     network: ws
     port: 8080
@@ -5554,7 +5622,7 @@ proxies:
       path: /
     xudp: true
     packet-encoding: xudp
-  - name: 392 CA
+  - name: 396 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -5571,7 +5639,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 393 CA
+  - name: 397 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -5588,7 +5656,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 394 CA
+  - name: 398 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -5606,7 +5674,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 395 CA
+  - name: 399 CA
     type: vless
     server: 172.64.150.28
     port: 2096
@@ -5616,7 +5684,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 397 CA
+  - name: 401 CA
     server: 172.64.150.28
     port: 2082
     type: vless
@@ -5630,7 +5698,7 @@ proxies:
       headers:
         Host: hhlfy.twiladaphne.ndjp.net
     udp: true
-  - name: 399 CA
+  - name: 402 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -5647,26 +5715,8 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - name: 400 CA
-    client-fingerprint: chrome
-    encryption: none
-    network: ws
-    port: 443
-    server: cucc.cloudflare.seeck.cn
-    tls: true
-    type: vless
-    udp: true
-    uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-    ws-opts:
-      headers:
-        Host: fs.qicai99.com
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: fs.qicai99.com
   - type: vless
-    name: 401 DE
+    name: 403 DE
     server: 109.237.97.238
     port: 443
     uuid: bf14dc50-e9f2-49fd-8642-620446edeafb
@@ -5682,7 +5732,7 @@ proxies:
       headers:
         Host: v5-4b5.pages.dev
   - type: vless
-    name: 402 JP
+    name: 404 JP
     server: 45.153.245.181
     port: 443
     uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
@@ -5697,7 +5747,7 @@ proxies:
       headers:
         Host: jp3.yohototo.top
   - type: vless
-    name: 403 JP
+    name: 405 JP
     server: 162.4.194.35
     port: 443
     uuid: bf14dc50-e9f2-49fd-8642-620446edeafb
@@ -5713,7 +5763,7 @@ proxies:
       headers:
         Host: v5-4b5.pages.dev
   - type: vless
-    name: 404 JP
+    name: 406 JP
     server: 167.179.90.137
     port: 443
     uuid: bf14dc50-e9f2-49fd-8642-620446edeafb
@@ -5729,7 +5779,7 @@ proxies:
       headers:
         Host: v5-4b5.pages.dev
   - type: vless
-    name: 405 SG
+    name: 407 SG
     server: 138.2.108.213
     port: 443
     uuid: bf14dc50-e9f2-49fd-8642-620446edeafb
@@ -5744,7 +5794,7 @@ proxies:
       path: /
       headers:
         Host: v5-4b5.pages.dev
-  - name: 406 CA
+  - name: 408 CA
     type: vless
     server: 104.17.122.18
     port: 443
@@ -5755,7 +5805,7 @@ proxies:
     ws-opts:
       path: /fp
     client-fingerprint: chrome
-  - name: 407 CA
+  - name: 409 CA
     type: vless
     server: 162.159.48.245
     port: 443
@@ -5766,7 +5816,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 408 JP
+  - name: 410 JP
     type: vless
     server: 156.231.112.27
     port: 443
@@ -5777,7 +5827,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 409 CA
+  - name: 411 CA
     type: vless
     server: 104.16.72.110
     port: 443
@@ -5787,7 +5837,7 @@ proxies:
     network: ws
     ws-opts:
       path: /cbasur
-  - name: 410 JP
+  - name: 412 JP
     type: vless
     server: 45.76.208.123
     port: 8443
@@ -5798,7 +5848,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 411 US
+  - name: 413 US
     type: vless
     server: 64.186.240.9
     port: 8443
@@ -5809,7 +5859,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 412 CA
+  - name: 414 CA
     type: vless
     server: 172.64.151.158
     port: 443
@@ -5820,7 +5870,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 413 RU
+  - name: 415 RU
     type: vless
     server: 217.26.28.58
     port: 443
@@ -5830,7 +5880,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 414 CA
+  - name: 416 CA
     type: vless
     server: 104.18.38.47
     port: 443
@@ -5841,7 +5891,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 415 CA
+  - name: 417 CA
     type: vless
     server: da.mfa.gov.ua
     port: 443
@@ -5851,7 +5901,24 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 416 CA
+  - name: 418 CA
+    type: vless
+    server: cf4.466688.xyz
+    port: 443
+    client-fingerprint: chrome
+    encryption: none
+    network: ws
+    packet-encoding: xudp
+    servername: domah57929.pages.dev
+    skip-cert-verify: false
+    tls: true
+    udp: true
+    uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+    ws-opts:
+      headers:
+        Host: domah57929.pages.dev
+      path: /t.me/QiangLieTuiJian?ed
+  - name: 419 CA
     type: vless
     server: 172.67.75.194
     port: 8443
@@ -5862,7 +5929,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 417 CA
+  - name: 420 CA
     type: vless
     server: 104.16.72.207
     port: 443
@@ -5872,7 +5939,7 @@ proxies:
     network: ws
     ws-opts:
       path: /cbasur
-  - name: 418 CA
+  - name: 421 CA
     type: vless
     server: 162.159.46.226
     port: 8443
@@ -5883,7 +5950,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 419 GB
+  - name: 422 GB
     type: vless
     server: 91.193.59.67
     port: 80
@@ -5893,7 +5960,7 @@ proxies:
     network: ws
     ws-opts:
       path: Telegram🇨🇳 @WangCai2
-  - name: 420 CA
+  - name: 423 CA
     type: vless
     server: 104.18.42.54
     port: 443
@@ -5903,35 +5970,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 421 CA
-    type: vless
-    server: nexusmods.com
-    port: 443
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    tls: true
-    servername: t1s1.rittbo.kdns.fr
-    network: ws
-    ws-opts:
-      path: /
-    client-fingerprint: chrome
-  - name: 422 CA
-    type: vless
-    server: cf2.466688.xyz
-    port: 8443
-    client-fingerprint: chrome
-    encryption: none
-    network: ws
-    packet-encoding: xudp
-    servername: pavah949141.pages.dev
-    skip-cert-verify: false
-    tls: true
-    udp: true
-    uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-    ws-opts:
-      headers:
-        Host: pavah949141.pages.dev
-      path: /project?ed
-  - name: 423 CA
+  - name: 424 CA
     type: vless
     server: cf2.466688.xyz
     port: 443
@@ -5948,7 +5987,7 @@ proxies:
       headers:
         Host: domah57929.pages.dev
       path: /t.me/QiangLieTuiJian?ed
-  - name: 424 US
+  - name: 425 US
     type: vless
     server: 162.159.45.54
     port: 443
@@ -5958,7 +5997,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 425 GB
+  - name: 426 GB
     type: vless
     server: 91.193.59.176
     port: 80
@@ -5968,7 +6007,7 @@ proxies:
     network: ws
     ws-opts:
       path: Telegram🇨🇳 @WangCai2
-  - name: 426 DE
+  - name: 427 DE
     type: vless
     server: 185.189.58.195
     port: 29703
@@ -5978,7 +6017,7 @@ proxies:
     network: ws
     ws-opts:
       path: ws
-  - name: 427 DE
+  - name: 428 DE
     type: vless
     server: 185.189.58.195
     port: 22096
@@ -5995,7 +6034,7 @@ proxies:
     uuid: 1cb6f6ef-c398-4193-9f66-8de17f9bd004
     ws-opts:
       path: /ws
-  - name: 428 CA
+  - name: 429 CA
     type: vless
     server: 162.159.46.24
     port: 8443
@@ -6006,7 +6045,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 429 US
+  - name: 430 US
     type: vless
     server: 162.159.38.119
     port: 443
@@ -6016,7 +6055,7 @@ proxies:
     network: ws
     ws-opts:
       path: /api/v1/irc
-  - name: 431 US
+  - name: 432 US
     type: vless
     server: 162.159.38.119
     port: 8443
@@ -6027,7 +6066,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 432 CA
+  - name: 433 CA
     type: vless
     server: 104.18.43.174
     port: 443
@@ -6037,7 +6076,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 433 CA
+  - name: 434 CA
     type: vless
     server: 104.16.72.21
     port: 443
@@ -6047,7 +6086,7 @@ proxies:
     network: ws
     ws-opts:
       path: /fp
-  - name: 434 JP
+  - name: 435 JP
     type: vless
     server: 207.148.108.85
     port: 443
@@ -6057,7 +6096,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 435 CA
+  - name: 436 CA
     type: vless
     server: 104.26.4.60
     port: 443
@@ -6068,24 +6107,6 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - type: vless
-    name: 436 CA
-    server: cf-cname.xingpingcn.top
-    port: 443
-    uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-    udp: true
-    tls: true
-    servername: b4d1f0des220.kuback.top
-    sni: b4d1f0des220.kuback.top
-    skip-cert-verify: false
-    alpn:
-      - h2
-      - http/1.1
-    network: xhttp
-    xhttp-opts:
-      path: d0dd77efdda074f25b595d9ea8ee5c64
-      host: b4d1f0des220.kuback.top
-      mode: auto
   - name: 437 US
     type: vless
     server: 108.162.198.43
@@ -6286,6 +6307,16 @@ proxies:
       path: /
   - name: 457 CA
     type: vless
+    server: cdn.9889888.xyz
+    port: 443
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    tls: true
+    servername: t1s1.rittbo.kdns.fr
+    network: ws
+    ws-opts:
+      path: /
+  - name: 458 CA
+    type: vless
     server: 104.16.72.50
     port: 443
     uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
@@ -6294,7 +6325,7 @@ proxies:
     network: ws
     ws-opts:
       path: /fp
-  - name: 458 CA
+  - name: 459 CA
     type: vless
     server: 104.16.73.137
     port: 443
@@ -6305,7 +6336,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 459 JP
+  - name: 460 JP
     type: vless
     server: 108.160.131.197
     port: 443
@@ -6315,7 +6346,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 460 KR
+  - name: 461 KR
     type: vless
     server: 146.56.187.1
     port: 8443
@@ -6325,7 +6356,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 462 CA
+  - name: 463 CA
     type: vless
     server: 172.64.145.202
     port: 443
@@ -6335,7 +6366,35 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 463 CA
+  - name: 464 CA
+    type: vless
+    server: nexusmods.com
+    port: 443
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    tls: true
+    servername: t1s1.rittbo.kdns.fr
+    network: ws
+    ws-opts:
+      path: /
+    client-fingerprint: chrome
+  - name: 465 CA
+    type: vless
+    server: cf2.466688.xyz
+    port: 8443
+    client-fingerprint: chrome
+    encryption: none
+    network: ws
+    packet-encoding: xudp
+    servername: pavah949141.pages.dev
+    skip-cert-verify: false
+    tls: true
+    udp: true
+    uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+    ws-opts:
+      headers:
+        Host: pavah949141.pages.dev
+      path: /project?ed
+  - name: 466 CA
     type: vless
     server: 172.64.146.66
     port: 443
@@ -6346,23 +6405,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - type: vless
-    name: 464 CA
-    server: cf.877774.xyz
-    port: 443
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    udp: true
-    tls: true
-    servername: t1s1.rittbo.kdns.fr
-    sni: t1s1.rittbo.kdns.fr
-    skip-cert-verify: false
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-  - name: 466 CA
+  - name: 467 CA
     type: vless
     server: cf5.466688.xyz
     port: 443
@@ -6379,7 +6422,7 @@ proxies:
       headers:
         Host: domah57929.pages.dev
       path: /t.me/QiangLieTuiJian?ed
-  - name: 467 CA
+  - name: 468 CA
     type: vless
     server: 172.64.149.209
     port: 443
@@ -6390,7 +6433,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 468 CA
+  - name: 469 CA
     type: vless
     server: mfa.gov.ua
     port: 443
@@ -6401,23 +6444,6 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 469 CA
-    type: vless
-    server: cf4.466688.xyz
-    port: 443
-    client-fingerprint: chrome
-    encryption: none
-    network: ws
-    packet-encoding: xudp
-    servername: domah57929.pages.dev
-    skip-cert-verify: false
-    tls: true
-    udp: true
-    uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-    ws-opts:
-      headers:
-        Host: domah57929.pages.dev
-      path: /t.me/QiangLieTuiJian?ed
   - name: 470 JP
     type: vless
     server: 66.245.221.196
@@ -6651,24 +6677,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 492 CA
-    type: vless
-    server: cf6.466688.xyz
-    port: 443
-    client-fingerprint: chrome
-    encryption: none
-    network: ws
-    packet-encoding: xudp
-    servername: domah57929.pages.dev
-    skip-cert-verify: false
-    tls: true
-    udp: true
-    uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-    ws-opts:
-      headers:
-        Host: domah57929.pages.dev
-      path: /t.me/QiangLieTuiJian?ed
-  - name: 493 JP
+  - name: 492 JP
     type: vless
     server: 139.180.202.209
     port: 443
@@ -6679,7 +6688,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 494 CA
+  - name: 493 CA
     type: vless
     server: 104.17.180.39
     port: 443
@@ -6689,7 +6698,7 @@ proxies:
     network: ws
     ws-opts:
       path: /@NebulaVPNx
-  - name: 495 JP
+  - name: 494 JP
     type: vless
     server: 45.76.208.253
     port: 443
@@ -6700,7 +6709,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 496 GB
+  - name: 495 GB
     type: vless
     server: 45.12.31.10
     port: 80
@@ -6710,7 +6719,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 497 US
+  - name: 496 US
     type: vless
     server: 162.159.45.15
     port: 443
@@ -6720,7 +6729,7 @@ proxies:
     network: ws
     ws-opts:
       path: /fp
-  - name: 498 CA
+  - name: 497 CA
     type: vless
     server: 104.19.145.11
     port: 443
@@ -6730,7 +6739,7 @@ proxies:
     network: ws
     ws-opts:
       path: /fp
-  - name: 499 US
+  - name: 498 US
     type: vless
     server: 64.186.239.202
     port: 443
@@ -6741,7 +6750,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 500 CA
+  - name: 499 CA
     type: vless
     server: 104.27.1.52
     port: 8880
@@ -6751,7 +6760,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 501 CA
+  - name: 500 CA
     type: vless
     server: 172.64.53.27
     port: 443
@@ -6761,7 +6770,7 @@ proxies:
     network: ws
     ws-opts:
       path: /fp
-  - name: 502 SG
+  - name: 501 SG
     type: vless
     server: 8.219.155.125
     port: 443
@@ -6772,7 +6781,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 503 CA
+  - name: 502 CA
     type: vless
     server: 172.64.149.23
     port: 443
@@ -6782,7 +6791,7 @@ proxies:
     network: ws
     ws-opts:
       path: /killpv2
-  - name: 504 SG
+  - name: 503 SG
     type: vless
     server: 139.180.220.7
     port: 443
@@ -6792,7 +6801,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 505 CA
+  - name: 504 CA
     type: vless
     server: 108.162.195.161
     port: 443
@@ -6802,7 +6811,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 506 CA
+  - name: 505 CA
     type: vless
     server: 104.16.72.41
     port: 443
@@ -6812,7 +6821,7 @@ proxies:
     network: ws
     ws-opts:
       path: /rsedgws
-  - name: 508 KR
+  - name: 507 KR
     type: vless
     server: 193.123.232.91
     port: 443
@@ -6822,7 +6831,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 510 CA
+  - name: 509 CA
     type: vless
     server: 188.114.98.251
     port: 8080
@@ -6832,7 +6841,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 511 CA
+  - name: 510 CA
     type: vless
     server: 172.67.138.17
     port: 443
@@ -6844,7 +6853,7 @@ proxies:
       path: /
     client-fingerprint: chrome
   - type: vless
-    name: 512 CA
+    name: 511 CA
     server: cf.130519.xyz
     port: 443
     uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
@@ -6859,7 +6868,7 @@ proxies:
       path: /
       headers:
         Host: t1s1.rittbo.kdns.fr
-  - name: 513 CA
+  - name: 512 CA
     type: vless
     server: 172.64.152.216
     port: 443
@@ -6869,7 +6878,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 514 CA
+  - name: 513 CA
     type: vless
     server: 172.64.186.42
     port: 443
@@ -6879,7 +6888,7 @@ proxies:
     network: ws
     ws-opts:
       path: /fp
-  - name: 515 GB
+  - name: 514 GB
     type: vless
     server: 91.193.59.44
     port: 80
@@ -6889,7 +6898,7 @@ proxies:
     network: ws
     ws-opts:
       path: Telegram🇨🇳 @WangCai2
-  - name: 516 CA
+  - name: 515 CA
     type: vless
     server: 162.159.34.23
     port: 443
@@ -6899,7 +6908,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 517 US
+  - name: 516 US
     type: vless
     server: 154.26.189.70
     port: 443
@@ -6910,7 +6919,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 518 CA
+  - name: 517 CA
     type: vless
     server: 104.20.17.126
     port: 443
@@ -6920,7 +6929,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 519 FR
+  - name: 518 FR
     type: vless
     server: 185.16.110.104
     port: 8443
@@ -6931,7 +6940,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 520 GB
+  - name: 519 GB
     type: vless
     server: 91.193.58.14
     port: 80
@@ -6941,7 +6950,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 521 FR
+  - name: 520 FR
     type: vless
     server: 51.91.251.198
     port: 443
@@ -6952,7 +6961,7 @@ proxies:
     ws-opts:
       path: /sg-melbi
     client-fingerprint: chrome
-  - name: 522 CA
+  - name: 521 CA
     type: vless
     server: 104.16.72.2
     port: 443
@@ -6963,7 +6972,7 @@ proxies:
     ws-opts:
       path: /rsedgws
     client-fingerprint: chrome
-  - name: 524 CA
+  - name: 523 CA
     type: vless
     server: 104.21.65.37
     port: 443
@@ -6974,7 +6983,7 @@ proxies:
     ws-opts:
       path: /stream/PANEL_ZEUS/50414e45
     client-fingerprint: ios
-  - name: 525 US
+  - name: 524 US
     type: vless
     server: 8.47.69.0
     port: 443
@@ -6984,7 +6993,7 @@ proxies:
     network: ws
     ws-opts:
       path: /rsedgws
-  - name: 526 CA
+  - name: 525 CA
     type: vless
     server: 173.245.58.75
     port: 443
@@ -6995,7 +7004,7 @@ proxies:
     ws-opts:
       path: /rsedgws
     client-fingerprint: chrome
-  - name: 527 US
+  - name: 526 US
     type: vless
     server: 69.46.46.80
     port: 443
@@ -7006,7 +7015,7 @@ proxies:
     ws-opts:
       path: /ws/2d4db7ce-1a16-281d-437f-77cea0bac2fa
     client-fingerprint: chrome
-  - name: 528 GB
+  - name: 527 GB
     type: vless
     server: 91.193.58.201
     port: 443
@@ -7016,7 +7025,7 @@ proxies:
     network: ws
     ws-opts:
       path: /rdfgtws
-  - name: 530 GB
+  - name: 529 GB
     type: vless
     server: ipv4-address.iranvatanam.com
     port: 2083
@@ -7027,7 +7036,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: firefox
-  - name: 531 US
+  - name: 530 US
     type: vless
     server: 154.219.5.113
     port: 2083
@@ -7038,7 +7047,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 532 US
+  - name: 531 US
     type: vless
     server: 69.84.182.169
     port: 443
@@ -7048,7 +7057,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 533 JP
+  - name: 532 JP
     type: vless
     server: 139.180.192.147
     port: 443
@@ -7059,7 +7068,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 534 US
+  - name: 533 US
     type: vless
     server: 192.200.160.9
     port: 2083
@@ -7070,7 +7079,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 535 FR
+  - name: 534 FR
     type: vless
     server: 149.202.58.99
     port: 443
@@ -7080,7 +7089,7 @@ proxies:
     network: ws
     ws-opts:
       path: /vws/
-  - name: 536 US
+  - name: 535 US
     type: vless
     server: 69.63.206.96
     port: 443
@@ -7091,7 +7100,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 537 US
+  - name: 536 US
     type: vless
     server: 69.63.206.96
     port: 8443
@@ -7102,7 +7111,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 538 CA
+  - name: 537 CA
     type: vless
     server: 104.16.92.229
     port: 80
@@ -7112,7 +7121,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 539 CA
+  - name: 538 CA
     type: vless
     server: 104.17.147.22
     port: 443
@@ -7124,21 +7133,20 @@ proxies:
       path: /odiyfws
     client-fingerprint: chrome
   - type: vless
-    name: 540 CA
+    name: 539 CA
     server: www.speedtest.net
-    port: 8080
-    uuid: 443779ba-7694-44ce-95c1-2f10682de4fa
+    port: 443
+    uuid: d4733e5a-5850-4523-942e-f28f82ebf4a9
     udp: true
-    tls: false
+    tls: true
+    servername: party-5cn.pages.dev
+    sni: party-5cn.pages.dev
     skip-cert-verify: false
     network: ws
     ws-opts:
       path: /
-      headers:
-        Host: konkortur.sanjeshvipspeed.ir
-      v2ray-http-upgrade: true
   - type: vless
-    name: 541 CA
+    name: 540 CA
     server: ip13.shabkhosh.sbs
     port: 443
     uuid: bf20cf5a-30c1-4022-9bcb-ba798ad51531
@@ -7152,7 +7160,7 @@ proxies:
       path: /fp=chrome
       headers:
         Host: wallweb7.pages.dev
-  - name: 542 CA
+  - name: 541 CA
     type: vless
     server: 104.19.44.174
     port: 2083
@@ -7162,7 +7170,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 543 CA
+  - name: 542 CA
     type: vless
     server: 104.27.0.241
     port: 8880
@@ -7172,7 +7180,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 544 US
+  - name: 543 US
     type: vless
     server: 199.181.197.155
     port: 443
@@ -7183,7 +7191,7 @@ proxies:
     ws-opts:
       path: /ZEUS_PANEL_BOT
     client-fingerprint: chrome
-  - name: 545 CA
+  - name: 544 CA
     type: vless
     server: 172.64.53.68
     port: 443
@@ -7194,7 +7202,7 @@ proxies:
     ws-opts:
       path: /@https://t.me/QiangLieTuiJian
     client-fingerprint: chrome
-  - name: 546 CA
+  - name: 545 CA
     type: vless
     server: 172.67.74.10
     port: 443
@@ -7205,7 +7213,7 @@ proxies:
     ws-opts:
       path: /GoorBah
     client-fingerprint: chrome
-  - name: 547 CA
+  - name: 546 CA
     type: vless
     server: 172.67.189.80
     port: 443
@@ -7216,7 +7224,7 @@ proxies:
     ws-opts:
       path: /stream/PANEL_ZEUS/50414e45
     client-fingerprint: chrome
-  - name: 548 CA
+  - name: 547 CA
     type: vless
     server: 172.67.136.208
     port: 2052
@@ -7226,7 +7234,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 549 CA
+  - name: 548 CA
     type: vless
     server: 172.67.136.208
     port: 443
@@ -7237,7 +7245,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 550 CA
+  - name: 549 CA
     type: vless
     server: 108.162.195.45
     port: 2096
@@ -7247,7 +7255,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 551 KR
+  - name: 550 KR
     type: vless
     server: 220.71.172.2
     port: 16034
@@ -7258,7 +7266,7 @@ proxies:
     ws-opts:
       path: /@Marisa_kristi
     client-fingerprint: chrome
-  - name: 552 CA
+  - name: 551 CA
     type: vless
     server: 104.21.17.223
     port: 443
@@ -7268,7 +7276,7 @@ proxies:
     network: ws
     ws-opts:
       path: /nimws
-  - name: 553 CA
+  - name: 552 CA
     type: vless
     server: 104.31.16.61
     port: 2083
@@ -7278,7 +7286,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 554 CA
+  - name: 553 CA
     type: vless
     server: 172.66.44.243
     port: 443
@@ -7288,7 +7296,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 555 US
+  - name: 554 US
     type: vless
     server: 151.101.195.8
     port: 80
@@ -7298,7 +7306,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 556 US
+  - name: 555 US
     type: vless
     server: 160.153.0.131
     port: 2082
@@ -7308,7 +7316,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 557 CA
+  - name: 556 CA
     type: vless
     server: 172.64.149.144
     port: 2087
@@ -7319,7 +7327,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 558 JP
+  - name: 557 JP
     type: vless
     server: 172.104.120.92
     port: 443
@@ -7330,7 +7338,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: random
-  - name: 560 CA
+  - name: 559 CA
     type: vless
     server: 104.16.21.118
     port: 443
@@ -7340,7 +7348,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 561 CA
+  - name: 560 CA
     type: vless
     server: 104.16.243.38
     port: 2096
@@ -7351,7 +7359,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: safari
-  - name: 562 CA
+  - name: 561 CA
     type: vless
     server: 104.19.49.15
     port: 8443
@@ -7362,7 +7370,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 563 US
+  - name: 562 US
     type: vless
     server: 108.162.198.64
     port: 443
@@ -7373,7 +7381,7 @@ proxies:
     ws-opts:
       path: /@https://t.me/QiangLieTuiJian
     client-fingerprint: chrome
-  - name: 564 GB
+  - name: 563 GB
     type: vless
     server: 91.110.209.63
     port: 443
@@ -7383,7 +7391,7 @@ proxies:
     network: ws
     ws-opts:
       path: /Telegram🇨🇳 @WangCai2
-  - name: 565 CA
+  - name: 564 CA
     type: vless
     server: 104.21.41.131
     port: 8443
@@ -7394,7 +7402,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 566 CA
+  - name: 565 CA
     type: vless
     server: 104.19.127.75
     port: 443
@@ -7405,7 +7413,7 @@ proxies:
     ws-opts:
       path: /uqBYRQhpA2NzSIhejwuqjz
     client-fingerprint: chrome
-  - name: 567 US
+  - name: 566 US
     type: vless
     server: 166.62.114.253
     port: 2096
@@ -7416,7 +7424,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 568 HK
+  - name: 567 HK
     type: vless
     server: 104.129.167.20
     port: 443
@@ -7427,7 +7435,7 @@ proxies:
     ws-opts:
       path: /Telegram🇨🇳 @WangCai2
     client-fingerprint: chrome
-  - name: 569 CA
+  - name: 568 CA
     type: vless
     server: 172.64.145.18
     port: 8443
@@ -7438,7 +7446,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 584 CA
+  - name: 583 CA
     type: vless
     server: 104.17.136.118
     port: 443
@@ -7449,7 +7457,7 @@ proxies:
     ws-opts:
       path: /sg-melbi
     client-fingerprint: chrome
-  - name: 585 CA
+  - name: 584 CA
     type: vless
     server: 104.17.151.4
     port: 2053
@@ -7460,7 +7468,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 586 JP
+  - name: 585 JP
     type: vless
     server: 202.182.118.182
     port: 443
@@ -7470,7 +7478,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 587 KR
+  - name: 586 KR
     type: vless
     server: 64.176.226.26
     port: 8443
@@ -7481,7 +7489,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 588 CA
+  - name: 587 CA
     type: vless
     server: 172.64.145.158
     port: 443
@@ -7491,7 +7499,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 589 CA
+  - name: 588 CA
     type: vless
     server: 104.18.41.190
     port: 443
@@ -7502,7 +7510,23 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 590 CA
+  - type: vless
+    name: 589 CA
+    server: cf.877774.xyz
+    port: 443
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    udp: true
+    tls: true
+    servername: t1s1.rittbo.kdns.fr
+    sni: t1s1.rittbo.kdns.fr
+    skip-cert-verify: false
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+  - name: 591 CA
     type: vless
     server: 104.18.35.15
     port: 443
@@ -7512,7 +7536,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 591 CA
+  - name: 592 CA
     type: vless
     server: youxuan.cf.090227.xyz
     port: 443
@@ -7522,7 +7546,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 592 JP
+  - name: 593 JP
     type: vless
     server: 45.76.48.18
     port: 443
@@ -7533,7 +7557,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 593 CA
+  - name: 594 CA
     type: vless
     server: 104.18.44.198
     port: 443
@@ -7544,7 +7568,7 @@ proxies:
     ws-opts:
       path: /fp
     client-fingerprint: chrome
-  - name: 594 KR
+  - name: 595 KR
     type: vless
     server: 132.145.91.181
     port: 8443
@@ -7555,7 +7579,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 596 SG
+  - name: 597 SG
     type: vless
     server: 134.185.88.235
     port: 8443
@@ -7566,7 +7590,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 597 CA
+  - name: 598 CA
     type: vless
     server: 172.64.144.198
     port: 443
@@ -7576,7 +7600,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 598 CA
+  - name: 599 CA
     type: vless
     server: 172.67.93.182
     port: 443
@@ -7586,7 +7610,7 @@ proxies:
     network: ws
     ws-opts:
       path: /fp
-  - name: 599 CA
+  - name: 600 CA
     type: vless
     server: 162.159.18.122
     port: 443
@@ -7597,7 +7621,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 600 CA
+  - name: 601 CA
     type: vless
     server: 162.159.8.123
     port: 443
@@ -7608,7 +7632,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 601 CA
+  - name: 602 CA
     type: vless
     server: 172.64.53.34
     port: 443
@@ -7619,7 +7643,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 602 US
+  - name: 603 US
     type: vless
     server: 108.162.198.88
     port: 443
@@ -7629,7 +7653,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 603 CA
+  - name: 604 CA
     type: vless
     server: 162.159.21.235
     port: 8443
@@ -7639,7 +7663,7 @@ proxies:
     network: ws
     ws-opts:
       path: /fp
-  - name: 604 CA
+  - name: 605 CA
     type: vless
     server: 173.245.58.87
     port: 443
@@ -7649,7 +7673,7 @@ proxies:
     network: ws
     ws-opts:
       path: /fp
-  - name: 605 CA
+  - name: 606 CA
     type: vless
     server: 162.159.25.12
     port: 443
@@ -7659,7 +7683,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 606 HK
+  - name: 607 HK
     type: vless
     server: 38.190.210.250
     port: 443
@@ -7670,7 +7694,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 607 JP
+  - name: 608 JP
     type: vless
     server: 45.32.35.100
     port: 443
@@ -7681,7 +7705,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 608 CA
+  - name: 609 CA
     type: vless
     server: 162.159.41.198
     port: 8443
@@ -7692,7 +7716,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 609 CA
+  - name: 610 CA
     type: vless
     server: 172.64.40.84
     port: 443
@@ -7702,7 +7726,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 610 GB
+  - name: 611 GB
     type: vless
     server: 91.110.209.120
     port: 443
@@ -7713,7 +7737,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 611 US
+  - name: 612 US
     type: vless
     server: 154.17.22.207
     port: 443
@@ -7723,7 +7747,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 612 CA
+  - name: 613 CA
     type: vless
     server: 172.64.145.186
     port: 443
@@ -7734,7 +7758,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 613 US
+  - name: 614 US
     type: vless
     server: 162.159.44.180
     port: 443
@@ -7745,7 +7769,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 614 US
+  - name: 615 US
     type: vless
     server: 216.24.57.6
     port: 8443
@@ -7756,7 +7780,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 615 DE
+  - name: 616 DE
     type: vless
     server: 103.167.235.130
     port: 443
@@ -7767,7 +7791,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 616 CA
+  - name: 617 CA
     type: vless
     server: 104.16.4.14
     port: 443
@@ -7777,7 +7801,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 617 US
+  - name: 618 US
     type: vless
     server: 162.159.39.33
     port: 443
@@ -7787,7 +7811,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 618 JP
+  - name: 619 JP
     type: vless
     server: 45.32.17.67
     port: 443
@@ -7797,7 +7821,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 619 CA
+  - name: 620 CA
     type: vless
     server: 104.16.148.207
     port: 8443
@@ -7807,7 +7831,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 620 CA
+  - name: 621 CA
     type: vless
     server: 198.41.201.19
     port: 443
@@ -7818,7 +7842,7 @@ proxies:
     ws-opts:
       path: /fp
     client-fingerprint: firefox
-  - name: 621 CA
+  - name: 622 CA
     type: vless
     server: 104.19.255.51
     port: 80
@@ -7828,7 +7852,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 622 CA
+  - name: 623 CA
     type: vless
     server: 104.18.35.13
     port: 443
@@ -7839,7 +7863,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 623 CA
+  - name: 624 CA
     type: vless
     server: 172.64.147.104
     port: 443
@@ -7850,7 +7874,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 624 US
+  - name: 625 US
     type: vless
     server: 154.17.16.219
     port: 8443
@@ -7861,7 +7885,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 625 SG
+  - name: 626 SG
     type: vless
     server: 8.222.185.236
     port: 443
@@ -7872,7 +7896,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 626 KR
+  - name: 627 KR
     type: vless
     server: 193.123.233.175
     port: 443
@@ -7883,7 +7907,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 628 CA
+  - name: 629 CA
     type: vless
     server: 104.16.132.127
     port: 443
@@ -7893,7 +7917,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 629 JP
+  - name: 630 JP
     type: vless
     server: 154.83.95.129
     port: 443
@@ -7903,7 +7927,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 630 US
+  - name: 631 US
     type: vless
     server: 64.186.225.82
     port: 443
@@ -7914,7 +7938,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 631 SG
+  - name: 632 SG
     type: vless
     server: 185.225.20.99
     port: 8443
@@ -7925,7 +7949,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 632 JP
+  - name: 633 JP
     type: vless
     server: 45.77.21.148
     port: 443
@@ -7936,7 +7960,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 633 SG
+  - name: 634 SG
     type: vless
     server: 66.42.51.60
     port: 8443
@@ -7946,7 +7970,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 635 CA
+  - name: 636 CA
     type: vless
     server: 162.159.33.118
     port: 443
@@ -7957,7 +7981,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: random
-  - name: 636 CA
+  - name: 637 CA
     type: vless
     server: 104.16.243.164
     port: 443
@@ -7968,7 +7992,7 @@ proxies:
     ws-opts:
       path: /fp
     client-fingerprint: firefox
-  - name: 637 CA
+  - name: 638 CA
     type: vless
     server: 162.159.40.16
     port: 443
@@ -7978,7 +8002,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 638 SG
+  - name: 639 SG
     type: vless
     server: 158.178.229.178
     port: 443
@@ -7989,7 +8013,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 639 JP
+  - name: 640 JP
     type: vless
     server: 45.77.134.44
     port: 443
@@ -8000,7 +8024,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 640 CA
+  - name: 641 CA
     type: vless
     server: 104.16.253.227
     port: 443
@@ -8010,7 +8034,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 641 CA
+  - name: 642 CA
     type: vless
     server: 162.159.32.239
     port: 443
@@ -8021,7 +8045,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 642 CA
+  - name: 643 CA
     type: vless
     server: 104.17.191.115
     port: 443
@@ -8031,7 +8055,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 643 JP
+  - name: 644 JP
     type: vless
     server: 141.147.185.63
     port: 443
@@ -8042,7 +8066,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 644 CA
+  - name: 645 CA
     type: vless
     server: 104.21.47.19
     port: 443
@@ -8053,16 +8077,6 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 645 CA
-    type: vless
-    server: cdn.9889888.xyz
-    port: 443
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    tls: true
-    servername: t1s1.rittbo.kdns.fr
-    network: ws
-    ws-opts:
-      path: /
   - name: 646 JP
     type: vless
     server: 161.33.197.118
@@ -8366,17 +8380,6 @@ proxies:
     client-fingerprint: random
   - name: 674 CA
     type: vless
-    server: node.vauth.workers.dev
-    port: 443
-    uuid: 0ebb1677-4902-476f-bc03-3e8c7ca6fd21
-    tls: true
-    servername: node.vauth.workers.dev
-    network: ws
-    ws-opts:
-      path: /
-    client-fingerprint: random
-  - name: 675 CA
-    type: vless
     server: 104.26.0.195
     port: 8080
     uuid: 59eefc04-b831-45cf-8d68-63ca23381171
@@ -8385,7 +8388,7 @@ proxies:
     network: ws
     ws-opts:
       path: /ws-hTopcF3L
-  - name: 676 CA
+  - name: 675 CA
     type: vless
     server: 172.64.40.49
     port: 443
@@ -8396,7 +8399,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 677 US
+  - name: 676 US
     type: vless
     server: 198.62.62.6
     port: 443
@@ -8406,7 +8409,7 @@ proxies:
     network: ws
     ws-opts:
       path: /?proxyip
-  - name: 678 CA
+  - name: 677 CA
     type: vless
     server: 172.67.174.37
     port: 8880
@@ -8416,7 +8419,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 679 RU
+  - name: 678 RU
     type: vless
     server: 5.129.194.34
     port: 4100
@@ -8426,7 +8429,7 @@ proxies:
     network: ws
     ws-opts:
       path: /v1
-  - name: 680 KR
+  - name: 679 KR
     type: vless
     server: 152.67.210.234
     port: 443
@@ -8436,7 +8439,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 681 CA
+  - name: 680 CA
     type: vless
     server: 104.19.69.229
     port: 80
@@ -8446,7 +8449,7 @@ proxies:
     network: ws
     ws-opts:
       path: /vless
-  - name: 682 RU
+  - name: 681 RU
     type: vless
     server: 194.87.161.60
     port: 4100
@@ -8456,7 +8459,7 @@ proxies:
     network: ws
     ws-opts:
       path: /v1
-  - name: 683 CA
+  - name: 682 CA
     type: vless
     server: 162.159.129.67
     port: 2096
@@ -8467,7 +8470,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 684 CA
+  - name: 683 CA
     type: vless
     server: 172.64.147.175
     port: 443
@@ -8478,7 +8481,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 685 CA
+  - name: 684 CA
     type: vless
     server: 104.18.33.45
     port: 2096
@@ -8489,7 +8492,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: firefox
-  - name: 686 US
+  - name: 685 US
     type: vless
     server: 159.112.235.52
     port: 443
@@ -8499,7 +8502,7 @@ proxies:
     network: ws
     ws-opts:
       path: /odiyfws
-  - name: 688 CA
+  - name: 687 CA
     type: vless
     server: 104.17.147.36
     port: 443
@@ -8510,7 +8513,7 @@ proxies:
     ws-opts:
       path: /odiyfws
     client-fingerprint: chrome
-  - name: 689 CA
+  - name: 688 CA
     type: vless
     server: 104.17.148.22
     port: 443
@@ -8522,19 +8525,20 @@ proxies:
       path: /odiyfws
     client-fingerprint: chrome
   - type: vless
-    name: 690 CA
+    name: 689 CA
     server: www.speedtest.net
-    port: 443
-    uuid: d4733e5a-5850-4523-942e-f28f82ebf4a9
+    port: 8080
+    uuid: 443779ba-7694-44ce-95c1-2f10682de4fa
     udp: true
-    tls: true
-    servername: party-5cn.pages.dev
-    sni: party-5cn.pages.dev
+    tls: false
     skip-cert-verify: false
     network: ws
     ws-opts:
       path: /
-  - name: 691 RU
+      headers:
+        Host: konkortur.sanjeshvipspeed.ir
+      v2ray-http-upgrade: true
+  - name: 690 RU
     type: vless
     server: 45.8.211.217
     port: 443
@@ -8544,7 +8548,7 @@ proxies:
     network: ws
     ws-opts:
       path: /rdfgtws
-  - name: 692 DE
+  - name: 691 DE
     type: vless
     server: 45.80.111.112
     port: 443
@@ -8554,7 +8558,7 @@ proxies:
     network: ws
     ws-opts:
       path: /rdfgtws
-  - name: 693 CA
+  - name: 692 CA
     type: vless
     server: 104.18.158.102
     port: 80
@@ -8564,7 +8568,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 694 US
+  - name: 693 US
     type: vless
     server: 208.103.161.3
     port: 443
@@ -8574,7 +8578,7 @@ proxies:
     network: ws
     ws-opts:
       path: /43.218.77.16
-  - name: 695 CA
+  - name: 694 CA
     type: vless
     server: 104.25.125.114
     port: 443
@@ -8584,7 +8588,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 696 CA
+  - name: 695 CA
     type: vless
     server: 172.67.153.74
     port: 8880
@@ -8594,6 +8598,17 @@ proxies:
     network: ws
     ws-opts:
       path: /
+  - name: 696 CA
+    type: vless
+    server: node.vauth.workers.dev
+    port: 443
+    uuid: 0ebb1677-4902-476f-bc03-3e8c7ca6fd21
+    tls: true
+    servername: node.vauth.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+    client-fingerprint: random
   - name: 697 CA
     type: vless
     server: 104.16.72.139
@@ -8950,7 +8965,18 @@ proxies:
     network: ws
     ws-opts:
       path: /vless @hopev2ray,@hopev2ray
-  - name: 764 JP
+  - name: 744 US
+    type: vless
+    server: blog.webex.com
+    port: 443
+    uuid: bc6e7cf0-9526-4fea-b2e3-5bcf992c565e
+    tls: true
+    servername: blog.webex.com.yxls.eu.cc
+    network: ws
+    ws-opts:
+      path: /my-kc
+    client-fingerprint: chrome
+  - name: 765 JP
     type: vless
     server: 161.33.14.183
     port: 8443
@@ -8961,7 +8987,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 765 CA
+  - name: 766 CA
     type: vless
     server: 162.159.0.8
     port: 443
@@ -8972,7 +8998,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: random
-  - name: 766 CA
+  - name: 767 CA
     type: vless
     server: 162.159.24.39
     port: 443
@@ -8983,7 +9009,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 767 CA
+  - name: 768 CA
     type: vless
     server: 104.26.12.41
     port: 443
@@ -8994,7 +9020,7 @@ proxies:
     ws-opts:
       path: /sg-melbi
     client-fingerprint: chrome
-  - name: 768 JP
+  - name: 769 JP
     type: vless
     server: 45.196.233.189
     port: 443
@@ -9005,7 +9031,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 769 US
+  - name: 770 US
     type: vless
     server: 162.159.45.218
     port: 443
@@ -9015,7 +9041,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 770 JP
+  - name: 771 JP
     type: vless
     server: 149.28.26.9
     port: 443
@@ -9026,7 +9052,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 771 US
+  - name: 772 US
     type: vless
     server: 162.159.38.90
     port: 8443
@@ -9037,7 +9063,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 772 CA
+  - name: 773 CA
     type: vless
     server: 172.64.153.159
     port: 443
@@ -9047,7 +9073,7 @@ proxies:
     network: ws
     ws-opts:
       path: /fp
-  - name: 773 CA
+  - name: 774 CA
     type: vless
     server: 172.67.79.128
     port: 443
@@ -9057,7 +9083,7 @@ proxies:
     network: ws
     ws-opts:
       path: /fp
-  - name: 774 CA
+  - name: 775 CA
     type: vless
     server: 162.159.1.170
     port: 443
@@ -9067,7 +9093,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 775 CA
+  - name: 776 CA
     type: vless
     server: 162.159.46.67
     port: 443
@@ -9078,7 +9104,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 776 CA
+  - name: 777 CA
     type: vless
     server: 162.159.42.182
     port: 443
@@ -9089,7 +9115,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 777 CA
+  - name: 778 CA
     type: vless
     server: 162.159.7.146
     port: 443
@@ -9100,7 +9126,7 @@ proxies:
     ws-opts:
       path: /fp
     client-fingerprint: chrome
-  - name: 778 US
+  - name: 779 US
     type: vless
     server: 154.17.13.158
     port: 443
@@ -9111,7 +9137,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 779 CA
+  - name: 780 CA
     type: vless
     server: 172.64.144.82
     port: 443
@@ -9121,7 +9147,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 780 US
+  - name: 781 US
     type: vless
     server: 154.17.233.72
     port: 8443
@@ -9132,7 +9158,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 781 US
+  - name: 782 US
     type: vless
     server: 64.186.229.189
     port: 443
@@ -9143,7 +9169,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 782 CA
+  - name: 783 CA
     type: vless
     server: 172.64.34.238
     port: 443
@@ -9154,7 +9180,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 783 CA
+  - name: 784 CA
     type: vless
     server: 104.20.13.116
     port: 443
@@ -9164,7 +9190,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 784 CA
+  - name: 785 CA
     type: vless
     server: 162.159.36.166
     port: 8443
@@ -9175,7 +9201,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 785 SG
+  - name: 786 SG
     type: vless
     server: 161.118.195.117
     port: 8443
@@ -9186,7 +9212,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 786 JP
+  - name: 787 JP
     type: vless
     server: 207.148.112.179
     port: 443
@@ -9196,7 +9222,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 787 SG
+  - name: 788 SG
     type: vless
     server: 47.82.155.79
     port: 443
@@ -9207,7 +9233,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 788 CA
+  - name: 789 CA
     type: vless
     server: 172.64.52.240
     port: 443
@@ -9218,7 +9244,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 789 HK
+  - name: 790 HK
     type: vless
     server: 217.60.38.113
     port: 443
@@ -9228,7 +9254,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 790 DE
+  - name: 791 DE
     type: vless
     server: 92.243.74.4
     port: 8443
@@ -9239,7 +9265,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 791 JP
+  - name: 792 JP
     type: vless
     server: 156.231.113.204
     port: 443
@@ -9250,7 +9276,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 792 CA
+  - name: 793 CA
     type: vless
     server: 104.19.37.176
     port: 443
@@ -9261,7 +9287,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 793 CA
+  - name: 794 CA
     type: vless
     server: 172.67.70.92
     port: 443
@@ -9271,7 +9297,25 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 794 CA
+  - type: vless
+    name: 795 CA
+    server: cf-cname.xingpingcn.top
+    port: 443
+    uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+    udp: true
+    tls: true
+    servername: b4d1f0des220.kuback.top
+    sni: b4d1f0des220.kuback.top
+    skip-cert-verify: false
+    alpn:
+      - h2
+      - http/1.1
+    network: xhttp
+    xhttp-opts:
+      path: d0dd77efdda074f25b595d9ea8ee5c64
+      host: b4d1f0des220.kuback.top
+      mode: auto
+  - name: 796 CA
     type: vless
     server: 104.17.174.123
     port: 443
@@ -9281,7 +9325,7 @@ proxies:
     network: ws
     ws-opts:
       path: /fp
-  - name: 795 SG
+  - name: 797 SG
     type: vless
     server: 138.2.64.229
     port: 443
@@ -9292,7 +9336,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 796 SG
+  - name: 798 SG
     type: vless
     server: 185.81.28.39
     port: 443
@@ -9302,7 +9346,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 797 JP
+  - name: 799 JP
     type: vless
     server: 168.138.46.67
     port: 443
@@ -9313,7 +9357,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 798 DE
+  - name: 800 DE
     type: vless
     server: 164.90.176.31
     port: 443
@@ -9324,7 +9368,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 799 CA
+  - name: 801 CA
     type: vless
     server: 162.159.152.48
     port: 443
@@ -9335,7 +9379,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: firefox
-  - name: 800 CA
+  - name: 802 CA
     type: vless
     server: 173.245.59.120
     port: 8443
@@ -9345,7 +9389,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 801 CA
+  - name: 803 CA
     type: vless
     server: 172.64.146.229
     port: 443
@@ -9356,7 +9400,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 802 CA
+  - name: 804 CA
     type: vless
     server: 162.159.4.2
     port: 8443
@@ -9367,7 +9411,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 803 CA
+  - name: 805 CA
     type: vless
     server: 162.159.4.221
     port: 8443
@@ -9378,7 +9422,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 804 CA
+  - name: 806 CA
     type: vless
     server: 108.162.196.3
     port: 443
@@ -9388,7 +9432,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 805 CA
+  - name: 807 CA
     type: vless
     server: 108.162.196.3
     port: 2083
@@ -9409,7 +9453,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
-  - name: 806 CA
+  - name: 808 CA
     type: vless
     server: 162.159.0.3
     port: 443
@@ -9419,7 +9463,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 807 CA
+  - name: 809 CA
     type: vless
     server: 104.19.206.162
     port: 443
@@ -9429,7 +9473,7 @@ proxies:
     network: ws
     ws-opts:
       path: /fp
-  - name: 808 CA
+  - name: 810 CA
     type: vless
     server: 198.41.223.216
     port: 8443
@@ -9440,7 +9484,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 809 CA
+  - name: 811 CA
     type: vless
     server: 104.17.184.155
     port: 443
@@ -9451,7 +9495,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 810 US
+  - name: 812 US
     type: vless
     server: 162.159.38.25
     port: 443
@@ -9461,7 +9505,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 811 CA
+  - name: 813 CA
     type: vless
     server: 172.66.45.6
     port: 443
@@ -9472,7 +9516,7 @@ proxies:
     ws-opts:
       path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed
     client-fingerprint: chrome
-  - name: 812 JP
+  - name: 814 JP
     type: vless
     server: 198.13.60.163
     port: 443
@@ -9482,7 +9526,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 814 CA
+  - name: 816 CA
     type: vless
     server: 104.17.112.113
     port: 443
@@ -9493,7 +9537,7 @@ proxies:
     ws-opts:
       path: /sg-melbi
     client-fingerprint: chrome
-  - name: 815 CA
+  - name: 817 CA
     type: vless
     server: 172.64.42.44
     port: 443
@@ -9504,7 +9548,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 816 CA
+  - name: 818 CA
     type: vless
     server: 162.159.3.141
     port: 443
@@ -9514,7 +9558,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 817 CA
+  - name: 819 CA
     type: vless
     server: 104.18.45.104
     port: 443
@@ -9524,7 +9568,7 @@ proxies:
     network: ws
     ws-opts:
       path: /fp
-  - name: 818 CA
+  - name: 820 CA
     type: vless
     server: 172.67.66.145
     port: 443
@@ -9535,7 +9579,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: firefox
-  - name: 819 US
+  - name: 821 US
     type: vless
     server: 64.186.230.172
     port: 443
@@ -9546,7 +9590,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 820 JP
+  - name: 822 JP
     type: vless
     server: 45.63.124.130
     port: 443
@@ -9557,7 +9601,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 821 CA
+  - name: 823 CA
     type: vless
     server: 198.41.223.58
     port: 8443
@@ -9567,7 +9611,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 822 CA
+  - name: 824 CA
     type: vless
     server: 172.64.95.8
     port: 443
@@ -9577,7 +9621,7 @@ proxies:
     network: ws
     ws-opts:
       path: /fp
-  - name: 823 JP
+  - name: 825 JP
     type: vless
     server: 198.13.53.115
     port: 443
@@ -9588,7 +9632,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 824 JP
+  - name: 826 JP
     type: vless
     server: 149.28.18.65
     port: 8443
@@ -9599,7 +9643,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 825 JP
+  - name: 827 JP
     type: vless
     server: 155.248.177.225
     port: 443
@@ -9610,7 +9654,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 826 US
+  - name: 828 US
     type: vless
     server: 45.38.60.139
     port: 443
@@ -9621,7 +9665,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 828 CA
+  - name: 830 CA
     type: vless
     server: 104.21.227.134
     port: 443
@@ -9631,7 +9675,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 829 US
+  - name: 831 US
     type: vless
     server: 8.39.125.45
     port: 443
@@ -9642,7 +9686,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 830 JP
+  - name: 832 JP
     type: vless
     server: 45.32.31.218
     port: 443
@@ -9653,7 +9697,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 831 CA
+  - name: 833 CA
     type: vless
     server: 172.66.46.250
     port: 443
@@ -9663,7 +9707,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 832 CA
+  - name: 834 CA
     type: vless
     server: 162.159.5.231
     port: 443
@@ -9674,7 +9718,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 833 JP
+  - name: 835 JP
     type: vless
     server: 45.32.24.178
     port: 443
@@ -9685,7 +9729,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 834 JP
+  - name: 836 JP
     type: vless
     server: 54.250.143.140
     port: 443
@@ -9696,7 +9740,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 835 KR
+  - name: 837 KR
     type: vless
     server: 64.110.70.64
     port: 443
@@ -9707,7 +9751,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 837 CA
+  - name: 839 CA
     type: vless
     server: 162.159.12.210
     port: 443
@@ -9718,7 +9762,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 838 CA
+  - name: 840 CA
     type: vless
     server: 172.64.41.202
     port: 443
@@ -9729,7 +9773,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 839 US
+  - name: 841 US
     type: vless
     server: 64.186.237.44
     port: 443
@@ -9740,7 +9784,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 840 JP
+  - name: 842 JP
     type: vless
     server: 141.147.174.243
     port: 443
@@ -9751,7 +9795,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 841 CA
+  - name: 843 CA
     type: vless
     server: 104.19.151.42
     port: 8443
@@ -9762,7 +9806,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 842 JP
+  - name: 844 JP
     type: vless
     server: 45.76.102.47
     port: 443
@@ -9772,7 +9816,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 843 KR
+  - name: 845 KR
     type: vless
     server: 158.247.199.106
     port: 443
@@ -9782,7 +9826,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 845 SG
+  - name: 847 SG
     type: vless
     server: 168.138.189.91
     port: 443
@@ -9793,7 +9837,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 846 HK
+  - name: 848 HK
     type: vless
     server: 207.57.128.194
     port: 443
@@ -9804,7 +9848,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 847 HK
+  - name: 849 HK
     type: vless
     server: 219.76.13.177
     port: 443
@@ -9815,7 +9859,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 848 JP
+  - name: 850 JP
     type: vless
     server: 54.248.55.203
     port: 443
@@ -9826,7 +9870,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 849 SG
+  - name: 851 SG
     type: vless
     server: 18.138.34.221
     port: 443
@@ -9837,7 +9881,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 850 JP
+  - name: 852 JP
     type: vless
     server: 45.32.16.54
     port: 443
@@ -9848,7 +9892,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 851 SG
+  - name: 853 SG
     type: vless
     server: 217.142.190.216
     port: 8443
@@ -9859,7 +9903,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 852 CA
+  - name: 854 CA
     type: vless
     server: 108.162.192.5
     port: 443
@@ -9869,7 +9913,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 853 US
+  - name: 855 US
     type: vless
     server: 69.63.193.76
     port: 443
@@ -9880,7 +9924,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 854 SG
+  - name: 856 SG
     type: vless
     server: 207.148.125.245
     port: 8443
@@ -9890,7 +9934,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 855 KR
+  - name: 857 KR
     type: vless
     server: 152.70.239.74
     port: 443
@@ -9900,7 +9944,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 856 US
+  - name: 858 US
     type: vless
     server: 64.186.232.37
     port: 443
@@ -9911,7 +9955,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 857 GB
+  - name: 859 GB
     type: vless
     server: 91.193.58.194
     port: 8443
@@ -9922,7 +9966,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 858 RU
+  - name: 860 RU
     type: vless
     server: 217.114.12.143
     port: 443
@@ -9933,7 +9977,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 859 CA
+  - name: 861 CA
     type: vless
     server: 162.159.4.13
     port: 443
@@ -9944,7 +9988,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 860 JP
+  - name: 862 JP
     type: vless
     server: 3.112.34.29
     port: 443
@@ -9955,7 +9999,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 861 JP
+  - name: 863 JP
     type: vless
     server: 64.176.36.17
     port: 443
@@ -9965,7 +10009,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 862 CA
+  - name: 864 CA
     type: vless
     server: 104.18.33.187
     port: 8443
@@ -9976,7 +10020,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: firefox
-  - name: 863 RU
+  - name: 865 RU
     type: vless
     server: 45.129.3.157
     port: 443
@@ -9986,7 +10030,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 864 KR
+  - name: 866 KR
     type: vless
     server: 152.70.254.197
     port: 443
@@ -9996,7 +10040,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 866 JP
+  - name: 868 JP
     type: vless
     server: 45.32.16.36
     port: 443
@@ -10007,7 +10051,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 867 GB
+  - name: 869 GB
     type: vless
     server: 91.193.58.142
     port: 8443
@@ -10018,7 +10062,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: firefox
-  - name: 868 US
+  - name: 870 US
     type: vless
     server: 8.35.211.204
     port: 8443
@@ -10029,7 +10073,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 869 DE
+  - name: 871 DE
     type: vless
     server: 176.124.221.208
     port: 58500
@@ -10038,7 +10082,7 @@ proxies:
     network: ws
     ws-opts:
       path: /free
-  - name: 870 CA
+  - name: 872 CA
     type: vless
     server: 172.67.105.227
     port: 443
@@ -10048,7 +10092,7 @@ proxies:
     network: ws
     ws-opts:
       path: /fp
-  - name: 871 JP
+  - name: 873 JP
     type: vless
     server: 45.202.254.53
     port: 8443
@@ -10059,7 +10103,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 872 JP
+  - name: 874 JP
     type: vless
     server: 45.76.198.248
     port: 443
@@ -10070,7 +10114,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 873 SG
+  - name: 875 SG
     type: vless
     server: 8.219.154.217
     port: 8443
@@ -10081,7 +10125,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 874 CA
+  - name: 876 CA
     type: vless
     server: 104.21.40.208
     port: 8443
@@ -10092,7 +10136,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 875 CA
+  - name: 877 CA
     type: vless
     server: 104.17.147.72
     port: 443
@@ -10103,7 +10147,7 @@ proxies:
     ws-opts:
       path: /odiyfws
     client-fingerprint: chrome
-  - name: 876 CA
+  - name: 878 CA
     type: vless
     server: 104.21.51.196
     port: 8443
@@ -10114,7 +10158,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 877 CA
+  - name: 879 CA
     type: vless
     server: 104.17.147.109
     port: 443
@@ -10125,7 +10169,7 @@ proxies:
     ws-opts:
       path: /odiyfws
     client-fingerprint: chrome
-  - name: 878 JP
+  - name: 880 JP
     type: vless
     server: 35.75.183.41
     port: 443
@@ -10136,7 +10180,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 879 KR
+  - name: 881 KR
     type: vless
     server: 158.180.71.69
     port: 443
@@ -10146,7 +10190,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 881 JP
+  - name: 883 JP
     type: vless
     server: 64.176.35.237
     port: 443
@@ -10157,7 +10201,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 882 JP
+  - name: 884 JP
     type: vless
     server: 45.76.206.46
     port: 443
@@ -10168,7 +10212,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 883 CA
+  - name: 885 CA
     type: vless
     server: 104.21.40.223
     port: 8443
@@ -10179,7 +10223,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 884 KR
+  - name: 886 KR
     type: vless
     server: 158.247.253.111
     port: 8443
@@ -10190,7 +10234,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 885 JP
+  - name: 887 JP
     type: vless
     server: 168.138.192.184
     port: 8443
@@ -10201,7 +10245,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 886 RU
+  - name: 888 RU
     type: vless
     server: 192.144.37.23
     port: 443
@@ -10211,7 +10255,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 887 KR
+  - name: 889 KR
     type: vless
     server: 161.118.158.9
     port: 443
@@ -10221,7 +10265,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 889 SG
+  - name: 891 SG
     type: vless
     server: 158.178.230.113
     port: 8443
@@ -10231,7 +10275,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 902 US
+  - name: 904 US
     type: vless
     server: 135.84.73.245
     port: 443
@@ -10243,7 +10287,7 @@ proxies:
       headers:
         Host: sni.111000.dynv6.net
     udp: true
-  - name: 903 KR
+  - name: 905 KR
     type: vless
     server: 59.4.161.71
     port: 38241
@@ -10256,7 +10300,7 @@ proxies:
       headers:
         Host: sni.111000.v6.army
     udp: true
-  - name: 904 KR
+  - name: 906 KR
     type: vless
     server: 121.175.77.73
     port: 10333
@@ -10269,7 +10313,7 @@ proxies:
       headers:
         Host: sni.111000.v6.army
     udp: true
-  - name: 905 JP
+  - name: 907 JP
     type: vless
     server: 158.51.110.12
     port: 443
@@ -10282,7 +10326,7 @@ proxies:
       headers:
         Host: pagescm.freen5.cc.cd
     udp: true
-  - name: 907 CA
+  - name: 909 CA
     type: vless
     server: 104.17.101.139
     port: 443
@@ -10295,7 +10339,24 @@ proxies:
       headers:
         Host: sni.111000.dynv6.net
     udp: true
-  - name: 908 US
+  - name: 910 CA
+    type: vless
+    server: cf9.466688.xyz
+    port: 443
+    client-fingerprint: chrome
+    encryption: none
+    network: ws
+    packet-encoding: xudp
+    servername: domah57929.pages.dev
+    skip-cert-verify: false
+    tls: true
+    udp: true
+    uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+    ws-opts:
+      headers:
+        Host: domah57929.pages.dev
+      path: /t.me/QiangLieTuiJian?ed
+  - name: 911 US
     type: vless
     server: 139.64.235.238
     port: 2096
@@ -10309,7 +10370,7 @@ proxies:
       headers:
         Host: sni.jpmj.dev
     udp: true
-  - name: 909 US
+  - name: 912 US
     type: vless
     server: 45.153.7.191
     port: 2096
@@ -10321,7 +10382,7 @@ proxies:
       headers:
         Host: sni.my111000.tech
     udp: true
-  - name: 910 CA
+  - name: 913 CA
     type: vless
     server: 162.159.17.207
     port: 443
@@ -10335,7 +10396,7 @@ proxies:
         Host: sni.111000.v6.army
     udp: true
   - type: vless
-    name: 911 CA
+    name: 914 CA
     server: 188.114.98.112
     port: 80
     uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
@@ -10347,7 +10408,7 @@ proxies:
       path: /ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY?ed=2560
       headers:
         Host: elenaaaaaaaaaa.cloudns.pro.
-  - name: 942 DE
+  - name: 945 DE
     type: vless
     server: 181.214.99.162
     port: 443
@@ -10372,7 +10433,7 @@ proxies:
       reuse-settings:
         h-keep-alive-period: 12
         max-concurrency: "6"
-  - name: 946 CA
+  - name: 949 CA
     network: ws
     port: 443
     server: 104.18.21.69
@@ -10384,7 +10445,7 @@ proxies:
       headers:
         Host: fs.qicai99.com
       path: /fp=chromefp=chrome
-  - name: 947 HK
+  - name: 950 HK
     network: ws
     port: 443
     server: 68.64.182.205
@@ -10399,7 +10460,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: firefox
-    name: 948 RU
+    name: 951 RU
     network: ws
     port: 443
     server: 31.177.111.184
@@ -10412,7 +10473,7 @@ proxies:
         Host: zry9ocg43w.flowersgood.top
       path: /static/collect/9412171e8a3a/
   - client-fingerprint: chrome
-    name: 949 TW
+    name: 952 TW
     network: ws
     port: 443
     server: 60.248.219.53
@@ -10425,7 +10486,7 @@ proxies:
         Host: ty986gfazs.cainiaohub.xyz
       path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
   - client-fingerprint: chrome
-    name: 950 US
+    name: 953 US
     network: ws
     port: 443
     server: 199.232.78.160
@@ -10437,124 +10498,61 @@ proxies:
       headers:
         Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
       path: /
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: 952 CA
-    network: xhttp
-    port: 8443
-    server: 104.18.162.1
-    servername: 3m.818567.xyz
+  - client-fingerprint: chrome
+    name: 955 CA
+    network: ws
+    port: 443
+    server: 104.20.63.254
     tls: true
     type: vless
     udp: true
-    uuid: 1662f377-776b-4e49-90d6-dd5b2c7920c8
-    xhttp-opts:
-      mode: packet-up
-      path: /v-stream
-    xudp: true
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: 953 CA
-    network: xhttp
-    port: 8443
-    server: 104.16.160.8
-    servername: 3m.818567.xyz
+    uuid: cd3d8e5c-794f-4c34-8222-59d3e99e35fe
+    ws-opts:
+      headers:
+        Host: joeypg.ezbiz.dynv6.net
+      path: /?ed=2048
+  - client-fingerprint: chrome
+    name: 956 SG
+    network: ws
+    port: 443
+    server: 129.212.232.171
+    servername: v2n4.11676767.xyz
     tls: true
     type: vless
     udp: true
-    uuid: 1662f377-776b-4e49-90d6-dd5b2c7920c8
-    xhttp-opts:
-      mode: packet-up
-      path: /v-stream
-    xudp: true
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    name: 954 CA
+    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+    ws-opts:
+      headers:
+        Host: v2n4.11676767.xyz
+      path: /resource/topics
+  - client-fingerprint: firefox
+    name: 958 US
     network: xhttp
-    port: 2053
-    server: 104.21.74.214
-    servername: n8.hyby.ir
+    port: 443
+    server: 23.237.202.254
+    servername: id-97fd7807.vmagnum.win
     tls: true
     type: vless
     udp: true
-    uuid: d133dd1c-3084-46c3-ba6e-aa3597c43cc1
+    uuid: 97fd7807-7e2b-49da-8a0e-e40197088f97
     xhttp-opts:
-      host: n8.hyby.ir
       mode: auto
       path: /
   - client-fingerprint: chrome
-    name: 955 GB
-    network: xhttp
+    name: 959 US
+    network: ws
     port: 443
-    server: 3.174.189.0
-    servername: d1b9pmaut2v26v.cloudfront.net
+    server: 104.168.132.123
+    servername: cf-1rm.pages.dev
     tls: true
     type: vless
-    udp: true
-    uuid: 2e69b088-6ef3-417f-8247-125cf257fafd
-    xhttp-opts:
-      host: d1b9pmaut2v26v.cloudfront.net
-      mode: auto
-      path: /cf
-  - client-fingerprint: chrome
-    name: 957 US
-    network: xhttp
-    port: 443
-    server: 167.82.76.31
-    servername: cdn.akamai.steamstatic.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 31c9f001-09c6-4ed7-8423-e3d65cce8ec7
-    xhttp-opts:
-      host: nightmoooon.global.ssl.fastly.net
-      mode: auto
-      path: /setare
-      x-padding-bytes: 100-1000
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: firefox
-    name: 958 RU
-    network: xhttp
-    port: 2053
-    server: 46.243.234.17
-    servername: windytrout.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 37af0181-5598-4aad-a040-d926bcb65757
-    xhttp-opts:
-      host: windytrout.net
-      mode: auto
-      path: /api/v1/upload
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    name: 959 RU
-    network: xhttp
-    port: 2053
-    server: windytrout.net
-    servername: windytrout.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 37af0181-5598-4aad-a040-d926bcb65757
-    xhttp-opts:
-      host: windytrout.net
-      mode: auto
-      path: /api/v1/upload
+    uuid: 5e610f80-fc6a-479d-8621-b672355b96a1
+    ws-opts:
+      headers:
+        Host: cf-1rm.pages.dev
+      path: /
   - client-fingerprint: firefox
-    name: 961 US
+    name: 960 US
     network: ws
     port: 8443
     server: 152.53.31.46
@@ -10568,7 +10566,7 @@ proxies:
       headers:
         Host: usa3.pad-service.com
       path: /U1SA
-  - name: 963 HK
+  - name: 962 HK
     type: vless
     server: 43.132.231.159
     port: 443
@@ -10582,7 +10580,7 @@ proxies:
       headers:
         Host: c.eoa.ccwu.cc
       path: /
-  - name: 966 SG
+  - name: 965 SG
     type: vless
     server: 207.148.119.176
     port: 8443
@@ -10603,7 +10601,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
-  - name: 967 SG
+  - name: 966 SG
     type: vless
     server: 43.160.247.113
     port: 9999
@@ -10618,7 +10616,7 @@ proxies:
       headers:
         Host: c.eoa.ccwu.cc
       path: /
-  - name: 968 KR
+  - name: 967 KR
     type: vless
     server: 101.33.75.233
     port: 39738
@@ -10634,7 +10632,7 @@ proxies:
       headers:
         Host: c.eoa.ccwu.cc
       path: /
-  - name: 969 SG
+  - name: 968 SG
     type: vless
     server: 43.156.2.91
     port: 443
@@ -10649,7 +10647,7 @@ proxies:
       headers:
         Host: c.eoa.ccwu.cc
       path: /
-  - name: 970 SG
+  - name: 969 SG
     type: vless
     server: 43.156.200.201
     port: 443
@@ -10664,7 +10662,7 @@ proxies:
       headers:
         Host: c.eoa.ccwu.cc
       path: /
-  - name: 971 SG
+  - name: 970 SG
     type: vless
     server: 43.153.208.246
     port: 7788
@@ -10679,7 +10677,7 @@ proxies:
       headers:
         Host: c.eoa.ccwu.cc
       path: /
-  - name: 975 JP
+  - name: 974 JP
     type: vless
     server: 43.165.167.99
     port: 666
@@ -10695,7 +10693,7 @@ proxies:
       headers:
         Host: 43.165.167.99
       path: /proxy
-  - name: 976 JP
+  - name: 975 JP
     type: vless
     server: 167.179.82.79
     port: 443
@@ -10716,7 +10714,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
-  - name: 977 JP
+  - name: 976 JP
     type: vless
     server: 66.245.218.247
     port: 443
@@ -10737,7 +10735,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
-  - name: 978 JP
+  - name: 977 JP
     type: vless
     server: 43.165.168.14
     port: 666
@@ -10753,7 +10751,7 @@ proxies:
       headers:
         Host: 43.165.168.14
       path: /proxy
-  - name: 979 JP
+  - name: 978 JP
     type: vless
     server: 161.33.3.222
     port: 443
@@ -10774,7 +10772,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
-  - name: 980 JP
+  - name: 979 JP
     type: vless
     server: 172.111.146.64
     port: 80
@@ -10786,7 +10784,7 @@ proxies:
     uuid: 904f8ffa-4652-4076-8f2f-e586807840ec
     ws-opts:
       path: /vless/
-  - name: 981 JP
+  - name: 980 JP
     type: vless
     server: 138.2.62.8
     port: 443
@@ -10800,7 +10798,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
-  - name: 982 JP
+  - name: 981 JP
     type: vless
     server: 43.165.128.152
     port: 49152
@@ -10817,7 +10815,7 @@ proxies:
       headers:
         Host: sp.linuxdododo.ccwu.cc
       path: /proxyip=ProxyIP.JP.cmliussss.net
-  - name: 983 KR
+  - name: 982 KR
     type: vless
     server: 43.128.147.145
     port: 443
@@ -10833,7 +10831,7 @@ proxies:
       headers:
         Host: c.eoa.ccwu.cc
       path: /
-  - name: 984 KR
+  - name: 983 KR
     type: vless
     server: 141.164.42.2
     port: 443
@@ -10854,7 +10852,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
-  - name: 986 US
+  - name: 985 US
     type: vless
     server: 185.106.96.231
     port: 443
@@ -10870,7 +10868,7 @@ proxies:
     xhttp-opts:
       host: s559.ccgfw.top
       path: /ssp-xhttp
-  - name: 1031 US
+  - name: 1030 US
     type: vless
     server: 154.17.29.221
     port: 443
@@ -10891,7 +10889,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
-  - name: 1062 US
+  - name: 1061 US
     type: vless
     server: 142.171.114.133
     port: 443
@@ -10906,7 +10904,7 @@ proxies:
       headers:
         Host: hhvl.hhapp.kdns.fr
       path: /l9vgjc
-  - name: 1066 US
+  - name: 1065 US
     type: vless
     server: 64.186.248.160
     port: 443
@@ -10927,7 +10925,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
-  - name: 1068 US
+  - name: 1067 US
     type: vless
     server: 154.17.228.36
     port: 443
@@ -10948,6 +10946,22 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
       path: /
+  - type: vless
+    name: 1074 JP
+    server: 43.170.8.95
+    port: 443
+    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+    udp: true
+    tls: true
+    servername: jp3.yohototo.top
+    sni: jp3.yohototo.top
+    skip-cert-verify: true
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /tyxyws
+      headers:
+        Host: jp3.yohototo.top
   - name: 1079 JP
     type: vless
     server: 108.160.132.178
@@ -11041,16 +11055,6 @@ proxies:
     ws-opts:
       headers:
         Host: t1s1.rittbo.kdns.fr
-      path: /
-  - name: 1116 CA
-    type: vless
-    server: sourceforge.net
-    port: 2095
-    uuid: 3a3f3082-acca-456d-89fa-2a60f96db400
-    tls: false
-    servername: cdn-owmsmsj.mohammad420.sbs
-    network: ws
-    ws-opts:
       path: /
   - name: 1130 GB
     type: vless
@@ -13122,39 +13126,7 @@ proxies:
         Host: shuma.ccwu.cc
       path: /
   - type: vless
-    name: 1322 US
-    server: 103.116.7.100
-    port: 2087
-    uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
-    udp: true
-    tls: true
-    servername: proxy-1cu.pages.dev
-    sni: proxy-1cu.pages.dev
-    skip-cert-verify: true
-    client-fingerprint: android
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: proxy-1cu.pages.dev
-  - type: vless
-    name: 1323 HK
-    server: 216.23.93.27
-    port: 443
-    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-    udp: true
-    tls: true
-    servername: jp3.yohototo.top
-    sni: jp3.yohototo.top
-    skip-cert-verify: true
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /tyxyws
-      headers:
-        Host: jp3.yohototo.top
-  - type: vless
-    name: 1324 RU
+    name: 1322 RU
     server: 45.9.15.206
     port: 443
     uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
@@ -13167,7 +13139,7 @@ proxies:
     ws-opts:
       path: /websocket
   - type: vless
-    name: 1325 RU
+    name: 1323 RU
     server: ru05.abvpn.ru
     port: 443
     uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
@@ -13181,7 +13153,25 @@ proxies:
     ws-opts:
       path: /websocket
   - type: vless
-    name: 1328 GB
+    name: 1326 GB
+    server: 151.101.56.6
+    port: 443
+    uuid: d9eda159-18d6-4457-8983-55523a21658c
+    udp: true
+    tls: true
+    servername: ssl.fastly.com
+    sni: ssl.fastly.com
+    skip-cert-verify: true
+    alpn:
+      - h2
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
+      headers:
+        Host: c12.com
+  - type: vless
+    name: 1327 GB
     server: k2.cloud--vpn.site
     port: 443
     uuid: daee66b7-3f5e-46d7-83c1-4d93a5fb33c3
@@ -13197,152 +13187,7 @@ proxies:
       headers:
         Host: c12.com
   - type: vless
-    name: 1330 US
-    server: 154.40.59.238
-    port: 443
-    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-    udp: true
-    tls: true
-    servername: jp3.yohototo.top
-    sni: jp3.yohototo.top
-    skip-cert-verify: true
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /tyxyws
-      headers:
-        Host: jp3.yohototo.top
-  - type: vless
-    name: 1331 HK
-    server: 103.219.195.65
-    port: 443
-    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-    udp: true
-    tls: true
-    servername: jp3.yohototo.top
-    sni: jp3.yohototo.top
-    skip-cert-verify: true
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /tyxyws
-      headers:
-        Host: jp3.yohototo.top
-  - type: vless
-    name: 1332 US
-    server: 38.207.162.122
-    port: 443
-    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-    udp: true
-    tls: true
-    servername: jp3.yohototo.top
-    sni: jp3.yohototo.top
-    skip-cert-verify: true
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /tyxyws
-      headers:
-        Host: jp3.yohototo.top
-  - type: vless
-    name: 1333 US
-    server: 64.178.113.127
-    port: 443
-    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-    udp: true
-    tls: true
-    servername: jp3.yohototo.top
-    sni: jp3.yohototo.top
-    skip-cert-verify: true
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /tyxyws
-  - type: vless
-    name: 1334 US
-    server: 23.144.124.76
-    port: 443
-    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-    udp: true
-    tls: true
-    servername: jp3.yohototo.top
-    sni: jp3.yohototo.top
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /tyxyws
-  - type: vless
-    name: 1335 US
-    server: 216.167.127.197
-    port: 443
-    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-    udp: true
-    tls: true
-    servername: jp3.yohototo.top
-    sni: jp3.yohototo.top
-    skip-cert-verify: true
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /tyxyws
-  - type: vless
-    name: 1336 DE
-    server: 3.168.218.14
-    port: 443
-    uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-    udp: true
-    tls: true
-    servername: d2ex4nxd2e01ub.cloudfront.net
-    sni: d2ex4nxd2e01ub.cloudfront.net
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /
-  - type: vless
-    name: 1337 DE
-    server: 3.168.218.9
-    port: 443
-    uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-    udp: true
-    tls: true
-    servername: d2ex4nxd2e01ub.cloudfront.net
-    sni: d2ex4nxd2e01ub.cloudfront.net
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /
-  - type: vless
-    name: 1338 JP
-    server: 62.106.70.68
-    port: 443
-    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-    udp: true
-    tls: true
-    servername: jp3.yohototo.top
-    sni: jp3.yohototo.top
-    skip-cert-verify: true
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /tyxyws
-  - type: vless
-    name: 1339 JP
-    server: 45.142.126.184
-    port: 443
-    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-    udp: true
-    tls: true
-    servername: jp3.yohototo.top
-    sni: jp3.yohototo.top
-    skip-cert-verify: true
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /tyxyws
-  - type: vless
-    name: 1348 GB
+    name: 1337 GB
     server: 140.225.208.60
     port: 2083
     uuid: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
@@ -13359,7 +13204,7 @@ proxies:
     encryption: none
     servername: speedtestmark.com
   - type: vless
-    name: 1350 GB
+    name: 1339 GB
     server: 144.31.213.229
     port: 443
     uuid: abca037b-bee5-41cc-a888-0668e4c66176
@@ -13374,7 +13219,7 @@ proxies:
       x-padding-bytes: 100-1000
     encryption: none
     servername: 6d160a52.con.fernarchive.online
-  - name: 1351 CA
+  - name: 1340 CA
     server: 104.16.162.89
     port: 8080
     type: vless
@@ -13389,7 +13234,7 @@ proxies:
         Host: hhlfy.twiladaphne.ndjp.net
     udp: true
   - type: vless
-    name: 1353 US
+    name: 1342 US
     server: 146.75.57.238
     port: 443
     uuid: e9a9d2ba-8c33-4e5e-a903-efa595db2fff
@@ -13406,7 +13251,7 @@ proxies:
     encryption: none
     servername: cdn.akamai.steamstatic.com
     fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-  - name: 1354 US
+  - name: 1343 US
     network: ws
     port: 8080
     server: 208.84.100.209
@@ -13415,7 +13260,7 @@ proxies:
     uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
     ws-opts:
       path: /
-  - name: 1355 CA
+  - name: 1344 CA
     server: 104.18.0.181
     port: 2082
     type: vless
@@ -13430,63 +13275,21 @@ proxies:
         Host: hhlfy.twiladaphne.ndjp.net
     udp: true
     servername: hhlfy.twiladaphne.ndjp.net
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: firefox
-    encryption: none
-    name: 1356 RU
-    network: xhttp
-    port: 8443
-    server: 46.243.232.178
-    servername: earlytrain.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 37af0181-5598-4aad-a040-d926bcb65757
-    xhttp-opts:
-      host: earlytrain.net
-      mode: auto
-      path: /api/v1/upload
-      reuse-settings:
-        c-max-reuse-times: 64-128
-        h-keep-alive-period: 0
-        h-max-request-times: "0"
-        h-max-reusable-secs: "0"
-        max-concurrency: 16-32
-        max-connections: "0"
-      session-length: "0"
-      x-padding-bytes: 100-1000
-      x-padding-obfs-mode: false
-    xudp: true
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: 1357 RU
-    network: xhttp
-    port: 8443
-    server: earlytrain.net
-    servername: earlytrain.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 37af0181-5598-4aad-a040-d926bcb65757
-    xhttp-opts:
-      host: earlytrain.net
-      mode: auto
-      path: /api/v1/upload
-      reuse-settings:
-        c-max-reuse-times: 64-128
-        max-concurrency: 16-32
-        max-connections: "0"
-      sc-max-each-post-bytes: 1000000
-      sc-min-posts-interval-ms: 30
-      x-padding-bytes: 100-1000
-    xudp: true
   - client-fingerprint: firefox
-    name: 1360 RU
+    name: 1347 RU
+    network: xhttp
+    port: 443
+    server: 193.160.208.240
+    servername: 193.160.208.240
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
+    xhttp-opts:
+      mode: auto
+      path: /assets/twru01/
+  - client-fingerprint: firefox
+    name: 1350 RU
     network: xhttp
     port: 443
     server: 201.34.142.108
@@ -13499,7 +13302,7 @@ proxies:
       mode: auto
       path: /assets/nlrelay01/
   - type: vless
-    name: 1362 CA
+    name: 1353 CA
     server: frfx.pafaktalaei.ir
     port: 443
     uuid: a5bb02b7-0a54-44dc-af05-dc2633d5abd4
@@ -13516,22 +13319,72 @@ proxies:
       path: /connect-v1
       host: frfx.pafaktalaei.ir
       mode: auto
-  - client-fingerprint: chrome
-    name: 1363 CA
-    network: ws
-    port: 443
-    server: wryly-messiest.video-streams.org
-    servername: wryly-messiest.video-streams.org
-    tls: true
-    type: vless
-    udp: true
-    uuid: 3622cb16-9f16-4b10-b2af-148e93d515bf
-    ws-opts:
-      headers:
-        Host: wryly-messiest.video-streams.org
-      path: /ws
   - type: vless
-    name: 1364 CA
+    name: 1354 CA
+    server: fearfully-tilt.cdn-content.com
+    port: 443
+    uuid: e970689a-796c-4ec5-8b3d-9f80d8d84c9a
+    udp: true
+    tls: true
+    servername: fearfully-tilt.cdn-content.com
+    sni: fearfully-tilt.cdn-content.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: fearfully-tilt.cdn-content.com
+  - type: vless
+    name: 1355 CA
+    server: sparkling-gadabout.quick-cdn.net
+    port: 443
+    uuid: a30678ea-17fa-4b2c-9664-fabd67c01146
+    udp: true
+    tls: true
+    servername: sparkling-gadabout.quick-cdn.net
+    sni: sparkling-gadabout.quick-cdn.net
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: sparkling-gadabout.quick-cdn.net
+  - type: vless
+    name: 1356 CA
+    server: guessable-turnpikes.cdn-content.com
+    port: 443
+    uuid: e970689a-796c-4ec5-8b3d-9f80d8d84c9a
+    udp: true
+    tls: true
+    servername: guessable-turnpikes.cdn-content.com
+    sni: guessable-turnpikes.cdn-content.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: guessable-turnpikes.cdn-content.com
+  - type: vless
+    name: 1357 CA
+    server: barbered-mattocks.video-streams.org
+    port: 443
+    uuid: 958775c8-2447-4b1e-bbba-6f75c7872d05
+    udp: true
+    tls: true
+    servername: barbered-mattocks.video-streams.org
+    sni: barbered-mattocks.video-streams.org
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: barbered-mattocks.video-streams.org
+  - type: vless
+    name: 1358 CA
     server: cf.090227.xyz
     port: 443
     uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
@@ -13547,7 +13400,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
   - type: vless
-    name: 1365 CA
+    name: 1359 CA
     server: cf.090227.xyz
     port: 8443
     uuid: 889fa37f-6bce-4674-8a49-1cc435e11de7
@@ -13561,7 +13414,7 @@ proxies:
       path: /proxyip=ProxyIP.SG.CMLiussss.Net
       headers:
         Host: liusuyan.cc.cd
-  - name: 1366 CA
+  - name: 1360 CA
     type: vless
     server: cf7.466688.xyz
     port: 443
@@ -13579,7 +13432,7 @@ proxies:
         Host: domah57929.pages.dev
       path: /t.me/QiangLieTuiJian?ed
   - type: vless
-    name: 1367 CA
+    name: 1361 CA
     server: cloudflare-ip.mofashi.ltd
     port: 443
     uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
@@ -13595,7 +13448,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
   - type: vless
-    name: 1368 CA
+    name: 1362 CA
     server: store.ubi.com
     port: 443
     uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
@@ -13611,7 +13464,7 @@ proxies:
       headers:
         Host: t1s1.rittbo.kdns.fr
   - type: vless
-    name: 1369 US
+    name: 1363 US
     server: www.true.th
     port: 80
     uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
@@ -13626,7 +13479,7 @@ proxies:
       headers:
         Host: d2pwbkmfr5lxa4.cloudfront.net
   - type: vless
-    name: 1370 US
+    name: 1364 US
     server: www.true.th
     port: 443
     uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
@@ -13640,7 +13493,7 @@ proxies:
     ws-opts:
       path: /
   - type: vless
-    name: 1371 DE
+    name: 1365 DE
     server: 150.241.101.218.fwqfw783rg2dad.website
     port: 443
     uuid: 9efe092e-e4ae-4601-bb89-169fcb3db39b
@@ -13656,7 +13509,7 @@ proxies:
       headers:
         Host: 150.241.101.218.fwqfw783rg2dad.website
   - type: vless
-    name: 1373 CA
+    name: 1367 CA
     server: crimson-smoke-7818.397.workers.dev
     port: 8880
     uuid: d6bdda67-168d-4501-a2c1-ef01070cb327
@@ -13667,7 +13520,7 @@ proxies:
     ws-opts:
       path: /pyip=ProxyIP.KR.CMLiussss.net
   - type: vless
-    name: 1374 CA
+    name: 1368 CA
     server: www.gov.se
     port: 8080
     uuid: 989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf
@@ -13682,7 +13535,7 @@ proxies:
       headers:
         Host: sdf23g-billowing-moon-348e.mzm468gc.workers.dev
   - type: vless
-    name: 1375 CA
+    name: 1369 CA
     server: pew.dianawmoon.dpdns.org
     port: 443
     uuid: 26769ac3-b34c-430a-87f8-e1de14619d25
@@ -13701,7 +13554,7 @@ proxies:
       host: pew.dianawmoon.dpdns.org
       mode: auto
   - type: vless
-    name: 1376 CA
+    name: 1370 CA
     server: www.iplocation.net
     port: 8080
     uuid: 5c4ce4e3-d4cd-43ff-8eb0-9aa553410bff
@@ -13714,7 +13567,7 @@ proxies:
       headers:
         Host: n23odi-jolly-sound-f784.mbkl61es.workers.dev
   - type: vless
-    name: 1377 DE
+    name: 1371 DE
     server: 148-253-210-191.sslip.io
     port: 443
     uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
@@ -13732,7 +13585,7 @@ proxies:
       headers:
         Host: 148-253-210-191.sslip.io
   - type: vless
-    name: 1379 RU
+    name: 1373 RU
     server: cdn-ya.shamanapp.online
     port: 443
     uuid: 40c8a202-4b7f-45a6-b0aa-37db0fac4df8
@@ -13751,7 +13604,7 @@ proxies:
       host: cdn-ya.shamanapp.online
       mode: packet-up
   - type: vless
-    name: 1380 RU
+    name: 1374 RU
     server: cdn.oldertown.ru
     port: 443
     uuid: 29777784-b5ad-4e2a-be7b-335f033ab97c
@@ -13767,7 +13620,7 @@ proxies:
       host: cdn.oldertown.ru
       mode: packet-up
   - type: vless
-    name: 1381 CA
+    name: 1375 CA
     server: www.codex2api.com
     port: 443
     uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
@@ -13785,7 +13638,7 @@ proxies:
       host: 6f01ee42s71.kuback.top
       mode: auto
   - type: vless
-    name: 1382 CA
+    name: 1376 CA
     server: fu.baiproxy.us.ci
     port: 2087
     uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
@@ -13799,7 +13652,7 @@ proxies:
       headers:
         Host: fu.baiproxy.us.ci
   - type: vless
-    name: 1383 CA
+    name: 1377 CA
     server: www.shopify.com
     port: 2083
     uuid: bf14dc50-e9f2-49fd-8642-620446edeafb
@@ -13814,7 +13667,24 @@ proxies:
       path: /
       headers:
         Host: v6-95o.pages.dev
-  - name: 1384 DE
+  - name: 1378 CA
+    type: vless
+    server: cf6.466688.xyz
+    port: 443
+    client-fingerprint: chrome
+    encryption: none
+    network: ws
+    packet-encoding: xudp
+    servername: domah57929.pages.dev
+    skip-cert-verify: false
+    tls: true
+    udp: true
+    uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+    ws-opts:
+      headers:
+        Host: domah57929.pages.dev
+      path: /t.me/QiangLieTuiJian?ed
+  - name: 1379 DE
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -13832,7 +13702,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: decdn-28.nome-rkp.net
-  - name: 1385 CA
+  - name: 1380 CA
     encryption: none
     network: ws
     port: 80
@@ -13849,7 +13719,7 @@ proxies:
       max-early-data: 2560
     xudp: true
     packet-encoding: xudp
-  - name: 1386 CA
+  - name: 1381 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -13867,7 +13737,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: mao.kipfelmao.de5.net
-  - name: 1387 CA
+  - name: 1382 CA
     alpn:
       - http/1.1
     client-fingerprint: chrome
@@ -13889,7 +13759,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fast-route-279ca1-gw.staging-api-c694f6.workers.dev
-  - name: 1389 CA
+  - name: 1384 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -13909,28 +13779,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: powered-by-surena.configfarsi695fd01a94fe7.workers.dev
-  - name: 1390 GB
-    alpn:
-      - h2
-    client-fingerprint: chrome
-    encryption: none
-    network: xhttp
-    port: 443
-    server: api.ferrin.uk
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7d1a74fd-8a38-4a29-863f-5da53a9e557e
-    xhttp-opts:
-      mode: stream-one
-      path: /es
-      reuse-settings:
-        h-max-reusable-secs: 1140-1260
-        max-connections: "3"
-    xudp: true
-    packet-encoding: xudp
-    servername: 7d1a74fd.ferrin.uk
-  - name: 1391 CA
+  - name: 1385 CA
     alpn:
       - http/1.1
     client-fingerprint: chrome
@@ -13952,7 +13801,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fast-route-4aa49d-gw.staging-api-05a87c.workers.dev
-  - name: 1392 CA
+  - name: 1386 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -13970,7 +13819,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: 789156.xyz
-  - name: 1393 CA
+  - name: 1387 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -13987,7 +13836,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: cfnode-11ivy8.pages.dev
-  - name: 1394 CA
+  - name: 1388 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -14005,7 +13854,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: proxy-34l.pages.dev
-  - name: 1395 US
+  - name: 1389 US
     alpn:
       - h2
       - http/1.1
@@ -14026,7 +13875,25 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: matrix.phonicsindia.mobi
-  - name: 1396 CA
+  - name: 1390 CA
+    client-fingerprint: chrome
+    encryption: none
+    network: ws
+    port: 2053
+    server: fast.145779.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
+    ws-opts:
+      headers:
+        Host: fast.145779.xyz
+        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+      path: /ws-tesla
+    xudp: true
+    packet-encoding: xudp
+    servername: fast.145779.xyz
+  - name: 1391 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -14043,7 +13910,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: kclx.eu.org
-  - name: 1397 CA
+  - name: 1392 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -14061,29 +13928,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: edge-relay-c9db.edge-edge-relay-be8e.workers.dev
-  - name: 1398 CA
-    alpn:
-      - h2
-      - http/1.1
-    encryption: none
-    network: ws
-    port: 443
-    server: k9-85j.pages.dev
-    tls: true
-    type: vless
-    udp: true
-    uuid: 3dc83518-4002-485e-a066-d3bbcaaa2b2e
-    ws-opts:
-      headers:
-        Host: k9-85j.pages.dev
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-      path: /1WWzkWgNslKTcceU
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    packet-encoding: xudp
-    servername: K9-85J.paGEs.Dev
-  - name: 1399 CA
+  - name: 1393 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -14101,7 +13946,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: wallweb6.pages.dev
-  - name: 1400 CA
+  - name: 1394 CA
     encryption: none
     network: ws
     port: 8080
@@ -14116,7 +13961,7 @@ proxies:
       path: /
     xudp: true
     packet-encoding: xudp
-  - name: 1401 DE
+  - name: 1395 DE
     encryption: none
     network: xhttp
     port: 3174
@@ -14131,28 +13976,7 @@ proxies:
       x-padding-bytes: 100-1000
     xudp: true
     packet-encoding: xudp
-  - name: 1402 CA
-    alpn:
-      - h3
-      - h2
-      - http/1.1
-    client-fingerprint: random
-    network: ws
-    port: 8443
-    server: cf.amirmcir.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
-    ws-opts:
-      headers:
-        Host: moz.ar-marz.fun
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /man
-    xudp: true
-    packet-encoding: xudp
-    servername: moz.ar-marz.fun
-  - name: 1403 CA
+  - name: 1396 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -14170,7 +13994,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: wallweb-4ez.pages.dev
-  - name: 1404 US
+  - name: 1397 US
     alpn:
       - h2
       - http/1.1
@@ -14192,7 +14016,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: usa.amosh.sbs
-  - name: 1405 CA
+  - name: 1398 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -14210,7 +14034,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: ssj-wkg.pages.dev
-  - name: 1406 CA
+  - name: 1399 CA
     client-fingerprint: chrome
     encryption: none
     network: ws
@@ -14228,7 +14052,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: tn1r.eu.cc
-  - name: 1407 CA
+  - name: 1400 CA
     alpn:
       - h2
       - http/1.1
@@ -14247,7 +14071,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: u695098u66e05ed8s2448.xxti.top
-  - name: 1408 US
+  - name: 1401 US
     alpn:
       - h2
       - http/1.1
@@ -14266,7 +14090,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: u695098uf215742bs2316.fuhuovps.xyz
-  - name: 1409 SG
+  - name: 1402 SG
     alpn:
       - http/1.1
     client-fingerprint: chrome
@@ -14286,7 +14110,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: whitepanel-ui-production-8f6a54a4.up.railway.app
-  - name: 1410 CA
+  - name: 1403 CA
     client-fingerprint: chrome
     network: ws
     port: 443
@@ -14301,7 +14125,7 @@ proxies:
     x-toolall-mihomo: true
     udp: true
     servername: hk1t.wawojk.dpdns.org
-  - name: 1411 DE
+  - name: 1404 DE
     alpn:
       - http/1.1
     client-fingerprint: chrome
@@ -14321,7 +14145,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: cdn2.zovip2.ir
-  - name: 1412 CA
+  - name: 1405 CA
     server: cdn-jp.skyvora.app
     port: 8443
     type: vless
@@ -14337,23 +14161,7 @@ proxies:
       headers:
         Host: cdn-jp.skyvora.app
     udp: true
-  - name: 1413 CA
-    server: cdn-us.skyvora.app
-    port: 8443
-    type: vless
-    uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: cdn-us.skyvora.app
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /kqdyeo2k4b1
-      headers:
-        Host: cdn-us.skyvora.app
-    udp: true
-  - name: 1414 CA
+  - name: 1406 CA
     server: cdn-hk.skyvora.app
     port: 8443
     type: vless
@@ -14369,7 +14177,7 @@ proxies:
       headers:
         Host: cdn-hk.skyvora.app
     udp: true
-  - name: 1415 CA
+  - name: 1407 CA
     server: cdn-sg.skyvora.app
     port: 8443
     type: vless
@@ -14385,18 +14193,23 @@ proxies:
       headers:
         Host: cdn-sg.skyvora.app
     udp: true
-  - name: 1416 US
+  - name: 1408 CA
+    server: cdn-us.skyvora.app
+    port: 8443
     type: vless
-    server: blog.webex.com
-    port: 443
-    uuid: bc6e7cf0-9526-4fea-b2e3-5bcf992c565e
+    uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
     tls: true
-    servername: blog.webex.com.yxls.eu.cc
+    tfo: false
+    skip-cert-verify: true
+    servername: cdn-us.skyvora.app
+    client-fingerprint: chrome
     network: ws
     ws-opts:
-      path: /my-kc
-    client-fingerprint: chrome
-  - name: 1418 CA
+      path: /kqdyeo2k4b1
+      headers:
+        Host: cdn-us.skyvora.app
+    udp: true
+  - name: 1409 CA
     type: vless
     server: mkha.v2plus.ovh
     port: 2053
@@ -14407,7 +14220,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 1419 CA
+  - name: 1410 CA
     type: vless
     server: uk2.v2vless.xyz
     port: 80
@@ -14416,7 +14229,7 @@ proxies:
     network: ws
     ws-opts:
       path: /vless
-  - name: 1420 CA
+  - name: 1411 CA
     type: vless
     server: love.ns.cloudflare.com
     port: 443
@@ -14426,7 +14239,7 @@ proxies:
     network: ws
     ws-opts:
       path: /sea
-  - name: 1421 CA
+  - name: 1412 CA
     type: vless
     server: 6bia-channel.unlimiteddev.xyz
     port: 80
@@ -14436,7 +14249,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 1422 SG
+  - name: 1413 SG
     type: vless
     server: x4g-production-8eb3.up.railway.app
     port: 443
@@ -14447,7 +14260,7 @@ proxies:
     ws-opts:
       path: /ws/28e3703c-b92d-ae69-c217-0fbba3f1e309
     client-fingerprint: chrome
-  - name: 1423 CA
+  - name: 1414 CA
     type: vless
     server: elite-window.ir
     port: 443
@@ -14458,7 +14271,7 @@ proxies:
     ws-opts:
       path: /stream/PANEL_ZEUS/50414e45
     client-fingerprint: ios
-  - name: 1424 CA
+  - name: 1415 CA
     type: vless
     server: soskeynets-panel-rdil7t.zeus-qm5lw3.workers.dev
     port: 2096
@@ -14469,7 +14282,7 @@ proxies:
     ws-opts:
       path: /stream/PANEL_ZEUS/50414e45
     client-fingerprint: chrome
-  - name: 1425 CA
+  - name: 1416 CA
     type: vless
     server: sandybrown.qzz.io
     port: 443
@@ -14479,7 +14292,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 1426 CA
+  - name: 1417 CA
     type: vless
     server: ger39.vlessgroup.com
     port: 8443
@@ -14489,7 +14302,7 @@ proxies:
     network: ws
     ws-opts:
       path: /images
-  - name: 1427 CA
+  - name: 1418 CA
     type: vless
     server: dariush-kharabkar.global.ssl.fastly.net
     port: 443
@@ -14500,7 +14313,7 @@ proxies:
     ws-opts:
       path: /site
     client-fingerprint: chrome
-  - name: 1428 CA
+  - name: 1419 CA
     type: vless
     server: cmcc.cloudflare.seeck.cn
     port: 443
@@ -14510,7 +14323,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 1429 US
+  - name: 1420 US
     type: vless
     server: gcore.com
     port: 443
@@ -14521,7 +14334,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: firefox
-  - name: 1430 CA
+  - name: 1421 CA
     type: vless
     server: zeus-panel-ufqzuq.peekconfiggggg1w.workers.dev
     port: 8080
@@ -14532,7 +14345,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 1431 US
+  - name: 1422 US
     type: vless
     server: microsoft.com
     port: 443
@@ -14542,7 +14355,7 @@ proxies:
     network: ws
     ws-opts:
       path: /id-tksi
-  - name: 1432 SG
+  - name: 1423 SG
     type: vless
     server: 3x-ui-upgrade-prod.up.railway.app
     port: 443
@@ -14553,7 +14366,7 @@ proxies:
     ws-opts:
       path: /ws
     client-fingerprint: chrome
-  - name: 1433 SG
+  - name: 1424 SG
     type: vless
     server: x4g-production-d4c1.up.railway.app
     port: 443
@@ -14564,7 +14377,7 @@ proxies:
     ws-opts:
       path: /ws/1d737707-a14d-a990-c71a-aa04ce18ecee
     client-fingerprint: ios
-  - name: 1434 SG
+  - name: 1425 SG
     type: vless
     server: soskeynets-node-production-a5d6.up.railway.app
     port: 443
@@ -14575,7 +14388,7 @@ proxies:
     ws-opts:
       path: /vless
     client-fingerprint: chrome
-  - name: 1435 CA
+  - name: 1426 CA
     type: vless
     server: silver.api-tel.xyz
     port: 443
@@ -14586,7 +14399,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: firefox
-  - name: 1436 DE
+  - name: 1427 DE
     type: vless
     server: de.vpnbase.net
     port: 80
@@ -14596,7 +14409,7 @@ proxies:
     network: ws
     ws-opts:
       path: /http
-  - name: 1437 CA
+  - name: 1428 CA
     type: vless
     server: www.dam.ir
     port: 443
@@ -14607,7 +14420,7 @@ proxies:
     ws-opts:
       path: /In_Panel_Rayeghan_Ast_Va_Gheyre_Ghabele_Foroosh
     client-fingerprint: ios
-  - name: 1438 CA
+  - name: 1429 CA
     type: vless
     server: hid.readyfile.ir
     port: 443
@@ -14618,7 +14431,7 @@ proxies:
     ws-opts:
       path: /In_Panel_Rayeghan_Ast_Va_Gheyre_Ghabele_Foroosh
     client-fingerprint: ios
-  - name: 1439 CA
+  - name: 1430 CA
     type: vless
     server: www.udemy.com
     port: 2087
@@ -14629,7 +14442,7 @@ proxies:
     ws-opts:
       path: /wp-admin
     client-fingerprint: chrome
-  - name: 1440 SG
+  - name: 1431 SG
     type: vless
     server: x4g-production-7c06.up.railway.app
     port: 443
@@ -14640,7 +14453,7 @@ proxies:
     ws-opts:
       path: /ws/22470158-224c-f031-ee03-3f0826454a0f
     client-fingerprint: chrome
-  - name: 1441 CA
+  - name: 1432 CA
     type: vless
     server: net3.irajapan.store
     port: 2052
@@ -14650,7 +14463,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 1444 CA
+  - name: 1435 CA
     type: vless
     server: xn--b6gac.eu.org
     port: 443
@@ -14661,7 +14474,7 @@ proxies:
     ws-opts:
       path: /
     client-fingerprint: chrome
-  - name: 1445 CA
+  - name: 1436 CA
     type: vless
     server: celestara.biz
     port: 443
@@ -14671,7 +14484,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 1446 SG
+  - name: 1437 SG
     type: vless
     server: raygan.up.railway.app
     port: 443
@@ -14682,7 +14495,7 @@ proxies:
     ws-opts:
       path: /ws/df6d6d7b-299b-6cfb-c317-708405fb5fe9
     client-fingerprint: chrome
-  - name: 1447 SG
+  - name: 1438 SG
     type: vless
     server: soskeynets.up.railway.app
     port: 443
@@ -14693,7 +14506,7 @@ proxies:
     ws-opts:
       path: /ws/df6d6d7b-299b-6cfb-c317-708405fb5fe9
     client-fingerprint: chrome
-  - name: 1448 SG
+  - name: 1439 SG
     type: vless
     server: marzban-node-production-de530.up.railway.app
     port: 443
@@ -14703,7 +14516,7 @@ proxies:
     ws-opts:
       path: /vless
     client-fingerprint: chrome
-  - name: 1449 SG
+  - name: 1440 SG
     type: vless
     server: x4g-production-zps54.up.railway.app
     port: 443
@@ -14714,7 +14527,7 @@ proxies:
     ws-opts:
       path: /ws/34cc83ad-ff54-2a69-5b3a-b5779a9b74bd
     client-fingerprint: chrome
-  - name: 1450 CA
+  - name: 1441 CA
     type: vless
     server: jush.sukario.ir
     port: 443
@@ -14725,7 +14538,7 @@ proxies:
     ws-opts:
       path: /mashdi
     client-fingerprint: firefox
-  - name: 1451 SG
+  - name: 1442 SG
     type: vless
     server: soskeynets-node-production-46eb.up.railway.app
     port: 443
@@ -14736,7 +14549,7 @@ proxies:
     ws-opts:
       path: /vless
     client-fingerprint: chrome
-  - name: 1452 SG
+  - name: 1443 SG
     type: vless
     server: soskeynets-node-production-de530.up.railway.app
     port: 443
@@ -14747,7 +14560,7 @@ proxies:
     ws-opts:
       path: /vless
     client-fingerprint: chrome
-  - name: 1453 SG
+  - name: 1444 SG
     type: vless
     server: marzban-node-production-46eb.up.railway.app
     port: 443
@@ -14760,7 +14573,7 @@ proxies:
     client-fingerprint: chrome
   - client-fingerprint: chrome
     encryption: none
-    name: 1468 CA
+    name: 1457 CA
     network: ws
     port: 443
     server: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
@@ -14770,20 +14583,19 @@ proxies:
     uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
     ws-opts:
       path: /
-  - name: 1469 US
+  - name: 1458 US
     network: ws
     port: 80
     server: assets.opensignal.com
     tls: false
     type: vless
-    udp: true
     uuid: 0c85001b-ad48-4f43-bdc9-b2b5c626a26e
     ws-opts:
       headers:
         Host: d36lt9hzl2ug3d.cloudfront.net:assets.opensignal.com
       path: /logout
   - client-fingerprint: chrome
-    name: 1470 US
+    name: 1459 US
     network: ws
     port: 443
     server: xray-piox09gf-calm-maple-6.cloady.io
@@ -14795,24 +14607,21 @@ proxies:
       headers:
         Host: xray-piox09gf-calm-maple-6.cloady.io
       path: /0f6186ec3c6d8474
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    name: 1474 CA
+  - client-fingerprint: firefox
+    name: 1460 RU
     network: xhttp
-    port: 2053
-    server: check-host.net
-    servername: n8.hyby.ir
+    port: 8443
+    server: earlytrain.net
+    servername: earlytrain.net
     tls: true
     type: vless
     udp: true
-    uuid: d133dd1c-3084-46c3-ba6e-aa3597c43cc1
+    uuid: 37af0181-5598-4aad-a040-d926bcb65757
     xhttp-opts:
-      host: n8.hyby.ir
+      host: earlytrain.net
       mode: auto
-      path: /
-  - name: 1475 DE
+      path: /api/v1/upload
+  - name: 1461 DE
     network: ws
     port: 8443
     server: de9.pad-sservice.lat
@@ -14826,7 +14635,7 @@ proxies:
       headers:
         Host: de9.pad-service.com
       path: /DE9W
-  - name: 1476 US
+  - name: 1462 US
     type: vless
     server: python-graysongon.wasmer.app
     port: 443
@@ -14843,24 +14652,7 @@ proxies:
         User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Slackware/Chrome/12.0.742.100 Safari/534.30
       path: /7bd180e8
     xudp: true
-  - name: 1481 CA
-    type: vless
-    server: cf9.466688.xyz
-    port: 443
-    client-fingerprint: chrome
-    encryption: none
-    network: ws
-    packet-encoding: xudp
-    servername: domah57929.pages.dev
-    skip-cert-verify: false
-    tls: true
-    udp: true
-    uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-    ws-opts:
-      headers:
-        Host: domah57929.pages.dev
-      path: /t.me/QiangLieTuiJian?ed
-  - name: 1482 CA
+  - name: 1468 CA
     type: vless
     server: bpb-panel-4e2c.sakwra939.workers.dev
     port: 443
@@ -14881,7 +14673,7 @@ proxies:
         Host: bpb-panel-4e2c.sakwra939.workers.dev
       max-early-data: 2560
       path: /eyJqdW5rIjoiVndBTWp2RGsyc0g4TlgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9
-  - name: 1483 CA
+  - name: 1469 CA
     type: vless
     server: cf10.466688.xyz
     port: 443
@@ -14898,7 +14690,7 @@ proxies:
       headers:
         Host: domah57929.pages.dev
       path: /t.me/QiangLieTuiJian?ed
-  - name: 1484 CA
+  - name: 1470 CA
     type: vless
     server: cf3.466688.xyz
     port: 443
@@ -14915,7 +14707,7 @@ proxies:
       headers:
         Host: domah57929.pages.dev
       path: /t.me/QiangLieTuiJian?ed
-  - name: 1485 CA
+  - name: 1471 CA
     type: vless
     server: s4090.gogocs.xyz
     port: 443
@@ -14934,7 +14726,7 @@ proxies:
     xhttp-opts:
       host: 194f0d0fs4088.wagahaha.xyz
       path: /30150a48353d3f1b2f9ea9d7e5b314bc
-  - name: 1486 CA
+  - name: 1472 CA
     type: vless
     server: s4089.gogocs.xyz
     port: 443
@@ -14953,7 +14745,7 @@ proxies:
     xhttp-opts:
       host: 194f0d0fs4088.wagahaha.xyz
       path: /30150a48353d3f1b2f9ea9d7e5b314bc
-  - name: 1487 CA
+  - name: 1473 CA
     type: vless
     server: ld.242311.xyz
     port: 443
@@ -14976,7 +14768,7 @@ proxies:
         Host: ld.242311.xyz
       max-early-data: 2048
       path: /
-  - name: 1488 CA
+  - name: 1474 CA
     type: vless
     server: s4120.wagahaha.xyz
     port: 443
@@ -14997,7 +14789,45 @@ proxies:
         Xhttp-Verify: 3769e495-72dc-42ea-95eb-093cb0e4a6f8
       host: s4117.wagahaha.xyz
       path: /632f3ba5cd0889698a3e4b43d19aa601
-  - name: 1489 CA
+  - name: 1475 US
+    type: vless
+    server: s4114.okgfwbackxyz.xyz
+    port: 443
+    alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: firefox
+    encryption: none
+    network: xhttp
+    packet-encoding: xudp
+    servername: u691611uefbf089as4109.wagahaha.xyz
+    skip-cert-verify: false
+    tls: true
+    udp: true
+    uuid: 9794d18f-9280-3553-a7a5-a23da75aca76
+    xhttp-opts:
+      host: efbf089as4109.wagahaha.xyz
+      path: /c667fa719997b306520f82af01b753fe
+  - name: 1476 US
+    type: vless
+    server: s4112.okgfwbackxyz.xyz
+    port: 443
+    alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: firefox
+    encryption: none
+    network: xhttp
+    packet-encoding: xudp
+    servername: u691611uefbf089as4109.wagahaha.xyz
+    skip-cert-verify: false
+    tls: true
+    udp: true
+    uuid: 9794d18f-9280-3553-a7a5-a23da75aca76
+    xhttp-opts:
+      host: efbf089as4109.wagahaha.xyz
+      path: /c667fa719997b306520f82af01b753fe
+  - name: 1477 CA
     type: vless
     server: s4119.wagahaha.xyz
     port: 443
@@ -15018,45 +14848,7 @@ proxies:
         Xhttp-Verify: 3769e495-72dc-42ea-95eb-093cb0e4a6f8
       host: s4117.wagahaha.xyz
       path: /632f3ba5cd0889698a3e4b43d19aa601
-  - name: 1490 US
-    type: vless
-    server: s4114.okgfwbackxyz.xyz
-    port: 443
-    alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: firefox
-    encryption: none
-    network: xhttp
-    packet-encoding: xudp
-    servername: u691611uefbf089as4109.wagahaha.xyz
-    skip-cert-verify: false
-    tls: true
-    udp: true
-    uuid: 9794d18f-9280-3553-a7a5-a23da75aca76
-    xhttp-opts:
-      host: efbf089as4109.wagahaha.xyz
-      path: /c667fa719997b306520f82af01b753fe
-  - name: 1491 US
-    type: vless
-    server: s4112.okgfwbackxyz.xyz
-    port: 443
-    alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: firefox
-    encryption: none
-    network: xhttp
-    packet-encoding: xudp
-    servername: u691611uefbf089as4109.wagahaha.xyz
-    skip-cert-verify: false
-    tls: true
-    udp: true
-    uuid: 9794d18f-9280-3553-a7a5-a23da75aca76
-    xhttp-opts:
-      host: efbf089as4109.wagahaha.xyz
-      path: /c667fa719997b306520f82af01b753fe
-  - name: 1492 CA
+  - name: 1478 CA
     type: vless
     server: ava.game.naver.com.cf.novantunnel.life
     port: 443
@@ -15070,7 +14862,7 @@ proxies:
       headers:
         Host: ava.game.naver.com.cf.novantunnel.life
       path: /Novan-AE26
-  - name: 1493 CA
+  - name: 1479 CA
     type: vless
     server: securitytrails.com
     port: 2087
@@ -15090,7 +14882,7 @@ proxies:
       host: fl2.forall-npv.shop
       mode: auto
       path: /forall
-  - name: 1494 CA
+  - name: 1480 CA
     type: vless
     server: securitytrails.com
     port: 2083
@@ -15110,7 +14902,7 @@ proxies:
       host: ns1.mtp-roto.info
       mode: auto
       path: /forall
-  - name: 1495 SG
+  - name: 1481 SG
     type: vless
     server: rvg-production-cdb5.up.railway.app
     port: 443
@@ -15127,7 +14919,7 @@ proxies:
     uuid: 75747938-b9db-ec4a-e44a-5db2d21bd5b8
     ws-opts:
       path: /ws/75747938-b9db-ec4a-e44a-5db2d21bd5b8
-  - name: 1496 CA
+  - name: 1482 CA
     type: vless
     server: ez-1707bf.codeine956.workers.dev
     port: 2096
@@ -15144,7 +14936,7 @@ proxies:
       headers:
         Host: ez-1707bf.codeine956.workers.dev
       path: /
-  - name: 1497 CA
+  - name: 1483 CA
     type: vless
     server: ez-1707bf.codeine956.workers.dev
     port: 2083
@@ -15161,7 +14953,7 @@ proxies:
       headers:
         Host: ez-1707bf.codeine956.workers.dev
       path: /
-  - name: 1498 CA
+  - name: 1484 CA
     type: vless
     server: mci.mgvip.ir
     port: 8443
@@ -15181,7 +14973,7 @@ proxies:
       host: mdmhi.mgvip.ir
       mode: auto
       path: /
-  - name: 1499 CA
+  - name: 1485 CA
     type: vless
     server: mci.mgvip.ir
     port: 443
@@ -15204,7 +14996,7 @@ proxies:
       mode: auto
       path: /
       x-padding-bytes: 100-1000
-  - name: 1500 CA
+  - name: 1486 CA
     type: vless
     server: octopusss5.info
     port: 443
@@ -15220,7 +15012,7 @@ proxies:
       headers:
         Host: octopusss5.info
       path: /udfyfws
-  - name: 1501 CA
+  - name: 1487 CA
     type: vless
     server: img.yust.eu.org
     port: 443
@@ -15239,85 +15031,34 @@ proxies:
       headers:
         Host: wz1.fum.ccwu.cc
       path: /proxyip=sjc.o00o.ooo
-  - type: vless
-    name: 1502 RU
-    server: ivory.filnex.baby
-    port: 443
-    uuid: 820fa845-a1eb-4a83-b613-e6714cea8a1a
-    udp: true
-    tls: true
-    servername: ivory.filnex.baby
-    sni: ivory.filnex.baby
-    skip-cert-verify: true
+  - alpn:
+      - http/1.1
     client-fingerprint: chrome
+    encryption: none
+    name: 1495 US
     network: ws
-    ws-opts:
-      path: /api/de4/stream
-  - type: vless
-    name: 1503 RU
-    server: silk.filnex.baby
     port: 443
-    uuid: 820fa845-a1eb-4a83-b613-e6714cea8a1a
-    udp: true
-    tls: true
-    servername: silk.filnex.baby
-    sni: silk.filnex.baby
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /api/de5/stream
-  - type: vless
-    name: 1504 RU
-    server: grove.moltex.click
-    port: 443
-    uuid: 820fa845-a1eb-4a83-b613-e6714cea8a1a
-    udp: true
-    tls: true
-    servername: grove.moltex.click
-    sni: grove.moltex.click
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /api/de6/stream
-  - client-fingerprint: firefox
-    name: 1513 RU
-    network: xhttp
-    port: 8443
-    server: eu88.cdn77.icu
-    servername: eu88.cdn77.icu
+    server: subgift1.fly.dev
+    servername: subgift1.fly.dev
     tls: true
     type: vless
     udp: true
-    uuid: a6c58c10-183e-4278-bdcd-ffc07220e7e2
-    xhttp-opts:
-      host: eu88.cdn77.icu
-      mode: auto
-      path: /9f2c7a4e1b6d8053
-  - name: 1514 US
-    network: ws
-    port: 443
-    server: clash.ddm4.cn
-    servername: clash.ddm4.cn
-    tls: true
-    type: vless
-    udp: true
-    uuid: d006ef4a-d235-4691-bf05-abbe0d14055c
+    uuid: fd8198de-3c32-5cca-f640-606416d11b90
     ws-opts:
       headers:
-        Host: clash.ddm4.cn
-      path: /vless
-    x-toolall-mihomo: true
-  - name: 1515 US
+        Host: subgift1.fly.dev
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      path: /ws/fd8198de-3c32-5cca-f640-606416d11b90
+    xudp: true
+  - name: 1498 CA
     network: ws
     port: 443
-    server: xray-nqx8fzfk-chen-nantong.cloady.io
-    servername: xray-nqx8fzfk-chen-nantong.cloady.io
+    server: sg5t.wawojk.dpdns.org
+    servername: sg5t.wawojk.dpdns.org
     tls: true
     type: vless
-    uuid: 60311488-d51e-faea-7829-66c56c3dfd1e
+    uuid: 2ab54cbc-bea6-4b79-8833-7b3354b97500
     ws-opts:
       headers:
-        host: xray-nqx8fzfk-chen-nantong.cloady.io
-      path: /08819a9a5db4c1e0
+        host: sg5t.wawojk.dpdns.org
+      path: /sg5-ws-8f3a2c
