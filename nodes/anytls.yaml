@@ -1,6 +1,6 @@
 proxies:
   - type: anytls
-    name: 2396 TW
+    name: 2378 TW
     server: forwarded.frnhk.xyz
     port: 2086
     password: 9b24e5d0-62be-41df-b967-9b670cf90ff8
@@ -9,7 +9,7 @@ proxies:
     sni: de.gosthk.site
     skip-cert-verify: true
   - type: anytls
-    name: 2397 TW
+    name: 2379 TW
     server: forwarded.frnhk.xyz
     port: 2053
     password: 047e0e0c-1843-4f16-9812-ec2cc94f7a99
@@ -19,7 +19,7 @@ proxies:
     sni: my.gosthk.site
     skip-cert-verify: false
   - type: anytls
-    name: 2398 TW
+    name: 2380 TW
     server: forwarded.frnhk.xyz
     port: 2083
     password: cf913d0d-15b6-433e-be2e-b2acebabcc71
@@ -28,16 +28,8 @@ proxies:
     servername: sg.gosthk.site
     sni: sg.gosthk.site
     skip-cert-verify: false
-  - name: 2399 TW
-    password: 6ddd5969-fe59-406a-bb23-a48530e5ae80
-    port: 2052
-    server: forwarded.frnhk.xyz
-    skip-cert-verify: true
-    sni: jp2.gosthk.site
-    type: anytls
-    udp: true
   - type: anytls
-    name: 2400 TW
+    name: 2381 TW
     server: sdf65h46wr.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -45,64 +37,8 @@ proxies:
     servername: images.ctfassets.net
     sni: images.ctfassets.net
     skip-cert-verify: true
-  - name: 2510 JP
-    password: 3de197ca-c3d8-4685-b22d-c5237d3943a2
-    port: 36983
-    server: aws.v4.us.ci
-    skip-cert-verify: true
-    sni: updates.cdn-apple.com
-    type: anytls
-    udp: true
-  - name: 2511 JP
-    password: 3de197ca-c3d8-4685-b22d-c5237d3943a2
-    port: 55285
-    server: aws.v4.zh.kg
-    skip-cert-verify: true
-    sni: updates.cdn-apple.com
-    type: anytls
-    udp: true
-  - name: 2512 JP
-    password: 3de197ca-c3d8-4685-b22d-c5237d3943a2
-    port: 25768
-    server: aws.v4.zh.kg
-    skip-cert-verify: true
-    sni: updates.cdn-apple.com
-    type: anytls
-    udp: true
-  - name: 2513 JP
-    password: 3de197ca-c3d8-4685-b22d-c5237d3943a2
-    port: 40632
-    server: aws.v4.zh.kg
-    skip-cert-verify: true
-    sni: updates.cdn-apple.com
-    type: anytls
-    udp: true
-  - name: 2514 JP
-    password: 3de197ca-c3d8-4685-b22d-c5237d3943a2
-    port: 42711
-    server: aws.v4.zh.kg
-    skip-cert-verify: true
-    sni: updates.cdn-apple.com
-    type: anytls
-    udp: true
-  - name: 2515 JP
-    password: 3de197ca-c3d8-4685-b22d-c5237d3943a2
-    port: 43113
-    server: aws.v4.zh.kg
-    skip-cert-verify: true
-    sni: updates.cdn-apple.com
-    type: anytls
-    udp: true
-  - name: 2516 JP
-    password: 3de197ca-c3d8-4685-b22d-c5237d3943a2
-    port: 44698
-    server: aws.v4.us.ci
-    skip-cert-verify: true
-    sni: updates.cdn-apple.com
-    type: anytls
-    udp: true
   - type: anytls
-    name: 2720 TW
+    name: 2700 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     udp: true
