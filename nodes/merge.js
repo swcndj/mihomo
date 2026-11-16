@@ -140,7 +140,7 @@ async function batchQueryIpCountry(ipList) {
   console.log(`\n汇总节点数量：${allRawProxies.length}`);
 
   // 协议筛选：协议白名单 + 基础合法性 + vless/trojan/vmess 必须含有 reality-opts、xhttp-opts、ws-opts 三者之一
-  const fieldFiltered = allRawProxies.filter(p => {
+  const typeFiltered = allRawProxies.filter(p => {
     if (!isValidNode(p)) return false;
     const type = p.type.toLowerCase();
     if (!PROTO_WHITELIST.has(type)) return false;
@@ -152,11 +152,11 @@ async function batchQueryIpCountry(ipList) {
     }
     return true;
   });
-  console.log(`协议筛选后节点数量：${fieldFiltered.length}`);
+  console.log(`协议筛选后节点数量：${typeFiltered.length}`);
 
   // 节点去重
   const seen = new Set();
-  const dedupList = fieldFiltered.filter(p => {
+  const dedupList = typeFiltered.filter(p => {
     const type = p.type.toLowerCase();
     const fp = type === 'vless' && p['reality-opts']?.public_key
       ? `${type}|${p.server}|${p.uuid}|${p['reality-opts'].public_key}`
@@ -168,7 +168,7 @@ async function batchQueryIpCountry(ipList) {
   console.log(`去重后节点数量：${dedupList.length}`);
 
   // 节点有效性验证
-  const typeFiltered = dedupList.filter(p => {
+  const validFiltered = dedupList.filter(p => {
     const type = p.type.toLowerCase();
     // 全局校验（所有协议）：server 非空字符串，port 必须整数 1‑65535，tls、udp、skip‑cert‑verify 存在则必须布尔
     if (typeof p.server !== 'string' || p.server.trim() === '') return false;
@@ -210,13 +210,13 @@ async function batchQueryIpCountry(ipList) {
     }
     return true;
   });
-  console.log(`有效性验证后节点数量：${typeFiltered.length}`);
+  console.log(`有效性验证后节点数量：${validFiltered.length}`);
 
   console.log(`--- ip-api.com 批量查询 ---`);
   // 拆分 IP、域名节点
   const originIpNodes = [];
   const domainNodes = [];
-  for(const node of dedupList){
+  for(const node of validFiltered){
     if(isIpAddress(node.server)) originIpNodes.push(node);
     else domainNodes.push(node);
   }
