@@ -8,7 +8,7 @@ const SUBS = JSON.parse(fs.readFileSync("./nodes/subs.json", "utf8"));
 const REQUEST_TIMEOUT = 15000;
 
 // 协议筛选白名单
-const PROTO_WHITELIST = new Set(["vless", "trojan", "hysteria2", "anytls", "tuic", "mieru"]);
+const PROTO_WHITELIST = new Set(["vless", "trojan", "vmess", "hysteria2", "anytls", "tuic", "mieru"]);
 // 地区筛选豁免协议
 const REGIONFILTER_SKIP_PROTOLIST = new Set(["hysteria2", "anytls", "tuic", "mieru"]);
 // 非豁免协议目标地区
@@ -150,7 +150,7 @@ async function batchQueryIpCountry(ipList) {
     if ('tls' in p && typeof p.tls !== 'boolean') return false;
     if ('udp' in p && typeof p.udp !== 'boolean') return false;
     if ('skip-cert-verify' in p && typeof p['skip-cert-verify'] !== 'boolean') return false;
-    // vless、trojan 校验
+    // vless、trojan、vmess 校验
     if (type === 'vless') {
       const hasReality = !!p['reality-opts'];
       const hasXhttp = !!p['xhttp-opts'];
@@ -173,6 +173,15 @@ async function batchQueryIpCountry(ipList) {
         }
       }
     } else if (type === 'trojan') {
+      const hasWsOpts = !!p['ws-opts'];
+      if (!hasWsOpts) return false;
+      const wo = p['ws-opts'];
+      // ws‑opts 对象不能为空，path 必须非空字符串
+      if (typeof wo !== 'object' || wo === null) return false;
+      if (typeof wo.path !== 'string' || wo.path.trim() === '') return false;
+      // password 非空字符串
+      if (typeof p.password !== 'string' || p.password.trim() === '') return false;
+    } else if (type === 'vmess') {
       const hasWsOpts = !!p['ws-opts'];
       if (!hasWsOpts) return false;
       const wo = p['ws-opts'];
