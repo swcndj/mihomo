@@ -75,15 +75,6 @@ tun:
   auto-detect-interface: true
 # ======================================== 代理集合 ========================================
 proxy-providers:
-  nodes_hysteria2:
-    type: http
-    url: "https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/hysteria2.yaml"
-    interval: 7200
-    path: ./providers/nodes_hysteria2.yaml
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
   nodes_anytls:
     type: http
     url: "https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/anytls.yaml"
@@ -93,11 +84,11 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-  nodes_tuic:
+  nodes_hysteria2:
     type: http
-    url: "https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/tuic.yaml"
+    url: "https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/hysteria2.yaml"
     interval: 7200
-    path: ./providers/nodes_tuic.yaml
+    path: ./providers/nodes_hysteria2.yaml
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
@@ -107,6 +98,15 @@ proxy-providers:
     url: "https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/mieru.yaml"
     interval: 7200
     path: ./providers/nodes_mieru.yaml
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+  nodes_tuic:
+    type: http
+    url: "https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/tuic.yaml"
+    interval: 7200
+    path: ./providers/nodes_tuic.yaml
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
@@ -126,10 +126,10 @@ proxy-groups:
     type: url-test
     tolerance: 50
     use:
-    - nodes_hysteria2
     - nodes_anytls
-    - nodes_tuic
+    - nodes_hysteria2
     - nodes_mieru
+    - nodes_tuic
     - nodes_vless
 # ======================================== 规则订阅 ========================================
 rule-providers:
