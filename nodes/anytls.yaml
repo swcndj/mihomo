@@ -1,6 +1,6 @@
 proxies:
   - type: anytls
-    name: 2378 TW
+    name: 2367 CA
     server: forwarded.frnhk.xyz
     port: 2086
     password: 9b24e5d0-62be-41df-b967-9b670cf90ff8
@@ -9,7 +9,16 @@ proxies:
     sni: de.gosthk.site
     skip-cert-verify: true
   - type: anytls
-    name: 2379 TW
+    name: 2368 TW
+    server: sdf65h46wr.df6h451rh.xin
+    port: 443
+    password: 0324fbc29561
+    tls: true
+    servername: images.ctfassets.net
+    sni: images.ctfassets.net
+    skip-cert-verify: true
+  - type: anytls
+    name: 2397 CA
     server: forwarded.frnhk.xyz
     port: 2053
     password: 047e0e0c-1843-4f16-9812-ec2cc94f7a99
@@ -19,7 +28,7 @@ proxies:
     sni: my.gosthk.site
     skip-cert-verify: false
   - type: anytls
-    name: 2380 TW
+    name: 2398 CA
     server: forwarded.frnhk.xyz
     port: 2083
     password: cf913d0d-15b6-433e-be2e-b2acebabcc71
@@ -29,16 +38,7 @@ proxies:
     sni: sg.gosthk.site
     skip-cert-verify: false
   - type: anytls
-    name: 2381 TW
-    server: sdf65h46wr.df6h451rh.xin
-    port: 443
-    password: 0324fbc29561
-    tls: true
-    servername: images.ctfassets.net
-    sni: images.ctfassets.net
-    skip-cert-verify: true
-  - type: anytls
-    name: 2700 TW
+    name: 2680 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     udp: true
