@@ -206,7 +206,8 @@ async function batchQueryIpCountry(ipList) {
         if (typeof wo !== 'object' || wo === null) return false;
         if (typeof wo.path !== 'string' || wo.path.trim() === '') return false;
       }
-      if (typeof p.password !== 'string' || p.password.trim() === '') return false;
+      const uuidReg = /^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$/;
+      if (typeof p.uuid !== 'string' || !uuidReg.test(p.uuid)) return false;
     }
     return true;
   });
