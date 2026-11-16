@@ -139,29 +139,50 @@ async function batchQueryIpCountry(ipList) {
   }
   console.log(`\n汇总节点数量：${allRawProxies.length}`);
 
-  // 协议白名单 + 节点校验
-  const typeFiltered = allRawProxies.filter(p => {
+  // 协议筛选：协议白名单 + 基础合法性 + vless/trojan/vmess 必须含有 reality-opts、xhttp-opts、ws-opts 三者之一
+  const fieldFiltered = allRawProxies.filter(p => {
     if (!isValidNode(p)) return false;
     const type = p.type.toLowerCase();
     if (!PROTO_WHITELIST.has(type)) return false;
+    if (type === 'vless' || type === 'trojan' || type === 'vmess') {
+      const hasReality = !!p['reality-opts'];
+      const hasXhttp = !!p['xhttp-opts'];
+      const hasWs = !!p['ws-opts'];
+      if (!hasReality && !hasXhttp && !hasWs) return false;
+    }
+    return true;
+  });
+  console.log(`协议筛选后节点数量：${fieldFiltered.length}`);
+
+  // 节点去重
+  const seen = new Set();
+  const dedupList = fieldFiltered.filter(p => {
+    const type = p.type.toLowerCase();
+    const fp = type === 'vless' && p['reality-opts']?.public_key
+      ? `${type}|${p.server}|${p.uuid}|${p['reality-opts'].public_key}`
+      : `${type}|${p.server}|${p.port}`;
+    if (seen.has(fp)) return false;
+    seen.add(fp);
+    return true;
+  });
+  console.log(`去重后节点数量：${dedupList.length}`);
+
+  // 节点有效性验证
+  const typeFiltered = dedupList.filter(p => {
+    const type = p.type.toLowerCase();
     // 全局校验（所有协议）：server 非空字符串，port 必须整数 1‑65535，tls、udp、skip‑cert‑verify 存在则必须布尔
     if (typeof p.server !== 'string' || p.server.trim() === '') return false;
     if (!Number.isInteger(p.port) || p.port < 1 || p.port > 65535) return false;
     if ('tls' in p && typeof p.tls !== 'boolean') return false;
     if ('udp' in p && typeof p.udp !== 'boolean') return false;
     if ('skip-cert-verify' in p && typeof p['skip-cert-verify'] !== 'boolean') return false;
-    // vless、trojan、vmess 校验
     if (type === 'vless') {
-      const hasReality = !!p['reality-opts'];
-      const hasXhttp = !!p['xhttp-opts'];
-      const hasWs = !!p['ws-opts'];
-      if (!hasReality && !hasXhttp && !hasWs) return false;
       if (p.encryption && typeof p.encryption === 'string' && p.encryption.length > 50) return false;
       // uuid 校验
       const uuidReg = /^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$/;
       if (typeof p.uuid !== 'string' || !uuidReg.test(p.uuid)) return false;
-      // reality‑opts 字段校验
-      if (hasReality) {
+      // reality‑opts 字段校验（若存在）
+      if (p['reality-opts']) {
         const ro = p['reality-opts'];
         // public‑key 固定44位 base64 字符串
         if (typeof ro['public-key'] !== 'string' || ro['public-key'].length !== 44) return false;
@@ -173,41 +194,24 @@ async function batchQueryIpCountry(ipList) {
         }
       }
     } else if (type === 'trojan') {
-      const hasWsOpts = !!p['ws-opts'];
-      if (!hasWsOpts) return false;
-      const wo = p['ws-opts'];
-      // ws‑opts 对象不能为空，path 必须非空字符串
-      if (typeof wo !== 'object' || wo === null) return false;
-      if (typeof wo.path !== 'string' || wo.path.trim() === '') return false;
-      // password 非空字符串
+      if (p['ws-opts']) {
+        const wo = p['ws-opts'];
+        if (typeof wo !== 'object' || wo === null) return false;
+        if (typeof wo.path !== 'string' || wo.path.trim() === '') return false;
+      }
       if (typeof p.password !== 'string' || p.password.trim() === '') return false;
     } else if (type === 'vmess') {
-      const hasWsOpts = !!p['ws-opts'];
-      if (!hasWsOpts) return false;
-      const wo = p['ws-opts'];
-      // ws‑opts 对象不能为空，path 必须非空字符串
-      if (typeof wo !== 'object' || wo === null) return false;
-      if (typeof wo.path !== 'string' || wo.path.trim() === '') return false;
-      // password 非空字符串
+      if (p['ws-opts']) {
+        const wo = p['ws-opts'];
+        if (typeof wo !== 'object' || wo === null) return false;
+        if (typeof wo.path !== 'string' || wo.path.trim() === '') return false;
+      }
       if (typeof p.password !== 'string' || p.password.trim() === '') return false;
     }
     return true;
   });
-  console.log(`协议筛选后节点数量：${typeFiltered.length}`);
+  console.log(`有效性验证后节点数量：${typeFiltered.length}`);
 
-  // 节点去重
-  const seen = new Set();
-  const dedupList = typeFiltered.filter(p => {
-    const type = p.type.toLowerCase();
-    const fp = type === 'vless' && p['reality-opts']?.public_key
-      ? `${type}|${p.server}|${p.uuid}|${p['reality-opts'].public_key}`
-      : `${type}|${p.server}|${p.port}`;
-    if (seen.has(fp)) return false;
-    seen.add(fp);
-    return true;
-  });
-  console.log(`去重后节点数量：${dedupList.length}`);
-  
   console.log(`--- ip-api.com 批量查询 ---`);
   // 拆分 IP、域名节点
   const originIpNodes = [];
