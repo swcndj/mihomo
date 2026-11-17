@@ -1,24 +1,16 @@
 proxies:
   - type: anytls
-    name: 2386 CA
-    server: forwarded.frnhk.xyz
-    port: 2086
-    password: 9b24e5d0-62be-41df-b967-9b670cf90ff8
-    tls: true
-    servername: de.gosthk.site
-    sni: de.gosthk.site
-    skip-cert-verify: true
-  - type: anytls
-    name: 2387 TW
+    name: 2390 TW
     server: sdf65h46wr.df6h451rh.xin
     port: 443
     password: 0324fbc29561
+    udp: true
     tls: true
     servername: images.ctfassets.net
     sni: images.ctfassets.net
-    skip-cert-verify: true
+    skip-cert-verify: false
   - type: anytls
-    name: 2415 CA
+    name: 2405 CA
     server: forwarded.frnhk.xyz
     port: 2053
     password: 047e0e0c-1843-4f16-9812-ec2cc94f7a99
@@ -28,17 +20,7 @@ proxies:
     sni: my.gosthk.site
     skip-cert-verify: false
   - type: anytls
-    name: 2416 CA
-    server: forwarded.frnhk.xyz
-    port: 2083
-    password: cf913d0d-15b6-433e-be2e-b2acebabcc71
-    udp: true
-    tls: true
-    servername: sg.gosthk.site
-    sni: sg.gosthk.site
-    skip-cert-verify: false
-  - type: anytls
-    name: 2703 TW
+    name: 2687 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     udp: true
@@ -49,14 +31,3 @@ proxies:
     packetEncoding: none
     allowInsecure: "1"
     sub-tag: P002-260618
-  - name: 2706 JP
-    server: usaws2.nodegoodgood.com
-    port: 36403
-    type: anytls
-    password: 2fa8028c-1552-4433-8dc0-c059b8a8bfef
-    udp: true
-    sni: speedtest.net
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
