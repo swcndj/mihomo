@@ -40,21 +40,6 @@ proxies:
     network: ws
     ws-opts:
       path: /assignment
-  - name: 75 CA
-    type: trojan
-    server: sourceforge.net
-    port: 443
-    alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    network: ws
-    password: humanity
-    skip-cert-verify: false
-    sni: www.calmloud.com
-    ws-opts:
-      headers:
-        Host: www.calmloud.com
-      path: /assignment
   - name: 79 CA
     type: trojan
     server: 104.18.32.47
@@ -66,8 +51,21 @@ proxies:
     network: ws
     ws-opts:
       path: /assignment
+  - name: 80 CA
+    type: trojan
+    server: chatgpt.com
+    port: 443
+    udp: true
+    password: humanity
+    sni: www.gossipglove.com
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /assignment
+      headers:
+        host: www.gossipglove.com
   - type: trojan
-    name: 83 CA
+    name: 84 CA
     server: 104.18.152.225
     port: 443
     password: humanity
@@ -82,7 +80,7 @@ proxies:
       headers:
         Host: www.ignitelimit.com
   - type: trojan
-    name: 84 CA
+    name: 85 CA
     server: 104.18.152.219
     port: 443
     password: humanity
@@ -96,7 +94,7 @@ proxies:
     ws-opts:
       path: /assignment
   - type: trojan
-    name: 86 CA
+    name: 87 CA
     server: 104.18.152.73
     port: 443
     password: humanity
@@ -111,7 +109,7 @@ proxies:
       headers:
         Host: www.ignitelimit.com
   - type: trojan
-    name: 87 CA
+    name: 88 CA
     server: 104.18.152.152
     port: 443
     password: humanity
@@ -124,7 +122,7 @@ proxies:
     ws-opts:
       path: /assignment
   - type: trojan
-    name: 88 CA
+    name: 89 CA
     server: 104.18.22.63
     port: 443
     password: humanity
@@ -132,17 +130,6 @@ proxies:
     tls: true
     servername: www.ignitelimit.com
     sni: www.ignitelimit.com
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /assignment
-  - type: trojan
-    name: 89 CA
-    server: www.ignitelimit.com
-    port: 443
-    password: humanity
-    udp: true
-    tls: true
     skip-cert-verify: false
     network: ws
     ws-opts:
@@ -292,7 +279,20 @@ proxies:
       headers:
         Host: www.ignitelimit.com
   - type: trojan
-    name: 109 CA
+    name: 108 CA
+    server: www.speedtest.org
+    port: 443
+    password: humanity
+    udp: true
+    tls: true
+    servername: www.ignitelimit.com
+    sni: www.ignitelimit.com
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /assignment
+  - type: trojan
+    name: 110 CA
     server: 104.16.73.213
     port: 443
     password: humanity
@@ -305,7 +305,7 @@ proxies:
     network: ws
     ws-opts:
       path: /assignment
-  - name: 110 CA
+  - name: 111 CA
     type: trojan
     server: ip.myip2.qzz.io
     port: 443
@@ -318,7 +318,7 @@ proxies:
         Host: www.ignitelimit.com
       path: /assignment
   - type: trojan
-    name: 112 CA
+    name: 113 CA
     server: 104.18.152.229
     port: 443
     password: humanity
@@ -332,7 +332,7 @@ proxies:
     ws-opts:
       path: /assignment
   - type: trojan
-    name: 113 CA
+    name: 114 CA
     server: 104.18.152.187
     port: 443
     password: humanity
@@ -346,7 +346,7 @@ proxies:
     ws-opts:
       path: /assignment
   - type: trojan
-    name: 114 US
+    name: 115 US
     server: 216.24.57.7
     port: 443
     password: humanity
@@ -362,7 +362,7 @@ proxies:
     ws-opts:
       path: /assignment
   - type: trojan
-    name: 115 CA
+    name: 116 CA
     server: 104.18.152.143
     port: 443
     password: humanity
@@ -377,7 +377,7 @@ proxies:
       headers:
         Host: www.ignitelimit.com
   - type: trojan
-    name: 116 CA
+    name: 117 CA
     server: 104.18.152.207
     port: 443
     password: humanity
@@ -391,7 +391,7 @@ proxies:
     ws-opts:
       path: /assignment
   - type: trojan
-    name: 121 US
+    name: 122 US
     server: 8.6.112.6
     port: 443
     password: humanity
@@ -404,7 +404,7 @@ proxies:
     ws-opts:
       path: /assignment
   - type: trojan
-    name: 127 CA
+    name: 128 CA
     server: 104.16.174.37
     port: 443
     password: humanity
@@ -417,7 +417,7 @@ proxies:
     ws-opts:
       path: /assignment
   - type: trojan
-    name: 128 CA
+    name: 129 CA
     server: 188.114.97.7
     port: 443
     password: humanity
@@ -430,7 +430,7 @@ proxies:
     ws-opts:
       path: /assignment
   - type: trojan
-    name: 134 DE
+    name: 135 DE
     server: 88.198.82.150
     port: 443
     password: humanity
@@ -443,7 +443,7 @@ proxies:
     ws-opts:
       path: /assignment
   - type: trojan
-    name: 135 CA
+    name: 136 CA
     server: 104.16.174.101
     port: 443
     password: humanity
@@ -455,7 +455,7 @@ proxies:
     network: ws
     ws-opts:
       path: /assignment
-  - name: 145 CA
+  - name: 146 CA
     type: trojan
     server: 104.16.72.101
     port: 443
@@ -467,7 +467,7 @@ proxies:
         Host: space.byu.id.yxls.eu.cc
       path: /us-gllc
   - type: trojan
-    name: 157 DE
+    name: 159 DE
     server: 185.220.100.168
     port: 443
     password: humanity
@@ -481,7 +481,7 @@ proxies:
       path: /assignment
       headers:
         Host: www.calmlunch.com
-  - name: 174 CA
+  - name: 178 CA
     type: trojan
     server: 188.114.97.6
     port: 443
@@ -494,7 +494,7 @@ proxies:
       path: /assignment
       headers:
         host: www.creationlong.orghttp/1.1
-  - name: 176 CA
+  - name: 181 CA
     type: trojan
     server: 188.114.98.0
     port: 443
@@ -508,7 +508,7 @@ proxies:
       headers:
         host: www.creationlong.org
   - type: trojan
-    name: 183 US
+    name: 188 US
     server: 167.82.64.120
     port: 443
     password: MiTiVPN
@@ -526,7 +526,7 @@ proxies:
       headers:
         Host: mitivpn--mitivpn.ac.ir
   - type: trojan
-    name: 184 CA
+    name: 189 CA
     server: 104.19.229.21
     port: 443
     password: humanity
@@ -540,7 +540,7 @@ proxies:
       path: /assignment
       headers:
         Host: www.calmlunch.com
-  - name: 246 SG
+  - name: 250 SG
     type: trojan
     server: 139.162.62.195
     port: 443
@@ -552,7 +552,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 263 CA
+  - name: 267 CA
     type: trojan
     server: 104.18.37.228
     port: 443
@@ -565,7 +565,7 @@ proxies:
     sni: www.calmlunch.com
     ws-opts:
       path: /assignment
-  - name: 280 CA
+  - name: 285 CA
     network: ws
     password: "123456"
     port: 2096
@@ -578,7 +578,20 @@ proxies:
       headers:
         Host: 321dfbc6.uir-9i6.pages.dev
       path: /
-  - name: 287 CA
+  - name: 286 CA
+    network: ws
+    password: trojan
+    port: 8443
+    server: 104.18.35.86
+    skip-cert-verify: true
+    sni: longwanghen.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: longwanghen.pages.dev
+      path: /
+  - name: 293 CA
     type: trojan
     server: 172.64.150.28
     port: 443
@@ -591,7 +604,7 @@ proxies:
     sni: www.calmlunch.com
     ws-opts:
       path: /assignment
-  - name: 290 CA
+  - name: 295 CA
     type: trojan
     server: chat.openai.com
     port: 443
@@ -608,7 +621,7 @@ proxies:
         Host: www.calmlunch.com
       path: /assignment
   - type: trojan
-    name: 298 DE
+    name: 303 DE
     server: 191.44.112.170
     port: 443
     password: 46d221fa-e9b4-748c-4eae-019a88e42991
@@ -622,7 +635,7 @@ proxies:
       headers:
         Host: orbylume.my.to
   - type: trojan
-    name: 306 CA
+    name: 309 CA
     server: 104.18.152.50
     port: 443
     password: humanity
@@ -636,7 +649,7 @@ proxies:
     ws-opts:
       path: /assignment
   - type: trojan
-    name: 307 CA
+    name: 310 CA
     server: 104.18.152.108
     port: 443
     password: humanity
@@ -649,7 +662,7 @@ proxies:
     ws-opts:
       path: /assignment
   - type: trojan
-    name: 308 CA
+    name: 311 CA
     server: 104.16.174.22
     port: 443
     password: humanity
@@ -663,7 +676,7 @@ proxies:
     ws-opts:
       path: //assignment
   - type: trojan
-    name: 309 CA
+    name: 312 CA
     server: 104.16.174.6
     port: 443
     password: humanity
@@ -676,7 +689,7 @@ proxies:
     network: ws
     ws-opts:
       path: /assignment
-  - name: 325 JP
+  - name: 320 JP
     type: trojan
     server: 43.170.8.95
     port: 443
@@ -688,120 +701,36 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
+  - type: trojan
+    name: 329 CA
+    server: 104.16.148.5
+    port: 443
+    password: 19877587-ed94-4033-88cd-4ac50a5e8718
+    udp: true
+    tls: true
+    servername: dimskiee.biz.id
+    sni: dimskiee.biz.id
+    skip-cert-verify: false
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /WangCai-8
+  - type: trojan
+    name: 330 US
+    server: 199.232.249.131
+    port: 443
+    password: SiFvGI5bX01GGtGOJ2_nxA
+    udp: true
+    tls: true
+    servername: cdn.akamai.steamstatic.com
+    sni: cdn.akamai.steamstatic.com
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER
+      headers:
+        Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
   - name: 349 CA
-    client-fingerprint: chrome
-    network: ws
-    password: pH[]S[Bh:_:D6T4k
-    port: 443
-    server: 104.19.45.195
-    sni: AZaDneT-692.PagEs.DEv
-    type: trojan
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-      path: /trsVu9Ualb1DOfGjpw
-    udp: true
-  - name: 350 CA
-    client-fingerprint: chrome
-    network: ws
-    password: trojan
-    port: 8443
-    server: 104.18.12.229
-    sni: longwanghen.pages.dev
-    type: trojan
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
-      path: /
-    udp: true
-  - name: 357 CA
-    client-fingerprint: chrome
-    network: ws
-    password: bpb-trojan
-    port: 443
-    server: 172.67.135.88
-    skip-cert-verify: false
-    sni: vless.herogoing.top
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
-      path: /tr
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - name: 365 CA
-    client-fingerprint: chrome
-    network: ws
-    password: bpb-trojan
-    port: 443
-    server: 104.21.26.36
-    skip-cert-verify: false
-    sni: vless.herogoing.top
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
-      path: /tr
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - name: 376 CA
-    client-fingerprint: chrome
-    network: ws
-    password: d0298536-d670-4045-bbb1-ddd5ea68683e
-    port: 443
-    server: 104.19.173.68
-    skip-cert-verify: false
-    sni: azadnet-5vk.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-      path: /azadnet-5vk.pages.dev/?PROT_TYPE=trojan
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - name: 393 US
-    client-fingerprint: edge
-    network: ws
-    password: 70756c73-0000-4000-8000-650000000000
-    port: 443
-    server: 199.181.197.99
-    skip-cert-verify: false
-    sni: parsa-panel-u48we.wotic15356.workers.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
-      path: /pulse
-  - name: 399 CA
-    type: trojan
-    server: 188.114.96.3
-    port: 443
-    udp: true
-    password: humanity
-    sni: www.multiplydose.com
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /assignment
-  - name: 416 US
-    client-fingerprint: chrome
-    network: ws
-    password: f426d3c9-fb43-43c0-868b-898dfa451a74
-    port: 443
-    server: 103.11.76.183
-    skip-cert-verify: false
-    sni: likejennie.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
-      path: /
-  - name: 432 CA
     client-fingerprint: chrome
     network: ws
     password: bpb-trojan
@@ -817,22 +746,34 @@ proxies:
       path: /tr
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
-  - name: 434 CA
+  - name: 362 CA
+    client-fingerprint: chrome
     network: ws
-    password: reinz
+    password: d0298536-d670-4045-bbb1-ddd5ea68683e
     port: 443
-    server: 104.26.6.171
+    server: 104.19.173.68
     skip-cert-verify: false
-    sni: tsg3.pages.dev
+    sni: azadnet-5vk.pages.dev
     type: trojan
+    udp: true
     ws-opts:
       headers:
-        Host: tsg3.pages.dev
-      path: /
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /azadnet-5vk.pages.dev/?PROT_TYPE=trojan
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
+  - name: 370 CA
+    type: trojan
+    server: 188.114.96.3
+    port: 443
     udp: true
-  - name: 463 CA
+    password: humanity
+    sni: www.multiplydose.com
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /assignment
+  - name: 373 CA
     type: trojan
     server: 172.64.155.209
     port: 443
@@ -845,20 +786,7 @@ proxies:
       path: /assignment
       headers:
         host: www.gossipglove.com
-  - name: 464 CA
-    type: trojan
-    server: chatgpt.com
-    port: 443
-    udp: true
-    password: humanity
-    sni: www.gossipglove.com
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /assignment
-      headers:
-        host: www.gossipglove.com
-  - name: 469 CA
+  - name: 383 CA
     client-fingerprint: chrome
     network: ws
     password: auto
@@ -874,18 +802,22 @@ proxies:
       path: /azadnet-5o5.pages.dev/
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
-  - name: 481 CA
-    type: trojan
-    server: 162.159.153.4
-    port: 443
+  - name: 384 CA
     network: ws
-    password: humanity
-    sni: www.calmloud.com
+    password: reinz
+    port: 443
+    server: 104.26.6.171
+    skip-cert-verify: false
+    sni: tsg3.pages.dev
+    type: trojan
     ws-opts:
       headers:
-        Host: www.calmloud.com
-      path: /assignment
-  - name: 510 US
+        Host: tsg3.pages.dev
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    udp: true
+  - name: 431 US
     type: trojan
     server: 162.159.38.119
     port: 443
@@ -898,7 +830,7 @@ proxies:
       path: /assignment
       headers:
         host: www.gossipglove.com
-  - name: 534 CA
+  - name: 454 CA
     type: trojan
     server: 104.16.71.213
     port: 443
@@ -911,7 +843,7 @@ proxies:
       path: /assignment
       headers:
         host: www.calmlunch.com
-  - name: 544 KR
+  - name: 463 KR
     type: trojan
     server: 146.56.187.1
     port: 8443
@@ -924,21 +856,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 548 CA
-    client-fingerprint: chrome
-    network: ws
-    password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
-    port: 8443
-    server: www.wto.org
-    skip-cert-verify: true
-    sni: jiangjc.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-      path: /
-  - name: 589 CA
+  - name: 509 CA
     type: trojan
     server: 104.16.72.41
     port: 443
@@ -951,7 +869,7 @@ proxies:
       path: /assignment
       headers:
         host: www.calmlunch.com
-  - name: 591 KR
+  - name: 511 KR
     type: trojan
     server: 193.123.232.91
     port: 443
@@ -964,7 +882,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 605 CA
+  - name: 525 CA
     type: trojan
     server: 104.16.72.2
     port: 443
@@ -977,7 +895,7 @@ proxies:
       path: /assignment
       headers:
         host: www.calmlunch.com
-  - name: 611 GB
+  - name: 531 GB
     type: trojan
     server: 91.193.58.201
     port: 443
@@ -992,7 +910,7 @@ proxies:
       headers:
         Host: 95r.ir
       path: /MiTiVPN=NL
-  - name: 642 JP
+  - name: 562 JP
     type: trojan
     server: 172.104.120.92
     port: 443
@@ -1010,7 +928,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 653 SG
+  - name: 573 SG
     type: trojan
     server: 129.212.231.216
     port: 443
@@ -1023,7 +941,7 @@ proxies:
       path: /
       headers:
         host: tjplay.lxdxo.kdns.fr
-  - name: 654 CA
+  - name: 574 CA
     type: trojan
     server: 188.114.97.82
     port: 443
@@ -1036,7 +954,7 @@ proxies:
       path: /trojanws
       headers:
         host: cdir-0203.wlfvip.comhttp/1.1
-  - name: 655 CA
+  - name: 575 CA
     type: trojan
     server: 104.16.174.12
     port: 443
@@ -1049,7 +967,7 @@ proxies:
       path: /assignment
       headers:
         host: www.ignitelimit.com
-  - name: 656 CA
+  - name: 576 CA
     type: trojan
     server: 104.17.121.71
     port: 443
@@ -1062,7 +980,7 @@ proxies:
       path: /assignment
       headers:
         host: www.calmlunch.com
-  - name: 657 CA
+  - name: 577 CA
     type: trojan
     server: 104.16.7.70
     port: 443
@@ -1073,7 +991,7 @@ proxies:
     network: ws
     ws-opts:
       path: assignment
-  - name: 658 US
+  - name: 578 US
     type: trojan
     server: 188.114.99.0
     port: 443
@@ -1086,7 +1004,7 @@ proxies:
       path: /assignment
       headers:
         host: www.gossipglove.com
-  - name: 660 CA
+  - name: 580 CA
     type: trojan
     server: 104.21.40.34
     port: 443
@@ -1099,7 +1017,7 @@ proxies:
       path: /assignment
       headers:
         host: www.gossipglove.com
-  - name: 661 DE
+  - name: 581 DE
     type: trojan
     server: 91.107.145.13
     port: 443
@@ -1110,7 +1028,7 @@ proxies:
     network: ws
     ws-opts:
       path: /ChGF4VS2wmOOrQCXl1http/1.1
-  - name: 662 CA
+  - name: 582 CA
     type: trojan
     server: 172.64.152.23
     port: 443
@@ -1123,7 +1041,7 @@ proxies:
       path: /assignment
       headers:
         host: www.calmlunch.com
-  - name: 663 DE
+  - name: 583 DE
     type: trojan
     server: 45.80.111.7
     port: 443
@@ -1134,7 +1052,21 @@ proxies:
     network: ws
     ws-opts:
       path: /assignment
-  - name: 679 KR
+  - name: 594 CA
+    client-fingerprint: chrome
+    network: ws
+    password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
+    port: 8443
+    server: www.wto.org
+    skip-cert-verify: true
+    sni: jiangjc.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+      path: /
+  - name: 600 KR
     type: trojan
     server: 132.145.91.181
     port: 8443
@@ -1146,7 +1078,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 711 KR
+  - name: 632 KR
     type: trojan
     server: 193.123.233.175
     port: 443
@@ -1158,7 +1090,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 718 SG
+  - name: 639 SG
     type: trojan
     server: 66.42.51.60
     port: 8443
@@ -1171,7 +1103,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 768 US
+  - name: 691 US
     type: trojan
     server: 159.112.235.52
     port: 443
@@ -1182,7 +1114,7 @@ proxies:
     sni: www.multiplydose.com
     ws-opts:
       path: /assignment
-  - name: 814 CA
+  - name: 736 CA
     type: trojan
     server: 104.16.97.215
     port: 443
@@ -1195,7 +1127,7 @@ proxies:
       path: Telegram🇨🇳
       headers:
         host: tjplay.lxdxo.kdns.fr
-  - name: 815 GB
+  - name: 737 GB
     type: trojan
     server: 104.248.161.136
     port: 443
@@ -1208,7 +1140,7 @@ proxies:
       path: /
       headers:
         host: tjplay.lxdxo.kdns.fr
-  - name: 816 CA
+  - name: 738 CA
     type: trojan
     server: 104.16.99.215
     port: 443
@@ -1221,7 +1153,7 @@ proxies:
       path: Telegram🇨🇳
       headers:
         host: tjplay.lxdxo.kdns.fr
-  - name: 817 CA
+  - name: 739 CA
     type: trojan
     server: 104.19.64.105
     port: 443
@@ -1234,7 +1166,7 @@ proxies:
       path: /assignment
       headers:
         host: www.calmlunch.com
-  - name: 818 CA
+  - name: 740 CA
     type: trojan
     server: 104.17.111.8
     port: 443
@@ -1247,7 +1179,7 @@ proxies:
       path: /assignment
       headers:
         host: www.ignitelimit.com
-  - name: 819 CA
+  - name: 741 CA
     type: trojan
     server: 104.18.152.97
     port: 443
@@ -1260,7 +1192,7 @@ proxies:
       path: /assignment
       headers:
         host: www.ignitelimit.com
-  - name: 820 CA
+  - name: 742 CA
     type: trojan
     server: 104.18.32.37
     port: 443
@@ -1271,7 +1203,7 @@ proxies:
     network: ws
     ws-opts:
       path: /assignment
-  - name: 821 CA
+  - name: 743 CA
     type: trojan
     server: 172.64.147.131
     port: 443
@@ -1284,7 +1216,7 @@ proxies:
       path: /assignment
       headers:
         host: www.gossipglove.com
-  - name: 822 CA
+  - name: 744 CA
     type: trojan
     server: 104.17.121.9
     port: 443
@@ -1297,7 +1229,7 @@ proxies:
       path: /assignment
       headers:
         host: www.calmlunch.comhttp/1.1
-  - name: 823 US
+  - name: 745 US
     type: trojan
     server: 165.215.250.14
     port: 443
@@ -1310,7 +1242,7 @@ proxies:
       path: /assignment
       headers:
         host: www.calmlunch.com
-  - name: 824 CA
+  - name: 746 CA
     type: trojan
     server: 104.18.7.147
     port: 443
@@ -1323,7 +1255,7 @@ proxies:
       path: /assignment
       headers:
         host: www.gossipglove.com
-  - name: 825 CA
+  - name: 747 CA
     type: trojan
     server: www.creationlong.org
     port: 443
@@ -1333,7 +1265,7 @@ proxies:
     network: ws
     ws-opts:
       path: /assignment
-  - name: 826 CA
+  - name: 748 CA
     type: trojan
     server: 172.64.147.143
     port: 443
@@ -1346,7 +1278,7 @@ proxies:
       path: /assignment
       headers:
         host: www.gossipglove.com
-  - name: 827 US
+  - name: 749 US
     type: trojan
     server: 141.193.213.21
     port: 443
@@ -1357,19 +1289,7 @@ proxies:
     network: ws
     ws-opts:
       path: /assignment
-  - name: 830 US
-    type: trojan
-    server: blog.webex.com
-    port: 443
-    network: ws
-    password: afbcd89a-5a90-4a44-a42a-be08f444aa3f
-    skip-cert-verify: false
-    sni: unnes.ac.id.yxls.eu.cc
-    ws-opts:
-      headers:
-        Host: unnes.ac.id.yxls.eu.cc
-      path: /br-orcl
-  - name: 832 CA
+  - name: 755 CA
     type: trojan
     server: 104.17.131.88
     port: 443
@@ -1382,7 +1302,7 @@ proxies:
       path: /assignment
       headers:
         host: www.gossipglove.com
-  - name: 833 CA
+  - name: 756 CA
     type: trojan
     server: 172.64.147.252
     port: 443
@@ -1395,7 +1315,7 @@ proxies:
       path: /assignment
       headers:
         host: www.gossipglove.com
-  - name: 834 CA
+  - name: 757 CA
     type: trojan
     server: 172.64.147.166
     port: 443
@@ -1408,7 +1328,7 @@ proxies:
       path: /assignment
       headers:
         host: www.multiplydose.com
-  - name: 835 CA
+  - name: 758 CA
     type: trojan
     server: 172.67.180.92
     port: 443
@@ -1421,7 +1341,7 @@ proxies:
       path: /assignment
       headers:
         host: www.multiplydose.com
-  - name: 836 CA
+  - name: 759 CA
     type: trojan
     server: 104.18.8.83
     port: 443
@@ -1432,22 +1352,7 @@ proxies:
     network: ws
     ws-opts:
       path: /assignment
-  - type: trojan
-    name: 837 CA
-    server: www.calmlunch.com
-    port: 443
-    password: humanity
-    udp: true
-    tls: true
-    servername: www.calmlunch.com
-    sni: www.calmlunch.com
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.calmlunch.com
-  - name: 838 CA
+  - name: 760 CA
     type: trojan
     server: 104.20.6.134
     port: 443
@@ -1458,7 +1363,7 @@ proxies:
     network: ws
     ws-opts:
       path: /assignmenthttp/1.1
-  - name: 839 CA
+  - name: 761 CA
     type: trojan
     server: 172.64.152.42
     port: 443
@@ -1471,7 +1376,7 @@ proxies:
       path: /assignment
       headers:
         host: www.multiplydose.com
-  - name: 840 CA
+  - name: 762 CA
     type: trojan
     server: 172.64.147.24
     port: 443
@@ -1484,7 +1389,7 @@ proxies:
       path: /assignment
       headers:
         host: www.gossipglove.com
-  - name: 841 CA
+  - name: 763 CA
     type: trojan
     server: 172.66.44.211
     port: 443
@@ -1497,7 +1402,7 @@ proxies:
       path: /assignment
       headers:
         host: www.multiplydose.com
-  - name: 842 CA
+  - name: 764 CA
     type: trojan
     server: 104.16.147.104
     port: 443
@@ -1508,7 +1413,7 @@ proxies:
     network: ws
     ws-opts:
       path: /assignment
-  - name: 843 US
+  - name: 765 US
     type: trojan
     server: 198.202.211.1
     port: 443
@@ -1521,7 +1426,7 @@ proxies:
       path: /assignment
       headers:
         host: www.creationlong.org
-  - name: 844 FR
+  - name: 766 FR
     type: trojan
     server: 81.255.155.10
     port: 443
@@ -1534,7 +1439,7 @@ proxies:
       path: /assignment
       headers:
         host: www.creationlong.org
-  - name: 845 US
+  - name: 767 US
     type: trojan
     server: 8.6.112.0
     port: 443
@@ -1547,7 +1452,7 @@ proxies:
       path: /assignment
       headers:
         host: www.multiplydose.com
-  - name: 846 US
+  - name: 768 US
     type: trojan
     server: 208.103.161.110
     port: 443
@@ -1560,7 +1465,7 @@ proxies:
       path: /assignment
       headers:
         host: www.creationlong.org
-  - name: 847 CA
+  - name: 769 CA
     type: trojan
     server: 172.66.47.69
     port: 443
@@ -1573,7 +1478,7 @@ proxies:
       path: /assignment
       headers:
         host: www.multiplydose.com
-  - name: 848 CA
+  - name: 770 CA
     type: trojan
     server: 104.16.174.71
     port: 443
@@ -1586,7 +1491,7 @@ proxies:
       path: /assignment
       headers:
         host: www.ignitelimit.com
-  - name: 849 US
+  - name: 771 US
     type: trojan
     server: 198.62.62.23
     port: 443
@@ -1599,7 +1504,7 @@ proxies:
       path: //assignment
       headers:
         host: www.calmlunch.com
-  - name: 850 CA
+  - name: 772 CA
     type: trojan
     server: 172.64.147.227
     port: 443
@@ -1612,7 +1517,7 @@ proxies:
       path: /assignment
       headers:
         host: www.gossipglove.com
-  - name: 900 JP
+  - name: 823 JP
     type: trojan
     server: 198.13.60.163
     port: 443
@@ -1624,7 +1529,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 914 US
+  - name: 837 US
     type: trojan
     server: 45.38.60.139
     port: 443
@@ -1636,7 +1541,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 923 KR
+  - name: 846 KR
     type: trojan
     server: 64.110.70.64
     port: 443
@@ -1648,7 +1553,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 931 KR
+  - name: 854 KR
     type: trojan
     server: 158.247.199.106
     port: 443
@@ -1660,7 +1565,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 952 KR
+  - name: 875 KR
     type: trojan
     server: 152.70.254.197
     port: 443
@@ -1672,7 +1577,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 968 KR
+  - name: 891 KR
     type: trojan
     server: 158.180.71.69
     port: 443
@@ -1685,7 +1590,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 976 KR
+  - name: 899 KR
     type: trojan
     server: 161.118.158.9
     port: 443
@@ -1698,7 +1603,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 978 CA
+  - name: 901 CA
     type: trojan
     server: 104.16.100.215
     port: 443
@@ -1711,7 +1616,7 @@ proxies:
       path: Telegram🇨🇳
       headers:
         host: tjplay.lxdxo.kdns.fr
-  - name: 979 CA
+  - name: 902 CA
     type: trojan
     server: 104.16.98.215
     port: 443
@@ -1724,7 +1629,7 @@ proxies:
       path: Telegram🇨🇳
       headers:
         host: tjplay.lxdxo.kdns.fr
-  - name: 980 SG
+  - name: 903 SG
     type: trojan
     server: 129.212.239.178
     port: 443
@@ -1737,7 +1642,7 @@ proxies:
       path: /
       headers:
         host: tjplay.lxdxo.kdns.fr
-  - name: 981 SG
+  - name: 904 SG
     type: trojan
     server: 116.251.217.65
     port: 443
@@ -1750,7 +1655,7 @@ proxies:
       path: /
       headers:
         host: tjplay.lxdxo.kdns.fr
-  - name: 982 CA
+  - name: 905 CA
     type: trojan
     server: 104.17.121.43
     port: 443
@@ -1763,7 +1668,7 @@ proxies:
       path: /assignment
       headers:
         host: www.calmlunch.com
-  - name: 983 CA
+  - name: 906 CA
     type: trojan
     server: 104.16.174.121
     port: 443
@@ -1776,7 +1681,7 @@ proxies:
       path: /assignment
       headers:
         host: www.ignitelimit.com
-  - name: 984 CA
+  - name: 907 CA
     type: trojan
     server: 162.159.17.189
     port: 443
@@ -1789,7 +1694,7 @@ proxies:
       path: /assignment
       headers:
         host: www.multiplydose.com
-  - name: 985 DE
+  - name: 908 DE
     type: trojan
     server: 141.101.90.101
     port: 443
@@ -1802,7 +1707,7 @@ proxies:
       path: /assignment
       headers:
         host: www.ignitelimit.com
-  - name: 986 US
+  - name: 909 US
     type: trojan
     server: 216.24.57.1
     port: 443
@@ -1813,7 +1718,116 @@ proxies:
     network: ws
     ws-opts:
       path: /assignment
-  - name: 1050 SG
+  - name: 933 CA
+    client-fingerprint: chrome
+    network: ws
+    password: pH[]S[Bh:_:D6T4k
+    port: 443
+    server: 104.19.45.195
+    sni: AZaDneT-692.PagEs.DEv
+    type: trojan
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+      path: /trsVu9Ualb1DOfGjpw
+    udp: true
+  - name: 934 CA
+    client-fingerprint: chrome
+    network: ws
+    password: trojan
+    port: 8443
+    server: 104.18.12.229
+    sni: longwanghen.pages.dev
+    type: trojan
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      path: /
+    udp: true
+  - name: 938 CA
+    client-fingerprint: chrome
+    network: ws
+    password: bpb-trojan
+    port: 443
+    server: 172.67.135.88
+    skip-cert-verify: false
+    sni: vless.herogoing.top
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+      path: /tr
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+  - name: 944 CA
+    client-fingerprint: chrome
+    network: ws
+    password: bpb-trojan
+    port: 443
+    server: 104.21.26.36
+    skip-cert-verify: false
+    sni: vless.herogoing.top
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      path: /tr
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+  - name: 959 US
+    client-fingerprint: edge
+    network: ws
+    password: 70756c73-0000-4000-8000-650000000000
+    port: 443
+    server: 199.181.197.99
+    skip-cert-verify: false
+    sni: parsa-panel-u48we.wotic15356.workers.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+      path: /pulse
+  - name: 972 US
+    client-fingerprint: chrome
+    network: ws
+    password: f426d3c9-fb43-43c0-868b-898dfa451a74
+    port: 443
+    server: 103.11.76.183
+    skip-cert-verify: false
+    sni: likejennie.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+      path: /
+  - name: 986 CA
+    type: trojan
+    server: 172.67.181.193
+    port: 443
+    network: ws
+    password: c8eac4b7-95ba-4ce0-920d-c3279eb3b391
+    sni: EEeEee4.hUAngSHANG2030.dPdNS.org
+    ws-opts:
+      path: /ptGwaGzcA4KNAXX
+      headers:
+        host: EEeEee4.hUAngSHANG2030.dPdNS.org
+    ip-version: dual
+    udp: true
+  - name: 988 CA
+    port: 443
+    server: 104.17.215.18
+    type: trojan
+    network: ws
+    udp: true
+    sni: jobscareerforstudent.com
+    password: 4732adfa16c6450bbef87264e41332db
+    ws-opts:
+      path: /6b777a91
+  - name: 1038 SG
     type: trojan
     server: 103.25.202.114
     port: 443
@@ -1825,7 +1839,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1051 SG
+  - name: 1039 SG
     type: trojan
     server: 45.127.35.143
     port: 443
@@ -1835,7 +1849,7 @@ proxies:
     sni: tjsp.hhxaf.cc.cd
     ws-opts:
       path: /
-  - name: 1059 JP
+  - name: 1047 JP
     type: trojan
     server: 172.104.86.229
     port: 443
@@ -1853,7 +1867,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1060 JP
+  - name: 1048 JP
     type: trojan
     server: 156.246.91.9
     port: 443
@@ -1865,7 +1879,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1105 CA
+  - name: 1093 CA
     type: trojan
     server: 172.64.157.230
     port: 443
@@ -1878,7 +1892,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1106 CA
+  - name: 1094 CA
     type: trojan
     server: 172.64.38.50
     port: 443
@@ -1891,7 +1905,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1107 US
+  - name: 1095 US
     type: trojan
     server: 134.199.142.254
     port: 443
@@ -1903,7 +1917,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1108 CA
+  - name: 1096 CA
     type: trojan
     server: 104.20.39.109
     port: 443
@@ -1913,7 +1927,7 @@ proxies:
     sni: space.byu.id.yxls.eu.cc
     ws-opts:
       path: /au-do
-  - name: 1109 CA
+  - name: 1097 CA
     type: trojan
     server: 172.64.53.74
     port: 443
@@ -1926,7 +1940,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1110 CA
+  - name: 1098 CA
     type: trojan
     server: 104.18.43.29
     port: 8443
@@ -1939,7 +1953,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1111 US
+  - name: 1099 US
     type: trojan
     server: 173.255.242.254
     port: 443
@@ -1951,7 +1965,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1112 US
+  - name: 1100 US
     type: trojan
     server: 45.63.89.102
     port: 443
@@ -1964,7 +1978,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1113 US
+  - name: 1101 US
     type: trojan
     server: 64.186.242.72
     port: 443
@@ -1974,7 +1988,7 @@ proxies:
     sni: hhcm.hhxaf.cc.cd
     ws-opts:
       path: /
-  - name: 1114 US
+  - name: 1102 US
     type: trojan
     server: 45.76.169.250
     port: 443
@@ -1986,7 +2000,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1115 US
+  - name: 1103 US
     type: trojan
     server: 154.17.29.221
     port: 443
@@ -1998,7 +2012,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1117 US
+  - name: 1105 US
     type: trojan
     server: 64.186.231.175
     port: 443
@@ -2011,7 +2025,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1118 CA
+  - name: 1106 CA
     type: trojan
     server: 172.64.148.165
     port: 8443
@@ -2024,7 +2038,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1119 US
+  - name: 1107 US
     type: trojan
     server: 154.17.22.175
     port: 443
@@ -2036,7 +2050,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1120 US
+  - name: 1108 US
     type: trojan
     server: 162.159.39.153
     port: 443
@@ -2049,7 +2063,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1121 CA
+  - name: 1109 CA
     type: trojan
     server: 172.66.171.48
     port: 443
@@ -2059,7 +2073,7 @@ proxies:
     sni: space.byu.id.yxls.eu.cc
     ws-opts:
       path: /au-do
-  - name: 1122 CA
+  - name: 1110 CA
     type: trojan
     server: space.byu.id.yxls.eu.cc
     port: 443
@@ -2070,7 +2084,7 @@ proxies:
     sni: space.byu.id.yxls.eu.cc
     ws-opts:
       path: /au-do
-  - name: 1123 US
+  - name: 1111 US
     type: trojan
     server: 38.207.169.105
     port: 443
@@ -2082,7 +2096,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1124 US
+  - name: 1112 US
     type: trojan
     server: 98.158.29.213
     port: 443
@@ -2094,7 +2108,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1125 US
+  - name: 1113 US
     type: trojan
     server: 144.202.126.96
     port: 443
@@ -2106,7 +2120,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1126 US
+  - name: 1114 US
     type: trojan
     server: 64.186.250.125
     port: 443
@@ -2118,7 +2132,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1127 CA
+  - name: 1115 CA
     type: trojan
     server: 162.159.3.176
     port: 443
@@ -2131,7 +2145,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1128 US
+  - name: 1116 US
     type: trojan
     server: 207.246.97.245
     port: 443
@@ -2143,7 +2157,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1129 CA
+  - name: 1117 CA
     type: trojan
     server: 172.64.229.114
     port: 8443
@@ -2156,7 +2170,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1130 US
+  - name: 1118 US
     type: trojan
     server: 199.193.125.72
     port: 443
@@ -2168,7 +2182,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1131 CA
+  - name: 1119 CA
     type: trojan
     server: 162.159.12.212
     port: 443
@@ -2181,7 +2195,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1132 US
+  - name: 1120 US
     type: trojan
     server: 64.186.227.87
     port: 443
@@ -2193,7 +2207,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1133 CA
+  - name: 1121 CA
     type: trojan
     server: 173.245.58.183
     port: 8443
@@ -2206,7 +2220,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1134 US
+  - name: 1122 US
     type: trojan
     server: 80.66.196.231
     port: 443
@@ -2218,7 +2232,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1135 US
+  - name: 1123 US
     type: trojan
     server: 154.9.239.44
     port: 443
@@ -2231,7 +2245,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1136 CA
+  - name: 1124 CA
     type: trojan
     server: 162.159.15.39
     port: 8443
@@ -2244,7 +2258,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1137 US
+  - name: 1125 US
     type: trojan
     server: 96.126.96.82
     port: 443
@@ -2256,7 +2270,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1138 CA
+  - name: 1126 CA
     type: trojan
     server: 172.64.148.248
     port: 8443
@@ -2269,7 +2283,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1139 US
+  - name: 1127 US
     type: trojan
     server: 38.244.25.17
     port: 443
@@ -2281,7 +2295,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1140 CA
+  - name: 1128 CA
     type: trojan
     server: 104.18.39.91
     port: 8443
@@ -2294,7 +2308,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1141 US
+  - name: 1129 US
     type: trojan
     server: 149.248.7.25
     port: 443
@@ -2306,7 +2320,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1142 US
+  - name: 1130 US
     type: trojan
     server: 45.32.66.221
     port: 443
@@ -2318,7 +2332,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1143 US
+  - name: 1131 US
     type: trojan
     server: 69.63.212.210
     port: 443
@@ -2331,7 +2345,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1144 US
+  - name: 1132 US
     type: trojan
     server: 157.254.18.193
     port: 443
@@ -2344,7 +2358,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1145 US
+  - name: 1133 US
     type: trojan
     server: 144.202.83.188
     port: 443
@@ -2357,7 +2371,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1146 US
+  - name: 1134 US
     type: trojan
     server: 72.249.205.119
     port: 443
@@ -2369,7 +2383,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1147 US
+  - name: 1135 US
     type: trojan
     server: 142.171.114.133
     port: 443
@@ -2382,7 +2396,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1149 GB
+  - name: 1137 GB
     type: trojan
     server: 164.38.155.135
     port: 443
@@ -2397,7 +2411,7 @@ proxies:
       headers:
         Host: 95r.ir
       path: /MiTiVPN=De
-  - name: 1150 US
+  - name: 1138 US
     type: trojan
     server: 64.186.240.152
     port: 443
@@ -2409,7 +2423,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1151 US
+  - name: 1139 US
     type: trojan
     server: 64.186.248.160
     port: 443
@@ -2419,7 +2433,7 @@ proxies:
     sni: tjsp.hhxaf.cc.cd
     ws-opts:
       path: /
-  - name: 1153 US
+  - name: 1141 US
     type: trojan
     server: 154.17.228.36
     port: 443
@@ -2431,7 +2445,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1155 US
+  - name: 1143 US
     type: trojan
     server: 69.63.212.192
     port: 443
@@ -2443,7 +2457,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1156 US
+  - name: 1144 US
     type: trojan
     server: 72.249.205.12
     port: 443
@@ -2455,7 +2469,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1157 US
+  - name: 1145 US
     type: trojan
     server: 154.17.6.184
     port: 443
@@ -2467,7 +2481,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1158 JP
+  - name: 1146 JP
     type: trojan
     server: 172.104.81.253
     port: 443
@@ -2479,7 +2493,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1159 JP
+  - name: 1147 JP
     type: trojan
     server: 45.192.242.10
     port: 443
@@ -2491,7 +2505,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1160 JP
+  - name: 1148 JP
     type: trojan
     server: 153.121.76.150
     port: 443
@@ -2503,7 +2517,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1161 JP
+  - name: 1149 JP
     type: trojan
     server: 160.16.59.9
     port: 443
@@ -2516,7 +2530,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1162 JP
+  - name: 1150 JP
     type: trojan
     server: 172.104.80.248
     port: 443
@@ -2528,7 +2542,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1163 JP
+  - name: 1151 JP
     type: trojan
     server: 108.160.132.178
     port: 443
@@ -2540,7 +2554,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1165 JP
+  - name: 1153 JP
     type: trojan
     server: 150.230.212.247
     port: 443
@@ -2552,7 +2566,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1166 JP
+  - name: 1154 JP
     type: trojan
     server: 124.156.208.160
     port: 443
@@ -2564,7 +2578,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1167 JP
+  - name: 1155 JP
     type: trojan
     server: 172.237.13.221
     port: 443
@@ -2576,7 +2590,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1168 JP
+  - name: 1156 JP
     type: trojan
     server: 133.18.140.38
     port: 443
@@ -2588,7 +2602,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1169 JP
+  - name: 1157 JP
     type: trojan
     server: 45.77.129.86
     port: 2053
@@ -2601,7 +2615,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1171 CA
+  - name: 1159 CA
     type: trojan
     server: 104.18.23.63
     port: 443
@@ -2613,7 +2627,18 @@ proxies:
     sni: www.ignitelimit.com
     ws-opts:
       path: /assignment
-  - name: 1172 CA
+  - type: trojan
+    name: 1160 CA
+    server: www.ignitelimit.com
+    port: 443
+    password: humanity
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /assignment
+  - name: 1161 CA
     type: trojan
     server: 104.18.9.83
     port: 443
@@ -2624,7 +2649,22 @@ proxies:
       headers:
         Host: www.calmlunch.com
       path: /assignment
-  - name: 1173 CA
+  - type: trojan
+    name: 1162 CA
+    server: www.calmlunch.com
+    port: 443
+    password: humanity
+    udp: true
+    tls: true
+    servername: www.calmlunch.com
+    sni: www.calmlunch.com
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.calmlunch.com
+  - name: 1163 CA
     type: trojan
     server: 104.18.152.244
     port: 443
@@ -2636,7 +2676,7 @@ proxies:
       headers:
         Host: www.ignitelimit.com
       path: /assignment
-  - name: 1174 CA
+  - name: 1164 CA
     type: trojan
     server: 104.18.152.159
     port: 443
@@ -2648,7 +2688,7 @@ proxies:
       headers:
         Host: www.ignitelimit.com
       path: /assignment
-  - name: 1175 CA
+  - name: 1165 CA
     type: trojan
     server: 198.41.223.96
     port: 443
@@ -2663,7 +2703,7 @@ proxies:
     sni: www.ignitelimit.com
     ws-opts:
       path: /assignment
-  - name: 1176 CA
+  - name: 1166 CA
     type: trojan
     server: 162.159.91.211
     port: 443
@@ -2675,7 +2715,7 @@ proxies:
       headers:
         Host: www.calmlunch.com
       path: /assignment
-  - name: 1177 JP
+  - name: 1167 JP
     type: trojan
     server: 82.40.42.119
     port: 443
@@ -2687,7 +2727,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1178 CA
+  - name: 1168 CA
     type: trojan
     server: 172.67.74.2
     port: 443
@@ -2698,20 +2738,7 @@ proxies:
       headers:
         Host: www.ignitelimit.com
       path: /assignment
-  - type: trojan
-    name: 1180 CA
-    server: www.speedtest.org
-    port: 443
-    password: humanity
-    udp: true
-    tls: true
-    servername: www.ignitelimit.com
-    sni: www.ignitelimit.com
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /assignment
-  - name: 1181 JP
+  - name: 1170 JP
     type: trojan
     server: 152.70.105.42
     port: 8443
@@ -2723,7 +2750,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1183 US
+  - name: 1172 US
     type: trojan
     server: 162.159.253.41
     port: 443
@@ -2735,7 +2762,7 @@ proxies:
       headers:
         Host: www.calmlunch.com
       path: /assignment
-  - name: 1184 CA
+  - name: 1173 CA
     type: trojan
     server: 104.18.152.161
     port: 443
@@ -2747,7 +2774,7 @@ proxies:
       headers:
         Host: www.ignitelimit.com
       path: /assignment
-  - name: 1185 CA
+  - name: 1174 CA
     type: trojan
     server: 162.159.193.202
     port: 443
@@ -2762,7 +2789,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1186 CA
+  - name: 1175 CA
     type: trojan
     server: 104.18.152.155
     port: 443
@@ -2774,7 +2801,7 @@ proxies:
       headers:
         Host: www.ignitelimit.com
       path: /assignment
-  - name: 1187 CA
+  - name: 1176 CA
     type: trojan
     server: 104.18.152.210
     port: 443
@@ -2786,7 +2813,7 @@ proxies:
       headers:
         Host: www.ignitelimit.com
       path: /assignment
-  - name: 1188 CA
+  - name: 1177 CA
     type: trojan
     server: 172.67.200.219
     port: 443
@@ -2796,7 +2823,7 @@ proxies:
     sni: www.calmlunch.com
     ws-opts:
       path: /assignment
-  - name: 1189 CA
+  - name: 1178 CA
     type: trojan
     server: 104.17.177.143
     port: 443
@@ -2808,7 +2835,7 @@ proxies:
       headers:
         Host: www.ignitelimit.com
       path: /assignment
-  - name: 1190 CA
+  - name: 1179 CA
     type: trojan
     server: 104.21.103.254
     port: 443
@@ -2821,7 +2848,7 @@ proxies:
     sni: www.calmlunch.com
     ws-opts:
       path: /assignment
-  - name: 1191 CA
+  - name: 1180 CA
     type: trojan
     server: 104.18.152.149
     port: 443
@@ -2833,7 +2860,7 @@ proxies:
       headers:
         Host: www.ignitelimit.com
       path: /assignment
-  - name: 1192 CA
+  - name: 1181 CA
     type: trojan
     server: 104.16.174.124
     port: 443
@@ -2845,7 +2872,7 @@ proxies:
       headers:
         Host: www.ignitelimit.com
       path: /assignment
-  - name: 1193 CA
+  - name: 1182 CA
     type: trojan
     server: 188.114.96.4
     port: 443
@@ -2857,7 +2884,7 @@ proxies:
     sni: www.calmloud.com
     ws-opts:
       path: /assignment
-  - name: 1194 JP
+  - name: 1183 JP
     type: trojan
     server: 158.51.110.12
     port: 443
@@ -2869,7 +2896,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1195 CA
+  - name: 1184 CA
     type: trojan
     server: 104.16.174.46
     port: 443
@@ -2881,7 +2908,7 @@ proxies:
       headers:
         Host: www.ignitelimit.com
       path: /assignment
-  - name: 1196 CA
+  - name: 1185 CA
     type: trojan
     server: 104.25.109.237
     port: 443
@@ -2896,7 +2923,7 @@ proxies:
       headers:
         Host: www.calmlunch.com
       path: /assignment
-  - name: 1197 US
+  - name: 1186 US
     type: trojan
     server: 199.181.197.111
     port: 443
@@ -2910,7 +2937,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1198 US
+  - name: 1187 US
     type: trojan
     server: 199.181.197.212
     port: 443
@@ -2924,7 +2951,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1199 JP
+  - name: 1188 JP
     type: trojan
     server: 149.28.21.106
     port: 443
@@ -2936,7 +2963,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1201 CA
+  - name: 1190 CA
     type: trojan
     server: 104.18.13.149
     port: 443
@@ -2950,7 +2977,22 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1203 CA
+  - name: 1191 CA
+    type: trojan
+    server: sourceforge.net
+    port: 443
+    alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    network: ws
+    password: humanity
+    skip-cert-verify: false
+    sni: www.calmloud.com
+    ws-opts:
+      headers:
+        Host: www.calmloud.com
+      path: /assignment
+  - name: 1192 CA
     type: trojan
     server: 104.16.174.109
     port: 443
@@ -2965,7 +3007,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1204 CA
+  - name: 1193 CA
     type: trojan
     server: 104.17.72.206
     port: 443
@@ -2977,7 +3019,7 @@ proxies:
     sni: www.calmloud.com
     ws-opts:
       path: /assignment
-  - name: 1205 DE
+  - name: 1194 DE
     type: trojan
     server: 89.116.46.210
     port: 443
@@ -2991,7 +3033,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1206 GB
+  - name: 1195 GB
     type: trojan
     server: 45.85.118.176
     port: 443
@@ -3005,7 +3047,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1207 JP
+  - name: 1196 JP
     type: trojan
     server: 153.121.32.71
     port: 443
@@ -3017,7 +3059,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1208 GB
+  - name: 1197 GB
     type: trojan
     server: 91.193.58.147
     port: 443
@@ -3030,7 +3072,7 @@ proxies:
       headers:
         Host: www.multiplydose.com
       path: /assignment
-  - name: 1209 CA
+  - name: 1198 CA
     type: trojan
     server: 104.20.42.250
     port: 443
@@ -3045,7 +3087,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1210 US
+  - name: 1199 US
     type: trojan
     server: 199.181.197.169
     port: 443
@@ -3059,7 +3101,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1211 CA
+  - name: 1200 CA
     type: trojan
     server: 104.18.16.216
     port: 443
@@ -3071,7 +3113,7 @@ proxies:
     sni: www.calmloud.com
     ws-opts:
       path: /assignment
-  - name: 1212 CA
+  - name: 1201 CA
     type: trojan
     server: 104.18.152.144
     port: 443
@@ -3082,7 +3124,7 @@ proxies:
       headers:
         Host: www.ignitelimit.com
       path: /assignment
-  - name: 1213 CA
+  - name: 1202 CA
     type: trojan
     server: 172.64.146.21
     port: 443
@@ -3092,7 +3134,7 @@ proxies:
     sni: www.multiplydose.com
     ws-opts:
       path: /assignment
-  - name: 1214 CA
+  - name: 1203 CA
     type: trojan
     server: 104.18.152.54
     port: 443
@@ -3106,7 +3148,7 @@ proxies:
     sni: www.multiplydose.com
     ws-opts:
       path: /assignment
-  - name: 1215 GB
+  - name: 1204 GB
     type: trojan
     server: 91.193.58.77
     port: 443
@@ -3117,7 +3159,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1217 CA
+  - name: 1206 CA
     type: trojan
     server: 162.159.193.138
     port: 443
@@ -3132,7 +3174,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1218 CA
+  - name: 1207 CA
     type: trojan
     server: 104.18.17.216
     port: 443
@@ -3144,7 +3186,7 @@ proxies:
     sni: www.calmloud.com
     ws-opts:
       path: /assignment
-  - name: 1219 US
+  - name: 1208 US
     type: trojan
     server: 141.193.213.11
     port: 443
@@ -3158,7 +3200,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1220 CA
+  - name: 1209 CA
     type: trojan
     server: 188.114.97.194
     port: 443
@@ -3173,7 +3215,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1221 CA
+  - name: 1210 CA
     type: trojan
     server: 104.16.174.33
     port: 443
@@ -3188,7 +3230,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1222 DE
+  - name: 1211 DE
     type: trojan
     server: 89.116.46.8
     port: 443
@@ -3203,7 +3245,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1223 JP
+  - name: 1212 JP
     type: trojan
     server: 209.33.173.167
     port: 443
@@ -3215,7 +3257,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1224 JP
+  - name: 1213 JP
     type: trojan
     server: 151.241.129.141
     port: 443
@@ -3227,7 +3269,18 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1225 KR
+  - name: 1214 CA
+    type: trojan
+    server: 162.159.153.4
+    port: 443
+    network: ws
+    password: humanity
+    sni: www.calmloud.com
+    ws-opts:
+      headers:
+        Host: www.calmloud.com
+      path: /assignment
+  - name: 1215 KR
     type: trojan
     server: 158.247.211.170
     port: 443
@@ -3240,7 +3293,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1227 CA
+  - name: 1217 CA
     type: trojan
     server: 104.18.152.233
     port: 443
@@ -3254,7 +3307,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1228 KR
+  - name: 1218 KR
     type: trojan
     server: 141.164.51.88
     port: 443
@@ -3267,7 +3320,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1230 KR
+  - name: 1220 KR
     type: trojan
     server: 118.218.10.159
     port: 443
@@ -3279,7 +3332,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1231 DE
+  - name: 1221 DE
     type: trojan
     server: 89.116.46.68
     port: 443
@@ -3290,7 +3343,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1232 JP
+  - name: 1222 JP
     type: trojan
     server: 96.126.130.217
     port: 443
@@ -3302,7 +3355,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1233 KR
+  - name: 1223 KR
     type: trojan
     server: 3.35.238.2
     port: 443
@@ -3314,7 +3367,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1235 CA
+  - name: 1225 CA
     type: trojan
     server: 104.16.174.148
     port: 443
@@ -3326,7 +3379,7 @@ proxies:
       headers:
         Host: www.ignitelimit.com
       path: /assignment
-  - name: 1236 KR
+  - name: 1226 KR
     type: trojan
     server: 129.154.222.63
     port: 8443
@@ -3338,7 +3391,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1237 KR
+  - name: 1227 KR
     type: trojan
     server: 150.230.249.88
     port: 443
@@ -3350,7 +3403,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1238 KR
+  - name: 1228 KR
     type: trojan
     server: 144.24.94.127
     port: 443
@@ -3362,7 +3415,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1239 KR
+  - name: 1229 KR
     type: trojan
     server: 103.133.240.115
     port: 443
@@ -3374,7 +3427,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1240 CA
+  - name: 1230 CA
     type: trojan
     server: 104.16.79.73
     port: 443
@@ -3385,7 +3438,7 @@ proxies:
       headers:
         Host: www.creationlong.org
       path: /assignment
-  - name: 1241 US
+  - name: 1231 US
     type: trojan
     server: 154.17.225.54
     port: 443
@@ -3397,7 +3450,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1242 HK
+  - name: 1232 HK
     type: trojan
     server: 27.50.48.49
     port: 443
@@ -3412,7 +3465,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1243 SG
+  - name: 1233 SG
     type: trojan
     server: 45.128.222.55
     port: 443
@@ -3424,7 +3477,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1244 SG
+  - name: 1234 SG
     type: trojan
     server: 168.144.109.68
     port: 443
@@ -3436,7 +3489,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1245 US
+  - name: 1235 US
     type: trojan
     server: 199.181.197.36
     port: 443
@@ -3450,7 +3503,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1246 US
+  - name: 1236 US
     type: trojan
     server: 199.181.197.228
     port: 443
@@ -3464,7 +3517,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1247 US
+  - name: 1237 US
     type: trojan
     server: 64.186.252.166
     port: 443
@@ -3476,7 +3529,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1248 HK
+  - name: 1238 HK
     type: trojan
     server: 8.210.29.68
     port: 443
@@ -3488,7 +3541,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1249 JP
+  - name: 1239 JP
     type: trojan
     server: 125.192.207.63
     port: 443
@@ -3501,7 +3554,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1250 SG
+  - name: 1240 SG
     type: trojan
     server: 161.118.213.45
     port: 443
@@ -3514,7 +3567,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1251 SG
+  - name: 1241 SG
     type: trojan
     server: 165.245.144.113
     port: 443
@@ -3526,7 +3579,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1252 HK
+  - name: 1242 HK
     type: trojan
     server: 216.236.38.234
     port: 443
@@ -3538,7 +3591,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1253 CA
+  - name: 1243 CA
     type: trojan
     server: 162.159.193.22
     port: 443
@@ -3553,7 +3606,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1254 CA
+  - name: 1244 CA
     type: trojan
     server: 162.159.195.173
     port: 443
@@ -3568,7 +3621,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1255 CA
+  - name: 1245 CA
     type: trojan
     server: 188.114.97.4
     port: 443
@@ -3581,7 +3634,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1256 KR
+  - name: 1246 KR
     type: trojan
     server: 140.238.17.157
     port: 443
@@ -3593,7 +3646,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1257 HK
+  - name: 1247 HK
     type: trojan
     server: 23.156.153.57
     port: 443
@@ -3605,7 +3658,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1258 SG
+  - name: 1248 SG
     type: trojan
     server: 168.144.96.147
     port: 443
@@ -3617,7 +3670,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1259 SG
+  - name: 1249 SG
     type: trojan
     server: 45.77.241.64
     port: 443
@@ -3630,7 +3683,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1260 SG
+  - name: 1250 SG
     type: trojan
     server: 139.59.224.185
     port: 443
@@ -3642,7 +3695,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1261 US
+  - name: 1251 US
     type: trojan
     server: 104.253.175.16
     port: 443
@@ -3655,7 +3708,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1262 SG
+  - name: 1252 SG
     type: trojan
     server: 13.250.31.132
     port: 443
@@ -3667,7 +3720,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1263 US
+  - name: 1253 US
     type: trojan
     server: 104.253.175.99
     port: 443
@@ -3680,7 +3733,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1265 HK
+  - name: 1255 HK
     type: trojan
     server: 209.33.166.199
     port: 443
@@ -3692,7 +3745,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1266 SG
+  - name: 1256 SG
     type: trojan
     server: 146.235.16.191
     port: 443
@@ -3705,7 +3758,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1267 SG
+  - name: 1257 SG
     type: trojan
     server: 168.144.108.174
     port: 443
@@ -3717,7 +3770,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1268 SG
+  - name: 1258 SG
     type: trojan
     server: 159.223.41.212
     port: 443
@@ -3729,7 +3782,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1269 KR
+  - name: 1259 KR
     type: trojan
     server: 54.180.151.15
     port: 443
@@ -3741,7 +3794,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1270 CA
+  - name: 1260 CA
     type: trojan
     server: 104.16.174.185
     port: 443
@@ -3753,7 +3806,7 @@ proxies:
       headers:
         Host: www.ignitelimit.com
       path: /assignment
-  - name: 1271 CA
+  - name: 1261 CA
     type: trojan
     server: 104.16.89.120
     port: 443
@@ -3764,7 +3817,7 @@ proxies:
       headers:
         Host: www.creationlong.org
       path: /assignment
-  - name: 1272 CA
+  - name: 1262 CA
     type: trojan
     server: 172.67.155.199
     port: 443
@@ -3776,7 +3829,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1273 US
+  - name: 1263 US
     type: trojan
     server: 141.193.213.30
     port: 443
@@ -3790,7 +3843,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1274 JP
+  - name: 1264 JP
     type: trojan
     server: 185.220.238.77
     port: 11543
@@ -3799,7 +3852,7 @@ proxies:
     skip-cert-verify: true
     ws-opts:
       path: /api
-  - name: 1275 CA
+  - name: 1265 CA
     type: trojan
     server: 104.17.236.141
     port: 443
@@ -3813,7 +3866,7 @@ proxies:
       headers:
         Host: www.calmloud.com
       path: /assignment
-  - name: 1276 JP
+  - name: 1266 JP
     type: trojan
     server: 168.138.212.80
     port: 443
@@ -3826,7 +3879,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1277 CA
+  - name: 1267 CA
     type: trojan
     server: 104.18.22.208
     port: 443
@@ -3838,7 +3891,7 @@ proxies:
       headers:
         Host: www.multiplydose.com
       path: /assignment
-  - name: 1278 CA
+  - name: 1268 CA
     type: trojan
     server: 104.27.113.179
     port: 443
@@ -3852,7 +3905,7 @@ proxies:
       headers:
         Host: www.gossipglove.com
       path: /assignment
-  - name: 1279 KR
+  - name: 1269 KR
     type: trojan
     server: 132.226.23.185
     port: 443
@@ -3864,7 +3917,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1280 CA
+  - name: 1270 CA
     type: trojan
     server: 104.18.11.110
     port: 443
@@ -3877,7 +3930,7 @@ proxies:
       headers:
         Host: www.multiplydose.com
       path: /assignment
-  - name: 1281 CA
+  - name: 1271 CA
     type: trojan
     server: 104.16.174.143
     port: 443
@@ -3888,7 +3941,7 @@ proxies:
       headers:
         Host: www.ignitelimit.com
       path: /assignment
-  - name: 1282 KR
+  - name: 1272 KR
     type: trojan
     server: 211.49.57.178
     port: 443
@@ -3900,7 +3953,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 1283 CA
+  - name: 1273 CA
     type: trojan
     server: 104.18.152.113
     port: 443
@@ -3912,7 +3965,7 @@ proxies:
       headers:
         Host: www.ignitelimit.com
       path: /assignment
-  - name: 1284 KR
+  - name: 1274 KR
     type: trojan
     server: 211.49.57.175
     port: 443
@@ -3924,7 +3977,7 @@ proxies:
       headers:
         Host: hhcm.hhxaf.cc.cd
       path: /
-  - name: 1285 CA
+  - name: 1275 CA
     type: trojan
     server: 104.16.174.34
     port: 443
@@ -3936,7 +3989,7 @@ proxies:
       headers:
         Host: www.ignitelimit.com
       path: /assignment
-  - name: 1482 CA
+  - name: 1474 CA
     server: 23.227.38.11
     port: 443
     type: trojan
@@ -3948,7 +4001,7 @@ proxies:
       path: /argox-tr
       headers:
         Host: syndication-statutes-wanted-logo.trycloudflare.com
-  - name: 1493 US
+  - name: 1485 US
     server: 95.164.33.62
     port: 443
     type: trojan
@@ -3960,7 +4013,19 @@ proxies:
       path: /websocket
       headers:
         Host: sourceforge.net
-  - name: 2032 US
+  - name: 1753 US
+    type: trojan
+    server: blog.webex.com
+    port: 443
+    network: ws
+    password: afbcd89a-5a90-4a44-a42a-be08f444aa3f
+    skip-cert-verify: false
+    sni: unnes.ac.id.yxls.eu.cc
+    ws-opts:
+      headers:
+        Host: unnes.ac.id.yxls.eu.cc
+      path: /br-orcl
+  - name: 2041 US
     server: 66.228.55.178
     port: 2083
     type: trojan
@@ -3972,19 +4037,7 @@ proxies:
       path: /
       headers:
         Host: gstatic.com
-  - name: 2144 CA
-    server: series-v1.samanehha.co
-    port: 443
-    type: trojan
-    password: 0b65bb06-6b28-487a-8e3c-820dda51e977
-    sni: series-v1.samanehha.co
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /43xf5zgeApzDAfhOHq
-      headers:
-        Host: series-v1.samanehha.co
-  - name: 2224 FR
+  - name: 2231 FR
     server: 146.70.158.111
     port: 443
     type: trojan
@@ -3996,7 +4049,7 @@ proxies:
       path: /6vuNVgOFnqUEvj0sNkGkxxW7
       headers:
         Host: amin.karkas1.ir
-  - name: 2307 CA
+  - name: 2314 CA
     server: 104.21.79.246
     port: 443
     type: trojan
@@ -4008,7 +4061,7 @@ proxies:
       path: /ilb9fuWfuqWDjlQrGCkIH66kMFPa
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
-  - name: 2312 CA
+  - name: 2319 CA
     server: 104.21.12.87
     port: 443
     type: trojan
@@ -4020,7 +4073,19 @@ proxies:
       path: /43xf5zgeApzDAfhOHq
       headers:
         Host: series-v1.samanehha.co
-  - name: 2349 CA
+  - name: 2323 CA
+    server: series-v1.samanehha.co
+    port: 443
+    type: trojan
+    password: 0b65bb06-6b28-487a-8e3c-820dda51e977
+    sni: series-v1.samanehha.co
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /43xf5zgeApzDAfhOHq
+      headers:
+        Host: series-v1.samanehha.co
+  - name: 2358 CA
     server: 104.16.183.101
     port: 443
     type: trojan
@@ -4036,7 +4101,7 @@ proxies:
     password: humanity
     server: 172.67.203.46
     port: 443
-    name: 2354 CA
+    name: 2363 CA
     sni: www.cordweave.com
     client-fingerprint: chrome
     alpn:
@@ -4048,7 +4113,7 @@ proxies:
     password: MiTiVPN
     server: 146.75.57.120
     port: 443
-    name: 2357 US
+    name: 2366 US
     skip-cert-verify: false
     sni: firefox.com
     client-fingerprint: chrome
@@ -4061,7 +4126,7 @@ proxies:
         Host: mitivpn--mitivpn.ac.ir
     fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
   - type: trojan
-    name: 2418 CA
+    name: 2403 CA
     server: join-telegram-channel.tirexnet.kdns.fr
     port: 443
     password: humanity
@@ -4079,7 +4144,7 @@ proxies:
       path: /assignment
       headers:
         Host: www.ignitelimit.com
-  - name: 2430 CA
+  - name: 2415 CA
     client-fingerprint: chrome
     fingerprint: 182237C876A4471FEDFB845A07E2EE1E5AA8E10DDAC1F2EBAFE1D6AEBF4333F1
     network: ws
@@ -4096,7 +4161,7 @@ proxies:
       path: /
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
-  - name: 2451 CA
+  - name: 2427 CA
     client-fingerprint: chrome
     network: ws
     password: krOXKzNRRIROWi
@@ -4110,7 +4175,7 @@ proxies:
       headers:
         User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
       path: /
-  - name: 2458 CA
+  - name: 2492 CA
     client-fingerprint: chrome
     network: ws
     password: RXR0MNWOjvFH
@@ -4126,23 +4191,7 @@ proxies:
       path: /
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
-  - name: 2469 CA
-    alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    network: ws
-    password: 80d4cb87-ac70-e074-bc82-6313d2d1b539
-    port: 2087
-    server: www.pdnczone.com
-    skip-cert-verify: false
-    sni: ayhanmansur-zedmeli.kdns.fr
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
-      path: /eyJqdW5rIjoiZXJaQklLRUh1R0UiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W10sInJlbGF5SWR4IjowfQ==
-  - name: 2531 CA
+  - name: 2510 CA
     type: trojan
     server: tjsp.hhxaf.cc.cd
     port: 443
@@ -4153,7 +4202,7 @@ proxies:
     sni: tjsp.hhxaf.cc.cd
     ws-opts:
       path: /
-  - name: 2532 CA
+  - name: 2511 CA
     type: trojan
     server: cmcc.cloudflare.seeck.cn
     port: 443
@@ -4165,7 +4214,7 @@ proxies:
       headers:
         Host: tjsp.hhxaf.cc.cd
       path: /
-  - name: 2652 AU
+  - name: 2630 AU
     server: cnamemt.ciscocdn1.live
     port: 443
     type: trojan
@@ -4177,7 +4226,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mt.ciscocdn1.live
-  - name: 2653 AU
+  - name: 2631 AU
     server: cnamemk.ciscocdn1.live
     port: 443
     type: trojan
@@ -4189,7 +4238,7 @@ proxies:
       path: /rDCYQta83d0oPABKBhcIX
       headers:
         Host: c2mk.ciscocdn1.live
-  - name: 2654 AU
+  - name: 2632 AU
     server: cnamemc.ciscocdn1.live
     port: 443
     type: trojan
@@ -4201,7 +4250,7 @@ proxies:
       path: /ywQ9KSLI4ZBm9wOAXUaN
       headers:
         Host: c3mc.ciscocdn1.live
-  - name: 2707 US
+  - name: 2697 US
     server: notdirect.howhealthyistoomajreally.homes
     port: 443
     type: trojan
@@ -4213,7 +4262,7 @@ proxies:
       path: /ilb9fuWfuqWDjlQrGCkIH66kMFPa
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
-  - name: 2708 US
+  - name: 2698 US
     server: cnamemc1.cdncisco4.co
     port: 443
     type: trojan
