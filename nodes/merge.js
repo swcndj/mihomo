@@ -167,57 +167,57 @@ async function batchQueryIpCountry(ipList) {
   });
   console.log(`去重后节点数量：${dedupList.length}`);
 
-  // // 节点有效性验证
-  // const validFiltered = dedupList.filter(p => {
-  //   const type = p.type.toLowerCase();
-  //   // 全局校验（所有协议）：server 非空字符串，port 必须整数 1‑65535，tls、udp、skip‑cert‑verify 存在则必须布尔
-  //   if (typeof p.server !== 'string' || p.server.trim() === '') return false;
-  //   if (!Number.isInteger(p.port) || p.port < 1 || p.port > 65535) return false;
-  //   if ('tls' in p && typeof p.tls !== 'boolean') return false;
-  //   if ('udp' in p && typeof p.udp !== 'boolean') return false;
-  //   if ('skip-cert-verify' in p && typeof p['skip-cert-verify'] !== 'boolean') return false;
-  //   if (type === 'vless') {
-  //     if (p.encryption && typeof p.encryption === 'string' && p.encryption.length > 50) return false;
-  //     // uuid 校验
-  //     const uuidReg = /^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$/;
-  //     if (typeof p.uuid !== 'string' || !uuidReg.test(p.uuid)) return false;
-  //     // reality‑opts 字段校验（若存在）
-  //     if (p['reality-opts']) {
-  //       const ro = p['reality-opts'];
-  //       // public‑key 固定44位 base64 字符串
-  //       if (typeof ro['public-key'] !== 'string' || ro['public-key'].length !== 44) return false;
-  //       // short‑id：允许空串；非空必须偶数位十六进制
-  //       const sid = ro['short-id'];
-  //       if (typeof sid === 'string' && sid.length > 0) {
-  //         const hexReg = /^[0-9a-fA-F]+$/;
-  //         if (!hexReg.test(sid) || sid.length % 2 !== 0) return false;
-  //       }
-  //     }
-  //   } else if (type === 'trojan') {
-  //     if (p['ws-opts']) {
-  //       const wo = p['ws-opts'];
-  //       if (typeof wo !== 'object' || wo === null) return false;
-  //       if (typeof wo.path !== 'string' || wo.path.trim() === '') return false;
-  //     }
-  //     if (typeof p.password !== 'string' || p.password.trim() === '') return false;
-  //   } else if (type === 'vmess') {
-  //     if (p['ws-opts']) {
-  //       const wo = p['ws-opts'];
-  //       if (typeof wo !== 'object' || wo === null) return false;
-  //       if (typeof wo.path !== 'string' || wo.path.trim() === '') return false;
-  //     }
-  //     const uuidReg = /^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$/;
-  //     if (typeof p.uuid !== 'string' || !uuidReg.test(p.uuid)) return false;
-  //   }
-  //   return true;
-  // });
-  // console.log(`有效性验证后节点数量：${validFiltered.length}`);
+  // 节点有效性验证
+  const validFiltered = dedupList.filter(p => {
+    const type = p.type.toLowerCase();
+    // 全局校验（所有协议）：server 非空字符串，port 必须整数 1‑65535，tls、udp、skip‑cert‑verify 存在则必须布尔
+    if (typeof p.server !== 'string' || p.server.trim() === '') return false;
+    if (!Number.isInteger(p.port) || p.port < 1 || p.port > 65535) return false;
+    if ('tls' in p && typeof p.tls !== 'boolean') return false;
+    if ('udp' in p && typeof p.udp !== 'boolean') return false;
+    if ('skip-cert-verify' in p && typeof p['skip-cert-verify'] !== 'boolean') return false;
+    if (type === 'vless') {
+      if (p.encryption && typeof p.encryption === 'string' && p.encryption.length > 50) return false;
+      // uuid 校验
+      const uuidReg = /^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$/;
+      if (typeof p.uuid !== 'string' || !uuidReg.test(p.uuid)) return false;
+      // reality‑opts 字段校验（若存在）
+      if (p['reality-opts']) {
+        const ro = p['reality-opts'];
+        // public‑key 固定44位 base64 字符串
+        if (typeof ro['public-key'] !== 'string' || ro['public-key'].length !== 44) return false;
+        // short‑id：允许空串；非空必须偶数位十六进制
+        const sid = ro['short-id'];
+        if (typeof sid === 'string' && sid.length > 0) {
+          const hexReg = /^[0-9a-fA-F]+$/;
+          if (!hexReg.test(sid) || sid.length % 2 !== 0) return false;
+        }
+      }
+    } else if (type === 'trojan') {
+      if (p['ws-opts']) {
+        const wo = p['ws-opts'];
+        if (typeof wo !== 'object' || wo === null) return false;
+        if (typeof wo.path !== 'string' || wo.path.trim() === '') return false;
+      }
+      if (typeof p.password !== 'string' || p.password.trim() === '') return false;
+    } else if (type === 'vmess') {
+      if (p['ws-opts']) {
+        const wo = p['ws-opts'];
+        if (typeof wo !== 'object' || wo === null) return false;
+        if (typeof wo.path !== 'string' || wo.path.trim() === '') return false;
+      }
+      const uuidReg = /^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$/;
+      if (typeof p.uuid !== 'string' || !uuidReg.test(p.uuid)) return false;
+    }
+    return true;
+  });
+  console.log(`有效性验证后节点数量：${validFiltered.length}`);
 
   console.log(`--- ip-api.com 批量查询 ---`);
   // 拆分 IP、域名节点
   const originIpNodes = [];
   const domainNodes = [];
-  for(const node of dedupList){
+  for(const node of validFiltered){
     if(isIpAddress(node.server)) originIpNodes.push(node);
     else domainNodes.push(node);
   }
