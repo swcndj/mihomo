@@ -104,7 +104,7 @@ proxy-providers:
       interval: 300
   nodes_tuic:
     type: http
-    url: "https://github.chenc.dev/https://github.chenc.dev/https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/tuic.yaml"
+    url: "https://github.chenc.dev/https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/tuic.yaml"
     interval: 7200
     path: ./providers/nodes_tuic.yaml
     health-check:
