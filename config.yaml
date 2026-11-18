@@ -77,8 +77,8 @@ tun:
 proxy-providers:
   nodes_anytls:
     type: http
-    url: "https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/anytls.yaml"
-    interval: 7200
+    url: "https://github.chenc.dev/https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/anytls.yaml"
+    interval: 10800
     path: ./providers/nodes_anytls.yaml
     health-check:
       enable: true
@@ -86,8 +86,8 @@ proxy-providers:
       interval: 300
   nodes_hysteria2:
     type: http
-    url: "https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/hysteria2.yaml"
-    interval: 7200
+    url: "https://github.chenc.dev/https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/hysteria2.yaml"
+    interval: 10800
     path: ./providers/nodes_hysteria2.yaml
     health-check:
       enable: true
@@ -95,8 +95,8 @@ proxy-providers:
       interval: 300
   nodes_mieru:
     type: http
-    url: "https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/mieru.yaml"
-    interval: 7200
+    url: "https://github.chenc.dev/https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/mieru.yaml"
+    interval: 10800
     path: ./providers/nodes_mieru.yaml
     health-check:
       enable: true
@@ -104,18 +104,18 @@ proxy-providers:
       interval: 300
   nodes_tuic:
     type: http
-    url: "https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/tuic.yaml"
+    url: "https://github.chenc.dev/https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/tuic.yaml"
     interval: 7200
     path: ./providers/nodes_tuic.yaml
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-  nodes_vless:
+  nodes_trojan:
     type: http
-    url: "https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/vless.yaml"
-    interval: 7200
-    path: ./providers/nodes_vless.yaml
+    url: "https://github.chenc.dev/https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/trojan.yaml"
+    interval: 10800
+    path: ./providers/nodes_trojan.yaml
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
@@ -130,7 +130,7 @@ proxy-groups:
     - nodes_hysteria2
     - nodes_mieru
     - nodes_tuic
-    - nodes_vless
+    - nodes_trojan
 # ======================================== 规则订阅 ========================================
 rule-providers:
   ads-AWAvenue:
