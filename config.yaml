@@ -111,11 +111,11 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-  nodes_trojan:
+  nodes_vless:
     type: http
-    url: "https://github.chenc.dev/https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/trojan.yaml"
+    url: "https://github.chenc.dev/https://raw.githubusercontent.com/swcndj/mihomo/main/nodes/vless.yaml"
     interval: 10800
-    path: ./providers/nodes_trojan.yaml
+    path: ./providers/nodes_vless.yaml
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
@@ -130,7 +130,7 @@ proxy-groups:
     - nodes_hysteria2
     - nodes_mieru
     - nodes_tuic
-    - nodes_trojan
+    - nodes_vless
 # ======================================== 规则订阅 ========================================
 rule-providers:
   ads-AWAvenue:
