@@ -1,6 +1,6 @@
 proxies:
   - type: anytls
-    name: 2390 TW
+    name: 2856 TW
     server: sdf65h46wr.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -10,7 +10,7 @@ proxies:
     sni: images.ctfassets.net
     skip-cert-verify: false
   - type: anytls
-    name: 2405 CA
+    name: 2872 CA
     server: forwarded.frnhk.xyz
     port: 2053
     password: 047e0e0c-1843-4f16-9812-ec2cc94f7a99
@@ -20,7 +20,7 @@ proxies:
     sni: my.gosthk.site
     skip-cert-verify: false
   - type: anytls
-    name: 2687 TW
+    name: 3188 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     udp: true
