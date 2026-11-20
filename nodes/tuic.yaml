@@ -11,18 +11,3 @@ proxies:
     udp-relay-mode: quic
     uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
     version: 5
-  - alpn:
-      - h3
-    congestion-controller: bbr
-    disable-sni: false
-    name: 5186 US
-    password: b7f20af6-7523-11f1-a6a1-f23c913c8d2b
-    port: 443
-    reduce-rtt: false
-    request-timeout: 0
-    server: 8f72d47c-tovmo0-tou0p4-1ji20.sj.gotochinatown.net
-    skip-cert-verify: true
-    sni: 8f72d47c-tovmo0-tou0p4-1ji20.sj.gotochinatown.net
-    type: tuic
-    udp-relay-mode: native
-    uuid: b7f20af6-7523-11f1-a6a1-f23c913c8d2b

@@ -1,14 +1,6 @@
 proxies:
-  - name: 4873 TW
-    password: 0324fbc29561
-    port: 443
-    server: sdf65h46wr.df6h451rh.xin
-    skip-cert-verify: true
-    sni: images.ctfassets.net
-    type: anytls
-    udp: true
   - type: anytls
-    name: 5164 TW
+    name: 4702 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     udp: true
@@ -19,3 +11,11 @@ proxies:
     packetEncoding: none
     allowInsecure: "1"
     sub-tag: P002-260618
+  - name: 4717 TW
+    password: 0324fbc29561
+    port: 443
+    server: sdf65h46wr.df6h451rh.xin
+    skip-cert-verify: true
+    sni: images.ctfassets.net
+    type: anytls
+    udp: true
