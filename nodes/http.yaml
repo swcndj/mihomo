@@ -599,7 +599,7 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: 689 US
+  - name: 690 US
     password: None
     port: 9002
     server: 138.199.35.205
@@ -607,14 +607,14 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: 691 CA
+  - name: 692 CA
     port: 9443
     server: 198.44.157.19
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: 693 US
+  - name: 694 US
     password: ""
     port: 9002
     server: 138.199.35.210
@@ -623,7 +623,7 @@ proxies:
     type: http
     username: ""
     udp: true
-  - name: 694 US
+  - name: 695 US
     password: ""
     port: 9002
     server: 138.199.35.201
@@ -632,7 +632,7 @@ proxies:
     type: http
     udp: true
     username: ""
-  - name: 695 FR
+  - name: 696 FR
     password: None
     port: 443
     server: 84.235.228.156
@@ -641,28 +641,28 @@ proxies:
     type: http
     username: ""
     udp: true
-  - name: 697 US
+  - name: 698 US
     port: 443
     server: 20.42.108.114
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: 700 DE
+  - name: 701 DE
     port: 9443
     server: 213.177.229.161
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: 701 DE
+  - name: 702 DE
     port: 443
     server: 213.177.229.161
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: 702 US
+  - name: 703 US
     password: None
     port: 443
     server: 23.133.176.14
@@ -670,21 +670,21 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: 704 RU
+  - name: 705 RU
     port: 9443
     server: 192.159.101.174
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: 705 US
+  - name: 706 US
     port: 443
     server: 137.175.22.120
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: 708 DE
+  - name: 709 DE
     password: "null"
     port: 9002
     server: 158.173.154.1
@@ -693,7 +693,7 @@ proxies:
     type: http
     username: "null"
     udp: true
-  - name: 710 SG
+  - name: 711 SG
     password: None
     port: 443
     server: 154.26.139.24
@@ -702,21 +702,21 @@ proxies:
     type: http
     username: ""
     udp: true
-  - name: 711 US
+  - name: 712 US
     port: 443
     server: 137.175.22.88
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: 714 CA
+  - name: 715 CA
     port: 443
     server: 206.223.161.47
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: 717 US
+  - name: 718 US
     password: None
     port: 8443
     server: 44.217.145.28
@@ -787,7 +787,7 @@ proxies:
     type: http
     username: ""
     udp: true
-  - name: 741 US
+  - name: 742 US
     port: 443
     server: 38.28.185.224
     skip-cert-verify: true
@@ -1233,14 +1233,14 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: 891 US
+  - name: 890 US
     port: 7615
     server: 47.90.206.169
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: 893 US
+  - name: 892 US
     port: 443
     server: 216.107.139.82
     skip-cert-verify: true
@@ -1248,28 +1248,28 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: 897 DE
+  - name: 896 DE
     port: 443
     server: 149.36.50.129
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: 933 CA
+  - name: 934 CA
     port: 443
     server: 4.172.245.121
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: 949 US
+  - name: 950 US
     port: 443
     server: 137.175.22.85
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: 964 DE
+  - name: 965 DE
     password: None
     port: 443
     server: 149.36.50.157
@@ -1277,33 +1277,46 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: 1650 US
+  - name: 1648 US
     port: 9443
     server: 152.233.50.145
     skip-cert-verify: true
     tls: true
     type: http
-  - name: 1666 US
+  - name: 1677 US
     port: 443
     server: 64.98.50.100
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: 4584 US
+  - name: 4594 US
     port: 443
     server: 38.28.185.166
     skip-cert-verify: true
     tls: true
     type: http
-  - name: 4585 US
+  - name: 4595 US
     port: 443
     server: 137.175.77.35
     skip-cert-verify: true
     sni: 137.175.77.35
     tls: true
     type: http
-  - name: 4692 US
+  - name: 4648 US
+    type: http
+    server: 38.28.185.247
+    port: 443
+    tls: true
+    skip-cert-verify: true
+  - name: 4649 US
+    type: http
+    server: 162.191.87.112
+    port: 8443
+    tls: true
+    sni: 162.191.87.112
+    skip-cert-verify: true
+  - name: 4703 US
     password: None
     port: 443
     server: crosscards.site
@@ -1312,7 +1325,7 @@ proxies:
     type: http
     udp: true
     sni: crosscards.site
-  - name: 4694 US
+  - name: 4705 US
     password: None
     port: 443
     server: zebpay.site
@@ -1321,29 +1334,21 @@ proxies:
     type: http
     udp: true
     sni: zebpay.site
-  - name: 4695 US
-    port: 443
-    server: jewelscollecti.icu
-    skip-cert-verify: true
-    sni: jewelscollecti.icu
-    tls: true
-    type: http
-    udp: true
-  - name: 4696 US
+  - name: 4706 US
     port: 443
     server: jgwynphotoarts.pro
     sni: jgwynphotoarts.pro
     tls: true
     type: http
     udp: true
-  - name: 4697 US
+  - name: 4707 US
     port: 443
     server: kimberlymilano.icu
     sni: kimberlymilano.icu
     tls: true
     type: http
     udp: true
-  - name: 4698 US
+  - name: 4708 US
     password: None
     port: 443
     server: webdrone.club
@@ -1352,7 +1357,7 @@ proxies:
     type: http
     udp: true
     sni: webdrone.club
-  - name: 4699 US
+  - name: 4709 US
     port: 443
     server: fullmanfirm.icu
     skip-cert-verify: true
@@ -1360,7 +1365,7 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: 4700 DE
+  - name: 4710 DE
     port: 443
     server: fan.973511.xyz
     skip-cert-verify: false
@@ -1368,14 +1373,22 @@ proxies:
     type: http
     udp: true
     sni: fan.973511.xyz
-  - name: 4701 US
+  - name: 4711 US
     port: 443
     server: efr-marktplatz.club
     sni: efr-marktplatz.club
     tls: true
     type: http
     udp: true
-  - name: 4702 US
+  - name: 4712 US
+    port: 443
+    server: jewelscollecti.icu
+    skip-cert-verify: true
+    sni: jewelscollecti.icu
+    tls: true
+    type: http
+    udp: true
+  - name: 4713 US
     password: "null"
     port: 443
     server: goedkoopgeluid.icu
@@ -1385,28 +1398,28 @@ proxies:
     username: "null"
     udp: true
     sni: goedkoopgeluid.icu
-  - name: 4703 JP
+  - name: 4714 JP
     port: 443
     server: fan.571589.xyz
     sni: fan.571589.xyz
     tls: true
     type: http
     udp: true
-  - name: 4704 JP
+  - name: 4715 JP
     port: 443
     server: fan.587475.xyz
     tls: true
     type: http
     udp: true
     sni: fan.587475.xyz
-  - name: 4705 US
+  - name: 4716 US
     port: 443
     server: voteshirleysew.club
     tls: true
     type: http
     udp: true
     sni: voteshirleysew.club
-  - name: 4706 US
+  - name: 4717 US
     password: "null"
     port: 443
     server: fan.365747.xyz
@@ -1416,7 +1429,7 @@ proxies:
     type: http
     username: "null"
     udp: true
-  - name: 4707 US
+  - name: 4718 US
     password: None
     port: 443
     server: purposebydesig.club
@@ -1425,7 +1438,7 @@ proxies:
     type: http
     udp: true
     sni: purposebydesig.club
-  - name: 4709 US
+  - name: 4720 US
     password: "null"
     port: 443
     server: purecambogiasl.live
@@ -1434,7 +1447,7 @@ proxies:
     username: "null"
     udp: true
     sni: purecambogiasl.live
-  - name: 4711 JP
+  - name: 4722 JP
     password: exaxgqkKkd0TAMrCxeonWg==
     port: 443
     server: jpgmo102-cdn-route.couldflare-cdn.com
@@ -1443,7 +1456,7 @@ proxies:
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     udp: true
     sni: jpgmo102-cdn-route.couldflare-cdn.com
-  - name: 4712 US
+  - name: 4723 US
     password: "null"
     port: 443
     server: carolinafreigh.fun
@@ -1452,7 +1465,7 @@ proxies:
     username: "null"
     udp: true
     sni: carolinafreigh.fun
-  - name: 4713 US
+  - name: 4724 US
     password: None
     port: 443
     server: berniesbodybla.fun
@@ -1461,7 +1474,7 @@ proxies:
     type: http
     udp: true
     sni: berniesbodybla.fun
-  - name: 4714 TW
+  - name: 4725 TW
     password: exaxgqkKkd0TAMrCxeonWg==
     port: 1443
     server: twmoon1-cdn-route.couldflare-cdn.com
@@ -1470,7 +1483,7 @@ proxies:
     udp: true
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     sni: twmoon1-cdn-route.couldflare-cdn.com
-  - name: 4715 US
+  - name: 4726 US
     password: exaxgqkKkd0TAMrCxeonWg==
     port: 443
     server: usgp1-cdn-route.couldflare-cdn.com
@@ -1479,7 +1492,7 @@ proxies:
     username: mrwdfNTD8M79LCukCieldrqZWqs=
     udp: true
     sni: usgp1-cdn-route.couldflare-cdn.com
-  - name: 4719 US
+  - name: 4730 US
     port: 443
     server: fan.596189.xyz
     skip-cert-verify: true
@@ -1487,21 +1500,21 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: 4720 US
+  - name: 4731 US
     port: 443
     server: tzoa.fun
     sni: tzoa.fun
     tls: true
     type: http
     udp: true
-  - name: 4721 US
+  - name: 4732 US
     port: 443
     server: fan.226278.xyz
     tls: true
     type: http
     udp: true
     sni: fan.226278.xyz
-  - name: 4722 US
+  - name: 4733 US
     password: None
     port: 443
     server: mmgr.club
@@ -1510,7 +1523,7 @@ proxies:
     type: http
     udp: true
     sni: mmgr.club
-  - name: 4859 US
+  - name: 4870 US
     password: 16955d72-1794-11f0-a035-f23c95b6f51d
     port: 443
     server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
@@ -1518,7 +1531,7 @@ proxies:
     tls: true
     type: http
     username: 16955d72-1794-11f0-a035-f23c95b6f51d
-  - name: 4860 US
+  - name: 4871 US
     type: http
     server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
     port: 443
@@ -1526,7 +1539,7 @@ proxies:
     sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
     tls: true
     username: 1b609740-eec2-11ef-8543-f23c93136cb3
-  - name: 4861 US
+  - name: 4872 US
     type: http
     server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
     port: 5443
