@@ -1,5 +1,5 @@
 proxies:
-  - name: 1242 US
+  - name: 4442 US
     password: 09cac7f2-2480-485f-affc-35aebdb21cb8
     port: 50000
     server: 212.189.31.45
@@ -7,8 +7,16 @@ proxies:
     sni: www.amd.com
     type: anytls
     udp: true
+  - name: 4613 TW
+    password: e2413369-16de-4c90-97c5-b39b8d6b71cd
+    port: 443
+    server: im.frnhk.xyz
+    skip-cert-verify: true
+    sni: im.frnhk.xyz
+    type: anytls
+    udp: true
   - type: anytls
-    name: 4801 TW
+    name: 4910 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     udp: true
@@ -19,7 +27,7 @@ proxies:
     packetEncoding: none
     allowInsecure: "1"
     sub-tag: P002-260618
-  - name: 4810 TW
+  - name: 4918 TW
     password: 0324fbc29561
     port: 443
     server: sdf65h46wr.df6h451rh.xin
