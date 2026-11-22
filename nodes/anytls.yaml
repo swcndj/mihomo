@@ -1,5 +1,5 @@
 proxies:
-  - name: 4442 US
+  - name: 4483 US
     password: 09cac7f2-2480-485f-affc-35aebdb21cb8
     port: 50000
     server: 212.189.31.45
@@ -7,16 +7,24 @@ proxies:
     sni: www.amd.com
     type: anytls
     udp: true
-  - name: 4613 TW
-    password: e2413369-16de-4c90-97c5-b39b8d6b71cd
+  - name: 4659 HK
+    password: 2902c46c8493
     port: 443
-    server: im.frnhk.xyz
+    server: ibsdsf.df6h451rh.xin
     skip-cert-verify: true
-    sni: im.frnhk.xyz
+    sni: docs.microsoft.com
+    type: anytls
+    udp: true
+  - name: 4660 TW
+    password: 2902c46c8493
+    port: 443
+    server: rtifgjdr.df6h451rh.xin
+    skip-cert-verify: true
+    sni: docs.microsoft.com
     type: anytls
     udp: true
   - type: anytls
-    name: 4910 TW
+    name: 4955 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     udp: true
@@ -27,7 +35,7 @@ proxies:
     packetEncoding: none
     allowInsecure: "1"
     sub-tag: P002-260618
-  - name: 4918 TW
+  - name: 4962 TW
     password: 0324fbc29561
     port: 443
     server: sdf65h46wr.df6h451rh.xin
@@ -36,3 +44,11 @@ proxies:
     type: anytls
     udp: true
     x-toolall-mihomo: true
+  - name: 4964 TW
+    password: e2413369-16de-4c90-97c5-b39b8d6b71cd
+    port: 443
+    server: im.frnhk.xyz
+    skip-cert-verify: true
+    sni: im.frnhk.xyz
+    type: anytls
+    udp: true

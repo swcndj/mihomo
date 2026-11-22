@@ -1,5 +1,5 @@
 proxies:
-  - name: 137 CA
+  - name: 135 CA
     type: wireguard
     server: 188.114.97.6
     port: 7281
@@ -9,7 +9,7 @@ proxies:
     private-key: mNL2pg8LMMi2bIjoSR0fRSL6QO1BMvfsr8/Zog6ZW0c=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     udp: true
-  - name: 138 CA
+  - name: 136 CA
     type: wireguard
     server: 188.114.97.6
     port: 987
@@ -30,7 +30,7 @@ proxies:
     wnoisedelay: 1-2
     wpayloadsize: 5-10
   - type: wireguard
-    name: 339 US
+    name: 336 US
     server: 8.6.112.206
     port: 7559
     private-key: qLEEtaEVNrePebpY2JcodotYCfzmCof7giuqnhsjgmE=
@@ -46,7 +46,7 @@ proxies:
     keepalive: "25"
     persistent-keepalive: "25"
   - type: wireguard
-    name: 340 US
+    name: 337 US
     server: 8.6.112.206
     port: 8742
     private-key: kOH5vgOwh9ifsB/tTAgoOjW/02SgvpVKgog7ynk1m10=
@@ -61,7 +61,49 @@ proxies:
     mtu: 1280
     keepalive: "25"
     persistent-keepalive: "25"
-  - name: 1786 US
+  - ip: 172.16.0.2/32
+    ipv6: 2606:4700:110:8e4e:939b:b987:39aa:c46c/128
+    mtu: 1280
+    name: 1417 US
+    port: 908
+    private-key: OEysS/3kryZt7O/RobQFlmPatDWuUl9bwef0IoMX/Uo=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 0
+      - 0
+      - 0
+    server: 8.6.112.58
+    type: wireguard
+    udp: true
+  - ip: 172.16.0.2/32
+    ipv6: 2606:4700:110:8e4e:939b:b987:39aa:c46c/128
+    mtu: 1280
+    name: 1418 US
+    port: 3854
+    private-key: OEysS/3kryZt7O/RobQFlmPatDWuUl9bwef0IoMX/Uo=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 0
+      - 0
+      - 0
+    server: 8.6.112.134
+    type: wireguard
+    udp: true
+  - ip: 172.16.0.2/32
+    mtu: 1380
+    name: 1419 CA
+    port: 3581
+    presharedkey: ""
+    private-key: 2FaqTm+aXdVK00dvbeuMW/t741BWYu9lNOOVtMI4R3Y=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 80
+      - 103
+      - 64
+    server: 162.159.192.11
+    type: wireguard
+    udp: true
+  - name: 1803 US
     type: wireguard
     server: 8.6.112.5
     port: 955
@@ -71,7 +113,7 @@ proxies:
     private-key: eGpcqvonUvA7/m1lcaERbf2opGESbp375ieSliLc3WU=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     udp: true
-  - name: 1787 CA
+  - name: 1804 CA
     type: wireguard
     server: 162.159.192.1
     port: 500
@@ -85,7 +127,7 @@ proxies:
       - 210
       - 245
     udp: true
-  - name: 1788 CA
+  - name: 1805 CA
     type: wireguard
     server: 162.159.192.1
     port: 4500
@@ -104,7 +146,7 @@ proxies:
     wnoisecount: "5"
     wnoisedelay: "5"
     wpayloadsize: 40-90
-  - name: 1789 US
+  - name: 1806 US
     type: wireguard
     server: 8.6.112.207
     port: 8742
@@ -118,7 +160,7 @@ proxies:
       - 0
       - 0
     udp: true
-  - name: 1790 US
+  - name: 1807 US
     type: wireguard
     server: 8.6.112.200
     port: 4198
@@ -133,7 +175,7 @@ proxies:
       - 0
     udp: true
   - type: wireguard
-    name: 1791 US
+    name: 1808 US
     server: 8.6.112.200
     port: 2408
     private-key: aLeOE4xN1HLlAnJIIEi+AUp66/ARQDysZNiwt9ixl20=
@@ -148,7 +190,7 @@ proxies:
     mtu: 1280
     keepalive: "25"
     persistent-keepalive: "25"
-  - name: 1792 US
+  - name: 1809 US
     type: wireguard
     server: 8.6.112.23
     port: 928
@@ -162,7 +204,7 @@ proxies:
       - 0
       - 0
     udp: true
-  - name: 1793 US
+  - name: 1810 US
     type: wireguard
     server: 8.6.112.7
     port: 7152
@@ -173,7 +215,7 @@ proxies:
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     udp: true
   - type: wireguard
-    name: 1794 US
+    name: 1811 US
     server: 8.6.112.7
     port: 864
     private-key: 0Jhy3IB7KIO0KyTAZxkGeICWykm7a3eA+LmbcFC3lEk=
@@ -188,7 +230,7 @@ proxies:
     mtu: 1280
     keepalive: "25"
     persistent-keepalive: "25"
-  - name: 1795 US
+  - name: 1812 US
     type: wireguard
     server: 8.6.112.100
     port: 878
@@ -198,7 +240,7 @@ proxies:
     private-key: eGpcqvonUvA7/m1lcaERbf2opGESbp375ieSliLc3WU=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     udp: true
-  - name: 1796 US
+  - name: 1813 US
     type: wireguard
     server: 8.6.112.100
     port: 955
@@ -212,7 +254,7 @@ proxies:
       - 0
       - 0
     udp: true
-  - name: 1797 US
+  - name: 1814 US
     type: wireguard
     server: 8.6.112.10
     port: 894
@@ -222,7 +264,7 @@ proxies:
     private-key: eGpcqvonUvA7/m1lcaERbf2opGESbp375ieSliLc3WU=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     udp: true
-  - name: 1799 US
+  - name: 1816 US
     type: wireguard
     server: 8.6.112.181
     port: 946
@@ -232,7 +274,7 @@ proxies:
     private-key: eGpcqvonUvA7/m1lcaERbf2opGESbp375ieSliLc3WU=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     udp: true
-  - name: 1800 US
+  - name: 1817 US
     type: wireguard
     server: 8.6.112.246
     port: 1180
@@ -246,7 +288,7 @@ proxies:
       - 0
       - 0
     udp: true
-  - name: 1801 US
+  - name: 1818 US
     type: wireguard
     server: 8.6.112.48
     port: 1070
@@ -256,7 +298,7 @@ proxies:
     private-key: eGpcqvonUvA7/m1lcaERbf2opGESbp375ieSliLc3WU=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     udp: true
-  - name: 1803 US
+  - name: 1820 US
     type: wireguard
     server: 8.6.112.251
     port: 1387
@@ -270,21 +312,7 @@ proxies:
       - 0
       - 0
     udp: true
-  - name: 1807 US
-    type: wireguard
-    server: 8.6.112.58
-    port: 908
-    ip: 172.16.0.2/32
-    ipv6: 2606:4700:110:8e4e:939b:b987:39aa:c46c/128
-    mtu: 1280
-    private-key: OEysS/3kryZt7O/RobQFlmPatDWuUl9bwef0IoMX/Uo=
-    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-    reserved:
-      - 0
-      - 0
-      - 0
-    udp: true
-  - name: 1818 CA
+  - name: 1834 CA
     type: wireguard
     server: 162.159.192.7
     port: 500
@@ -303,7 +331,7 @@ proxies:
     wnoisecount: "5"
     wnoisedelay: "5"
     wpayloadsize: 40-90
-  - name: 1819 CA
+  - name: 1835 CA
     type: wireguard
     server: 162.159.192.7
     port: 4500
@@ -322,21 +350,7 @@ proxies:
     wnoisecount: "5"
     wnoisedelay: "5"
     wpayloadsize: 40-90
-  - name: 1820 US
-    type: wireguard
-    server: 8.6.112.134
-    port: 3854
-    ip: 172.16.0.2/32
-    ipv6: 2606:4700:110:8e4e:939b:b987:39aa:c46c/128
-    mtu: 1280
-    private-key: OEysS/3kryZt7O/RobQFlmPatDWuUl9bwef0IoMX/Uo=
-    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-    reserved:
-      - 0
-      - 0
-      - 0
-    udp: true
-  - name: 1827 US
+  - name: 1842 US
     type: wireguard
     server: 8.6.112.141
     port: 3476
@@ -346,7 +360,7 @@ proxies:
     private-key: eGpcqvonUvA7/m1lcaERbf2opGESbp375ieSliLc3WU=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     udp: true
-  - name: 1835 CA
+  - name: 1850 CA
     type: wireguard
     server: 162.159.192.2
     port: 4500
@@ -365,7 +379,7 @@ proxies:
     wnoisecount: "5"
     wnoisedelay: "5"
     wpayloadsize: 40-90
-  - name: 1836 CA
+  - name: 1851 CA
     type: wireguard
     server: 162.159.192.2
     port: 500
@@ -384,7 +398,7 @@ proxies:
     wnoisecount: "5"
     wnoisedelay: "5"
     wpayloadsize: 40-90
-  - name: 1837 CA
+  - name: 1852 CA
     type: wireguard
     server: 162.159.192.2
     port: 2408
@@ -403,7 +417,7 @@ proxies:
     wnoisecount: "5"
     wnoisedelay: "5"
     wpayloadsize: 40-90
-  - name: 1850 CA
+  - name: 1865 CA
     type: wireguard
     server: 162.159.192.5
     port: 500
@@ -422,7 +436,7 @@ proxies:
     wnoisecount: "5"
     wnoisedelay: "5"
     wpayloadsize: 40-90
-  - name: 1851 CA
+  - name: 1866 CA
     type: wireguard
     server: 162.159.192.5
     port: 2408
@@ -441,7 +455,7 @@ proxies:
     wnoisecount: "5"
     wnoisedelay: "5"
     wpayloadsize: 40-90
-  - name: 1852 CA
+  - name: 1867 CA
     type: wireguard
     server: 162.159.192.5
     port: 4500
@@ -460,7 +474,7 @@ proxies:
     wnoisecount: "5"
     wnoisedelay: "5"
     wpayloadsize: 40-90
-  - name: 1853 CA
+  - name: 1868 CA
     type: wireguard
     server: 162.159.192.4
     port: 500
@@ -479,7 +493,7 @@ proxies:
     wnoisecount: "5"
     wnoisedelay: "5"
     wpayloadsize: 40-90
-  - name: 1854 CA
+  - name: 1869 CA
     type: wireguard
     server: 162.159.192.4
     port: 4500
@@ -498,7 +512,7 @@ proxies:
     wnoisecount: "5"
     wnoisedelay: "5"
     wpayloadsize: 40-90
-  - name: 1855 CA
+  - name: 1870 CA
     type: wireguard
     server: 162.159.192.3
     port: 4500
@@ -517,7 +531,7 @@ proxies:
     wnoisecount: "5"
     wnoisedelay: "5"
     wpayloadsize: 40-90
-  - name: 1856 CA
+  - name: 1871 CA
     type: wireguard
     server: 162.159.192.3
     port: 500
@@ -531,7 +545,7 @@ proxies:
       - 74
       - 19
     udp: true
-  - name: 1857 CA
+  - name: 1872 CA
     type: wireguard
     server: 162.159.192.3
     port: 2408
@@ -550,7 +564,7 @@ proxies:
     wnoisecount: "5"
     wnoisedelay: "5"
     wpayloadsize: 40-90
-  - name: 1870 US
+  - name: 1885 US
     type: wireguard
     server: 8.6.112.35
     port: 1180
@@ -560,21 +574,7 @@ proxies:
     private-key: eGpcqvonUvA7/m1lcaERbf2opGESbp375ieSliLc3WU=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     udp: true
-  - name: 1874 CA
-    type: wireguard
-    server: 162.159.192.11
-    port: 3581
-    ip: 172.16.0.2/32
-    mtu: 1380
-    presharedkey: ""
-    private-key: 2FaqTm+aXdVK00dvbeuMW/t741BWYu9lNOOVtMI4R3Y=
-    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-    reserved:
-      - 80
-      - 103
-      - 64
-    udp: true
-  - name: 1888 US
+  - name: 1902 US
     type: wireguard
     server: 8.6.112.30
     port: 1014
@@ -584,7 +584,7 @@ proxies:
     private-key: eGpcqvonUvA7/m1lcaERbf2opGESbp375ieSliLc3WU=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     udp: true
-  - name: 1890 US
+  - name: 1904 US
     type: wireguard
     server: 8.6.112.51
     port: 7559
@@ -594,7 +594,7 @@ proxies:
     private-key: eGpcqvonUvA7/m1lcaERbf2opGESbp375ieSliLc3WU=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     udp: true
-  - name: 1906 CA
+  - name: 1920 CA
     type: wireguard
     server: 162.159.192.6
     port: 500
@@ -613,7 +613,7 @@ proxies:
     wnoisecount: "5"
     wnoisedelay: "5"
     wpayloadsize: 40-90
-  - name: 1907 CA
+  - name: 1921 CA
     type: wireguard
     server: 162.159.192.6
     port: 4500
@@ -632,7 +632,7 @@ proxies:
     wnoisecount: "5"
     wnoisedelay: "5"
     wpayloadsize: 40-90
-  - name: 1908 CA
+  - name: 1922 CA
     type: wireguard
     server: 162.159.192.6
     port: 2408
@@ -651,7 +651,7 @@ proxies:
     wnoisecount: "5"
     wnoisedelay: "5"
     wpayloadsize: 40-90
-  - name: 1962 CA
+  - name: 1976 CA
     type: wireguard
     server: 162.159.195.4
     port: 2371
@@ -666,7 +666,7 @@ proxies:
       - 205
     udp: true
   - type: wireguard
-    name: 2821 CA
+    name: 2834 CA
     server: 188.114.97.7
     port: 2371
     private-key: 0MJASrRa+uN+/xyXc85mJL0S6vpHfLPlnOolzmo0g24=
@@ -685,7 +685,7 @@ proxies:
     ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
     keepalive: "25"
     mtu: 1280
-    name: 4369 US
+    name: 4385 US
     persistent-keepalive: "25"
     port: 2408
     private-key: GC9J3ifRy5aEc9oezkMk4uxMuB27AWmAySH3m1Qzr3E=
@@ -701,7 +701,7 @@ proxies:
     ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
     keepalive: "25"
     mtu: 1280
-    name: 4370 US
+    name: 4386 US
     persistent-keepalive: "25"
     port: 878
     private-key: MO7Y3wBMgTwe1NH+t5tbw6qMmkV+0k3UHN1G9F6vkG4=
@@ -714,7 +714,7 @@ proxies:
     type: wireguard
     udp: true
   - type: wireguard
-    name: 4371 US
+    name: 4387 US
     server: 8.6.112.64
     port: 864
     private-key: 6M0fdN53y9w5iXTNho3EGj04Udw67t+XIz1HfAFpOmY=
@@ -730,7 +730,7 @@ proxies:
     keepalive: "25"
     persistent-keepalive: "25"
   - type: wireguard
-    name: 4372 US
+    name: 4388 US
     server: 8.6.112.187
     port: 7156
     private-key: WKb4k4mzeFVwFf6Zqt91ukQkFIGNUJoCYCKM97S8QW8=
@@ -746,7 +746,7 @@ proxies:
     keepalive: "25"
     persistent-keepalive: "25"
   - type: wireguard
-    name: 4373 US
+    name: 4389 US
     server: 8.6.112.185
     port: 988
     private-key: OK48iAingSLbf3Rmts7qBapF+P4mzxaBn/UFeKhvP2I=
@@ -762,7 +762,7 @@ proxies:
     keepalive: "25"
     persistent-keepalive: "25"
   - type: wireguard
-    name: 4374 US
+    name: 4390 US
     server: 8.6.112.254
     port: 1180
     private-key: sG3hYvD7bh72fCgK6Xiv6907Y97xc8XdGb1YuoEULWs=
@@ -778,7 +778,7 @@ proxies:
     keepalive: "25"
     persistent-keepalive: "25"
   - type: wireguard
-    name: 4375 US
+    name: 4391 US
     server: 8.6.112.71
     port: 4177
     private-key: gGIbE6/NEAmU+pibYA5FwBf9v/Fn0zhcF8uJxM4dbWA=
@@ -794,7 +794,7 @@ proxies:
     keepalive: "25"
     persistent-keepalive: "25"
   - type: wireguard
-    name: 4376 US
+    name: 4392 US
     server: 8.6.112.82
     port: 891
     private-key: 2FdNkyXwdlAAZ1GL66lwfoY3JcEfeaxEw367TIOdikE=
@@ -810,7 +810,7 @@ proxies:
     keepalive: "25"
     persistent-keepalive: "25"
   - type: wireguard
-    name: 4379 US
+    name: 4395 US
     server: 8.6.112.4
     port: 894
     private-key: 2Beap1QU7ou7S5zTVk+CWnvvyM9TADiK3fR2iooDa2Q=
@@ -829,7 +829,7 @@ proxies:
     ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
     keepalive: "25"
     mtu: 1280
-    name: 4380 US
+    name: 4396 US
     persistent-keepalive: "25"
     port: 7103
     private-key: QJEpilscgBJU68hsICv40+5eEvOFp0TOb5WqAeu9Gls=
@@ -842,7 +842,7 @@ proxies:
     type: wireguard
     udp: true
   - type: wireguard
-    name: 4381 US
+    name: 4397 US
     server: 8.6.112.101
     port: 864
     private-key: EJz9sVfpI2iqpCvVK7qbiZRZu7Agx5Sy4/yr8dI5vlo=
@@ -861,7 +861,7 @@ proxies:
     ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
     keepalive: "25"
     mtu: 1280
-    name: 4382 US
+    name: 4398 US
     persistent-keepalive: "25"
     port: 1070
     private-key: wIXy7GfDNO3qVxBoTmhjrPkvJTwORH5QZWcgx2g4qWI=
@@ -874,7 +874,7 @@ proxies:
     type: wireguard
     udp: true
   - type: wireguard
-    name: 4383 US
+    name: 4399 US
     server: 8.6.112.226
     port: 1070
     private-key: iHmpbPAWm1x6R3cX6WkVB+rla1bnVRE3sEEPRno3WW8=
@@ -890,7 +890,7 @@ proxies:
     keepalive: "25"
     persistent-keepalive: "25"
   - type: wireguard
-    name: 4385 US
+    name: 4401 US
     server: 8.6.112.193
     port: 8742
     private-key: WDTGYgmQIqsU+xiBtRPjTxxcLYZOOtrCePgInf8ZA30=
@@ -906,7 +906,7 @@ proxies:
     keepalive: "25"
     persistent-keepalive: "25"
   - type: wireguard
-    name: 4386 US
+    name: 4402 US
     server: 8.6.112.113
     port: 864
     private-key: yNyRSGV2yPsyUjLf8hP/atC7aWDb6GkPRlV9ShD9yX8=
@@ -925,7 +925,7 @@ proxies:
     ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
     keepalive: "25"
     mtu: 1280
-    name: 4387 US
+    name: 4403 US
     persistent-keepalive: "25"
     port: 1180
     private-key: kDGQmi8MA3XmCxGpf8kRiEFyonfdWf2h8XKLetdGLUg=
@@ -938,7 +938,7 @@ proxies:
     type: wireguard
     udp: true
   - type: wireguard
-    name: 4388 US
+    name: 4404 US
     server: 8.6.112.188
     port: 3581
     private-key: QN9e//MZcXBdaz7vDo7hX6tY5xh2yFzlActftLGlA10=
@@ -954,7 +954,7 @@ proxies:
     keepalive: "25"
     persistent-keepalive: "25"
   - type: wireguard
-    name: 4389 US
+    name: 4405 US
     server: 8.6.112.233
     port: 7156
     private-key: uJRcdmVElvOV+o6BUW0D6tn/kltIIETT1bt2i7M75nQ=
@@ -970,7 +970,7 @@ proxies:
     keepalive: "25"
     persistent-keepalive: "25"
   - type: wireguard
-    name: 4392 CA
+    name: 4408 CA
     server: 162.159.192.20
     port: 903
     private-key: 8CBaFoNjMJ64gMWudh+rjxrHtCq0lktrhxseaYo2S0k=
@@ -989,7 +989,7 @@ proxies:
     wpayloadsize: 40-90
     persistent-keepalive: "25"
   - type: wireguard
-    name: 4394 CA
+    name: 4410 CA
     server: 162.159.195.9
     port: 500
     private-key: EF4Q1fC9L/0Q797m8RVB5kywG/iP96eXH9uV8KNXvnw=
@@ -1008,7 +1008,7 @@ proxies:
     wpayloadsize: 40-90
     persistent-keepalive: "25"
   - type: wireguard
-    name: 4398 CA
+    name: 4414 CA
     server: 162.159.192.17
     port: 934
     private-key: 6NcXfVkz/AfkMIQpiUZEwwczmJjKVl1Bc6jJT1ssumg=
@@ -1031,7 +1031,7 @@ proxies:
     ip: 10.66.66.3/32
     ip-version: ipv4
     mtu: 1280
-    name: 4421 SG
+    name: 4447 SG
     port: 2087
     private-key: KDG3YQGNmxR3zlJ1i2bmU9FYbheJbAnGFzf5mfq7X30=
     public-key: eylXff5Bxu4a8K+fsV3j0gLIZntU1BUXz8lB4befhHY=
