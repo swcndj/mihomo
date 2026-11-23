@@ -84,7 +84,7 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-      timeout: 3000
+      timeout: 1500
 # ======================================== 代理组 ========================================
 proxy-groups:
   - name: "自动选择"
