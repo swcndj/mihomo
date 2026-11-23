@@ -8,9 +8,9 @@ const SUBS = JSON.parse(fs.readFileSync("./nodes/subs.json", "utf8"));
 const REQUEST_TIMEOUT = 15000;
 
 // 协议筛选白名单
-const PROTO_WHITELIST = new Set(["http", "vmess", "vless", "ss", "wireguard", "trojan", "hysteria2", "anytls", "tuic", "mieru"]);
+const PROTO_WHITELIST = new Set(["http", "vmess", "vless", "ss", "wireguard", "trojan", "hysteria2", "anytls"]);
 // 地区筛选豁免协议
-const REGIONFILTER_SKIP_PROTOLIST = new Set(["hysteria2", "anytls", "tuic", "mieru"]);
+const REGIONFILTER_SKIP_PROTOLIST = new Set(["hysteria2", "anytls"]);
 // 非豁免协议目标地区
 const TARGET_COUNTRY_CODES = new Set(['HK', 'TW', 'JP', 'KR', 'SG', 'AU', 'CA', 'US', 'GB', 'FR', 'DE', 'RU']);
 
