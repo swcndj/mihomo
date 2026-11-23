@@ -90,8 +90,7 @@ proxy-groups:
   - name: "自动选择"
     type: url-test
     tolerance: 50
-    use:
-    - nodes_http
+    include-all-providers: true
 # ======================================== 规则订阅 ========================================
 rule-providers:
   ads-AWAvenue:
