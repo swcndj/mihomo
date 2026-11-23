@@ -1,5 +1,5 @@
 proxies:
-  - name: 1406 JP
+  - name: 4357 JP
     password: czxPueuXQB1wUfMU
     port: 36835
     server: 45.192.203.110
@@ -7,14 +7,8 @@ proxies:
     sni: www.bing.com
     type: anytls
     udp: true
-  - name: 4510 TW
-    password: 2902c46c8493
-    port: 443
-    server: er8u54dh.df6h451rh.xin
-    skip-cert-verify: true
-    sni: px.ads.linkedin.com
-    type: anytls
-  - name: 4516 HK
+  - client-fingerprint: chrome
+    name: 4545 HK
     password: 2902c46c8493
     port: 443
     server: ibsdsf.df6h451rh.xin
@@ -22,7 +16,32 @@ proxies:
     sni: docs.microsoft.com
     type: anytls
     udp: true
-  - name: 4521 TW
+  - client-fingerprint: chrome
+    name: 4548 TW
+    password: 0324fbc29561
+    port: 443
+    server: a54ge.df6h451rh.xin
+    skip-cert-verify: true
+    sni: docs.microsoft.com
+    type: anytls
+    udp: true
+  - client-fingerprint: chrome
+    name: 4549 HK
+    password: 0324fbc29561
+    port: 443
+    server: 5641sdds.df6h451rh.xin
+    skip-cert-verify: true
+    sni: images.ctfassets.net
+    type: anytls
+    udp: true
+  - name: 4553 TW
+    password: 2902c46c8493
+    port: 443
+    server: er8u54dh.df6h451rh.xin
+    skip-cert-verify: true
+    sni: px.ads.linkedin.com
+    type: anytls
+  - name: 4554 TW
     password: e2413369-16de-4c90-97c5-b39b8d6b71cd
     port: 443
     server: im.frnhk.xyz
@@ -30,7 +49,7 @@ proxies:
     sni: im.frnhk.xyz
     type: anytls
     udp: true
-  - name: 4812 TW
+  - name: 4849 TW
     password: 0324fbc29561
     port: 443
     server: sdf65h46wr.df6h451rh.xin
@@ -39,24 +58,7 @@ proxies:
     type: anytls
     udp: true
     x-toolall-mihomo: true
-  - name: 4813 HK
-    password: 0324fbc29561
-    port: 443
-    server: 5641sdds.df6h451rh.xin
-    skip-cert-verify: true
-    sni: images.ctfassets.net
-    type: anytls
-  - fingerprint: ""
-    name: 4814 TW
-    password: 2902c46c8493
-    port: "443"
-    server: rtifgjdr.df6h451rh.xin
-    skip-cert-verify: true
-    sni: docs.microsoft.com
-    type: anytls
-    udp: true
-    username: 2902c46c8493
-  - name: 4819 TW
+  - name: 4858 TW
     password: c698e777-2ede-446c-aa76-04ea46070e43
     port: 57180
     server: turn.gosthk.site
