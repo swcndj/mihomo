@@ -255,7 +255,8 @@ async function batchQueryIpCountry(ipList) {
     if(!groupMap[tp]) groupMap[tp] = [];
     groupMap[tp].push(p);
   }
-  for(const [proto,proxyList] of Object.entries(groupMap)){
+  const sortedGroupEntries = Object.entries(groupMap).sort((a, b) => b[1].length - a[1].length);
+  for(const [proto,proxyList] of sortedGroupEntries){
     const docProto = new yaml.Document();
     docProto.set("proxies",proxyList);
     const outPath = `nodes/${proto}.yaml`;
