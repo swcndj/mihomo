@@ -92,11 +92,6 @@ proxy-groups:
     tolerance: 50
     use:
     - nodes_http
-  - name: "负载均衡"
-    type: load-balance
-    strategy: sticky-sessions
-    use:
-    - nodes_http
 # ======================================== 规则订阅 ========================================
 rule-providers:
   ads-AWAvenue:
