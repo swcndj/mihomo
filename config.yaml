@@ -84,11 +84,17 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
+      timeout: 500
 # ======================================== 代理组 ========================================
 proxy-groups:
   - name: "自动选择"
     type: url-test
     tolerance: 50
+    use:
+    - nodes_http
+  - name: "负载均衡"
+    type: load-balance
+    strategy: sticky-sessions
     use:
     - nodes_http
 # ======================================== 规则订阅 ========================================
@@ -303,24 +309,24 @@ rules:
   - RULE-SET,category-ads-all,REJECT
   - RULE-SET,reject,REJECT
   # 分流规则
-  - RULE-SET,cloudflare,自动选择
-  - RULE-SET,cloudflare_ip,自动选择,no-resolve
-  - RULE-SET,github,自动选择
-  - RULE-SET,google,自动选择
-  - RULE-SET,google_ip,自动选择,no-resolve
-  - RULE-SET,x,自动选择
-  - RULE-SET,twitter_ip,自动选择,no-resolve
-  - RULE-SET,meta,自动选择
-  - RULE-SET,facebook_ip,自动选择,no-resolve
-  - RULE-SET,telegram,自动选择
-  - RULE-SET,telegram_ip,自动选择,no-resolve
-  - RULE-SET,netflix,自动选择
-  - RULE-SET,netflix_ip,自动选择,no-resolve
-  - RULE-SET,spotify,自动选择
-  - RULE-SET,category-ai-!cn,自动选择
-  - RULE-SET,category-ip-geo-detect,自动选择
-  - RULE-SET,gfw,自动选择
-  - RULE-SET,proxy,自动选择
+  - RULE-SET,cloudflare,负载均衡
+  - RULE-SET,cloudflare_ip,负载均衡,no-resolve
+  - RULE-SET,github,负载均衡
+  - RULE-SET,google,负载均衡
+  - RULE-SET,google_ip,负载均衡,no-resolve
+  - RULE-SET,x,负载均衡
+  - RULE-SET,twitter_ip,负载均衡,no-resolve
+  - RULE-SET,meta,负载均衡
+  - RULE-SET,facebook_ip,负载均衡,no-resolve
+  - RULE-SET,telegram,负载均衡
+  - RULE-SET,telegram_ip,负载均衡,no-resolve
+  - RULE-SET,netflix,负载均衡
+  - RULE-SET,netflix_ip,负载均衡,no-resolve
+  - RULE-SET,spotify,负载均衡
+  - RULE-SET,category-ai-!cn,负载均衡
+  - RULE-SET,category-ip-geo-detect,负载均衡
+  - RULE-SET,gfw,负载均衡
+  - RULE-SET,proxy,负载均衡
   - RULE-SET,direct,DIRECT
   - RULE-SET,apple,DIRECT
   - RULE-SET,bitwarden,DIRECT
