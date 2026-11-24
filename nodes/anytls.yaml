@@ -1,6 +1,6 @@
 proxies:
   - type: anytls
-    name: 5010 TW
+    name: 4979 TW
     server: sdf65h46wr.df6h451rh.xin
     port: 443
     password: 0324fbc29561
@@ -9,18 +9,16 @@ proxies:
     sni: images.ctfassets.net
     skip-cert-verify: true
   - client-fingerprint: chrome
-    name: 5150 HK
+    name: 5108 HK
     password: 2902c46c8493
     port: 443
     server: ibsdsf.df6h451rh.xin
-    servername: docs.microsoft.com
     skip-cert-verify: true
     sni: docs.microsoft.com
-    tls: true
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 5153 TW
+    name: 5110 TW
     password: 0324fbc29561
     port: 443
     server: a54ge.df6h451rh.xin
@@ -29,7 +27,7 @@ proxies:
     type: anytls
     udp: true
   - client-fingerprint: chrome
-    name: 5154 HK
+    name: 5111 HK
     password: 0324fbc29561
     port: 443
     server: 5641sdds.df6h451rh.xin
@@ -37,24 +35,39 @@ proxies:
     sni: images.ctfassets.net
     type: anytls
     udp: true
-  - name: 5155 TW
+  - name: 5113 TW
+    password: 36013ba3-3fe6-4553-a2ee-f2946a44f425
+    port: 57180
+    server: media.gosthk.site
+    skip-cert-verify: true
+    sni: media.gosthk.site
+    type: anytls
+    udp: true
+  - name: 5117 TW
     password: 2902c46c8493
     port: 443
     server: rtifgjdr.df6h451rh.xin
-    servername: docs.microsoft.com
     skip-cert-verify: true
     sni: docs.microsoft.com
-    tls: true
     type: anytls
     udp: true
-  - name: 5156 TW
-    password: 0324fbc29561
+  - name: 5118 HK
+    password: 4029698d-89a9-4e90-9eac-9b8c7bf4b5b5
     port: 443
-    server: mfjh645drfj1dr6j5.df6h451rh.xin
+    server: theme.lovehk.xyz
     skip-cert-verify: true
-    sni: px.ads.linkedin.com
+    sni: theme.lovehk.xyz
     type: anytls
-  - name: 5157 HK
+    udp: true
+  - name: 5119 HK
+    password: 98c394b5-2a27-4be2-b5e5-0daab762c058
+    port: 443
+    server: signal.lovehk.xyz
+    skip-cert-verify: true
+    sni: signal.lovehk.xyz
+    type: anytls
+    udp: true
+  - name: 5120 HK
     password: 26ba2310-31aa-4fe6-86b1-47fcd14cabb2
     port: 443
     server: im.lovehk.xyz
@@ -62,16 +75,8 @@ proxies:
     sni: im.lovehk.xyz
     type: anytls
     udp: true
-  - name: 5158 HK
-    password: 87f368b4-2025-46f0-8492-8f749bb97a8b
-    port: 443
-    server: theme.lovehk.xyz
-    skip-cert-verify: true
-    sni: theme.lovehk.xyz
-    type: anytls
-    udp: true
   - type: anytls
-    name: 5465 TW
+    name: 5428 TW
     server: er8u54dh.df6h451rh.xin
     port: 443
     udp: true
@@ -82,10 +87,19 @@ proxies:
     packetEncoding: none
     allowInsecure: "1"
     sub-tag: P002-260618
-  - name: 5477 TW
+  - name: 5434 TW
+    password: 0324fbc29561
+    port: 443
+    server: mfjh645drfj1dr6j5.df6h451rh.xin
+    skip-cert-verify: true
+    sni: px.ads.linkedin.com
     type: anytls
-    server: media.gosthk.site
-    port: 57180
-    password: 10f65625-c1f9-4a14-bec5-c1cae15e6f8f
-    udp: true
-    sni: media.gosthk.site
+  - type: anytls
+    name: 5447 TW
+    server: im.frnhk.xyz
+    port: 443
+    password: e2413369-16de-4c90-97c5-b39b8d6b71cd
+    tls: true
+    servername: im.frnhk.xyz
+    sni: im.frnhk.xyz
+    skip-cert-verify: true
