@@ -168,6 +168,13 @@ rule-providers:
     path: ./rules/direct.yaml
     interval: 86400
     behavior: domain
+  disney:
+    type: http
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.mrs"
+    path: ./rules/disney.mrs
+    interval: 86400
+    behavior: domain
+    format: mrs
   gfw:
     type: http
     url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/gfw.mrs"
@@ -292,6 +299,13 @@ rule-providers:
     interval: 86400
     behavior: ipcidr
     format: mrs
+  youtube:
+    type: http
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"
+    path: ./rules/youtube.mrs
+    interval: 86400
+    behavior: domain
+    format: mrs
 # ======================================== 路由规则 ========================================
 rules:
   # 内网直连
@@ -305,6 +319,7 @@ rules:
   - RULE-SET,cloudflare,自动选择
   - RULE-SET,cloudflare_ip,自动选择,no-resolve
   - RULE-SET,github,自动选择
+  - RULE-SET,youtube,自动选择
   - RULE-SET,google,自动选择
   - RULE-SET,google_ip,自动选择,no-resolve
   - RULE-SET,x,自动选择
@@ -313,6 +328,7 @@ rules:
   - RULE-SET,facebook_ip,自动选择,no-resolve
   - RULE-SET,telegram,自动选择
   - RULE-SET,telegram_ip,自动选择,no-resolve
+  - RULE-SET,disney,自动选择
   - RULE-SET,netflix,自动选择
   - RULE-SET,netflix_ip,自动选择,no-resolve
   - RULE-SET,spotify,自动选择
